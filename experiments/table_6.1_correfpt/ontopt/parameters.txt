@@ -1,0 +1,5 @@
+CORP Version 1.4.0
+Semantic Base [OntoPT
+]
+Semantic similarity feature not selected
+Using hypernym window size [1]
