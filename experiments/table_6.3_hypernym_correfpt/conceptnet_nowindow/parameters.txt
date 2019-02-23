@@ -1,0 +1,5 @@
+CORP Version 1.4.0
+Semantic Base [ConceptNET
+]
+Semantic similarity feature not selected
+Not using hypernym window

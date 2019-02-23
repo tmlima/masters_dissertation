@@ -1,0 +1,9 @@
+CORP Version 1.4.0
+Semantic Base [ContoPT
+Cut point hyponymy [1.0]
+Cut point synonymy [0.75]
+]
+ContoPT cut point hypernym [1.0]
+ContoPT cut point synonym [0.75]
+Semantic similarity feature not selected
+Using hypernym window size [3]
