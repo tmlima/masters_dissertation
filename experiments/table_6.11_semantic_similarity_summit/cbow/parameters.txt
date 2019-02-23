@@ -1,0 +1,4 @@
+CORP Version 1.4.0
+No semantic base selected
+Semantic Similarity threshold [0.7]
+Using hypernym window size [3]
