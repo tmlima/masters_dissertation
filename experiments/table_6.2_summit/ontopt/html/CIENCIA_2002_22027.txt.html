@@ -1,0 +1,2189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CORP</title>
+
+<style type="text/css">
+	@charset "iso8859-1";
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+}
+.columns {
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.container .columns h4 {
+	text-align: center;
+	color: #01B2D1;
+}
+.primary_header {
+	width: 100%;
+	background-color: lightblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+.secondary_header {
+	
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+	
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 25%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.left_article {
+	background-color: #FFFFFF;
+	width: 70%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+.noDisplay {
+	display: none;
+}
+.container .left_article h3 {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container .left_article p {
+	overflow-y: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;
+}
+/*lado direito pag*/
+.right_article {
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	width: 30%;
+	/*width: 600px; */
+	height: 710px; 
+	overflow-y: auto;
+	/*width: 40%;*/
+	float: center;
+	background-color: white;
+	/*background-color: #F6F6F6;*/
+	
+}
+.container .right_article ul {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	
+}
+.right_article ul li {
+	font-family: "Source Sans Pro";
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.right_article ul li:hover {
+	background-color: #717070;
+	cursor: pointer;
+}
+.footer {
+	background-color: #717070;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.placeholder {
+	/* [disabled]max-width: 400px;
+*/
+	/* [disabled]max-height: 200px;
+*/
+	width: 100%;
+	padding-top: 30px;
+	/* [disabled]padding-left: 19px;
+*/
+	padding-bottom: 30px;
+	height: 100%;
+}
+.left_half {
+	background-color: lightblue;
+}
+.container .column_half.left_half h2 {
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+}
+.right_half {
+	background-color: #01B2D1;
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	font-weight: bold;text-shadow: 0px 2px 3px #666;
+}
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.copyright {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+@media (max-width: 320px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 98%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+}
+.placeholder {
+	width: 100%;
+	margin-top: 22PX;
+	margin-right: 0px;
+	margin-bottom: 22PX;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	max-width: 400px;
+	max-height: 200px;
+	height: auto;
+}
+.columns {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0PX;
+	padding-right: 0PX;
+	padding-bottom: 0PX;
+	padding-left: 0PX;
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+.copyright {
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.container .left_article h3 {
+	margin-top: 30px;
+}
+.social .social_icon img {
+	width: 80%;
+}
+.container .secondary_header {
+}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 100%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+}
+.placeholder {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.columns {
+	width: 100%;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.columns p {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+.secondary_header {
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.secondary_header ul li {
+	margin-top: 10px;
+	margin-right: 7%;
+	margin-bottom: 10px;
+	margin-left: 7%;
+}
+.left_article {
+	height: auto;
+}
+.right_article {
+	height: auto;
+	padding-bottom: 27px;
+}
+.placeholder {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.columns {
+	width: 50%;
+	float: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.container .columns p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+}
+
+@media (min-width: 1001px) {
+}
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+.social {
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #414141;
+	clear: both;
+	overflow: auto;
+}
+.social_icon {
+	width: 25%;
+	text-align: center;
+	float: left;
+	transition: all 0.3s linear;
+	line-height: 0px;
+	padding-top: 7px;
+}
+.container .social .social_icon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+#menu {
+}
+
+
+body{font-family:Calibri, Tahoma, Arial}
+	.TabControl{ width:100%; overflow-y: auto;  height:auto}
+	.TabControl #header{ width:90%; border: hidden 0px; text-align:right; overflow:hidden; cursor: pointer}
+	.TabControl #content{ width:100%; border: solid 0px;overflow:hidden; text-align:right; height:100%; }
+	/*.TabControl .abas{display:inline;}*/
+	.TabControl .abas{display:inline; text-align:center;  text-shadow: 0px 2px 3px #400; font-stretch: ultra-condensed; line-height: 210%; }
+	.TabControl .abas li{list-style-type:none; float:left}
+	.aba{width:295px; height:20px; border:solid 1px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:white}
+	.ativa{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:lightblue;}
+	.ativa span, .selected span{color:#fff}
+	.TabControl #content{background:white}
+	.TabControl .conteudo{margin-top: 50px; width:99%; overflow-y: auto;  background:white; display:none; height:auto;color:gray;
+	
+	text-align: justify;
+	line-height: 24px;
+	color: #B3B3B3;
+	border-radius:5px 5px 0 0;
+
+	
+	
+	
+	}
+	.selected{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:#27408B
+		
+	
+	
+	
+		
+		}
+		
+		/*padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;*/
+		
+		
+</style>
+
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1> <center> CORP - Coreference Resolution for Portuguese </center> </h1>
+
+ 
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/">HOME</a></li>
+        <li> <a href="http://www.inf.pucrs.br/linatural/index.html">PLN-PUCRS</a></li> 
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/publicacoes.html">PUBLICA&Ccedil;&Otilde;ES</a></li>
+        <li> <a href="mailto:metalmorphy@gmail.com">CONTATO</a></li>
+	   </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+    <h3>vers&atilde;o XML (<a href="file:///C:\Users\thiagol\Documents\Git\corp/saida/20190109_221610xml/CIENCIA_2002_22027.txt.xml"> Download</a>)</h3>
+      
+      
+      
+      
+<div class="TabControl">
+	<div id="header">
+		<ul class="abas">
+	
+     <span id="tag" class="wrd tagcloud" onclick="Mudarestado('85')"><b><FONT style="font-size: 20px" COLOR="#8B2500">as pessoas com an...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('67')"><b><FONT style="font-size: 20px" COLOR="#FFA54F">o cônjuge  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('53')"><b><FONT style="font-size: 20px" COLOR="#EE7942">matemática  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('51')"><b><FONT style="font-size: 20px" COLOR="#00FFFF">A ativa  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('45')"><b><FONT style="font-size: 20px" COLOR="#00CD66">As duas atividade...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('40')"><b><FONT style="font-size: 20px" COLOR="#CD0000">casa  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('31')"><b><FONT style="font-size: 20px" COLOR="#CD5C5C">a influência de o...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('26')"><b><FONT style="font-size: 33px" COLOR="#FF0000">Karen Allen , de ...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('17')"><b><FONT style="font-size: 20px" COLOR="#C71585">melhor resposta  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('12')"><b><FONT style="font-size: 59px" COLOR="#00C5CD">Uma pesquisa com ...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('10')"><b><FONT style="font-size: 33px" COLOR="#EE4000">gatos  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('7')"><b><FONT style="font-size: 46px" COLOR="#98FB98">o estresse  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('11')"><b><FONT style="font-size: 33px" COLOR="#FF6A6A">cachorros  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('15')"><b><FONT style="font-size: 59px" COLOR="#EE8262">um animal domésti...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('23')"><b><FONT style="font-size: 33px" COLOR="#0000CD">a revista médica  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('30')"><b><FONT style="font-size: 20px" COLOR="#CD5B45">anos  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('32')"><b><FONT style="font-size: 33px" COLOR="#0000CD">os animais  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('41')"><b><FONT style="font-size: 33px" COLOR="#8B3E2F">Os experimentos  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('47')"><b><FONT style="font-size: 33px" COLOR="#00688B">uma passiva  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('52')"><b><FONT style="font-size: 20px" COLOR="#8B1C62">a perguntas de ma...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('55')"><b><FONT style="font-size: 20px" COLOR="#009ACD">os participantes  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('71')"><b><FONT style="font-size: 20px" COLOR="#FF8C00">o apoio social  </FONT></b></span>
+<span id="tag" class="wrd tagcloud1" onclick="Mudarestado('TodasCadeias')">Todas as Cadeias  </span>
+ 
+
+<style type="text/css"><!-- #htmltagcloud{
+
+/******************************************
+ * CUSTOMIZE CLOUD CSS BELOW (optional)
+ */
+	font-size: 100%;
+	width: auto;		/* auto or fixed width, e.g. 500px   */
+	font-family:'lucida grande','trebuchet ms',arial,helvetica,sans-serif;
+	background-color:#fff;
+	margin:1em 1em 0 1em;
+	border:2px dotted #ddd;
+	padding:2em; 
+/******************************************
+ * END CUSTOMIZE
+ */
+
+}#htmltagcloud{line-height:2.4em;word-spacing:normal;letter-spacing:normal;text-transform:none;text-align:justify;text-indent:0}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{color:white;background-color:#05f}#htmltagcloud a:active{color:white;background-color:#03d}.wrd{padding:0;position:relative}.wrd a{text-decoration:none}.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}.tagcloud0 a{color:#ACC1F3}.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}.tagcloud1 a{color:#ACC1F3}.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}.tagcloud2 a{color:#86A0DC}.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}.tagcloud3 a{color:#86A0DC}.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}.tagcloud4 a{color:#607EC5}.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}.tagcloud5 a{color:#607EC5}.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}.tagcloud6 a{color:#4C6DB9}.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}.tagcloud7 a{color:#395CAE}.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}.tagcloud8 a{color:#264CA2}.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}.tagcloud9 a{color:#133B97}.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}.tagcloud10 a{color:#002A8B}.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em 'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif}#credit a:link{color:#777;text-decoration:none}#credit a:visited{color:#777;text-decoration:none}#credit a:hover{color:white;background-color:#05f}#credit a:active{text-decoration:underline}
+</style>
+
+<script>
+function Mudarestado(el) {
+
+	ocultar_conteudo();
+    var display = document.getElementById(el).style.display;
+    if(display == "none")
+        document.getElementById(el).style.display = 'block';
+    else
+        document.getElementById(el).style.display = 'none';
+}
+</script>
+<script>
+ function ocultar_conteudo() { 
+  document.getElementById('TodasCadeias').style.display="none";	document.getElementById('12').style.display="none"; 
+document.getElementById('15').style.display="none"; 
+document.getElementById('7').style.display="none"; 
+document.getElementById('10').style.display="none"; 
+document.getElementById('11').style.display="none"; 
+document.getElementById('23').style.display="none"; 
+document.getElementById('26').style.display="none"; 
+document.getElementById('32').style.display="none"; 
+document.getElementById('41').style.display="none"; 
+document.getElementById('47').style.display="none"; 
+document.getElementById('17').style.display="none"; 
+document.getElementById('30').style.display="none"; 
+document.getElementById('31').style.display="none"; 
+document.getElementById('40').style.display="none"; 
+document.getElementById('45').style.display="none"; 
+document.getElementById('51').style.display="none"; 
+document.getElementById('52').style.display="none"; 
+document.getElementById('53').style.display="none"; 
+document.getElementById('55').style.display="none"; 
+document.getElementById('67').style.display="none"; 
+document.getElementById('71').style.display="none"; 
+document.getElementById('85').style.display="none"; 
+} 
+ </script>
+        
+            	
+		</ul>
+	</div>
+	<div id="content">
+	
+     <div class="conteudo" id="TodasCadeias" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , a melhor opção pode estar em a companhia de <b><FONT style="font-size: 18px" COLOR="#EE4000">[gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> ou <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[cachorros [11]]<FONT style="font-size: 13px"></FONT></FONT></b> . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[Uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">pesquisa<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">com<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">240<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">casais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">heterossexuais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">EUA [12]]<FONT style="font-size: 13px"></FONT></FONT></b> revelou que a presença de <b><FONT style="font-size: 18px" COLOR="#EE8262">[um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">doméstico [15]]<FONT style="font-size: 13px"></FONT></FONT></b> não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em <b><FONT style="font-size: 18px" COLOR="#C71585">[melhor<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">resposta [17]]<FONT style="font-size: 13px"></FONT></FONT></b> de o organismo a <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[O<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre <b><FONT style="font-size: 18px" COLOR="#EE4000">[Gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> e <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[Cachorros [11]]<FONT style="font-size: 13px"></FONT></FONT></b> . Foi publicado em <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">revista<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">médica [23]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">[Psychosomatic_Medicine [23]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#0000CD">[www.psychosomatic<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">medicine<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">.org [23]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A principal autora de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> é <b><FONT style="font-size: 18px" COLOR="#FF0000">[Karen_Allen<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">,<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">Universidade_Estadual_de_Nova_York<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">Buffalo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">, [26]]<FONT style="font-size: 13px"></FONT></FONT></b> que há <b><FONT style="font-size: 18px" COLOR="#CD5B45">[anos [30]]<FONT style="font-size: 13px"></FONT></FONT></b> estuda <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">influência<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">[<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#CD5C5C"><b><FONT style="font-size: 18px" COLOR="#CD5C5C">os<FONT style="font-size: 13px"></FONT></FONT></b><FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD"><FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#CD5C5C">animais<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#0000CD"> [32]]<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#CD5C5C"> <FONT style="font-size: 13px"></FONT></FONT> </b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">saúde<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">humana [31]]<FONT style="font-size: 13px"></FONT></FONT></b> . Metade de os casais de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> tinha um animal doméstico , cão ou gato . Os outros não tinham <b><FONT style="font-size: 18px" COLOR="#0000CD">[animais [32]]<FONT style="font-size: 13px"></FONT></FONT></b> em <b><FONT style="font-size: 18px" COLOR="#CD0000">[casa [40]]<FONT style="font-size: 13px"></FONT></FONT></b> havia por o menos_cinco <b><FONT style="font-size: 18px" COLOR="#CD5B45">[anos [30]]<FONT style="font-size: 13px"></FONT></FONT></b> . <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[Os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">experimentos [41]]<FONT style="font-size: 13px"></FONT></FONT></b> foram realizados em a própria casa , em <b><FONT style="font-size: 18px" COLOR="#CD0000">[um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD0000">quarto [40]]<FONT style="font-size: 13px"></FONT></FONT></b> a o qual moradores e <b><FONT style="font-size: 18px" COLOR="#0000CD">[bichos [32]]<FONT style="font-size: 13px"></FONT></FONT></b> estavam acostumados . <b><FONT style="font-size: 18px" COLOR="#00CD66">[As<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">duas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">atividades<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">estressantes [45]]<FONT style="font-size: 13px"></FONT></FONT></b> tinham características diferentes <b><FONT style="font-size: 18px" COLOR="#00688B">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> e outra ativa . <b><FONT style="font-size: 18px" COLOR="#00688B">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> envolvia pôr <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">mão [31]]<FONT style="font-size: 13px"></FONT></FONT></b> durante dois minutos em água gelada . <b><FONT style="font-size: 18px" COLOR="#00FFFF">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">ativa [51]]<FONT style="font-size: 13px"></FONT></FONT></b> envolvia responder <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">perguntas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942">[<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#8B1C62">matemática<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#EE7942"> [53]]<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#8B1C62"> [52]]<FONT style="font-size: 13px"></FONT></FONT> </b> . O organismo de <b><FONT style="font-size: 18px" COLOR="#009ACD">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">participantes [55]]<FONT style="font-size: 13px"></FONT></FONT></b> foi monitorado antes , durante e depois de <b><FONT style="font-size: 18px" COLOR="#00CD66">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">tarefas [45]]<FONT style="font-size: 13px"></FONT></FONT></b> . As medidas de <b><FONT style="font-size: 18px" COLOR="#98FB98">[estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">perguntas [52]]<FONT style="font-size: 13px"></FONT></FONT></b> de <b><FONT style="font-size: 18px" COLOR="#EE7942">[matemática [53]]<FONT style="font-size: 13px"></FONT></FONT></b> e a impressão inicial de <b><FONT style="font-size: 18px" COLOR="#009ACD">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">participantes [55]]<FONT style="font-size: 13px"></FONT></FONT></b> sobre <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">testes [41]]<FONT style="font-size: 13px"></FONT></FONT></b> se ameaçadores ou só desafiadores . <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[Os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">experimentos [41]]<FONT style="font-size: 13px"></FONT></FONT></b> eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">cônjuge [67]]<FONT style="font-size: 13px"></FONT></FONT></b> , acompanhada de <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">doméstico [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#EE8262">[ou<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">amigo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">mesmo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">sexo [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ) , e acompanhada tanto de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">cônjuge [67]]<FONT style="font-size: 13px"></FONT></FONT></b> quanto_do <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ( ou <b><FONT style="font-size: 18px" COLOR="#EE8262">[amigo [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A idéia de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> era testar o conceito de <b><FONT style="font-size: 18px" COLOR="#FF8C00">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">apoio<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">social [71]]<FONT style="font-size: 13px"></FONT></FONT></b> , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em <b><FONT style="font-size: 18px" COLOR="#C71585">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">reação [17]]<FONT style="font-size: 13px"></FONT></FONT></b> de o sistema cardiovascular a <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de <b><FONT style="font-size: 18px" COLOR="#FF0000">[Allen [26]]<FONT style="font-size: 13px"></FONT></FONT></b> e colegas procurou testar a influência de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[cães [11]]<FONT style="font-size: 13px"></FONT></FONT></b> e <b><FONT style="font-size: 18px" COLOR="#EE4000">[gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> . Os resultados , segundo <b><FONT style="font-size: 18px" COLOR="#FF0000">[Allen [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , mostraram que <b><FONT style="font-size: 18px" COLOR="#8B2500">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">pessoas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">com<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">animais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">domésticos [85]]<FONT style="font-size: 13px"></FONT></FONT></b> tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">ativa [51]]<FONT style="font-size: 13px"></FONT></FONT></b> quanto <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que <b><FONT style="font-size: 18px" COLOR="#8B2500">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">pessoas [85]]<FONT style="font-size: 13px"></FONT></FONT></b> percebem seus animais domésticos como parte importante , de <b><FONT style="font-size: 18px" COLOR="#FF8C00">[apoio [71]]<FONT style="font-size: 13px"></FONT></FONT></b> , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div><div class="conteudo" id="12" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[Uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">pesquisa<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">com<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">240<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">casais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">heterossexuais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">EUA [12]]<FONT style="font-size: 13px"></FONT></FONT></b> revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[O<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">estudo [12]]<FONT style="font-size: 13px"></FONT></FONT></b> era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="15" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de <b><FONT style="font-size: 18px" COLOR="#EE8262">[um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">doméstico [15]]<FONT style="font-size: 13px"></FONT></FONT></b> não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">doméstico [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#EE8262">[ou<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">amigo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">mesmo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">sexo [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ) , e acompanhada tanto de o cônjuge quanto_do <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">animal [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ( ou <b><FONT style="font-size: 18px" COLOR="#EE8262">[amigo [15]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="7" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de <b><FONT style="font-size: 18px" COLOR="#98FB98">[estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">estresse [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="10" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de <b><FONT style="font-size: 18px" COLOR="#EE4000">[gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre <b><FONT style="font-size: 18px" COLOR="#EE4000">[Gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e <b><FONT style="font-size: 18px" COLOR="#EE4000">[gatos [10]]<FONT style="font-size: 13px"></FONT></FONT></b> . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="11" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[cachorros [11]]<FONT style="font-size: 13px"></FONT></FONT></b> . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[Cachorros [11]]<FONT style="font-size: 13px"></FONT></FONT></b> . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[cães [11]]<FONT style="font-size: 13px"></FONT></FONT></b> e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="23" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">revista<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">médica [23]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">[Psychosomatic_Medicine [23]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#0000CD">[www.psychosomatic<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">medicine<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">.org [23]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="26" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é <b><FONT style="font-size: 18px" COLOR="#FF0000">[Karen_Allen<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">,<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">Universidade_Estadual_de_Nova_York<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">Buffalo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">, [26]]<FONT style="font-size: 13px"></FONT></FONT></b> que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de <b><FONT style="font-size: 18px" COLOR="#FF0000">[Allen [26]]<FONT style="font-size: 13px"></FONT></FONT></b> e colegas procurou testar a influência de cães e gatos . Os resultados , segundo <b><FONT style="font-size: 18px" COLOR="#FF0000">[Allen [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="32" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de <b><FONT style="font-size: 18px" COLOR="#0000CD">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">animais [32]]<FONT style="font-size: 13px"></FONT></FONT></b> em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham <b><FONT style="font-size: 18px" COLOR="#0000CD">[animais [32]]<FONT style="font-size: 13px"></FONT></FONT></b> em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e <b><FONT style="font-size: 18px" COLOR="#0000CD">[bichos [32]]<FONT style="font-size: 13px"></FONT></FONT></b> estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="41" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[Os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">experimentos [41]]<FONT style="font-size: 13px"></FONT></FONT></b> foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">testes [41]]<FONT style="font-size: 13px"></FONT></FONT></b> se ameaçadores ou só desafiadores . <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[Os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">experimentos [41]]<FONT style="font-size: 13px"></FONT></FONT></b> eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="47" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes <b><FONT style="font-size: 18px" COLOR="#00688B">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> e outra ativa . <b><FONT style="font-size: 18px" COLOR="#00688B">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">passiva [47]]<FONT style="font-size: 13px"></FONT></FONT></b> , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="17" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em <b><FONT style="font-size: 18px" COLOR="#C71585">[melhor<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">resposta [17]]<FONT style="font-size: 13px"></FONT></FONT></b> de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em <b><FONT style="font-size: 18px" COLOR="#C71585">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">reação [17]]<FONT style="font-size: 13px"></FONT></FONT></b> de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="30" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há <b><FONT style="font-size: 18px" COLOR="#CD5B45">[anos [30]]<FONT style="font-size: 13px"></FONT></FONT></b> estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco <b><FONT style="font-size: 18px" COLOR="#CD5B45">[anos [30]]<FONT style="font-size: 13px"></FONT></FONT></b> . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="31" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">influência<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">animais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">em<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">saúde<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">humana [31]]<FONT style="font-size: 13px"></FONT></FONT></b> . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">mão [31]]<FONT style="font-size: 13px"></FONT></FONT></b> durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="40" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em <b><FONT style="font-size: 18px" COLOR="#CD0000">[casa [40]]<FONT style="font-size: 13px"></FONT></FONT></b> havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em <b><FONT style="font-size: 18px" COLOR="#CD0000">[um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD0000">quarto [40]]<FONT style="font-size: 13px"></FONT></FONT></b> a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="45" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . <b><FONT style="font-size: 18px" COLOR="#00CD66">[As<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">duas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">atividades<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">estressantes [45]]<FONT style="font-size: 13px"></FONT></FONT></b> tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de <b><FONT style="font-size: 18px" COLOR="#00CD66">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">tarefas [45]]<FONT style="font-size: 13px"></FONT></FONT></b> . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="51" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . <b><FONT style="font-size: 18px" COLOR="#00FFFF">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">ativa [51]]<FONT style="font-size: 13px"></FONT></FONT></b> envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">ativa [51]]<FONT style="font-size: 13px"></FONT></FONT></b> quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="52" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">perguntas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">matemática [52]]<FONT style="font-size: 13px"></FONT></FONT></b> . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">perguntas [52]]<FONT style="font-size: 13px"></FONT></FONT></b> de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="53" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de <b><FONT style="font-size: 18px" COLOR="#EE7942">[matemática [53]]<FONT style="font-size: 13px"></FONT></FONT></b> . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de <b><FONT style="font-size: 18px" COLOR="#EE7942">[matemática [53]]<FONT style="font-size: 13px"></FONT></FONT></b> e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="55" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de <b><FONT style="font-size: 18px" COLOR="#009ACD">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">participantes [55]]<FONT style="font-size: 13px"></FONT></FONT></b> foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de <b><FONT style="font-size: 18px" COLOR="#009ACD">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">participantes [55]]<FONT style="font-size: 13px"></FONT></FONT></b> sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="67" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">cônjuge [67]]<FONT style="font-size: 13px"></FONT></FONT></b> , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">cônjuge [67]]<FONT style="font-size: 13px"></FONT></FONT></b> quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="71" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de <b><FONT style="font-size: 18px" COLOR="#FF8C00">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">apoio<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">social [71]]<FONT style="font-size: 13px"></FONT></FONT></b> , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que as pessoas com animais domésticos tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que as pessoas percebem seus animais domésticos como parte importante , de <b><FONT style="font-size: 18px" COLOR="#FF8C00">[apoio [71]]<FONT style="font-size: 13px"></FONT></FONT></b> , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ <div class="conteudo" id="85" >Se você precisar fazer algo estressante , procure sair de perto_de sua mulher ou de seu marido , ou mesmo de seu melhor amigo ou de sua melhor amiga . Para ser menos afetado por o estresse , a melhor opção pode estar em a companhia de gatos ou cachorros . Uma pesquisa com 240 casais heterossexuais em os EUA revelou que a presença de um animal doméstico não só fez com que a tarefa desagradável fosse percebida como menos estressante , como também resultou em melhor resposta de o organismo a o estresse . O estudo tem um título significativo : Reatividade_Cardiovascular e a Presença_de_Animais_Domésticos , Amigos e Cônjuges : A Verdade sobre Gatos e Cachorros . Foi publicado em a revista médica Psychosomatic_Medicine ( www.psychosomatic medicine .org ) . A principal autora de o estudo é Karen_Allen , de a Universidade_Estadual_de_Nova_York em Buffalo , que há anos estuda a influência de os animais em a saúde humana . Metade de os casais de o estudo tinha um animal doméstico , cão ou gato . Os outros não tinham animais em casa havia por o menos_cinco anos . Os experimentos foram realizados em a própria casa , em um quarto a o qual moradores e bichos estavam acostumados . As duas atividades estressantes tinham características diferentes uma passiva e outra ativa . A passiva envolvia pôr a mão durante dois minutos em água gelada . A ativa envolvia responder a perguntas de matemática . O organismo de os participantes foi monitorado antes , durante e depois de as tarefas . As medidas de estresse eram o ritmo de batimento cardíaco e a pressão sanguínea . Também foram anotados os erros em as perguntas de matemática e a impressão inicial de os participantes sobre os testes se ameaçadores ou só desafiadores . Os experimentos eram realizados em quatro momentos distintos : com a pessoa sozinha , acompanhada de o cônjuge , acompanhada de o animal doméstico ( ou amigo de o mesmo sexo ) , e acompanhada tanto de o cônjuge quanto_do o animal ( ou amigo ) . A idéia de o estudo era testar o conceito de o apoio social , isto é , a ajuda psicológica de outro indivíduo , que tenderia a influir em a reação de o sistema cardiovascular a o estresse . A diferença foi que , enquanto outros estudos se concentravam em o papel de outros seres humanos , o trabalho de Allen e colegas procurou testar a influência de cães e gatos . Os resultados , segundo Allen , mostraram que <b><FONT style="font-size: 18px" COLOR="#8B2500">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">pessoas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">com<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">animais<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">domésticos [85]]<FONT style="font-size: 13px"></FONT></FONT></b> tinham tanto pressão sanguínea como batimento cardíaco significativamente mais baixos durante o período de descanso inicial . Também tiveram aumentos menores de esses índices durante a realização de a tarefa estressante , tanto a ativa quanto a passiva , e sua recuperação foi mais rápida . Embora esse estudo tenha limitações e levante várias questões sobre a causalidade , nós acreditamos ter demonstrado claramente que <b><FONT style="font-size: 18px" COLOR="#8B2500">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">pessoas [85]]<FONT style="font-size: 13px"></FONT></FONT></b> percebem seus animais domésticos como parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares estão associados com essas percepções , escreveram os autores . </div>
+ 
+
+</div>
+
+      
+      
+      <!-- <p>###CHAINS-HEREold###</p> -->
+           
+
+    </article>
+    <aside class="right_article"> 
+    
+     <ul>
+       
+       
+       
+        <!-- <a href="###LINK###">   <li> ###HEAD_CADEIA###</li></a> -->
+        
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="">
+<title>Relatorio Correferencia: </title>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=PT-BR style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:13.5pt'>Cadeias de Correfer&ecirc;ncia</span></b><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00C5CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [12]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Uma pesquisa com 240 casais heterossexuais em os EUA</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE8262;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [15]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um animal doméstico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o animal doméstico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE> ou amigo de o mesmo sexo </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o animal</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>amigo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#98FB98;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [7]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estresse</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estresse</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>estresse</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o estresse</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE4000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [10]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>gatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Gatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>gatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF6A6A;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [11]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>cachorros</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Cachorros</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>cães</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [23]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a revista médica</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Psychosomatic Medicine</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE> www.psychosomatic medicine .org </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF0000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [26]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Karen Allen , de a Universidade Estadual de Nova York em Buffalo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Allen</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Allen</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [32]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os animais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>animais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>bichos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B3E2F;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [41]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os experimentos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os testes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os experimentos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00688B;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [47]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma passiva</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A passiva</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a passiva</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#C71585;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [17]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>melhor resposta</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a reação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD5B45;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [30]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>anos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>anos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD5C5C;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [31]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a influência de os animais em a saúde humana</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a mão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD0000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [40]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>casa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um quarto</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00CD66;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [45]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>As duas atividades estressantes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as tarefas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00FFFF;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [51]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A ativa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ativa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B1C62;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [52]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a perguntas de matemática</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as perguntas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE7942;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [53]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>matemática</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>matemática</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#009ACD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [55]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os participantes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os participantes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FFA54F;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [67]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o cônjuge</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o cônjuge</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF8C00;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [71]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o apoio social</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>apoio</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B2500;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [85]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as pessoas com animais domésticos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as pessoas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:lime;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>Menções Únicas :</span></span><span
+  style='font-size:13.5pt'> </span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>você</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sua mulher</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seu marido</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>mesmo de seu melhor amigo ou de sua melhor amiga</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seu melhor amigo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sua melhor amiga</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a melhor opção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a companhia</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os EUA</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a presença de um animal doméstico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a tarefa desagradável</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o organismo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um título significativo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Reatividade Cardiovascular e a Presença de Animais Domésticos , Amigos e Cônjuges</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Presença de Animais Domésticos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A Verdade sobre Gatos e Cachorros</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>.org</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A principal autora de o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Universidade Estadual de Nova York</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Buffalo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a saúde humana</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Metade de os casais de o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os casais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um animal doméstico , cão ou gato</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>cão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>gato</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os outros</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a própria casa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o qual</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>moradores e</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>características diferentes uma passiva e outra ativa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outra ativa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>dois minutos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>água gelada</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O organismo de os participantes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>As medidas de estresse</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o ritmo de batimento cardíaco e a pressão sanguínea</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>batimento cardíaco</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a pressão sanguínea</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os erros</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a impressão inicial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>se ameaçadores ou só desafiadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ameaçadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>só desafiadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>quatro momentos distintos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a pessoa sozinha</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mesmo sexo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A idéia de o estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o conceito de o apoio social</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>isto</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ajuda psicológica</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outro indivíduo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o sistema cardiovascular</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A diferença</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>se</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o papel</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outros estudos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o trabalho de Allen e colegas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>colegas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a influência de cães e gatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os resultados</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>animais domésticos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>tanto pressão sanguínea</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>batimento cardíaco significativamente mais baixos durante o período de descanso inicial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o período</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>descanso inicial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>aumentos menores de esses índices durante a realização de a tarefa estressante</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>esses índices</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a realização</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a tarefa estressante</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sua recuperação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>esse estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>limitações e levante</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>levante</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>várias questões sobre a causalidade , nós</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a causalidade</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>nós</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seus animais domésticos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>parte importante , de apoio , a suas vidas , e que benefícios significativos comportamentais e cardiovasculares</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a suas vidas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>benefícios significativos comportamentais e cardiovasculares</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>essas percepções</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os autores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+      </ul>
+    
+    </aside>
+  </section>
+  <div class="row">
+  <center>
+  
+  <!-- ###TABELACORREF### -->
+  
+  
+  
+  </center>
+   </div>
+  
+   
+  </footer>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+ <script type="text/javascript">
+ 	$(document).ready(function(){
+ 		$("#content div:nth-child(1)").show();
+ 		$(".abas li:first div").addClass("selected");		
+ 		$(".aba").click(function(){
+ 			$(".aba").removeClass("selected");
+ 			$(this).addClass("selected");
+ 			var indice = $(this).parent().index();
+ 			indice++;
+ 			$("#content div").hide();
+ 			$("#content div:nth-child("+indice+")").show();
+ 		});
+ 		
+ 		$(".aba").hover(
+ 			function(){$(this).addClass("ativa")},
+ 			function(){$(this).removeClass("ativa")}
+ 		);				
+ 	});
+ </script>
+ 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83422958-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
