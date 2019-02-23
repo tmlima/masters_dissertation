@@ -1,0 +1,1739 @@
+#begin document CIENCIA_2000_17088.txt.xml
+1	Pesquisadores	pesquisar	n	M=P	0	(0
+2	de	de	prp		_	_
+3	o	o	art	M=S	_	(1
+4	Museu_Nacional		prop	M=S	_	1)
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	_
+7	Rio_de_Janeiro		prop	M=S	_	0)
+8	anunciaram	anunciar	v-fin	MQP=3P=IND	_	_
+9	ontem	ontem	adv		_	_
+10	a	o	art	F=S	_	_
+11	descoberta	descoberta	n	F=S	0	_
+12	de	de	prp		_	_
+13	uma	um	art	F=S	_	(4
+14	nova	nova, novo	adj	F=S	_	_
+15	espécie	espécie	n	F=S	_	4)
+16	de	de	prp		_	_
+17	dinossauro	dinossauro	n	M=S	_	(5)
+18	em	em	prp		_	_
+19	o	o	art	M=S	_	_
+20	Brasil	Brasil	prop	M=S	_	_
+21	.	.	.		_	_
+
+0	O	o	art	M=S	_	(7
+1	animal	animal	n	M=S	_	7)
+2	era	ser	v-fin	IMPF=3S=IND	_	_
+3	um	um	art	M=S	_	(7
+4	carnívoro	carnívoro	adj	M=S	_	_
+5	que	que	pron-indp	M=S	_	7)
+6	habitou	habitar	v-fin	PS=3S=IND	_	_
+7	o	o	art	M=S	_	_
+8	nordeste	nordeste	n	M=S	0	_
+9	brasileiro	brasileiro	adj	M=S	_	_
+10	há		prp		_	_
+11	110		num	M=P	_	_
+12	milhões		n	M=P	_	_
+13	de	de	prp		_	_
+14	anos	ano	n	M=P	_	(9)
+15	,		,		_	_
+16	em	em	prp		_	_
+17	o	o	art	M=S	_	(10
+18	período	período	n	M=S	_	10)
+19	Cretáceo		prop	M=S	_	(10)
+20	(	(	(		_	_
+21	o	o	art	M=S	_	(10
+22	último	último	adj	M=S	_	_
+23	de	de	prp		_	_
+24	a	o	art	F=S	_	_
+25	era	era	n	F=S	0	_
+26	de	de	prp		_	_
+27	os	o	art	M=P	_	(11
+28	grandes	grande	adj	M=P	_	_
+29	répteis	réptil	n	M=P	_	10)|11)
+30	)	)	)		_	_
+31	.	.	.		_	_
+
+0	Batizado		prop	M=S	_	(4)
+1	de	de	prp		_	_
+2	Santanaraptor		prop	M=S	_	(4)
+3	placidus		n	M=P	_	_
+4	,		,		_	_
+5	o	o	art	M=S	_	(14
+6	fóssil	fóssil	n	M=S	_	14)
+7	é	ser	v-fin	PR=3S=IND	_	_
+8	o	o	art	M=S	_	_
+9	único	único	n-adj	M=S	_	_
+10	a	a	prp		_	_
+11	ser	ser	v-inf		_	_
+12	encontrado	encontrar	v-pcp	M=S	_	_
+13	em	em	prp		_	_
+14	o	o	art	M=S	_	_
+15	país	país	n	M=S	_	_
+16	com	com	prp		_	_
+17	restos	resto	n	M=P	_	_
+18	de	de	prp		_	_
+19	tecido	tecido	n	M=S	0	_
+20	mole	mole	adj	M=S	_	_
+21	,		,		_	_
+22	como	como	adv		_	_
+23	fibras	fibra	n	F=P	0	_
+24	musculares	muscular	adj	F=P	_	_
+25	,		,		_	_
+26	vasos	vaso	n	M=P	0	_
+27	sanguíneos	sanguíneo	adj	M=P	_	_
+28	e	e	conj-c		_	_
+29	pele	pele	n	F=S	_	_
+30	.	.	.		_	_
+
+0	Para	para	prp		_	_
+1	os	o	art	M=P	_	(21
+2	paleontólogos	paleontologia	n	M=P	_	21)
+3	,		,		_	_
+4	achar	achar	v-inf		_	_
+5	esse	esse	pron-det	M=S	0	_
+6	tipo	tipo	n	M=S	_	_
+7	de	de	prp		_	_
+8	evidência	evidência	n	F=S	_	_
+9	equivale	equivaler	v-fin	PR=3S=IND	_	_
+10	a	a	prp		_	_
+11	acertar	acertar	v-inf		_	_
+12	em	em	prp		_	_
+13	a	o	art	F=S	_	_
+14	loteria	loteria	n	F=S	_	_
+15	.	.	.		_	_
+
+0	É	ser	v-fin	PR=3S=IND	_	_
+1	como	como	adv		_	_
+2	se	se	conj-s		_	(5
+3	o	o	art	M=S	_	_
+4	dinossauro	dinossauro	n	M=S	_	5)
+5	tivesse	ter	v-fin	IMPF=3S=SUBJ	_	_
+6	sido	ser	v-pcp	M=S	_	_
+7	enterrado	enterrar	v-pcp	M=S	_	_
+8	ontem	ontem	adv		_	_
+9	,		,		_	_
+10	disse	dizer	v-fin	PS=3S=IND	_	_
+11	Alexander_Kellner		prop	M=S	0	(7
+12	,		,		_	_
+13	geólogo	geologia	n	M=S	_	(26)
+14	de	de	prp		_	_
+15	o	o	art	M=S	_	_
+16	Setor_de_Paleovertebrados		prop	M=S	_	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	(1
+19	Museu_Nacional		prop	M=S	_	1)
+20	e	e	conj-c		_	_
+21	coordenador	coordenador, coordenar	n	M=S	_	_
+22	de	de	prp		_	_
+23	a	o	art	F=S	_	_
+24	expedição	expedição, expedir	n	F=S	_	_
+25	que	que	pron-indp	F=S	_	7)
+26	encontrou	encontrar	v-fin	PS=3S=IND	_	_
+27	o	o	art	M=S	_	(14
+28	fóssil	fóssil	n	M=S	_	14)
+29	em	em	prp		_	_
+30	a	o	art	F=S	_	(31
+31	região	região	n	F=S	_	31)
+32	de	de	prp		_	_
+33	a	o	art	F=S	_	_
+34	Chapada_do_Araripe		prop	F=S	_	_
+35	,		,		_	_
+36	Ceará	Ceará	prop	M=S	_	(33)
+37	(	(	(		_	_
+38	veja	ver	v-fin	PR=3S=SUBJ	_	(33
+39	mapa	mapa	n	M=S	_	33)
+40	)	)	)		_	_
+41	.	.	.		_	_
+
+0	Com	com	prp		_	_
+1	os	o	art	M=P	_	_
+2	tecidos	tecer	v-pcp	M=P	_	_
+3	preservados	preservar	v-pcp	M=P	_	_
+4	,		,		_	_
+5	os	o	art	M=P	_	_
+6	cientistas	cientista, ciente	n	M=P	_	_
+7	esperam	esperar	v-fin	PR=3P=IND	_	_
+8	poder	poder	n	M=S	_	_
+9	saber	saber	v-inf		_	_
+10	mais	mais	adv		_	_
+11	sobre	sobre	prp		_	_
+12	o	o	art	M=S	_	_
+13	modo	modo	n	M=S	_	_
+14	de	de	prp		_	_
+15	vida	vida	n	F=S	_	_
+16	e	e	conj-c		_	_
+17	a	o	art	F=S	_	_
+18	evolução	evolução	n	F=S	_	_
+19	de	de	prp		_	_
+20	os	o	art	M=P	_	(11
+21	répteis	réptil	n	M=P	_	11)
+22	.	.	.		_	_
+
+0	Outra	outro	pron-det	F=S	0	_
+1	importante	importante, importar	adj	F=S	_	_
+2	descoberta	descoberta	n	F=S	_	_
+3	é	ser	v-fin	PR=3S=IND	_	_
+4	que	que	conj-s		_	_
+5	,		,		_	_
+6	em	em	prp		_	_
+7	a	o	art	F=S	_	_
+8	cadeia	cadeia	n	F=S	0	_
+9	evolutiva	evolutivo	adj	F=S	_	_
+10	de	de	prp		_	_
+11	os	o	art	M=P	_	_
+12	dinossauros	dinossauro	n	M=P	_	_
+13	,		,		_	_
+14	o	o	art	M=S	_	(4
+15	Santanaraptor		prop	M=S	_	4)
+16	ocuparia	ocupar	v-fin	COND=3S	_	_
+17	uma	um	art	F=S	_	_
+18	posição	posição	n	F=S	0	_
+19	em	em	prp		_	_
+20	o	o	art	M=S	_	_
+21	grupo	grupo	n	M=S	_	_
+22	Tyrannoraptora		prop	F=S	_	_
+23	,		,		_	_
+24	o	o	art	M=S	_	_
+25	mesmo	mesmo	pron-det	M=S	_	_
+26	de	de	prp		_	_
+27	o	o	art	M=S	_	_
+28	Tyrannossaurus		prop	M=S	_	_
+29	rex		v-fin	PR=3S=IND	_	_
+30	,		,		_	_
+31	que	que	pron-indp	M=S	_	_
+32	habitou	habitar	v-fin	PS=3S=IND	_	_
+33	os	o	art	M=P	_	_
+34	EUA	EUA	prop	M=P	_	_
+35	em	em	prp		_	_
+36	o	o	art	M=S	_	_
+37	final	final	n	M=S	_	_
+38	de	de	prp		_	_
+39	a	o	art	F=S	_	(10
+40	era	era	n	F=S	_	10)
+41	de	de	prp		_	_
+42	os	o	art	M=P	_	_
+43	dinos		n	M=P	_	_
+44	.	.	.		_	_
+
+0	Segundo	segundo	prp		_	_
+1	Kellner		prop	M=S	_	(7)
+2	,		,		_	_
+3	apesar_de		prp		_	_
+4	o	o	art	M=S	_	(7
+5	animal	animal	n	M=S	_	7)
+6	ser	ser	v-inf		_	_
+7	um	um	art	M=S	_	_
+8	baixinho	baixinho	adv		_	_
+9	(	(	(		_	_
+10	poderia	poder	v-fin	COND=3S	_	(7
+11	atingir	atingir	v-inf		_	_
+12	,		,		_	_
+13	em	em	prp		_	_
+14	o	o	art	M=S	_	_
+15	máximo	máximo	n	M=S	0	_
+16	,		,		_	_
+17	2,5		num	M=P	_	_
+18	metros	metro	n	M=P	_	_
+19	de	de	prp		_	_
+20	altura	altura	n	F=S	_	7)|(50)
+21	)	)	)		_	_
+22	,		,		_	_
+23	suas	sua	pron-det	F=P	_	_
+24	patas	pata, pato	n	F=P	0	_
+25	e	e	conj-c		_	_
+26	bacia	bacia	n	F=S	_	(53)
+27	têm	ter	v-fin	PR=3P=IND	_	_
+28	características	característica	n	F=P	0	_
+29	anatômicas	anatômico	adj	F=P	_	_
+30	muito	muito	adv		_	_
+31	semelhantes	semelhante, semelhar	adj	M=P	_	_
+32	a	a	prp		_	_
+33	as		pron-det	F=P	_	_
+34	de	de	prp		_	_
+35	o	o	art	M=S	_	_
+36	ilustre	ilustre	adj	M=S	_	_
+37	réptil	réptil	n	M=S	_	_
+38	norte-americano		n	M=S	_	_
+39	.	.	.		_	_
+
+0	O	o	art	M=S	_	(4
+1	Santanaraptor		prop	M=S	_	4)
+2	pode	poder, podar	v-fin	PR=3S=IND	_	_
+3	ser	ser	v-inf		_	_
+4	a	o	art	F=S	_	(4
+5	espécie	espécie	n	F=S	_	4)
+6	que	que	pron-indp	F=S	_	_
+7	deu	dar	v-fin	PS=3S=IND	_	_
+8	origem	origem	n	F=S	_	_
+9	a	a	prp		_	_
+10	o	o	art	M=S	_	_
+11	tiranossauro		n	M=S	_	_
+12	68		num	M=P	_	_
+13	milhões		n	M=P	_	_
+14	de	de	prp		_	_
+15	anos	ano	n	M=P	_	(9)
+16	mais	mais	adv		_	_
+17	tarde	tarde	adv		_	_
+18	,		,		_	_
+19	explicou	explicar	v-fin	PS=3S=IND	_	_
+20	o	o	art	M=S	_	(26
+21	geólogo	geologia	n	M=S	_	26)
+22	.	.	.		_	_
+
+0	Predador		prop	M=S	_	_
+1	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	exemplar	exemplar	n	M=S	0	_
+2	de	de	prp		_	_
+3	Santanaraptor		prop	M=S	_	(4)
+4	encontrado	encontrar	v-pcp	M=S	_	_
+5	por	por	prp		_	_
+6	a	o	art	F=S	_	_
+7	equipe		n	F=S	0	_
+8	carioca		adj	F=S	_	_
+9	foi	ir, ser	v-fin	PS=3S=IND	_	_
+10	desenterrado	desenterrar	v-pcp	M=S	_	_
+11	em	em	prp		_	_
+12	1991		num	M=S	_	_
+13	,		,		_	_
+14	mas	mas	conj-c		_	_
+15	a	o	art	F=S	_	_
+16	montagem	montagem	n	F=S	0	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	(14
+19	fóssil	fóssil	n	M=S	_	14)
+20	só	só	adv		_	_
+21	foi	ir, ser	v-fin	PS=3S=IND	_	_
+22	concluída	concluir	v-pcp	F=S	_	_
+23	nove	nove	num	M=P	_	(9
+24	anos	ano	n	M=P	_	9)
+25	mais	mais	adv		_	_
+26	tarde	tarde	adv		_	_
+27	.	.	.		_	_
+
+0	Tudo	tudo	pron-indp	M=S	_	(64)
+1	o		pron-det	M=S	_	_
+2	que	que	pron-indp	M=S	_	(64)
+3	sobrou	sobrar	v-fin	PS=3S=IND	_	_
+4	de	de	prp		_	_
+5	ele	ele	pron-pers	M=3S=NOM	_	_
+6	foram	ir, ser	v-fin	MQP=3P=IND	_	_
+7	as	o	art	F=P	_	_
+8	patas	pata, pato	n	F=P	0	_
+9	e	e	conj-c		_	_
+10	partes	parte	n	F=P	_	_
+11	de	de	prp		_	_
+12	a	o	art	F=S	_	_
+13	cauda	cauda	n	F=S	_	_
+14	e	e	conj-c		_	_
+15	de	de	prp		_	_
+16	a	o	art	F=S	_	(53
+17	bacia	bacia	n	F=S	_	53)
+18	,		,		_	_
+19	mas	mas	conj-c		_	_
+20	os	o	art	M=P	_	(0
+21	pesquisadores	pesquisar	n	M=P	_	0)
+22	conseguiram	conseguir	v-fin	MQP=3P=IND	_	_
+23	estimar	estimar	v-inf		_	_
+24	que	que	conj-s		_	_
+25	o	o	art	M=S	_	_
+26	bicho	bicho	n	M=S	_	_
+27	fosse	fossar, ir, ser	v-fin	IMPF=3S=SUBJ	_	_
+28	um	um	art	M=S	_	_
+29	filhote	filhote	n	M=S	0	_
+30	de	de	prp		_	_
+31	1,5		num	M=P	_	_
+32	metro	metro	n	M=S	_	_
+33	de	de	prp		_	_
+34	altura	altura	n	F=S	_	(50)
+35	.	.	.		_	_
+
+0	Sua	sua	pron-det	F=S	0	_
+1	estrutura	estrutura	n	F=S	_	_
+2	óssea	ósseo	adj	F=S	_	_
+3	é	ser	v-fin	PR=3S=IND	_	_
+4	de	de	prp		_	_
+5	um	um	art	M=S	_	_
+6	dinossauro	dinossauro	n	M=S	0	_
+7	ágil	ágil	adj	M=S	_	_
+8	e	e	conj-c		_	_
+9	veloz	veloz	adj	M=S	_	_
+10	,		,		_	_
+11	que	que	pron-indp	M=S	_	_
+12	provavelmente	provavelmente	adv		_	_
+13	se	se	pron-pers	M=3S=ACC	_	_
+14	alimentava	alimentar	v-fin	IMPF=3S=IND	_	_
+15	de	de	prp		_	_
+16	pequenas	pequeno	n	F=P	0	_
+17	presas	preso	adj	F=P	_	_
+18	um	um	art	M=S	_	_
+19	raptor	raptor	n	M=S	_	_
+20	,		,		_	_
+21	em	em	prp		_	_
+22	a	o	art	F=S	_	_
+23	linguagem	linguagem	n	F=S	_	_
+24	de	de	prp		_	_
+25	os	o	art	M=P	_	(21
+26	paleontólogos	paleontologia	n	M=P	_	21)
+27	.	.	.		_	_
+
+0	O	o	art	M=S	_	(78
+1	nome	nome	n	M=S	_	78)
+2	é	ser	v-fin	PR=3S=IND	_	_
+3	uma	um	art	F=S	_	(78
+4	alusão	alusão	n	F=S	0	_
+5	a	a	prp		_	_
+6	a	o	art	F=S	_	(31
+7	região	região	n	F=S	_	31)|78)
+8	onde	onde	adv		_	_
+9	ele	ele	pron-pers	M=3S=NOM	_	(79)
+10	viveu	viver	v-fin	PS=3S=IND	_	_
+11	(	(	(		_	_
+12	a	a	prp		_	_
+13	Formação_Santana		prop	M=S	_	(79)
+14	)	)	)		_	_
+15	.	.	.		_	_
+#end document
+#begin document CIENCIA_2003_24212.txt.xml
+1	Biotecnólogos		n	M=P	0	_
+2	e	e	conj-c		_	_
+3	ambientalistas	ambiental	n	M=P	_	_
+4	travaram	travar	v-fin	PS=3P=IND	_	_
+5	uma	um	art	F=S	_	_
+6	rara	raro	adj	F=S	_	_
+7	aliança	aliança	n	F=S	_	_
+8	em	em	prp		_	_
+9	a	o	art	F=S	_	_
+10	semana	semana	n	F=S	0	_
+11	passada	passar	v-pcp	F=S	_	_
+12	para	para	prp		_	_
+13	comemorar	comemorar	v-inf		_	_
+14	um	um	art	M=S	_	_
+15	episódio	episódio	n	M=S	0	_
+16	singular	singular	adj	M=S	_	_
+17	:	:	:		_	_
+
+0	duas	dois	num	F=P	_	_
+1	vacas	vaca	n	F=P	_	_
+2	deram	dar	v-fin	MQP=3P=IND	_	_
+3	cria	cria	n	F=S	_	_
+4	em	em	prp		_	_
+5	Iowa	Iowa	prop	M=S	_	(7)
+6	,		,		_	_
+7	EUA	EUA	prop	M=P	_	_
+8	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	filhotes	filhote	n	M=P	_	_
+2	não	não	adv		_	_
+3	são	ser	v-fin	PR=3P=IND	_	_
+4	de	de	prp		_	_
+5	elas	ele	pron-pers	F=3P=NOM	_	_
+6	,		,		_	_
+7	mas	mas	conj-c		_	_
+8	clones	clone	n	M=P	0	_
+9	de	de	prp		_	_
+10	outra	outro	pron-det	F=S	0	_
+11	espécie	espécie	n	F=S	_	_
+12	,		,		_	_
+13	o	o	art	M=S	_	(13
+14	banteng		n	M=S	_	13)
+15	,		,		_	_
+16	um	um	art	M=S	_	_
+17	tipo	tipo	n	M=S	_	_
+18	de	de	prp		_	_
+19	gado	gado	n	M=S	_	(15)
+20	ameaçado	ameaçar	v-pcp	M=S	_	_
+21	de	de	prp		_	_
+22	extinção	extinção	n	F=S	_	(16)
+23	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	realização	realizar	n	F=S	_	_
+2	é	ser	v-fin	PR=3S=IND	_	_
+3	fruto	fruto	n	M=S	0	_
+4	de	de	prp		_	_
+5	uma	um	art	F=S	_	(19
+6	parceria	parceria	n	F=S	_	19)
+7	entre	entre	prp		_	_
+8	a	o	art	F=S	_	(19
+9	companhia	companhia	n	F=S	_	19)
+10	de	de	prp		_	_
+11	biotecnologia	biotecnologia	n	F=S	_	_
+12	Advanced_Cell_Technology		prop	F=S	_	(21)
+13	,		,		_	_
+14	de	de	prp		_	_
+15	Massachusetts	Massachusetts	prop	M=S	_	_
+16	,		,		_	_
+17	o	o	art	M=S	_	_
+18	Centro_Sioux		prop	M=S	_	_
+19	,		,		_	_
+20	de	de	prp		_	_
+21	Iowa	Iowa	prop	M=S	_	(7)
+22	,		,		_	_
+23	e	e	conj-c		_	_
+24	o	o	art	M=S	_	_
+25	Centro_para_Reprodução_de_Espécies_Ameaçadas		prop	M=S	_	_
+26	de	de	prp		_	_
+27	a	o	art	F=S	_	_
+28	Sociedade_Zoológica_de_San_Diego		prop	F=S	_	_
+29	,		,		_	_
+30	em	em	prp		_	_
+31	a	o	art	F=S	_	_
+32	Califórnia	Califórnia	prop	M=S	_	_
+33	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	dois	dois	num	M=P	_	_
+2	nascimentos	nascer	n	M=P	0	_
+3	,		,		_	_
+4	ocorridos	ocorrer	v-pcp	M=P	_	_
+5	em	em	prp		_	_
+6	1º		adj	M=S	_	_
+7	e	e	conj-c		_	_
+8	3		num	M=P	_	_
+9	de	de	prp		_	_
+10	abril	abril	n	M=S	_	_
+11	,		,		_	_
+12	marcam	marcar	v-fin	PR=3P=IND	_	_
+13	o	o	art	M=S	_	(27
+14	início	início	n	M=S	0	_
+15	de	de	prp		_	_
+16	uma	um	art	F=S	_	_
+17	nova	nova, novo	adj	F=S	_	_
+18	fase	fase	n	F=S	_	_
+19	para	para	prp		_	_
+20	um	um	art	M=S	_	(29
+21	projeto	projeto	n	M=S	_	27)|29)
+22	que	que	pron-indp	M=S	_	_
+23	já	já	adv		_	_
+24	atraía	atrair	v-fin	IMPF=3S=IND	_	_
+25	interesse	interesse	n	M=S	_	_
+26	o	o	art	M=S	_	(32
+27	Frozen_Zoo		prop	M=S	0	_
+28	(	(	(		_	_
+29	ou	ou	conj-c		_	_
+30	Zoológico_Congelado		prop	M=S	_	32)
+31	,		,		_	_
+32	em	em	prp		_	_
+33	a	o	art	F=S	_	_
+34	tradução	tradução	n	F=S	_	_
+35	para	para	prp		_	_
+36	o	o	art	M=S	_	_
+37	português	português	adj	M=S	_	_
+38	)	)	)		_	_
+39	.	.	.		_	_
+
+0	A	o	art	F=S	_	(34
+1	idéia		n	F=S	0	_
+2	,		,		_	34)
+3	iniciada	iniciar	v-pcp	F=S	_	_
+4	em	em	prp		_	_
+5	1976		num	M=P	_	_
+6	,		,		_	_
+7	era	ser	v-fin	IMPF=3S=IND	_	_
+8	coletar	coletar	v-inf		_	_
+9	e	e	conj-c		_	_
+10	preservar	preservar	v-inf		_	_
+11	criogenicamente		adv		_	_
+12	(	(	(		_	_
+13	em	em	prp		_	(34
+14	baixas	baixo	n	F=P	0	_
+15	temperaturas	temperatura	n	F=P	0	34)
+16	)	)	)		_	_
+17	amostras	amostra	n	F=P	0	_
+18	celulares	celular	adj	F=P	_	_
+19	de	de	prp		_	_
+20	animais	animal	n	M=P	_	(37)
+21	ameaçados	ameaçar	v-pcp	M=P	_	_
+22	de	de	prp		_	_
+23	extinção	extinção	n	F=S	_	(16)
+24	,		,		_	_
+25	com	com	prp		_	_
+26	a	o	art	F=S	_	_
+27	esperança	esperança	n	F=S	_	_
+28	de	de	prp		_	_
+29	estudá		v-inf		_	_
+30	-los		pron-pers		_	_
+31	e	e	conj-c		_	_
+32	,		,		_	_
+33	quem	quem	pron-indp	M=S	_	_
+34	sabe	saber	v-fin	PR=3S=IND	_	_
+35	,		,		_	_
+36	ressuscitá		v-fin	PR=3S=IND	_	_
+37	-los		pron-pers	M/F=1P=DAT	_	_
+38	quando	quando	adv		_	_
+39	a	o	art	F=S	_	_
+40	tecnologia	tecnologia	n	F=S	_	_
+41	assim	assim	adv		_	_
+42	o	o	art	M=S	_	_
+43	permitisse	permitir	v-fin	IMPF=3S=SUBJ	_	_
+44	.	.	.		_	_
+
+0	Hoje	hoje	adv		_	_
+1	,		,		_	_
+2	a	o	art	F=S	_	_
+3	coleção	coleção	n	F=S	0	_
+4	de	de	prp		_	_
+5	o	o	art	M=S	_	(32
+6	Frozen_Zoo		prop	M=S	_	32)
+7	,		,		_	_
+8	que	que	pron-indp	M=S	_	_
+9	é	ser	v-fin	PR=3S=IND	_	_
+10	coordenado	coordenar	v-pcp	M=S	_	_
+11	por	por	prp		_	_
+12	o	o	art	M=S	_	(45
+13	geneticista	geneticista	n	M=S	_	45)
+14	Oliver_Ryder		prop	M=S	_	(45)
+15	,		,		_	_
+16	é	ser	v-fin	PR=3S=IND	_	_
+17	a	o	art	F=S	_	_
+18	maior	maior	adj	F=S	_	_
+19	de	de	prp		_	_
+20	o	o	art	M=S	_	_
+21	mundo	mundo	n	M=S	_	_
+22	.	.	.		_	_
+
+0	São	ser	v-fin	PR=3P=IND	_	_
+1	cerca_de		adv		_	_
+2	1.800		num	F=P	_	_
+3	amostras	amostra	n	F=P	0	_
+4	e	e	conj-c		_	_
+5	335		num	F=P	_	_
+6	espécies	espécie	n	F=P	_	_
+7	diferentes	diferente	adj	F=P	_	_
+8	com	com	prp		_	_
+9	o	o	art	M=S	_	(48
+10	material	material	n	M=S	0	_
+11	genético	genético	adj	M=S	_	_
+12	preservado	preservar	v-pcp	M=S	_	48)
+13	.	.	.		_	_
+
+0	O	o	art	M=S	_	(48
+1	material	material	n	M=S	_	48)
+2	vai	ir	v-fin	PR=3S=IND	_	_
+3	desde	desde	prp		_	_
+4	os	o	art	M=P	_	_
+5	notórios	notório	adj	M=P	_	_
+6	pandas		n	F=P	0	_
+7	e	e	conj-c		_	_
+8	condores		n	M=P	_	_
+9	até	até	prp		_	_
+10	os	o	art	M=P	_	_
+11	menos	menos	pron-det	M=P	0	_
+12	conhecidos	conhecer	v-pcp	M=P	_	_
+13	bantengs		n	M=P	_	_
+14	parentes	parente	adj	M=P	_	_
+15	asiáticos	asiático	adj	M=P	_	_
+16	raros	raro	n	M=P	_	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	_
+19	gado	gado	n	M=S	0	_
+20	comum	comum	adj	M=S	_	_
+21	que	que	pron-indp	M=S	_	_
+22	estão	estar	v-fin	PR=3P=IND	_	_
+23	a	a	prp		_	_
+24	a	o	art	F=S	_	_
+25	beira	beira	n	F=S	_	_
+26	de	de	prp		_	_
+27	o	o	art	M=S	_	_
+28	esquecimento	esquecer	n	M=S	_	_
+29	.	.	.		_	_
+
+0	Hoje	hoje	adv		_	_
+1	há	haver	v-fin	PR=3S=IND	_	_
+2	menos	menos	pron-det	M=P	0	_
+3	de	de	prp		_	_
+4	10		num	M=P	_	_
+5	mil		n	M=P	_	_
+6	exemplares	exemplar	n	M=P	_	_
+7	remanescentes	remanescente, remanescer	adj	M=P	_	_
+8	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	primeira		adj	F=S	_	_
+2	tentativa	tentativa	n	F=S	0	_
+3	de	de	prp		_	_
+4	trazer	trazer	v-inf		_	_
+5	um	um	art	M=S	_	_
+6	membro	membro	n	M=S	0	_
+7	de	de	prp		_	_
+8	o	o	art	M=S	_	(32
+9	Frozen_Zoo		n	M=S	_	32)
+10	de	de	prp		_	_
+11	volta	volta	n	F=S	_	_
+12	de	de	prp		_	_
+13	o	o	art	M=S	_	_
+14	mundo	mundo	n	M=S	_	_
+15	de	de	prp		_	_
+16	os	o	art	M=P	_	_
+17	animais	animal	n	M=P	0	_
+18	perdidos	perder	v-pcp	M=P	_	_
+19	foi	ir, ser	v-fin	PS=3S=IND	_	_
+20	com	com	prp		_	_
+21	um	um	art	M=S	_	_
+22	gauro		n	M=S	_	_
+23	,		,		_	_
+24	outra	outro	pron-det	F=S	0	_
+25	espécie	espécie	n	F=S	_	_
+26	rara	raro	adj	F=S	_	_
+27	de	de	prp		_	_
+28	gado	gado	n	M=S	_	(15)
+29	.	.	.		_	_
+
+0	Uma	um	art	F=S	_	(64
+1	gravidez	gravidez	n	F=S	_	64)
+2	acabou	acabar	v-fin	PS=3S=IND	_	_
+3	levando	levar	v-ger		_	_
+4	a	a	prp		_	_
+5	o	o	art	M=S	_	(65
+6	nascimento	nascer	n	M=S	_	65)
+7	de	de	prp		_	_
+8	um	um	art	M=S	_	_
+9	animal	animal	n	M=S	_	_
+10	,		,		_	_
+11	em	em	prp		_	_
+12	2001		num	M=S	_	_
+13	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	clone	clone	n	M=S	_	_
+2	morreu	morrer	v-fin	PS=3S=IND	_	_
+3	dois	dois	num	M=P	_	_
+4	dias	dia	n	M=P	_	_
+5	depois	depois	adv		_	_
+6	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	dois	dois	num	M=P	_	_
+2	bantengs		n	M=P	_	_
+3	produzidos	produzir	v-pcp	M=P	_	_
+4	em	em	prp		_	_
+5	Iowa	Iowa	prop	M=S	_	(7)
+6	já	já	adv		_	_
+7	viveram	viver	v-fin	MQP=3P=IND	_	_
+8	mais	mais	adv		_	_
+9	de	de	prp		_	_
+10	o		pron-det	M=S	_	_
+11	que	que	pron-indp	M=S	_	(7)
+12	isso	isso	pron-indp	M=S	_	_
+13	.	.	.		_	_
+
+0	Um	um	num	M=S	_	_
+1	de	de	prp		_	_
+2	eles	ele	pron-pers	M=3P=NOM	0	_
+3	,		,		_	_
+4	nascido	nascer	v-pcp	M=S	_	_
+5	em	em	prp		_	_
+6	o	o	art	M=S	_	(72
+7	dia	dia	n	M=S	0	_
+8	1º		adj	M=S	_	72)
+9	,		,		_	_
+10	está	estar	v-fin	PR=3S=IND	_	_
+11	em	em	prp		_	_
+12	boa	boa	adj	F=S	_	_
+13	saúde	saúde	n	F=S	_	_
+14	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	segundo		adj	M=S	_	_
+2	está	estar	v-fin	PR=3S=IND	_	_
+3	mais	mais	adv		_	_
+4	debilitado	debilitar	v-pcp	M=S	_	_
+5	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	Ryder		prop	M=S	_	(45)
+2	não	não	adv		_	_
+3	arrisca	arriscar	v-fin	PR=3S=IND	_	_
+4	palpite	palpite	n	M=S	0	_
+5	sobre	sobre	prp		_	_
+6	qual	qual	pron-det	M=S	_	_
+7	de	de	prp		_	_
+8	eles	ele	pron-pers	M=3P=NOM	_	_
+9	pode	poder, podar	v-fin	PR=3S=IND	_	_
+10	sobreviver	sobreviver	v-inf		_	_
+11	.	.	.		_	_
+
+0	Até	até	prp		_	_
+1	mesmo	mesmo	pron-det	M=S	0	_
+2	o		pron-det	M=S	_	_
+3	que	que	pron-indp	M=S	_	_
+4	está	estar	v-fin	PR=3S=IND	_	_
+5	bem	bem	adv		_	_
+6	pode	poder, podar	v-fin	PR=3S=IND	_	_
+7	mudar	mudar	v-inf		_	_
+8	de	de	prp		_	_
+9	condição	condição	n	F=S	_	_
+10	de	de	prp		_	_
+11	a	o	art	F=S	_	_
+12	noite	noite	n	F=S	_	_
+13	para	para	prp		_	_
+14	o	o	art	M=S	_	(72
+15	dia	dia	n	M=S	_	72)
+16	,		,		_	_
+17	diz	dizer	v-fin	PR=3S=IND	_	_
+18	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	fase	fase	n	F=S	0	_
+2	crítica	crítico	adj	F=S	_	_
+3	para	para	prp		_	_
+4	os	o	art	M=P	_	(37
+5	dois	dois	num	M=P	_	_
+6	animais	animal	n	M=P	_	37)
+7	é	ser	v-fin	PR=3S=IND	_	_
+8	de	de	prp		_	_
+9	duas	dois	num	F=P	_	_
+10	a	a	prp		_	_
+11	três	três	num	F=P	_	_
+12	semanas	semana	n	F=P	_	_
+13	.	.	.		_	_
+
+0	Depois	depois	adv		_	_
+1	de	de	prp		_	_
+2	esse	esse	pron-det	M=S	0	_
+3	período	período	n	M=S	_	_
+4	,		,		_	_
+5	quem	quem	pron-indp	M/F=S	_	_
+6	sobreviver	sobreviver	v-inf		_	_
+7	será	ser	v-fin	FUT=3S=IND	_	_
+8	levado	levar	v-pcp	M=S	_	_
+9	a	a	prp		_	_
+10	o	o	art	M=S	_	_
+11	Zôo		n	M=S	_	_
+12	de	de	prp		_	_
+13	San_Diego		prop	M=S	_	(86)
+14	,		,		_	_
+15	onde	onde	adv		_	_
+16	viverá	viver	v-fin	FUT=3S=IND	_	_
+17	com	com	prp		_	_
+18	seus	seu	pron-det	M=P	0	_
+19	colegas	colega	n	M=P	_	_
+20	de	de	prp		_	_
+21	espécie	espécie	n	F=S	_	_
+22	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	equipe		n	F=S	_	_
+2	não	não	adv		_	_
+3	tem	ter	v-fin	PR=3S=IND	_	_
+4	planos	plano	n	M=P	0	_
+5	futuros	futuro	adj	M=P	_	_
+6	de	de	prp		_	_
+7	clonagem	clonagem	n	F=S	_	_
+8	em	em	prp		_	_
+9	o	o	art	M=S	_	_
+10	momento	momento	n	M=S	_	_
+11	.	.	.		_	_
+
+0	Agora	agora	adv		_	_
+1	queremos	querer	v-fin	PR=1P=IND	_	_
+2	ver	ver	v-inf		_	_
+3	como	como	adv		_	_
+4	esses	esse	pron-det	M=P	0	_
+5	animais	animal	n	M=P	_	_
+6	se	se	pron-pers	M=3P=ACC	_	_
+7	comportam	comportar	v-fin	PR=3P=IND	_	_
+8	e	e	conj-c		_	_
+9	como	como	adv		_	_
+10	se	se	pron-pers	M/F=3S/P=ACC	_	_
+11	reproduzem	reproduzir	v-fin	PR=3P=IND	_	_
+12	,		,		_	_
+13	diz	dizer	v-fin	PR=3S=IND	_	_
+14	Ryder		prop	M=S	_	(45)
+15	.	.	.		_	_
+
+0	Esse	esse	pron-det	M=S	_	(29)
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	um	um	art	M=S	_	(29
+3	projeto	projeto	n	M=S	0	_
+4	para	para	prp		_	_
+5	os	o	art	M=P	_	_
+6	próximos	próximo	adj	M=P	_	_
+7	cinco	cinco	num	M=P	_	_
+8	ou	ou	conj-c		_	_
+9	seis	seis	num	M=P	_	_
+10	anos.		n	M=P	_	29)
+11	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	dois	dois	num	M=P	_	_
+2	filhotes	filhote	n	M=P	0	_
+3	,		,		_	_
+4	que	que	pron-indp	M=S	_	_
+5	ainda	ainda	adv		_	_
+6	não	não	adv		_	_
+7	têm	ter	v-fin	PR=3P=IND	_	_
+8	nome	nome	n	M=S	_	_
+9	,		,		_	_
+10	são	ser	v-fin	PR=3P=IND	_	_
+11	cópias	cópia	n	F=P	0	_
+12	genéticas	genético	adj	F=P	_	_
+13	idênticas	idêntico	adj	F=P	_	_
+14	de	de	prp		_	_
+15	um	um	art	M=S	_	(13
+16	banteng		n	M=S	_	13)
+17	macho	macho	n	M=S	_	_
+18	que	que	pron-indp	M=S	_	_
+19	morreu	morrer	v-fin	PS=3S=IND	_	_
+20	em	em	prp		_	_
+21	o	o	art	M=S	_	_
+22	Parque_Selvagem_Animal_de_San_Diego		prop	M=S	_	_
+23	em	em	prp		_	_
+24	1980		num	M=P	_	_
+25	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	o	o	art	M=S	_	(27
+2	início	início	n	M=S	_	27)
+3	,		,		_	_
+4	a	a	prp		_	_
+5	ACT		prop	M=S	_	(21)
+6	preparou	preparar	v-fin	PS=3S=IND	_	_
+7	30		num	M=P	_	_
+8	óvulos	óvulo	n	M=P	_	_
+9	de	de	prp		_	_
+10	vaca	vaca	n	F=S	_	(104)
+11	,		,		_	_
+12	extraindo	extrair	v-ger		_	_
+13	-lhes		pron-pers	M/F=3P=ACC	_	_
+14	o	o	art	M=S	_	_
+15	núcleo	núcleo	n	M=S	_	_
+16	e	e	conj-c		_	_
+17	fundindo-os		v-ger		_	_
+18	com	com	prp		_	_
+19	células	célula	n	F=P	0	_
+20	adultas	adulto	adj	F=P	_	_
+21	preservadas	preservar	v-pcp	F=P	_	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	(13
+24	banteng		n	M=S	_	13)
+25	de	de	prp		_	_
+26	San_Diego		prop	M=S	_	(86)
+27	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	fusão	fusão	n	F=S	0	_
+2	,		,		_	_
+3	feita	fazer	v-pcp	F=S	_	_
+4	com	com	prp		_	_
+5	ajuda	ajuda	n	F=S	_	_
+6	de	de	prp		_	_
+7	um	um	art	M=S	_	_
+8	choque	choque	n	M=S	0	_
+9	elétrico	elétrico	adj	M=S	_	_
+10	,		,		_	_
+11	faz	fazer	v-fin	PR=3S=IND	_	_
+12	com	com	prp		_	_
+13	que	que	conj-s		_	_
+14	o	o	art	M=S	_	_
+15	óvulo	óvulo	n	M=S	_	_
+16	se	se	pron-pers	M=3S=ACC	_	_
+17	comporte	comportar	v-fin	PR=3S=SUBJ	_	_
+18	como	como	adv		_	_
+19	se	se	pron-pers	M/F=3S/P=ACC	_	_
+20	tivesse	ter	v-fin	IMPF=3S=SUBJ	_	_
+21	sido	ser	v-pcp	M=S	_	_
+22	fertilizado	fertilizar	v-pcp	M=S	_	_
+23	,		,		_	_
+24	iniciando	iniciar	v-ger		_	_
+25	o	o	art	M=S	_	_
+26	processo	processo	n	M=S	0	_
+27	de	de	prp		_	_
+28	divisão	divisão	n	F=S	0	_
+29	celular	celular	adj	F=S	_	_
+30	e	e	conj-c		_	_
+31	criando	criar	v-ger		_	_
+32	um	um	art	M=S	_	_
+33	embrião	embrião	n	M=S	_	_
+34	.	.	.		_	_
+
+0	Ele	ele	pron-pers	M=3S=NOM	_	_
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	então	então	adv		_	_
+3	implantado	implantar	v-pcp	M=S	_	_
+4	em	em	prp		_	_
+5	uma	um	art	F=S	_	(104
+6	vaca	vaca	n	F=S	_	104)
+7	,		,		_	_
+8	que	que	pron-indp	M=S	_	_
+9	serve	servir	v-fin	PR=3S=IND	_	_
+10	como	como	adv		_	_
+11	barriga	barriga	n	F=S	0	_
+12	de	de	prp		_	_
+13	aluguel		n	M=S	_	_
+14	.	.	.		_	_
+
+0	Clonar		prop	M=S	0	_
+1	animais	animal	adj	M=P	_	_
+2	continua	continuar	v-fin	PR=3S=IND	_	_
+3	sendo	ser	v-ger		_	_
+4	uma	um	art	F=S	_	_
+5	tarefa	tarefa	n	F=S	0	_
+6	difícil	difícil	adj	F=S	_	_
+7	.	.	.		_	_
+
+0	de	de	prp		_	_
+1	os	o	art	M=P	_	_
+2	30		num	M=P	_	_
+3	embriões	embrião	n	M=P	0	_
+4	originais	original	adj	M=P	_	_
+5	,		,		_	_
+6	11		num	M=P	_	_
+7	resultaram	resultar	v-fin	MQP=3P=IND	_	_
+8	em	em	prp		_	_
+9	gravidez	gravidez	n	F=S	_	(64)
+10	.	.	.		_	_
+
+0	de	de	prp		_	_
+1	esses	esse	pron-det	M=P	_	_
+2	,		,		_	_
+3	só	só	adv		_	_
+4	dois	dois	num	M=P	_	_
+5	chegaram	chegar	v-fin	PS=3P=IND	_	_
+6	a	a	prp		_	_
+7	o	o	art	M=S	_	(65
+8	nascimento	nascer	n	M=S	_	65)
+9	.	.	.		_	_
+#end document
+#begin document CIENCIA_2004_26423.txt.xml
+1	Como	como	adv		_	_
+2	se	se	pron-pers	M/F=3S=ACC	_	_
+3	a	o	art	F=S	_	_
+4	lista	lista	n	F=S	_	_
+5	de	de	prp		_	_
+6	problemas	problema	n	M=P	_	_
+7	de	de	prp		_	_
+8	saúde	saúde	n	F=S	_	_
+9	causados	causar	v-pcp	M=P	_	_
+10	por	por	prp		_	_
+11	os	o	art	M=P	_	_
+12	alimentos	alimento	n	M=P	0	_
+13	gordurosos	gorduroso	adj	M=P	_	_
+14	já	já	adv		_	_
+15	não	não	adv		_	_
+16	fosse	fossar, ir, ser	v-fin	IMPF=3S=SUBJ	_	_
+17	imensa	imenso	adj	F=S	_	_
+18	,		,		_	_
+19	cientistas	ciente	adj	M=P	_	_
+20	americanos	americano	n	M=P	_	_
+21	acabam	acabar	v-fin	PR=3P=IND	_	_
+22	de	de	prp		_	_
+23	adicionar	adicionar	v-inf		_	_
+24	a	a	prp		_	_
+25	ela	ele	pron-pers	F=3S=NOM	_	_
+26	o	o	art	M=S	_	_
+27	dano	dano	n	M=S	_	_
+28	ligado	ligar	v-pcp	M=S	_	_
+29	a	a	prp		_	_
+30	o	o	art	M=S	_	(8
+31	mal	mal	n	M=S	_	8)
+32	de	de	prp		_	_
+33	Alzheimer		prop	M=S	_	(9)
+34	,		,		_	_
+35	doença	doença	n	F=S	0	(10
+36	degenerativa	degenerativo	adj	F=S	_	10)
+37	de	de	prp		_	_
+38	o	o	art	M=S	_	_
+39	cérebro	cérebro	n	M=S	_	_
+40	que	que	pron-indp	M=S	_	_
+41	mais	mais	adv		_	_
+42	afeta	afetar	v-fin	PR=3S=IND	_	_
+43	idosos	idoso	adj	M=P	_	_
+44	por	por	prp		_	_
+45	o	o	art	M=S	_	(13
+46	mundo	mundo	n	M=S	_	13)
+47	.	.	.		_	_
+
+0	De_acordo		adv		_	_
+1	com	com	prp		_	_
+2	novas	novo	adj	F=P	_	_
+3	análises	análise	n	F=P	_	_
+4	em	em	prp		_	_
+5	seres	ser	n	M=P	0	_
+6	humanos	humano	adj	M=P	_	_
+7	,		,		_	_
+8	o	o	art	M=S	_	(16
+9	colesterol	colesterol	n	M=S	0	_
+10	e	e	conj-c		_	_
+11	a	o	art	F=S	_	(17
+12	ceramida		n	F=S	_	17)
+13	,		,		_	_
+14	ambas	ambas	pron-det	F=P	0	_
+15	moléculas	molécula	n	F=P	_	_
+16	de	de	prp		_	_
+17	gordura	gordura	n	F=S	_	(19)
+18	,		,		_	16)
+19	impulsionam	impulsionar	v-fin	PR=3P=IND	_	_
+20	a	o	art	F=S	_	(20
+21	morte	morte	n	F=S	0	_
+22	de	de	prp		_	_
+23	células	célula	n	F=P	_	_
+24	nervosas	nervoso	adj	F=P	_	20)
+25	que	que	pron-indp	F=P	_	_
+26	caracteriza	caracterizar	v-fin	PR=3S=IND	_	_
+27	a	o	art	F=S	_	(10
+28	doença	doença	n	F=S	_	10)
+29	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	achado	achado	n	M=S	_	_
+2	foi	ir, ser	v-fin	PS=3S=IND	_	_
+3	apresentado	apresentar	v-pcp	M=S	_	_
+4	por	por	prp		_	_
+5	Mark_Mattson		prop	M=S	_	_
+6	,		,		_	_
+7	de	de	prp		_	_
+8	o	o	art	M=S	_	_
+9	Instituto_Nacional_do_Envelhecimentos		prop	M=S	_	_
+10	de	de	prp		_	_
+11	os	o	art	M=P	_	(25
+12	EUA	EUA	prop	M=P	_	25)
+13	,		,		_	_
+14	durante	durante	prp		_	_
+15	a	o	art	F=S	_	_
+16	170ª		n	F=S	_	_
+17	Reunião_Anual		prop	F=S	_	_
+18	de	de	prp		_	_
+19	a	o	art	F=S	_	(28
+20	AAAS		prop	F=S	_	28)
+21	(	(	(		_	_
+22	Associação_Americana		prop	F=S	0	(28
+23	para	para	prp		_	_
+24	o	o	art	M=S	_	_
+25	Avanço_da_Ciência		prop	M=S	_	28)
+26	)	)	)		_	_
+27	,		,		_	_
+28	em	em	prp		_	_
+29	Seattle	Seattle	prop	M=S	_	_
+30	,		,		_	_
+31	em	em	prp		_	_
+32	o	o	art	M=S	_	_
+33	noroeste	noroeste	n	M=S	_	_
+34	de	de	prp		_	_
+35	os	o	art	M=P	_	_
+36	Estados_Unidos		prop	M=P	_	_
+37	.	.	.		_	_
+
+0	Por_enquanto		adv		_	_
+1	,		,		_	_
+2	as	o	art	F=P	_	_
+3	implicações	implicar	n	F=P	_	_
+4	estão	estar	v-fin	PR=3P=IND	_	_
+5	mais	mais	adv		_	_
+6	ligadas	ligar	v-pcp	F=P	_	_
+7	a	a	prp		_	_
+8	a	o	art	F=S	_	_
+9	prevenção	prevenção	n	F=S	_	_
+10	de	de	prp		_	_
+11	o	o	art	M=S	_	(8
+12	mal	mal	n	M=S	_	8)
+13	de	de	prp		_	_
+14	Alzheimer		prop	M=S	_	(9)
+15	de	de	prp		_	_
+16	o		pron-det	M=S	_	_
+17	que	que	pron-indp	M=S	_	_
+18	a	o	art	F=S	_	_
+19	uma	um	art	F=S	_	_
+20	possível	possível	adj	F=S	_	_
+21	melhora		n	F=S	0	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	_
+24	prognóstico	prognóstico	n	M=S	_	_
+25	de	de	prp		_	_
+26	os	o	art	M=P	_	(37
+27	pacientes	paciente	n	M=P	_	37)
+28	,		,		_	_
+29	afirmou	afirmar	v-fin	PS=3S=IND	_	_
+30	Mattson		prop	M=S	0	(38
+31	,		,		_	_
+32	que	que	pron-indp	M=S	_	38)
+33	participou	participar	v-fin	PS=3S=IND	_	_
+34	de	de	prp		_	_
+35	a	o	art	F=S	_	_
+36	conferência	conferência	n	F=S	_	_
+37	apresentando	apresentar	v-ger		_	_
+38	os	o	art	M=P	_	_
+39	seus	seu	pron-det	M=P	0	_
+40	dados	dado	n	M=P	_	_
+41	de	de	prp		_	_
+42	a	o	art	F=S	_	_
+43	pesquisa	pesquisa	n	F=S	_	_
+44	por	por	prp		_	_
+45	telefone	telefone	n	M=S	_	_
+46	,		,		_	_
+47	por	por	prp		_	_
+48	estar	estar	v-inf		_	_
+49	gripado	gripar	v-pcp	M=S	_	_
+50	.	.	.		_	_
+
+0	Mesmo_assim		adv		_	_
+1	,		,		_	_
+2	ele	ele	pron-pers	M=3S=NOM	0	_
+3	e	e	conj-c		_	_
+4	seus	seu	pron-det	M=P	0	_
+5	colegas	colega	n	M=P	_	_
+6	mostraram	mostrar	v-fin	MQP=3P=IND	_	_
+7	evidências	evidência	n	F=P	0	_
+8	de	de	prp		_	_
+9	que	que	conj-s		_	_
+10	o	o	art	M=S	_	_
+11	uso	uso	n	M=S	0	_
+12	de	de	prp		_	_
+13	substâncias	substância	n	F=P	0	(48
+14	como	como	adv		_	48)
+15	a	o	art	F=S	_	_
+16	vitamina	vitamina	n	F=S	_	_
+17	E	e	conj-c		_	_
+18	poderia	poder	v-fin	COND=3S	_	_
+19	reduzir	reduzir	v-inf		_	_
+20	os	o	art	M=P	_	_
+21	danos	dano	n	M=P	_	_
+22	causados	causar	v-pcp	M=P	_	_
+23	por	por	prp		_	_
+24	o	o	art	M=S	_	(16
+25	colesterol	colesterol	n	M=S	_	16)
+26	a	a	prp		_	_
+27	os	o	art	M=P	_	(37
+28	pacientes	paciente	n	M=P	_	37)
+29	com	com	prp		_	_
+30	a	o	art	F=S	_	(10
+31	doença	doença	n	F=S	_	10)
+32	.	.	.		_	_
+
+0	Vitaminas	vitamina	n	F=P	_	(51)
+1	.	.	.		_	_
+
+0	Colegas		prop	M=S	_	(52)
+1	de	de	prp		_	_
+2	Mattson		prop	M=S	_	(38)
+3	também	também	adv		_	_
+4	revelaram	revelar	v-fin	MQP=3P=IND	_	_
+5	novas	novo	adj	F=P	_	_
+6	evidências	evidência	n	F=P	0	_
+7	de	de	prp		_	_
+8	que	que	conj-s		_	_
+9	o	o	art	M=S	_	_
+10	consumo	consumo	n	M=S	0	_
+11	de	de	prp		_	_
+12	vitaminas	vitamina	n	F=P	0	_
+13	como	como	adv		_	_
+14	suplemento	suplemento	n	M=S	_	_
+15	alimentar	alimentar	v-inf		_	_
+16	e	e	conj-c		_	_
+17	provenientes	proveniente	adj	M=P	_	_
+18	de	de	prp		_	_
+19	vegetais	vegetal	n	M=P	_	(57)
+20	seria	seriar, ser	v-fin	COND=3S	_	_
+21	capaz	capaz	adj	M=S	_	_
+22	de	de	prp		_	_
+23	prevenir	prevenir	v-inf		_	_
+24	o	o	art	M=S	_	_
+25	advento	advento	n	M=S	0	_
+26	de	de	prp		_	_
+27	a	o	art	F=S	_	(10
+28	doença	doença	n	F=S	_	10)
+29	,		,		_	_
+30	e	e	conj-c		_	_
+31	mesmo	mesmo	pron-det	M=S	0	_
+32	de	de	prp		_	_
+33	que	que	conj-s		_	_
+34	as	o	art	F=P	_	_
+35	estatinas		n	F=P	_	_
+36	,		,		_	_
+37	hoje	hoje	adv		_	_
+38	usadas	usar	v-pcp	F=P	_	_
+39	para	para	prp		_	_
+40	o	o	art	M=S	_	_
+41	combate	combate	n	M=S	_	_
+42	a	a	prp		_	_
+43	o	o	art	M=S	_	(16
+44	colesterol	colesterol	n	M=S	_	16)
+45	em	em	prp		_	_
+46	a	o	art	F=S	_	_
+47	corrente	corrente	n	F=S	0	_
+48	sangüínea		adj	F=S	_	_
+49	,		,		_	_
+50	também	também	adv		_	_
+51	poderiam	poder	v-fin	COND=3P	_	_
+52	evitar	evitar	v-inf		_	_
+53	o	o	art	M=S	_	(63
+54	aparecimento	aparecer	n	M=S	0	_
+55	de	de	prp		_	_
+56	o	o	art	M=S	_	(8
+57	mal	mal	n	M=S	_	8)
+58	de	de	prp		_	_
+59	Alzheimer		prop	M=S	_	(9)|63)
+60	.	.	.		_	_
+
+0	Apesar_de		prp		_	_
+1	estudada	estudar	v-pcp	F=S	_	_
+2	de	de	prp		_	_
+3	forma	forma	n	F=S	0	_
+4	intensa	intenso	adj	F=S	_	_
+5	em	em	prp		_	_
+6	o	o	art	M=S	_	(13
+7	mundo	mundo	n	M=S	_	13)
+8	todo	todo	pron-det	M=S	_	_
+9	,		,		_	_
+10	a	o	art	F=S	_	_
+11	moléstia	moléstia	n	F=S	_	_
+12	tem	ter	v-fin	PR=3S=IND	_	_
+13	um	um	art	M=S	_	_
+14	mecanismo	mecanismo	n	M=S	0	_
+15	de	de	prp		_	_
+16	ação	ação	n	F=S	_	_
+17	ainda	ainda	adv		_	_
+18	pouco	pouco	adv		_	_
+19	compreendido	compreender	v-pcp	M=S	_	_
+20	.	.	.		_	_
+
+0	Aparentemente	aparente	adv		_	_
+1	,		,		_	_
+2	o	o	art	M=S	_	_
+3	fator	fator	n	M=S	0	_
+4	principal	principal	adj	M=S	_	_
+5	para	para	prp		_	_
+6	seu	seu	pron-det	M=S	_	_
+7	aparecimento	aparecer	n	M=S	_	_
+8	é	ser	v-fin	PR=3S=IND	_	_
+9	o	o	art	M=S	_	_
+10	acúmulo		n	M=S	0	_
+11	de	de	prp		_	_
+12	a	o	art	F=S	_	_
+13	proteína	proteína	n	F=S	_	_
+14	beta-amilóide		n	F=S	_	(72)
+15	em	em	prp		_	_
+16	os	o	art	M=P	_	(73
+17	neurônios	neurônio	n	M=P	_	73)
+18	(	(	(		_	_
+19	células	célula	n	F=P	0	(20
+20	nervosas	nervoso	adj	F=P	_	20)
+21	)	)	)		_	_
+22	,		,		_	_
+23	em_geral		adv		_	_
+24	de	de	prp		_	_
+25	pessoas	pessoa	n	F=P	0	_
+26	idosas	idoso	adj	F=P	_	_
+27	.	.	.		_	_
+
+0	Essa	esse	pron-det	F=S	0	_
+1	molécula	molécula	n	F=S	_	_
+2	tende	tender, ter	v-fin	PR=3S=IND	_	_
+3	a	a	prp		_	_
+4	se	se	pron-pers	F=3S=ACC	_	_
+5	aglomerar	aglomerar	v-inf		_	_
+6	em	em	prp		_	_
+7	placas	placa	n	F=P	_	_
+8	e	e	conj-c		_	_
+9	,		,		_	_
+10	por	por	prp		_	_
+11	ser	ser	v-inf		_	_
+12	tóxica	tóxico	adj	F=S	_	_
+13	,		,		_	_
+14	elimina	eliminar	v-fin	PR=3S=IND	_	_
+15	um	um	art	M=S	_	_
+16	a	a	prp		_	_
+17	um	um	art	M=S	_	_
+18	os	o	art	M=P	_	_
+19	neurônios	neurônio	n	M=P	0	_
+20	de	de	prp		_	_
+21	os	o	art	M=P	_	_
+22	doentes	doente	n	M=P	_	_
+23	,		,		_	_
+24	levando-os		v-ger		_	_
+25	a	a	prp		_	_
+26	a	o	art	F=S	_	(20
+27	morte	morte	n	F=S	_	20)
+28	.	.	.		_	_
+
+0	Mattson		prop	M=S	0	_
+1	e	e	conj-c		_	_
+2	colegas	colega	n	M=P	_	(52)
+3	descobriram	descobrir	v-fin	MQP=3P=IND	_	_
+4	uma	um	art	F=S	_	_
+5	espécie	espécie	n	F=S	0	_
+6	de	de	prp		_	_
+7	combinação	combinação, combinar	n	F=S	0	_
+8	letal	letal	adj	F=S	_	_
+9	entre	entre	prp		_	_
+10	o	o	art	M=S	_	(63
+11	aparecimento	aparecer	n	M=S	_	63)
+12	de	de	prp		_	_
+13	a	o	art	F=S	_	(72
+14	beta-amilóide		n	F=S	_	72)
+15	e	e	conj-c		_	_
+16	a	o	art	F=S	_	(83
+17	presença	presença	n	F=S	_	83)
+18	de	de	prp		_	_
+19	colesterol	colesterol	n	M=S	_	(16)
+20	e	e	conj-c		_	_
+21	de	de	prp		_	_
+22	ceramida		n	F=S	_	(17)
+23	em	em	prp		_	_
+24	os	o	art	M=P	_	(73
+25	neurônios	neurônio	n	M=P	_	73)
+26	de	de	prp		_	_
+27	pessoas	pessoa	n	F=P	0	_
+28	mortas	morto	n-adj	F=P	_	_
+29	com	com	prp		_	_
+30	o	o	art	M=S	_	(8
+31	mal	mal	n	M=S	_	8)
+32	.	.	.		_	_
+
+0	Cascata		prop	M=S	0	_
+1	fatal	fatal	adj	M=S	_	_
+2	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	um	um	art	M=S	_	_
+2	trabalho	trabalho	n	M=S	_	_
+3	aprovado	aprovar	v-pcp	M=S	_	_
+4	para	para	prp		_	_
+5	publicação	publicar	n	F=S	_	_
+6	em	em	prp		_	_
+7	a	o	art	F=S	_	_
+8	revista	revista	n	F=S	0	_
+9	científica	científico	adj	F=S	_	_
+10	PNAS		prop	F=S	_	(89)
+11	(	(	(		_	_
+12	www.pnas		n	F=P	0	(89
+13	.org		prop	F=S	_	89)
+14	)	)	)		_	_
+15	,		,		_	_
+16	a	o	art	F=S	_	_
+17	equipe		n	F=S	_	_
+18	mostrou	mostrar	v-fin	PS=3S=IND	_	_
+19	que	que	conj-s		_	_
+20	o	o	art	M=S	_	_
+21	aparecimento	aparecer	n	M=S	0	_
+22	de	de	prp		_	_
+23	a	o	art	F=S	_	(72
+24	beta-amilóide		n	F=S	_	72)
+25	induz	induzir	v-fin	PR=3S=IND	_	_
+26	um	um	art	M=S	_	_
+27	acúmulo		n	M=S	0	_
+28	anormal	anormal	adj	M=S	_	_
+29	de	de	prp		_	_
+30	colesterol	colesterol	n	M=S	_	(16)
+31	e	e	conj-c		_	_
+32	ceramida		n	F=S	_	(17)
+33	.	.	.		_	_
+
+0	Eles	ele	pron-pers	M=3P=NOM	_	_
+1	,		,		_	_
+2	por_sua_vez		adv		_	_
+3	,		,		_	_
+4	iniciam	iniciar	v-fin	PR=3P=IND	_	_
+5	uma	um	art	F=S	_	_
+6	cascata	cascata	n	F=S	0	_
+7	de	de	prp		_	_
+8	reações	reação	n	F=P	0	_
+9	bioquímicas	bioquímico	adj	F=P	_	_
+10	que	que	pron-indp	F=P	_	_
+11	acaba	acabar	v-fin	PR=3S=IND	_	_
+12	conduzindo	conduzir	v-ger		_	_
+13	a	a	prp		_	_
+14	a	o	art	F=S	_	(20
+15	morte	morte	n	F=S	_	20)
+16	de	de	prp		_	_
+17	os	o	art	M=P	_	(73
+18	neurônios	neurônio	n	M=P	_	73)
+19	.	.	.		_	_
+
+0	Isso	isso	pron-indp	M=S	_	_
+1	acontece	acontecer	v-fin	PR=3S=IND	_	_
+2	,		,		_	_
+3	segundo	segundo	prp		_	_
+4	os	o	art	M=P	_	(99
+5	cientistas	cientista, ciente	n	M=P	_	99)
+6	,		,		_	_
+7	porque	porque	conj-s		_	_
+8	as	o	art	F=P	_	(48
+9	substâncias	substância	n	F=P	_	48)
+10	liberam	liberar	v-fin	PR=3P=IND	_	_
+11	os	o	art	M=P	_	_
+12	chamados	chamar	v-pcp	M=P	_	_
+13	radicais	radical	adj	M=P	_	_
+14	livres	livre	adj	M=P	_	_
+15	átomos	átomo	n	M=P	_	_
+16	isolados	isolar	v-pcp	M=P	_	_
+17	de	de	prp		_	_
+18	oxigênio	oxigênio	n	M=S	_	_
+19	que	que	pron-indp	M=S	_	_
+20	são	ser	v-fin	PR=3P=IND	_	_
+21	um	um	art	M=S	_	_
+22	verdadeiro	verdadeiro	adj	M=S	_	_
+23	veneno	veneno	n	M=S	0	_
+24	para	para	prp		_	_
+25	o	o	art	M=S	_	(104
+26	organismo	organismo	n	M=S	_	104)
+27	.	.	.		_	_
+
+0	Por_outro_lado		adv		_	_
+1	,		,		_	_
+2	diz	dizer	v-fin	PR=3S=IND	_	_
+3	Benjamin_Wolozin		prop	M=S	0	_
+4	,		,		_	_
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	_
+7	Centro_Médico		prop	M=S	_	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	Universidade_Loyola		prop	F=S	_	_
+11	(	(	(		_	_
+12	Chicago	Chicago	prop	M=S	_	_
+13	,		,		_	_
+14	EUA	EUA	prop	M=P	_	(25)
+15	)	)	)		_	_
+16	,		,		_	_
+17	o	o	art	M=S	_	_
+18	local	local	n	M=S	_	_
+19	onde	onde	adv		_	_
+20	as	o	art	F=P	_	(114
+21	moléculas	molécula	n	F=P	0	_
+22	de	de	prp		_	_
+23	colesterol	colesterol	n	M=S	_	(16)|114)
+24	se	se	pron-pers	M=3S=ACC	_	_
+25	abrigam	abrigar	v-fin	PR=3P=IND	_	_
+26	em	em	prp		_	_
+27	a	o	art	F=S	_	_
+28	membrana	membrana	n	F=S	_	_
+29	é	ser	v-fin	PR=3S=IND	_	_
+30	também	também	adv		_	_
+31	a	o	art	F=S	_	_
+32	região	região	n	F=S	0	_
+33	em	em	prp		_	_
+34	a	o	art	F=S	_	_
+35	qual	qual	pron-det	F=S	_	_
+36	estão	estar	v-fin	PR=3P=IND	_	_
+37	as	o	art	F=P	_	_
+38	enzimas	enzima	n	F=P	0	_
+39	(	(	(		_	_
+40	moléculas	molécula	n	F=P	_	(114
+41	que	que	pron-indp	F=P	0	_
+42	aceleram	acelerar	v-fin	PR=3P=IND	_	_
+43	reações	reação	n	F=P	0	_
+44	químicas	químico	adj	F=P	_	114)
+45	)	)	)		_	_
+46	responsáveis	responsável	adj	F=P	_	_
+47	por	por	prp		_	_
+48	produzir	produzir	v-inf		_	_
+49	a	o	art	F=S	_	(72
+50	beta-amilóide		n	F=S	_	72)
+51	.	.	.		_	_
+
+0	Sem	sem	prp		_	_
+1	a	o	art	F=S	_	(83
+2	presença	presença	n	F=S	_	83)
+3	de	de	prp		_	_
+4	colesterol	colesterol	n	M=S	_	(16)
+5	,		,		_	_
+6	elas	ele	pron-pers	F=3P=NOM	_	_
+7	não	não	adv		_	_
+8	conseguem	conseguir	v-fin	PR=3P=IND	_	_
+9	operar	operar	v-inf		_	_
+10	,		,		_	_
+11	afirma	afirmar	v-fin	PR=3S=IND	_	_
+12	.	.	.		_	_
+
+0	Com	com	prp		_	_
+1	a	o	art	F=S	_	_
+2	compreensão	compreensão	n	F=S	_	_
+3	de	de	prp		_	_
+4	esses	esse	pron-det	M=P	0	_
+5	processos	processo	n	M=P	_	_
+6	,		,		_	_
+7	os	o	art	M=P	_	(99
+8	cientistas	cientista, ciente	n	M=P	_	99)
+9	propõem	propor	v-fin	PR=3P=IND	_	_
+10	duas	dois	num	F=P	_	_
+11	estratégias	estratégia	n	F=P	_	_
+12	.	.	.		_	_
+
+0	Uma	um	art	F=S	_	_
+1	,		,		_	_
+2	obviamente	obviamente	adv		_	_
+3	,		,		_	_
+4	é	ser	v-fin	PR=3S=IND	_	_
+5	reduzir	reduzir	v-inf		_	_
+6	o	o	art	M=S	_	_
+7	consumo	consumo	n	M=S	0	_
+8	de	de	prp		_	_
+9	gordura	gordura	n	F=S	_	(19)
+10	que	que	pron-indp	F=S	_	_
+11	pode	poder, podar	v-fin	PR=3S=IND	_	_
+12	levar	levar	v-inf		_	_
+13	a	o	art	F=S	_	_
+14	uma	um	art	F=S	_	_
+15	presença	presença	n	F=S	0	_
+16	excessiva	excessivo	adj	F=S	_	_
+17	de	de	prp		_	_
+18	colesterol	colesterol	n	M=S	_	(16)
+19	e	e	conj-c		_	_
+20	ceramida		n	F=S	_	(17)
+21	em	em	prp		_	_
+22	o	o	art	M=S	_	(104
+23	organismo	organismo	n	M=S	_	104)
+24	.	.	.		_	_
+
+0	Outra	outro	pron-det	F=S	_	_
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	utilizar	utilizar	v-inf		_	_
+3	substâncias	substância	n	F=P	0	_
+4	antioxidantes	oxidante	adj	F=P	_	_
+5	,		,		_	_
+6	ou	ou	conj-c		_	_
+7	seja	ser	v-fin	PR=3S=SUBJ	_	_
+8	,		,		_	_
+9	capazes	capaz	adj	M=P	_	_
+10	de	de	prp		_	_
+11	reduzir	reduzir	v-inf		_	_
+12	a	o	art	F=S	_	_
+13	ação	ação	n	F=S	0	_
+14	de	de	prp		_	_
+15	os	o	art	M=P	_	_
+16	radicais	radical	n	M=P	0	_
+17	livres	livre	adj	M=P	_	_
+18	.	.	.		_	_
+
+0	Esse	esse	pron-det	M=S	_	(127)
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	o	o	art	M=S	_	(127
+3	caso	caso	n	M=S	0	_
+4	de	de	prp		_	_
+5	as	o	art	F=P	_	(51
+6	vitaminas	vitamina	n	F=P	_	51)|127)
+7	.	.	.		_	_
+
+0	Experimentos	experimento	n	M=P	_	_
+1	coordenados	coordenar	v-pcp	M=P	_	_
+2	por	por	prp		_	_
+3	Carl_Cotman		prop	M=S	_	_
+4	,		,		_	_
+5	de	de	prp		_	_
+6	a	o	art	F=S	_	_
+7	Universidade_da_Califórnia		prop	F=S	_	_
+8	em	em	prp		_	_
+9	Irvine		prop	M=S	_	_
+10	,		,		_	_
+11	mostraram	mostrar	v-fin	MQP=3P=IND	_	_
+12	resultados		n	M=P	0	_
+13	animadores	animar	adj	M=P	_	_
+14	em	em	prp		_	_
+15	cães	cão	n	M=P	_	(133)
+16	em	em	prp		_	_
+17	a	o	art	F=S	_	_
+18	fase	fase	n	F=S	_	_
+19	de	de	prp		_	_
+20	envelhecimento	envelhecer	n	M=S	_	(135)
+21	(	(	(		_	_
+22	a_partir_dos		prp		_	(135
+23	os	o	art	M=P	_	_
+24	9		num	M=P	_	_
+25	anos	ano	n	M=P	0	_
+26	de	de	prp		_	_
+27	vida	vida	n	F=S	_	135)
+28	)	)	)		_	_
+29	,		,		_	_
+30	em	em	prp		_	_
+31	na_qual		pron-indp	F=S	_	_
+32	os	o	art	M=P	_	_
+33	animais	animal	n	M=P	_	_
+34	podem	poder, podar	v-fin	PR=3P=IND	_	_
+35	desenvolver	desenvolver	v-inf		_	_
+36	uma	um	art	F=S	_	(10
+37	doença	doença	n	F=S	_	10)
+38	que	que	pron-indp	F=S	_	_
+39	lembra	lembrar	v-fin	PR=3S=IND	_	_
+40	Alzheimer		prop	M=S	_	(9)
+41	.	.	.		_	_
+
+0	Memória	memória	n	F=S	0	_
+1	restaurada	restaurar	v-pcp	F=S	_	_
+2	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	suplementos	suplemento	n	M=P	0	_
+2	de	de	prp		_	_
+3	vitaminas	vitamina	n	F=P	_	(51)
+4	C		prop	M=S	_	_
+5	e	e	conj-c		_	_
+6	E	e	conj-c		_	_
+7	e	e	conj-c		_	_
+8	de	de	prp		_	_
+9	vegetais	vegetal	n	M=P	_	(57)
+10	dados	dar	v-pcp	M=P	_	_
+11	a	a	prp		_	_
+12	os	o	art	M=P	_	_
+13	bichos	bicho	n	M=P	_	_
+14	funcionou	funcionar	v-fin	PS=3S=IND	_	_
+15	tão	tão	adv		_	_
+16	bem	bem	adv		_	_
+17	que	que	conj-s		_	_
+18	a	o	art	F=S	_	_
+19	memória	memória	n	F=S	0	_
+20	de	de	prp		_	_
+21	os	o	art	M=P	_	(133
+22	cães	cão	n	M=P	_	133)
+23	,		,		_	_
+24	testada	testar	v-pcp	F=S	_	_
+25	regularmente	regular	adv		_	_
+26	por	por	prp		_	_
+27	meio	meio	n	M=S	_	_
+28	de	de	prp		_	_
+29	um	um	art	M=S	_	(145
+30	exercício	exercício	n	M=S	_	145)
+31	em	em	prp		_	_
+32	o	o	art	M=S	_	(145
+33	qual	qual	pron-det	M=S	_	145)
+34	eles	ele	pron-pers	M=3P=NOM	_	_
+35	tinham	ter	v-fin	IMPF=3P=IND	_	_
+36	de	de	prp		_	_
+37	reconhecer	reconhecer	v-inf		_	_
+38	objetos	objeto	n	M=P	_	_
+39	,		,		_	_
+40	passou	passar	v-fin	PS=3S=IND	_	_
+41	a	a	prp		_	_
+42	se	se	pron-pers	F=3S=ACC	_	_
+43	igualar	igualar	v-inf		_	_
+44	a	a	prp		_	_
+45	a	o	art	F=S	_	_
+46	de	de	prp		_	_
+47	animais	animal	n	M=P	0	_
+48	jovens	jovem	adj	M=P	_	_
+49	.	.	.		_	_
+
+0	Um	um	art	M=S	_	(149
+1	dado	dado	n	M=S	0	_
+2	importante	importante, importar	adj	M=S	_	_
+3	,		,		_	149)
+4	já	já	adv		_	_
+5	que	que	conj-s		_	_
+6	a	o	art	F=S	_	(149
+7	perda	perda	n	F=S	0	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	capacidade	capacidade, capaz	n	F=S	_	_
+11	de	de	prp		_	149)
+12	armazenar	armazenar	v-inf		_	_
+13	novas	novo	adj	F=P	_	_
+14	lembranças	lembrança	n	F=P	_	_
+15	é	ser	v-fin	PR=3S=IND	_	_
+16	um	um	num	M=S	_	_
+17	de	de	prp		_	_
+18	os	o	art	M=P	_	_
+19	principais	principal	adj	M=P	_	_
+20	sintomas	sintoma	n	M=P	0	_
+21	de	de	prp		_	_
+22	o	o	art	M=S	_	(8
+23	mal	mal	n	M=S	_	8)
+24	de	de	prp		_	_
+25	Alzheimer		prop	M=S	_	(9)
+26	em	em	prp		_	_
+27	humanos	humanos	n	M=P	_	_
+28	.	.	.		_	_
+#end document
