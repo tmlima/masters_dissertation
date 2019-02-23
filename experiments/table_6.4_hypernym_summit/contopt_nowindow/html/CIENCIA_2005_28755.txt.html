@@ -1,0 +1,2560 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CORP</title>
+
+<style type="text/css">
+	@charset "iso8859-1";
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+}
+.columns {
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.container .columns h4 {
+	text-align: center;
+	color: #01B2D1;
+}
+.primary_header {
+	width: 100%;
+	background-color: lightblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+.secondary_header {
+	
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+	
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 25%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.left_article {
+	background-color: #FFFFFF;
+	width: 70%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+.noDisplay {
+	display: none;
+}
+.container .left_article h3 {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container .left_article p {
+	overflow-y: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;
+}
+/*lado direito pag*/
+.right_article {
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	width: 30%;
+	/*width: 600px; */
+	height: 1005px; 
+	overflow-y: auto;
+	/*width: 40%;*/
+	float: center;
+	background-color: white;
+	/*background-color: #F6F6F6;*/
+	
+}
+.container .right_article ul {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	
+}
+.right_article ul li {
+	font-family: "Source Sans Pro";
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.right_article ul li:hover {
+	background-color: #717070;
+	cursor: pointer;
+}
+.footer {
+	background-color: #717070;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.placeholder {
+	/* [disabled]max-width: 400px;
+*/
+	/* [disabled]max-height: 200px;
+*/
+	width: 100%;
+	padding-top: 30px;
+	/* [disabled]padding-left: 19px;
+*/
+	padding-bottom: 30px;
+	height: 100%;
+}
+.left_half {
+	background-color: lightblue;
+}
+.container .column_half.left_half h2 {
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+}
+.right_half {
+	background-color: #01B2D1;
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	font-weight: bold;text-shadow: 0px 2px 3px #666;
+}
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.copyright {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+@media (max-width: 320px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 98%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+}
+.placeholder {
+	width: 100%;
+	margin-top: 22PX;
+	margin-right: 0px;
+	margin-bottom: 22PX;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	max-width: 400px;
+	max-height: 200px;
+	height: auto;
+}
+.columns {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0PX;
+	padding-right: 0PX;
+	padding-bottom: 0PX;
+	padding-left: 0PX;
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+.copyright {
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.container .left_article h3 {
+	margin-top: 30px;
+}
+.social .social_icon img {
+	width: 80%;
+}
+.container .secondary_header {
+}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 100%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+}
+.placeholder {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.columns {
+	width: 100%;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.columns p {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+.secondary_header {
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.secondary_header ul li {
+	margin-top: 10px;
+	margin-right: 7%;
+	margin-bottom: 10px;
+	margin-left: 7%;
+}
+.left_article {
+	height: auto;
+}
+.right_article {
+	height: auto;
+	padding-bottom: 27px;
+}
+.placeholder {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.columns {
+	width: 50%;
+	float: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.container .columns p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+}
+
+@media (min-width: 1001px) {
+}
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+.social {
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #414141;
+	clear: both;
+	overflow: auto;
+}
+.social_icon {
+	width: 25%;
+	text-align: center;
+	float: left;
+	transition: all 0.3s linear;
+	line-height: 0px;
+	padding-top: 7px;
+}
+.container .social .social_icon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+#menu {
+}
+
+
+body{font-family:Calibri, Tahoma, Arial}
+	.TabControl{ width:100%; overflow-y: auto;  height:auto}
+	.TabControl #header{ width:90%; border: hidden 0px; text-align:right; overflow:hidden; cursor: pointer}
+	.TabControl #content{ width:100%; border: solid 0px;overflow:hidden; text-align:right; height:100%; }
+	/*.TabControl .abas{display:inline;}*/
+	.TabControl .abas{display:inline; text-align:center;  text-shadow: 0px 2px 3px #400; font-stretch: ultra-condensed; line-height: 210%; }
+	.TabControl .abas li{list-style-type:none; float:left}
+	.aba{width:295px; height:20px; border:solid 1px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:white}
+	.ativa{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:lightblue;}
+	.ativa span, .selected span{color:#fff}
+	.TabControl #content{background:white}
+	.TabControl .conteudo{margin-top: 50px; width:99%; overflow-y: auto;  background:white; display:none; height:auto;color:gray;
+	
+	text-align: justify;
+	line-height: 24px;
+	color: #B3B3B3;
+	border-radius:5px 5px 0 0;
+
+	
+	
+	
+	}
+	.selected{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:#27408B
+		
+	
+	
+	
+		
+		}
+		
+		/*padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;*/
+		
+		
+</style>
+
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1> <center> CORP - Coreference Resolution for Portuguese </center> </h1>
+
+ 
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/">HOME</a></li>
+        <li> <a href="http://www.inf.pucrs.br/linatural/index.html">PLN-PUCRS</a></li> 
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/publicacoes.html">PUBLICA&Ccedil;&Otilde;ES</a></li>
+        <li> <a href="mailto:metalmorphy@gmail.com">CONTATO</a></li>
+	   </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+    <h3>vers&atilde;o XML (<a href="file:///C:\Users\thiagol\Documents\Git\corp/saida/20190112_210443xml/CIENCIA_2005_28755.txt.xml"> Download</a>)</h3>
+      
+      
+      
+      
+<div class="TabControl">
+	<div id="header">
+		<ul class="abas">
+	
+     <span id="tag" class="wrd tagcloud" onclick="Mudarestado('145')"><b><FONT style="font-size: 28px" COLOR="#0000CD">a GFP  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('84')"><b><FONT style="font-size: 20px" COLOR="#00C5CD">a Universidade Es...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('38')"><b><FONT style="font-size: 20px" COLOR="#00688B">descrição  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('29')"><b><FONT style="font-size: 28px" COLOR="#8B3E2F">os estudos  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('26')"><b><FONT style="font-size: 36px" COLOR="#8B2500">Cassius Vinicius ...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('17')"><b><FONT style="font-size: 52px" COLOR="#00FFFF">luz  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('13')"><b><FONT style="font-size: 36px" COLOR="#98FB98">o Brasil  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('8')"><b><FONT style="font-size: 60px" COLOR="#8B1C62">pequenos cogumelos  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('5')"><b><FONT style="font-size: 20px" COLOR="#EE7942">um tipo  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('3')"><b><FONT style="font-size: 20px" COLOR="#FF0000">uma série de nova...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('1')"><b><FONT style="font-size: 20px" COLOR="#9400D3">pesquisadores  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('2')"><b><FONT style="font-size: 20px" COLOR="#FFA54F">a USP  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('4')"><b><FONT style="font-size: 28px" COLOR="#C71585">novas espécies  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('7')"><b><FONT style="font-size: 36px" COLOR="#FF6A6A">fungo  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('10')"><b><FONT style="font-size: 20px" COLOR="#CD5C5C">uma misteriosa lu...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('14')"><b><FONT style="font-size: 20px" COLOR="#00CD66">o mecanismo bioqu...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('22')"><b><FONT style="font-size: 20px" COLOR="#0000CD">poluição  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('27')"><b><FONT style="font-size: 20px" COLOR="#FF8C00">químico  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('36')"><b><FONT style="font-size: 20px" COLOR="#EE8262">Gerronema viridil...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('46')"><b><FONT style="font-size: 20px" COLOR="#009ACD">Aristóteles  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('141')"><b><FONT style="font-size: 20px" COLOR="#CD0000">gene  </FONT></b></span>
+<span id="tag" class="wrd tagcloud1" onclick="Mudarestado('TodasCadeias')">Todas as Cadeias  </span>
+ 
+
+<style type="text/css"><!-- #htmltagcloud{
+
+/******************************************
+ * CUSTOMIZE CLOUD CSS BELOW (optional)
+ */
+	font-size: 100%;
+	width: auto;		/* auto or fixed width, e.g. 500px   */
+	font-family:'lucida grande','trebuchet ms',arial,helvetica,sans-serif;
+	background-color:#fff;
+	margin:1em 1em 0 1em;
+	border:2px dotted #ddd;
+	padding:2em; 
+/******************************************
+ * END CUSTOMIZE
+ */
+
+}#htmltagcloud{line-height:2.4em;word-spacing:normal;letter-spacing:normal;text-transform:none;text-align:justify;text-indent:0}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{color:white;background-color:#05f}#htmltagcloud a:active{color:white;background-color:#03d}.wrd{padding:0;position:relative}.wrd a{text-decoration:none}.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}.tagcloud0 a{color:#ACC1F3}.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}.tagcloud1 a{color:#ACC1F3}.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}.tagcloud2 a{color:#86A0DC}.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}.tagcloud3 a{color:#86A0DC}.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}.tagcloud4 a{color:#607EC5}.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}.tagcloud5 a{color:#607EC5}.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}.tagcloud6 a{color:#4C6DB9}.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}.tagcloud7 a{color:#395CAE}.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}.tagcloud8 a{color:#264CA2}.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}.tagcloud9 a{color:#133B97}.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}.tagcloud10 a{color:#002A8B}.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em 'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif}#credit a:link{color:#777;text-decoration:none}#credit a:visited{color:#777;text-decoration:none}#credit a:hover{color:white;background-color:#05f}#credit a:active{text-decoration:underline}
+</style>
+
+<script>
+function Mudarestado(el) {
+
+	ocultar_conteudo();
+    var display = document.getElementById(el).style.display;
+    if(display == "none")
+        document.getElementById(el).style.display = 'block';
+    else
+        document.getElementById(el).style.display = 'none';
+}
+</script>
+<script>
+ function ocultar_conteudo() { 
+  document.getElementById('TodasCadeias').style.display="none";	document.getElementById('8').style.display="none"; 
+document.getElementById('17').style.display="none"; 
+document.getElementById('7').style.display="none"; 
+document.getElementById('13').style.display="none"; 
+document.getElementById('26').style.display="none"; 
+document.getElementById('4').style.display="none"; 
+document.getElementById('29').style.display="none"; 
+document.getElementById('145').style.display="none"; 
+document.getElementById('1').style.display="none"; 
+document.getElementById('2').style.display="none"; 
+document.getElementById('3').style.display="none"; 
+document.getElementById('5').style.display="none"; 
+document.getElementById('10').style.display="none"; 
+document.getElementById('14').style.display="none"; 
+document.getElementById('22').style.display="none"; 
+document.getElementById('27').style.display="none"; 
+document.getElementById('36').style.display="none"; 
+document.getElementById('38').style.display="none"; 
+document.getElementById('46').style.display="none"; 
+document.getElementById('84').style.display="none"; 
+document.getElementById('141').style.display="none"; 
+} 
+ </script>
+        
+            	
+		</ul>
+	</div>
+	<div id="content">
+	
+     <div class="conteudo" id="TodasCadeias" >O trabalho de <b><FONT style="font-size: 18px" COLOR="#9400D3">[pesquisadores [1]]<FONT style="font-size: 13px"></FONT></FONT></b> de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">USP [2]]<FONT style="font-size: 13px"></FONT></FONT></b> está revelando <b><FONT style="font-size: 18px" COLOR="#FF0000">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">série<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">[<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000"><b><FONT style="font-size: 18px" COLOR="#FF0000">novas<FONT style="font-size: 13px"></FONT></FONT></b><FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585"><FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000">espécies<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#C71585"> [4]]<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000"> <FONT style="font-size: 13px"></FONT></FONT> </b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942">[<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000"><b><FONT style="font-size: 18px" COLOR="#FF0000">um<FONT style="font-size: 13px"></FONT></FONT></b><FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942"><FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000">tipo<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#EE7942"> [5]]<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000"> <FONT style="font-size: 13px"></FONT></FONT> </b> <b><FONT style="font-size: 18px" COLOR="#FF0000">todo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">especial<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000">fungo<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF6A6A"> [7]]<FONT style="font-size: 13px"></FONT></FONT></b><b><FONT style="font-size: 18px" COLOR="#FF0000"> [3]]<FONT style="font-size: 13px"></FONT></FONT> </b> : <b><FONT style="font-size: 18px" COLOR="#8B1C62">[pequenos<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">cogumelos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> que emitem <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">misteriosa<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">luminosidade<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">verde [10]]<FONT style="font-size: 13px"></FONT></FONT></b> em o escuro . As criaturas , antes desconhecidas em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> , podem ajudar a elucidar <b><FONT style="font-size: 18px" COLOR="#00CD66">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">mecanismo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">bioquímico [14]]<FONT style="font-size: 13px"></FONT></FONT></b> que leva a a produção de <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de <b><FONT style="font-size: 18px" COLOR="#0000CD">[poluição [22]]<FONT style="font-size: 13px"></FONT></FONT></b> ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo <b><FONT style="font-size: 18px" COLOR="#8B2500">[Cassius_Vinicius_Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , <b><FONT style="font-size: 18px" COLOR="#FF8C00">[químico [27]]<FONT style="font-size: 13px"></FONT></FONT></b> de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">USP [2]]<FONT style="font-size: 13px"></FONT></FONT></b> que coordena <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">estudos [29]]<FONT style="font-size: 13px"></FONT></FONT></b> , é possível <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[que [29]]<FONT style="font-size: 13px"></FONT></FONT></b> o material recolhido abranja por o menos_dez <b><FONT style="font-size: 18px" COLOR="#C71585">[espécies<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">novas [4]]<FONT style="font-size: 13px"></FONT></FONT></b> . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a <b><FONT style="font-size: 18px" COLOR="#EE8262">[Gerronema<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">viridilucens [36]]<FONT style="font-size: 13px"></FONT></FONT></b> , e seis já estão em fase de <b><FONT style="font-size: 18px" COLOR="#00688B">[descrição [38]]<FONT style="font-size: 13px"></FONT></FONT></b> , contou <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> a a Folha . Mistério antigo . Em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> , <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">bioluminescência [8]]<FONT style="font-size: 13px"></FONT></FONT></b> trocando em miúdos , <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">luminosidade [10]]<FONT style="font-size: 13px"></FONT></FONT></b> produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego <b><FONT style="font-size: 18px" COLOR="#009ACD">[Aristóteles [46]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#009ACD">[século<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">4º<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">a.C. [46]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> e seus colaboradores se puseram a procurar cogumelos de <b><FONT style="font-size: 18px" COLOR="#EE7942">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942">tipo [5]]<FONT style="font-size: 13px"></FONT></FONT></b> em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> . É provável <b><FONT style="font-size: 18px" COLOR="#98FB98">[que [13]]<FONT style="font-size: 13px"></FONT></FONT></b> nenhum pesquisador tivesse identificado <b><FONT style="font-size: 18px" COLOR="#C71585">[espécies [4]]<FONT style="font-size: 13px"></FONT></FONT></b> em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> porque é preciso procurá -los a a noite . Além_do o mais , <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> é muito fraca , até sob o luar , explica <b><FONT style="font-size: 18px" COLOR="#FF8C00">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">químico [27]]<FONT style="font-size: 13px"></FONT></FONT></b> . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a <b><FONT style="font-size: 18px" COLOR="#8B1C62">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">cogumelos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e <b><FONT style="font-size: 18px" COLOR="#00688B">[descrição [38]]<FONT style="font-size: 13px"></FONT></FONT></b> está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">Universidade_Estadual_de_San_Francisco [84]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#00C5CD">[Estados_Unidos [84]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A emissão de <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , duram entre 24 e 48 horas . Eles é que emitem <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">, [17]]<FONT style="font-size: 13px"></FONT></FONT></b> que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , <b><FONT style="font-size: 18px" COLOR="#9400D3">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">pesquisadores [1]]<FONT style="font-size: 13px"></FONT></FONT></b> descobriram como cultivar <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">G. [36]]<FONT style="font-size: 13px"></FONT></FONT></b> viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de <b><FONT style="font-size: 18px" COLOR="#0000CD">[poluição [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . É que <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> parece variar de acordo com a concentração de poluentes aplicados sobre <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> . Como <b><FONT style="font-size: 18px" COLOR="#8B1C62">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre <b><FONT style="font-size: 18px" COLOR="#00CD66">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">mecanismo [14]]<FONT style="font-size: 13px"></FONT></FONT></b> de a luminescência , <b><FONT style="font-size: 18px" COLOR="#FF0000">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">série [3]]<FONT style="font-size: 13px"></FONT></FONT></b> de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado <b><FONT style="font-size: 18px" COLOR="#CD0000">[gene [141]]<FONT style="font-size: 13px"></FONT></FONT></b> está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">GFP [145]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#0000CD">[proteína<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">fluorescente<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">verde [145]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . Se <b><FONT style="font-size: 18px" COLOR="#CD0000">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD0000">gene [141]]<FONT style="font-size: 13px"></FONT></FONT></b> for ativado , <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">proteína [145]]<FONT style="font-size: 13px"></FONT></FONT></b> acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">estudos [29]]<FONT style="font-size: 13px"></FONT></FONT></b> ainda estão em o começo . </div><div class="conteudo" id="8" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : <b><FONT style="font-size: 18px" COLOR="#8B1C62">[pequenos<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">cogumelos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> , <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">bioluminescência [8]]<FONT style="font-size: 13px"></FONT></FONT></b> trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a <b><FONT style="font-size: 18px" COLOR="#8B1C62">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">cogumelos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com <b><FONT style="font-size: 18px" COLOR="#8B1C62">[fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como <b><FONT style="font-size: 18px" COLOR="#8B1C62">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">fungos [8]]<FONT style="font-size: 13px"></FONT></FONT></b> ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="17" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">, [17]]<FONT style="font-size: 13px"></FONT></FONT></b> que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que <b><FONT style="font-size: 18px" COLOR="#00FFFF">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00FFFF">luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram <b><FONT style="font-size: 18px" COLOR="#00FFFF">[luz [17]]<FONT style="font-size: 13px"></FONT></FONT></b> e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="7" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre <b><FONT style="font-size: 18px" COLOR="#FF6A6A">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF6A6A">fungo [7]]<FONT style="font-size: 13px"></FONT></FONT></b> . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="13" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> . É provável <b><FONT style="font-size: 18px" COLOR="#98FB98">[que [13]]<FONT style="font-size: 13px"></FONT></FONT></b> nenhum pesquisador tivesse identificado espécies em <b><FONT style="font-size: 18px" COLOR="#98FB98">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Brasil [13]]<FONT style="font-size: 13px"></FONT></FONT></b> porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="26" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo <b><FONT style="font-size: 18px" COLOR="#8B2500">[Cassius_Vinicius_Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica <b><FONT style="font-size: 18px" COLOR="#8B2500">[Stevani [26]]<FONT style="font-size: 13px"></FONT></FONT></b> . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="4" >O trabalho de pesquisadores de a USP está revelando uma série de <b><FONT style="font-size: 18px" COLOR="#C71585">[novas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">espécies [4]]<FONT style="font-size: 13px"></FONT></FONT></b> de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez <b><FONT style="font-size: 18px" COLOR="#C71585">[espécies<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">novas [4]]<FONT style="font-size: 13px"></FONT></FONT></b> . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado <b><FONT style="font-size: 18px" COLOR="#C71585">[espécies [4]]<FONT style="font-size: 13px"></FONT></FONT></b> em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="29" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">estudos [29]]<FONT style="font-size: 13px"></FONT></FONT></b> , é possível <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[que [29]]<FONT style="font-size: 13px"></FONT></FONT></b> o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">estudos [29]]<FONT style="font-size: 13px"></FONT></FONT></b> ainda estão em o começo . </div>
+ <div class="conteudo" id="145" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">GFP [145]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#0000CD">[proteína<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">fluorescente<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">verde [145]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . Se o gene for ativado , <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">proteína [145]]<FONT style="font-size: 13px"></FONT></FONT></b> acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="1" >O trabalho de <b><FONT style="font-size: 18px" COLOR="#9400D3">[pesquisadores [1]]<FONT style="font-size: 13px"></FONT></FONT></b> de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , <b><FONT style="font-size: 18px" COLOR="#9400D3">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">pesquisadores [1]]<FONT style="font-size: 13px"></FONT></FONT></b> descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="2" >O trabalho de pesquisadores de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">USP [2]]<FONT style="font-size: 13px"></FONT></FONT></b> está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de <b><FONT style="font-size: 18px" COLOR="#FFA54F">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FFA54F">USP [2]]<FONT style="font-size: 13px"></FONT></FONT></b> que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="3" >O trabalho de pesquisadores de a USP está revelando <b><FONT style="font-size: 18px" COLOR="#FF0000">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">série<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">novas<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">espécies<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">tipo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">todo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">especial<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">de<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">fungo [3]]<FONT style="font-size: 13px"></FONT></FONT></b> : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , <b><FONT style="font-size: 18px" COLOR="#FF0000">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">série [3]]<FONT style="font-size: 13px"></FONT></FONT></b> de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="5" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de <b><FONT style="font-size: 18px" COLOR="#EE7942">[um<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942">tipo [5]]<FONT style="font-size: 13px"></FONT></FONT></b> todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de <b><FONT style="font-size: 18px" COLOR="#EE7942">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE7942">tipo [5]]<FONT style="font-size: 13px"></FONT></FONT></b> em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="10" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[uma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">misteriosa<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">luminosidade<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">verde [10]]<FONT style="font-size: 13px"></FONT></FONT></b> em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">luminosidade [10]]<FONT style="font-size: 13px"></FONT></FONT></b> produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="14" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar <b><FONT style="font-size: 18px" COLOR="#00CD66">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">mecanismo<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">bioquímico [14]]<FONT style="font-size: 13px"></FONT></FONT></b> que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre <b><FONT style="font-size: 18px" COLOR="#00CD66">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00CD66">mecanismo [14]]<FONT style="font-size: 13px"></FONT></FONT></b> de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="22" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de <b><FONT style="font-size: 18px" COLOR="#0000CD">[poluição [22]]<FONT style="font-size: 13px"></FONT></FONT></b> ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de <b><FONT style="font-size: 18px" COLOR="#0000CD">[poluição [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="27" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , <b><FONT style="font-size: 18px" COLOR="#FF8C00">[químico [27]]<FONT style="font-size: 13px"></FONT></FONT></b> de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica <b><FONT style="font-size: 18px" COLOR="#FF8C00">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF8C00">químico [27]]<FONT style="font-size: 13px"></FONT></FONT></b> . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="36" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a <b><FONT style="font-size: 18px" COLOR="#EE8262">[Gerronema<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">viridilucens [36]]<FONT style="font-size: 13px"></FONT></FONT></b> , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar <b><FONT style="font-size: 18px" COLOR="#EE8262">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">G. [36]]<FONT style="font-size: 13px"></FONT></FONT></b> viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="38" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de <b><FONT style="font-size: 18px" COLOR="#00688B">[descrição [38]]<FONT style="font-size: 13px"></FONT></FONT></b> , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e <b><FONT style="font-size: 18px" COLOR="#00688B">[descrição [38]]<FONT style="font-size: 13px"></FONT></FONT></b> está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="46" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego <b><FONT style="font-size: 18px" COLOR="#009ACD">[Aristóteles [46]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#009ACD">[século<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">4º<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">a.C. [46]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="84" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">Universidade_Estadual_de_San_Francisco [84]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#00C5CD">[Estados_Unidos [84]]<FONT style="font-size: 13px"></FONT></FONT></b> ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado gene está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se o gene for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ <div class="conteudo" id="141" >O trabalho de pesquisadores de a USP está revelando uma série de novas espécies de um tipo todo especial de fungo : pequenos cogumelos que emitem uma misteriosa luminosidade verde em o escuro . As criaturas , antes desconhecidas em o Brasil , podem ajudar a elucidar o mecanismo bioquímico que leva a a produção de luz em fungos . Além_disso isso , com um pouco mais de estudo , poderiam servir como sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia . Segundo Cassius_Vinicius_Stevani , químico de a USP que coordena os estudos , é possível que o material recolhido abranja por o menos_dez espécies novas . Não é pouca coisa , já que em o mundo todo se conhecem só 42 espécies de o fungo , quase todas restritas a o Sudeste_Asiático . Já temos uma descrita , a Gerronema viridilucens , e seis já estão em fase de descrição , contou Stevani a a Folha . Mistério antigo . Em fungos , a bioluminescência trocando em miúdos , a luminosidade produzida por seres vivos é um fenômeno conhecido há milênios , tendo sido descrito por o filósofo grego Aristóteles ( século 4º a.C. ) . Os cientistas , em o entanto , continuam sem saber como ela funciona . Foi em a esperança de entender o fenômeno que Stevani e seus colaboradores se puseram a procurar cogumelos de o tipo em o Brasil . É provável que nenhum pesquisador tivesse identificado espécies em o Brasil porque é preciso procurá -los a a noite . Além_do o mais , a luz é muito fraca , até sob o luar , explica o químico . Com base em relatos de moradores e muita paciência em a coleta , a equipe chegou a os cogumelos em dois locais : o Parque_Estadual_Turístico de o Alto_Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa_Rica , Mato_Grosso_do_Sul . Outros relatos sugerem que fungos de o mesmo tipo podem ser encontrados em o Tocantins e em o Amazonas . A identificação e descrição está sendo feita com a ajuda de Marina_Capelari , de o Instituto_de_Botânica de São_Paulo , e Dennis_Desjardin , de a Universidade_Estadual_de_San_Francisco ( Estados_Unidos ) . A emissão de luz é efêmera . Os cogumelos , que em a verdade são apenas uma espécie de órgão sexual de o fungo , duram entre 24 e 48 horas . Eles é que emitem luz , que aparentemente pode vir tanto de a parte inferior de o chapéu quanto_do o cabo ou de o cogumelo inteiro . Algumas espécies surgem de a casca de árvores vivas , enquanto outras se alimentam de matéria vegetal em decomposição . Apesar_da a rapidez de o processo , os pesquisadores descobriram como cultivar o G. viridilucens em laboratório e verificaram que ele pode funcionar como uma espécie de sensor de poluição . É que a luz parece variar de acordo com a concentração de poluentes aplicados sobre o fungo . de essa forma , você teria um parâmetro rápido de medir e fácil de avaliar , a o contrário de outros biossensores com fungos , que exigem tempo maior de aplicação e tratamento estatístico mais complicado , explica Stevani . Como os fungos ajudam a reciclar nutrientes , têm um importante papel em a manutenção de a saúde de os ecossistemas outra razão para usá -los como indicadores . Finalmente , com informações mais detalhadas sobre o mecanismo de a luminescência , uma série de aplicações úteis pode surgir . É que os estudos de biologia molecular dependem muito de reações que geram luz e de proteínas fluorescentes de diversas cores . Quando um pesquisador quer saber se determinado <b><FONT style="font-size: 18px" COLOR="#CD0000">[gene [141]]<FONT style="font-size: 13px"></FONT></FONT></b> está ativo ou não , por_exemplo , gruda em ele o trecho de DNA correspondente a a GFP ( proteína fluorescente verde ) . Se <b><FONT style="font-size: 18px" COLOR="#CD0000">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD0000">gene [141]]<FONT style="font-size: 13px"></FONT></FONT></b> for ativado , a proteína acende , dedurando-o . Como as técnicas de esse tipo têm limitações , é sempre bom contar com novas opções , avalia Stevani , com a ressalva de que os estudos ainda estão em o começo . </div>
+ 
+
+</div>
+
+      
+      
+      <!-- <p>###CHAINS-HEREold###</p> -->
+           
+
+    </article>
+    <aside class="right_article"> 
+    
+     <ul>
+       
+       
+       
+        <!-- <a href="###LINK###">   <li> ###HEAD_CADEIA###</li></a> -->
+        
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="">
+<title>Relatorio Correferencia: </title>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=PT-BR style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:13.5pt'>Cadeias de Correfer&ecirc;ncia</span></b><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B1C62;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [8]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>pequenos cogumelos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fungos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fungos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a bioluminescência</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os cogumelos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fungos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os fungos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00FFFF;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [17]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF6A6A;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [7]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#98FB98;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [13]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Brasil</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Brasil</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Brasil</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B2500;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [26]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Cassius Vinicius Stevani</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Stevani</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Stevani</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Stevani</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#C71585;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [4]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>novas espécies</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>espécies novas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>espécies</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B3E2F;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [29]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os estudos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os estudos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [145]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a GFP</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>proteína fluorescente verde</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a proteína</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#9400D3;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [1]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>pesquisadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os pesquisadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FFA54F;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [2]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a USP</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a USP</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF0000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [3]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma série de novas espécies de um tipo todo especial de fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma série</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE7942;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [5]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD5C5C;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [10]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma misteriosa luminosidade verde</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a luminosidade</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00CD66;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [14]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mecanismo bioquímico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mecanismo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [22]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>poluição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>poluição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF8C00;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [27]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>químico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o químico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE8262;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [36]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Gerronema viridilucens</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o G.</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00688B;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [38]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>descrição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>descrição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#009ACD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [46]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Aristóteles</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE> século 4º a.C. </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00C5CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [84]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Universidade Estadual de San Francisco</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Estados Unidos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD0000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [141]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>gene</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o gene</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:lime;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>Menções Únicas :</span></span><span
+  style='font-size:13.5pt'> </span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O trabalho de pesquisadores de a USP</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>todo especial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o escuro</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>As criaturas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a produção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>isso</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um pouco mais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>estudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sensores vivos de poluição ou mesmo fontes de moléculas úteis para a biotecnologia</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>mesmo fontes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>moléculas úteis</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a biotecnologia</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>pouca coisa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mundo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>todo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>se</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>quase todas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Sudeste Asiático</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fase</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Folha</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Mistério antigo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>miúdos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seres vivos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um fenômeno</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>milênios</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o filósofo grego</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a.C.</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os cientistas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ela</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a esperança</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o fenômeno que Stevani e seus colaboradores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seus colaboradores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>se</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>cogumelos de o tipo em o Brasil</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>-los</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a noite</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o luar</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>base</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>relatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>moradores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>muita paciência</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a coleta</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a equipe</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>dois locais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Parque Estadual Turístico de o Alto Ribeira , em Iporanga ( SP ) e uma área de mata ciliar em o município de Costa Rica</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Iporanga</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma área</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>mata ciliar</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o município</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Costa Rica</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Mato Grosso de o Sul</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Outros relatos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>fungos de o mesmo tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mesmo tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Tocantins</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Amazonas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A identificação e descrição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ajuda</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Marina Capelari</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Instituto de Botânica</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>São Paulo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Dennis Desjardin</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A emissão de luz</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Os cogumelos , que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a verdade</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>apenas uma espécie de órgão sexual de o fungo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>órgão sexual</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Eles</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>tanto de a parte inferior de o chapéu quanto de o o cabo ou de o cogumelo inteiro</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a parte inferior</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o chapéu</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o cabo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o cogumelo inteiro</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Algumas espécies</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a casca</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>árvores vivas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outras</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>se</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>matéria vegetal</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>decomposição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a rapidez</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o processo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>laboratório</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ele</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma espécie de sensor de poluição</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sensor</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>acordo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a concentração</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>poluentes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>essa forma</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>você</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um parâmetro rápido de</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o contrário</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outros biossensores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>tempo maior de aplicação e tratamento estatístico mais complicado</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>aplicação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>tratamento estatístico mais complicado</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um importante papel</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a manutenção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a saúde</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os ecossistemas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>outra razão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>-los</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>indicadores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Finalmente , com informações</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>informações</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a luminescência</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>aplicações úteis</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os estudos de biologia molecular</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>biologia molecular</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>reações</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>proteínas fluorescentes</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>diversas cores</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um pesquisador</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ele</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o trecho de DNA correspondente a a GFP  proteína fluorescente verde</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>DNA correspondente</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as técnicas de esse tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>esse tipo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>limitações</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>novas opções</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Stevani , com a ressalva de que os estudos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ressalva</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o começo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+      </ul>
+    
+    </aside>
+  </section>
+  <div class="row">
+  <center>
+  
+  <!-- ###TABELACORREF### -->
+  
+  
+  
+  </center>
+   </div>
+  
+   
+  </footer>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+ <script type="text/javascript">
+ 	$(document).ready(function(){
+ 		$("#content div:nth-child(1)").show();
+ 		$(".abas li:first div").addClass("selected");		
+ 		$(".aba").click(function(){
+ 			$(".aba").removeClass("selected");
+ 			$(this).addClass("selected");
+ 			var indice = $(this).parent().index();
+ 			indice++;
+ 			$("#content div").hide();
+ 			$("#content div:nth-child("+indice+")").show();
+ 		});
+ 		
+ 		$(".aba").hover(
+ 			function(){$(this).addClass("ativa")},
+ 			function(){$(this).removeClass("ativa")}
+ 		);				
+ 	});
+ </script>
+ 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83422958-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

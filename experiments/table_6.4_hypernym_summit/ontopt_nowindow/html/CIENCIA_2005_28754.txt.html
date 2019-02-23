@@ -1,0 +1,2026 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="iso8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CORP</title>
+
+<style type="text/css">
+	@charset "iso8859-1";
+.container {
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.row {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: inline-block
+}
+.row.blockDisplay {
+	display: block;
+}
+.column_half {
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+}
+.columns {
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row .columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.container .columns h4 {
+	text-align: center;
+	color: #01B2D1;
+}
+.primary_header {
+	width: 100%;
+	background-color: lightblue;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+.secondary_header {
+	
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #B3B3B3;
+	clear: left;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+	
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 25%;
+	transition: all 0.3s linear;
+}
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.left_article {
+	background-color: #FFFFFF;
+	width: 70%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #343434;
+	padding-bottom: 15px;
+}
+.noDisplay {
+	display: none;
+}
+.container .left_article h3 {
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #717070;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.container .left_article p {
+	overflow-y: auto;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;
+}
+/*lado direito pag*/
+.right_article {
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	width: 30%;
+	/*width: 600px; */
+	height: 675px; 
+	overflow-y: auto;
+	/*width: 40%;*/
+	float: center;
+	background-color: white;
+	/*background-color: #F6F6F6;*/
+	
+}
+.container .right_article ul {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	
+}
+.right_article ul li {
+	font-family: "Source Sans Pro";
+	list-style: none;
+	text-align: center;
+	background-color: #B3B3B3;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 0px;
+	transition: all 0.3s linear;
+	border-left: 5px solid #717070;
+}
+.right_article ul li:hover {
+	background-color: #717070;
+	cursor: pointer;
+}
+.footer {
+	background-color: #717070;
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.placeholder {
+	/* [disabled]max-width: 400px;
+*/
+	/* [disabled]max-height: 200px;
+*/
+	width: 100%;
+	padding-top: 30px;
+	/* [disabled]padding-left: 19px;
+*/
+	padding-bottom: 30px;
+	height: 100%;
+}
+.left_half {
+	background-color: lightblue;
+}
+.container .column_half.left_half h2 {
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+}
+.right_half {
+	background-color: #01B2D1;
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	font-weight: bold;text-shadow: 0px 2px 3px #666;
+}
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.copyright {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+@media (max-width: 320px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 98%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+}
+.placeholder {
+	width: 100%;
+	margin-top: 22PX;
+	margin-right: 0px;
+	margin-bottom: 22PX;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	max-width: 400px;
+	max-height: 200px;
+	height: auto;
+}
+.columns {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0PX;
+	padding-right: 0PX;
+	padding-bottom: 0PX;
+	padding-left: 0PX;
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+.copyright {
+	padding-top: 25px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.container .left_article h3 {
+	margin-top: 30px;
+}
+.social .social_icon img {
+	width: 80%;
+}
+.container .secondary_header {
+}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+.secondary_header ul li {
+	float: none;
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 100%;
+}
+.container .secondary_header ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+	width: 100%;
+	text-align: center;
+}
+.secondary_header {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+.left_article {
+	width: 100%;
+	height: auto;
+}
+.right_article {
+	width: 100%;
+	height: auto;
+	padding-bottom: 25px;
+}
+.placeholder {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.columns {
+	width: 100%;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.columns p {
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.column_half.left_half {
+	width: 100%;
+}
+.column_half.right_half {
+	width: 100%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1000px) {
+.secondary_header {
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.secondary_header ul li {
+	margin-top: 10px;
+	margin-right: 7%;
+	margin-bottom: 10px;
+	margin-left: 7%;
+}
+.left_article {
+	height: auto;
+}
+.right_article {
+	height: auto;
+	padding-bottom: 27px;
+}
+.placeholder {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.columns {
+	width: 50%;
+	float: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.container .columns p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+}
+
+@media (min-width: 1001px) {
+}
+.thumbnail {
+	width: 100px;
+	border-radius: 200px;
+	height: 100px;
+	margin-left: auto;
+}
+.thumbnail_align {
+	text-align: center;
+}
+.social {
+	text-align: center;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	background-color: #414141;
+	clear: both;
+	overflow: auto;
+}
+.social_icon {
+	width: 25%;
+	text-align: center;
+	float: left;
+	transition: all 0.3s linear;
+	line-height: 0px;
+	padding-top: 7px;
+}
+.container .social .social_icon:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+#menu {
+}
+
+
+body{font-family:Calibri, Tahoma, Arial}
+	.TabControl{ width:100%; overflow-y: auto;  height:auto}
+	.TabControl #header{ width:90%; border: hidden 0px; text-align:right; overflow:hidden; cursor: pointer}
+	.TabControl #content{ width:100%; border: solid 0px;overflow:hidden; text-align:right; height:100%; }
+	/*.TabControl .abas{display:inline;}*/
+	.TabControl .abas{display:inline; text-align:center;  text-shadow: 0px 2px 3px #400; font-stretch: ultra-condensed; line-height: 210%; }
+	.TabControl .abas li{list-style-type:none; float:left}
+	.aba{width:295px; height:20px; border:solid 1px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:white}
+	.ativa{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:lightblue;}
+	.ativa span, .selected span{color:#fff}
+	.TabControl #content{background:white}
+	.TabControl .conteudo{margin-top: 50px; width:99%; overflow-y: auto;  background:white; display:none; height:auto;color:gray;
+	
+	text-align: justify;
+	line-height: 24px;
+	color: #B3B3B3;
+	border-radius:5px 5px 0 0;
+
+	
+	
+	
+	}
+	.selected{width:295px; height:20px; border:solid 1 px; border-radius:5px 5px 0 0;
+		text-align:center; padding-top:5px; background:#27408B
+		
+	
+	
+	
+		
+		}
+		
+		/*padding-left: 5%;
+	padding-right: 5%;
+	text-align: justify;
+	line-height: 24px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	color: #B3B3B3;*/
+		
+		
+</style>
+
+
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="primary_header">
+      <h1> <center> CORP - Coreference Resolution for Portuguese </center> </h1>
+
+ 
+    </div>
+    <nav class="secondary_header" id="menu">
+      <ul>
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/">HOME</a></li>
+        <li> <a href="http://www.inf.pucrs.br/linatural/index.html">PLN-PUCRS</a></li> 
+         <li> <a href="http://ontolp.inf.pucrs.br/corref/publicacoes.html">PUBLICA&Ccedil;&Otilde;ES</a></li>
+        <li> <a href="mailto:metalmorphy@gmail.com">CONTATO</a></li>
+	   </ul>
+    </nav>
+  </header>
+  <section>
+    <h2 class="noDisplay">Main Content</h2>
+    <article class="left_article">
+    <h3>vers&atilde;o XML (<a href="file:///C:\Users\thiagol\Documents\Git\corp/saida/20190112_205705xml/CIENCIA_2005_28754.txt.xml"> Download</a>)</h3>
+      
+      
+      
+      
+<div class="TabControl">
+	<div id="header">
+		<ul class="abas">
+	
+     <span id="tag" class="wrd tagcloud" onclick="Mudarestado('100')"><b><FONT style="font-size: 20px" COLOR="#CD5C5C">a ESA   </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('62')"><b><FONT style="font-size: 20px" COLOR="#00CD66">Soichi Noguchi  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('39')"><b><FONT style="font-size: 20px" COLOR="#C71585">o programa  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('26')"><b><FONT style="font-size: 26px" COLOR="#8B2500">ônibus espaciais  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('23')"><b><FONT style="font-size: 26px" COLOR="#00688B">terra  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('20')"><b><FONT style="font-size: 56px" COLOR="#FF0000">a ISS  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('8')"><b><FONT style="font-size: 32px" COLOR="#009ACD">O trabalho  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('3')"><b><FONT style="font-size: 32px" COLOR="#98FB98">a Nasa  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('5')"><b><FONT style="font-size: 26px" COLOR="#9400D3">o Discovery  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('9')"><b><FONT style="font-size: 38px" COLOR="#0000CD">o astronauta amer...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('22')"><b><FONT style="font-size: 32px" COLOR="#8B3E2F">o espaço  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('24')"><b><FONT style="font-size: 20px" COLOR="#00C5CD">As protuberâncias...  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('31')"><b><FONT style="font-size: 20px" COLOR="#0000CD">a nave  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('51')"><b><FONT style="font-size: 20px" COLOR="#EE8262">espuma sólida  </FONT></b></span>
+<span id="tag" class="wrd tagcloud" onclick="Mudarestado('72')"><b><FONT style="font-size: 20px" COLOR="#8B1C62">construção e  </FONT></b></span>
+<span id="tag" class="wrd tagcloud1" onclick="Mudarestado('TodasCadeias')">Todas as Cadeias  </span>
+ 
+
+<style type="text/css"><!-- #htmltagcloud{
+
+/******************************************
+ * CUSTOMIZE CLOUD CSS BELOW (optional)
+ */
+	font-size: 100%;
+	width: auto;		/* auto or fixed width, e.g. 500px   */
+	font-family:'lucida grande','trebuchet ms',arial,helvetica,sans-serif;
+	background-color:#fff;
+	margin:1em 1em 0 1em;
+	border:2px dotted #ddd;
+	padding:2em; 
+/******************************************
+ * END CUSTOMIZE
+ */
+
+}#htmltagcloud{line-height:2.4em;word-spacing:normal;letter-spacing:normal;text-transform:none;text-align:justify;text-indent:0}#htmltagcloud a:link{text-decoration:none}#htmltagcloud a:visited{text-decoration:none}#htmltagcloud a:hover{color:white;background-color:#05f}#htmltagcloud a:active{color:white;background-color:#03d}.wrd{padding:0;position:relative}.wrd a{text-decoration:none}.tagcloud0{font-size:1.0em;color:#ACC1F3;z-index:10}.tagcloud0 a{color:#ACC1F3}.tagcloud1{font-size:1.4em;color:#ACC1F3;z-index:9}.tagcloud1 a{color:#ACC1F3}.tagcloud2{font-size:1.8em;color:#86A0DC;z-index:8}.tagcloud2 a{color:#86A0DC}.tagcloud3{font-size:2.2em;color:#86A0DC;z-index:7}.tagcloud3 a{color:#86A0DC}.tagcloud4{font-size:2.6em;color:#607EC5;z-index:6}.tagcloud4 a{color:#607EC5}.tagcloud5{font-size:3.0em;color:#607EC5;z-index:5}.tagcloud5 a{color:#607EC5}.tagcloud6{font-size:3.3em;color:#4C6DB9;z-index:4}.tagcloud6 a{color:#4C6DB9}.tagcloud7{font-size:3.6em;color:#395CAE;z-index:3}.tagcloud7 a{color:#395CAE}.tagcloud8{font-size:3.9em;color:#264CA2;z-index:2}.tagcloud8 a{color:#264CA2}.tagcloud9{font-size:4.2em;color:#133B97;z-index:1}.tagcloud9 a{color:#133B97}.tagcloud10{font-size:4.5em;color:#002A8B;z-index:0}.tagcloud10 a{color:#002A8B}.freq{font-size:10pt !important;color:#bbb}#credit{text-align:center;color:#333;margin-bottom:0.6em;font:0.7em 'lucida grande',trebuchet,'trebuchet ms',verdana,arial,helvetica,sans-serif}#credit a:link{color:#777;text-decoration:none}#credit a:visited{color:#777;text-decoration:none}#credit a:hover{color:white;background-color:#05f}#credit a:active{text-decoration:underline}
+</style>
+
+<script>
+function Mudarestado(el) {
+
+	ocultar_conteudo();
+    var display = document.getElementById(el).style.display;
+    if(display == "none")
+        document.getElementById(el).style.display = 'block';
+    else
+        document.getElementById(el).style.display = 'none';
+}
+</script>
+<script>
+ function ocultar_conteudo() { 
+  document.getElementById('TodasCadeias').style.display="none";	document.getElementById('20').style.display="none"; 
+document.getElementById('9').style.display="none"; 
+document.getElementById('3').style.display="none"; 
+document.getElementById('8').style.display="none"; 
+document.getElementById('22').style.display="none"; 
+document.getElementById('5').style.display="none"; 
+document.getElementById('23').style.display="none"; 
+document.getElementById('26').style.display="none"; 
+document.getElementById('24').style.display="none"; 
+document.getElementById('31').style.display="none"; 
+document.getElementById('39').style.display="none"; 
+document.getElementById('51').style.display="none"; 
+document.getElementById('62').style.display="none"; 
+document.getElementById('72').style.display="none"; 
+document.getElementById('100').style.display="none"; 
+} 
+ </script>
+        
+            	
+		</ul>
+	</div>
+	<div id="content">
+	
+     <div class="conteudo" id="TodasCadeias" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> deram o veredicto : <b><FONT style="font-size: 18px" COLOR="#9400D3">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> precisa de reparos antes de voltar para casa . <b><FONT style="font-size: 18px" COLOR="#009ACD">[O<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">trabalho [8]]<FONT style="font-size: 13px"></FONT></FONT></b> será conduzido amanhã por <b><FONT style="font-size: 18px" COLOR="#0000CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">astronauta<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">americano [9]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">[Stephen_Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> , durante a terceira caminhada espacial prevista para <b><FONT style="font-size: 18px" COLOR="#009ACD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">missão [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#FF0000">[Estação_Espacial_Internacional [20]]<FONT style="font-size: 13px"></FONT></FONT></b> ) , onde <b><FONT style="font-size: 18px" COLOR="#9400D3">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> agora está atracado . Esse procedimento jamais foi tentado em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> ou praticado em <b><FONT style="font-size: 18px" COLOR="#00688B">[terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> antes . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[As<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">protuberâncias<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">encontradas [24]]<FONT style="font-size: 13px"></FONT></FONT></b> são duas em o total já foram vistas antes em <b><FONT style="font-size: 18px" COLOR="#8B2500">[ônibus<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">espaciais [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , mas somente após seu retorno a <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">Terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> . Graças a o novo sistema de inspeção de <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">nave [31]]<FONT style="font-size: 13px"></FONT></FONT></b> , foi possível detectar o fenômeno em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de <b><FONT style="font-size: 18px" COLOR="#C71585">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">programa [39]]<FONT style="font-size: 13px"></FONT></FONT></b> de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para <b><FONT style="font-size: 18px" COLOR="#009ACD">[atividade [8]]<FONT style="font-size: 13px"></FONT></FONT></b> extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">protuberâncias [24]]<FONT style="font-size: 13px"></FONT></FONT></b> não tem nada a ver com o desprendimento de <b><FONT style="font-size: 18px" COLOR="#EE8262">[espuma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">sólida [51]]<FONT style="font-size: 13px"></FONT></FONT></b> de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de <b><FONT style="font-size: 18px" COLOR="#009ACD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">missão [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Mais_uma_vez , os trabalhos foram conduzidos por <b><FONT style="font-size: 18px" COLOR="#00CD66">[Soichi_Noguchi [62]]<FONT style="font-size: 13px"></FONT></FONT></b> , de o Japão , acompanhado por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> . A dupla trocou um giroscópio defeituoso de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . <b><FONT style="font-size: 18px" COLOR="#FF0000">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . Foi a 60ª caminhada espacial conduzida em conexão com a <b><FONT style="font-size: 18px" COLOR="#8B1C62">[construção<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">e [72]]<FONT style="font-size: 13px"></FONT></FONT></b> manutenção de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . A última acontece amanhã , de novo a ser efetuada por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> e <b><FONT style="font-size: 18px" COLOR="#00CD66">[Noguchi [62]]<FONT style="font-size: 13px"></FONT></FONT></b> . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . O procedimento de reparo será conduzido apenas por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> , para minimizar risco de novos danos a <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">nave [31]]<FONT style="font-size: 13px"></FONT></FONT></b> . Se tudo correr bem , o ônibus espacial <b><FONT style="font-size: 18px" COLOR="#9400D3">[Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> deve retornar a <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">Terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> em a próxima segunda-feira . Futuro sem <b><FONT style="font-size: 18px" COLOR="#8B2500">[ônibus [26]]<FONT style="font-size: 13px"></FONT></FONT></b> . Enquanto <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com <b><FONT style="font-size: 18px" COLOR="#EE8262">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">espuma [51]]<FONT style="font-size: 13px"></FONT></FONT></b> , os parceiros internacionais em <b><FONT style="font-size: 18px" COLOR="#C71585">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">projeto [39]]<FONT style="font-size: 13px"></FONT></FONT></b> de <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">construção [72]]<FONT style="font-size: 13px"></FONT></FONT></b> de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de <b><FONT style="font-size: 18px" COLOR="#8B2500">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">ônibus [26]]<FONT style="font-size: 13px"></FONT></FONT></b> para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">ESA<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">( [100]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[Agência_Espacial_Européia [100]]<FONT style="font-size: 13px"></FONT></FONT></b> ) já está estudando o que fazer caso seu módulo não possa ir a <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . </div><div class="conteudo" id="20" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> ( <b><FONT style="font-size: 18px" COLOR="#FF0000">[Estação_Espacial_Internacional [20]]<FONT style="font-size: 13px"></FONT></FONT></b> ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . <b><FONT style="font-size: 18px" COLOR="#FF0000">[A<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">estação [20]]<FONT style="font-size: 13px"></FONT></FONT></b> . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de <b><FONT style="font-size: 18px" COLOR="#FF0000">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#FF0000">ISS [20]]<FONT style="font-size: 13px"></FONT></FONT></b> estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="9" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por <b><FONT style="font-size: 18px" COLOR="#0000CD">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">astronauta<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">americano [9]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">[Stephen_Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por <b><FONT style="font-size: 18px" COLOR="#0000CD">[Robinson [9]]<FONT style="font-size: 13px"></FONT></FONT></b> , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="3" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que <b><FONT style="font-size: 18px" COLOR="#98FB98">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#98FB98">Nasa [3]]<FONT style="font-size: 13px"></FONT></FONT></b> tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="8" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . <b><FONT style="font-size: 18px" COLOR="#009ACD">[O<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">trabalho [8]]<FONT style="font-size: 13px"></FONT></FONT></b> será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para <b><FONT style="font-size: 18px" COLOR="#009ACD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">missão [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para <b><FONT style="font-size: 18px" COLOR="#009ACD">[atividade [8]]<FONT style="font-size: 13px"></FONT></FONT></b> extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de <b><FONT style="font-size: 18px" COLOR="#009ACD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#009ACD">missão [8]]<FONT style="font-size: 13px"></FONT></FONT></b> . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="22" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a <b><FONT style="font-size: 18px" COLOR="#8B3E2F">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B3E2F">espaço [22]]<FONT style="font-size: 13px"></FONT></FONT></b> . </div>
+ <div class="conteudo" id="5" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : <b><FONT style="font-size: 18px" COLOR="#9400D3">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde <b><FONT style="font-size: 18px" COLOR="#9400D3">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#9400D3">Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial <b><FONT style="font-size: 18px" COLOR="#9400D3">[Discovery [5]]<FONT style="font-size: 13px"></FONT></FONT></b> deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="23" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em <b><FONT style="font-size: 18px" COLOR="#00688B">[terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">Terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a <b><FONT style="font-size: 18px" COLOR="#00688B">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00688B">Terra [23]]<FONT style="font-size: 13px"></FONT></FONT></b> em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="26" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em <b><FONT style="font-size: 18px" COLOR="#8B2500">[ônibus<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">espaciais [26]]<FONT style="font-size: 13px"></FONT></FONT></b> , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem <b><FONT style="font-size: 18px" COLOR="#8B2500">[ônibus [26]]<FONT style="font-size: 13px"></FONT></FONT></b> . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de <b><FONT style="font-size: 18px" COLOR="#8B2500">[os<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B2500">ônibus [26]]<FONT style="font-size: 13px"></FONT></FONT></b> para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="24" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . <b><FONT style="font-size: 18px" COLOR="#00C5CD">[As<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">protuberâncias<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">encontradas [24]]<FONT style="font-size: 13px"></FONT></FONT></b> são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de <b><FONT style="font-size: 18px" COLOR="#00C5CD">[as<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#00C5CD">protuberâncias [24]]<FONT style="font-size: 13px"></FONT></FONT></b> não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="31" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">nave [31]]<FONT style="font-size: 13px"></FONT></FONT></b> , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a <b><FONT style="font-size: 18px" COLOR="#0000CD">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#0000CD">nave [31]]<FONT style="font-size: 13px"></FONT></FONT></b> . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="39" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de <b><FONT style="font-size: 18px" COLOR="#C71585">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">programa [39]]<FONT style="font-size: 13px"></FONT></FONT></b> de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em <b><FONT style="font-size: 18px" COLOR="#C71585">[o<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#C71585">projeto [39]]<FONT style="font-size: 13px"></FONT></FONT></b> de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="51" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de <b><FONT style="font-size: 18px" COLOR="#EE8262">[espuma<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">sólida [51]]<FONT style="font-size: 13px"></FONT></FONT></b> de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com <b><FONT style="font-size: 18px" COLOR="#EE8262">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#EE8262">espuma [51]]<FONT style="font-size: 13px"></FONT></FONT></b> , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="62" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por <b><FONT style="font-size: 18px" COLOR="#00CD66">[Soichi_Noguchi [62]]<FONT style="font-size: 13px"></FONT></FONT></b> , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e <b><FONT style="font-size: 18px" COLOR="#00CD66">[Noguchi [62]]<FONT style="font-size: 13px"></FONT></FONT></b> . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="72" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a <b><FONT style="font-size: 18px" COLOR="#8B1C62">[construção<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">e [72]]<FONT style="font-size: 13px"></FONT></FONT></b> manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de <b><FONT style="font-size: 18px" COLOR="#8B1C62">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#8B1C62">construção [72]]<FONT style="font-size: 13px"></FONT></FONT></b> de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , a ESA ( Agência_Espacial_Européia ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ <div class="conteudo" id="100" >em uma entrevista coletiva conduzida ontem a a noite , os gerentes de a Nasa deram o veredicto : o Discovery precisa de reparos antes de voltar para casa . O trabalho será conduzido amanhã por o astronauta americano Stephen_Robinson , durante a terceira caminhada espacial prevista para a missão . Sua tarefa consistirá em cortar arestas de o material usado para preencher o vão entre as telhas térmicas de a barriga de o ônibus . Para chegar lá , o tripulante será preso a a ponta de o braço robótico de a ISS ( Estação_Espacial_Internacional ) , onde o Discovery agora está atracado . Esse procedimento jamais foi tentado em o espaço ou praticado em terra antes . As protuberâncias encontradas são duas em o total já foram vistas antes em ônibus espaciais , mas somente após seu retorno a a Terra . Graças a o novo sistema de inspeção de a nave , foi possível detectar o fenômeno em o espaço . A conclusão de a equipe é de que há grande incerteza sobre o que pode acontecer ( durante a reentrada ) , disse ontem Wayne_Hale , vice-diretor de o programa de o ônibus espacial . Entre essas incertezas e o que sabemos sobre EVA ( sigla para atividade extra-veicular , as caminhadas espaciais ) , foi uma decisão fácil , concluiu . O aparecimento de as protuberâncias não tem nada a ver com o desprendimento de espuma sólida de o tanque externo durante a decolagem problema que causou a destruição de o Columbia , em 2003 , e que a Nasa ainda precisa resolver antes de lançar o Atlantis . Ontem por a manhã ocorreu a segunda caminhada espacial de a missão . Mais_uma_vez , os trabalhos foram conduzidos por Soichi_Noguchi , de o Japão , acompanhado por Robinson . A dupla trocou um giroscópio defeituoso de a ISS . A estação agora opera por a primeira vez em três anos com todos os seus quatro giroscópios funcionando . Eles servem para mudar a orientação de a ISS em o espaço . Foi a 60ª caminhada espacial conduzida em conexão com a construção e manutenção de a estação . A última acontece amanhã , de novo a ser efetuada por Robinson e Noguchi . A principal tarefa agendada será instalar uma plataforma de armazenamento de o lado de fora_da a estação . O procedimento de reparo será conduzido apenas por Robinson , para minimizar risco de novos danos a a nave . Se tudo correr bem , o ônibus espacial Discovery deve retornar a a Terra em a próxima segunda-feira . Futuro sem ônibus . Enquanto a Nasa trabalha furiosamente para manter suas naves em operação , a despeito de os problemas com a espuma , os parceiros internacionais em o projeto de a construção de a ISS estão preocupados . Um módulo-laboratório japonês está em este momento em o Centro_Espacial_Kennedy , esperando uma carona de os ônibus para ser instalado . Um equivalente europeu está em a Alemanha , aguardando o mesmo fim . Temendo que a Nasa tenha de aposentar seus ônibus espaciais antes mesmo de 2010 , <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[a<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">ESA<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">( [100]]<FONT style="font-size: 13px"></FONT></FONT></b> <b><FONT style="font-size: 18px" COLOR="#CD5C5C">[Agência_Espacial_Européia [100]]<FONT style="font-size: 13px"></FONT></FONT></b> ) já está estudando o que fazer caso seu módulo não possa ir a o espaço . </div>
+ 
+
+</div>
+
+      
+      
+      <!-- <p>###CHAINS-HEREold###</p> -->
+           
+
+    </article>
+    <aside class="right_article"> 
+    
+     <ul>
+       
+       
+       
+        <!-- <a href="###LINK###">   <li> ###HEAD_CADEIA###</li></a> -->
+        
+        <html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<link rel=File-List href="">
+<title>Relatorio Correferencia: </title>
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h2
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=PT-BR style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='font-size:13.5pt'>Cadeias de Correfer&ecirc;ncia</span></b><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#FF0000;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [20]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Estação Espacial Internacional</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A estação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a estação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a estação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [9]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o astronauta americano</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Stephen Robinson</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Robinson</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Robinson</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Robinson</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#98FB98;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [3]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Nasa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Nasa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Nasa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Nasa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#009ACD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [8]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O trabalho</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a missão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>atividade</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a missão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B3E2F;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [22]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o espaço</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o espaço</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o espaço</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o espaço</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#9400D3;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [5]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Discovery</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Discovery</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Discovery</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00688B;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [23]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>terra</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Terra</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Terra</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B2500;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [26]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ônibus espaciais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>ônibus</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os ônibus</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00C5CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [24]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>As protuberâncias encontradas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as protuberâncias</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#0000CD;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [31]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a nave</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a nave</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#C71585;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [39]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o programa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o projeto</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#EE8262;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [51]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>espuma sólida</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a espuma</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#00CD66;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [62]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Soichi Noguchi</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Noguchi</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#8B1C62;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [72]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>construção e</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a construção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:#CD5C5C;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>CADEIA :</span></span><span
+  style='font-size:13.5pt'> [100]</span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ESA </span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Agência Espacial Européia</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:0cm;border:outset black 2.25pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width="15%" valign=bottom style='width:15.0%;border:inset black 1.0pt;
+  mso-border-alt:inset black .75pt;background:lime;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><span style='font-size:13.5pt'>Menções Únicas :</span></span><span
+  style='font-size:13.5pt'> </span><o:p></o:p></p>
+
+ </tr>
+
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma entrevista coletiva</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os gerentes de a Nasa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o veredicto</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>reparos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>casa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a terceira caminhada espacial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Sua tarefa</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>arestas de o material</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o material</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as telhas térmicas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a barriga</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o ônibus</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o tripulante</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a ponta</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o braço robótico</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Esse procedimento</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o total</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seu retorno</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Graças</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o novo sistema</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>inspeção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o fenômeno</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A conclusão de a equipe</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a equipe</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>grande incerteza sobre o</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Wayne Hale , vice-diretor de o programa de o ônibus espacial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>vice-diretor</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o ônibus espacial</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>essas incertezas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>EVA</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>sigla</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>extra-veicular</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>as caminhadas espaciais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma decisão fácil</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O aparecimento de as protuberâncias</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>nada</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o desprendimento</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o tanque externo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a decolagem</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>problema</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a destruição de o Columbia , em 2003 , e que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Columbia</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Atlantis</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a manhã</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a segunda caminhada espacial de a missão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os trabalhos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Japão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A dupla</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>um giroscópio defeituoso de a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a primeira vez</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>três anos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>todos os seus quatro giroscópios</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Eles</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a orientação de a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>conexão</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>manutenção</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>A principal tarefa agendada</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma plataforma de armazenamento de o lado de fora de a a estação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>armazenamento</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o lado</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>O procedimento de reparo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>reparo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>risco de novos danos a a nave</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>novos danos</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>tudo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o ônibus espacial Discovery</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a próxima segunda-feira</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Futuro</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>suas naves</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>operação</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>despeito</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os problemas</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>os parceiros internacionais em o projeto de a construção de a ISS</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Um módulo-laboratório japonês</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>este momento</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o Centro Espacial Kennedy</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>uma carona de os ônibus para</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>Um equivalente europeu</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>a Alemanha</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>o mesmo fim</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seus ônibus espaciais</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>mesmo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>que</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+<tr style='mso-yfti-irow:1'>
+
+  <td width="75%" style='width:75.0%;border:inset black 1.0pt;mso-border-alt:
+  inset black .75pt;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=GramE><b></b></span><b> <span class=SpellE>seu módulo</span>
+  </b><o:p></o:p></p>
+  </td>
+ </tr>
+
+        
+      </ul>
+    
+    </aside>
+  </section>
+  <div class="row">
+  <center>
+  
+  <!-- ###TABELACORREF### -->
+  
+  
+  
+  </center>
+   </div>
+  
+   
+  </footer>
+</div>
+</body>
+</html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+ <script type="text/javascript">
+ 	$(document).ready(function(){
+ 		$("#content div:nth-child(1)").show();
+ 		$(".abas li:first div").addClass("selected");		
+ 		$(".aba").click(function(){
+ 			$(".aba").removeClass("selected");
+ 			$(this).addClass("selected");
+ 			var indice = $(this).parent().index();
+ 			indice++;
+ 			$("#content div").hide();
+ 			$("#content div:nth-child("+indice+")").show();
+ 		});
+ 		
+ 		$(".aba").hover(
+ 			function(){$(this).addClass("ativa")},
+ 			function(){$(this).removeClass("ativa")}
+ 		);				
+ 	});
+ </script>
+ 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83422958-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
