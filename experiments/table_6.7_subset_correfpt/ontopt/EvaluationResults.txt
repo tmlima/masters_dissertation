@@ -1,0 +1,16 @@
+MUC
+Recall: 26.46
+Precision: 31.04
+F1: 28.57
+---
+BCUBE
+Recall: 22.91
+Precision: 29.86
+F1: 25.93
+---
+CEAFE
+Recall: 33.18
+Precision: 29.42
+F1: 31.19
+---
+CoNLL Average: 28.563333333333333

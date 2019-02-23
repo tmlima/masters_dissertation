@@ -1,0 +1,6860 @@
+#begin document dn81201.txt.xml
+1	em	em	prp		_	_
+2	um	um	num	M=S	_	_
+3	de	de	prp		_	_
+4	os	o	art	M=P	_	_
+5	últimos	último	adj	M=P	_	_
+6	anos	ano	n	M=P	_	_
+7	de	de	prp		_	_
+8	a	o	art	F=S	_	_
+9	sua	sua	pron-det	F=S	_	_
+10	vida	vida	n	F=S	_	_
+11	longa	longa, longo	adj	F=S	_	_
+12	e	e	conj-c		_	_
+13	laboriosa	laborioso	adj	F=S	_	_
+14	,		,		_	_
+15	Jaspers	Jaspers	prop		_	(2)
+16	foi	ir, ser	v-fin	PS=3S=IND	_	_
+17	visitado	visitar	v-pcp	M=S	_	_
+18	por	por	prp		_	_
+19	um	um	art	M=S	_	_
+20	admirador	admirar	n	M=S	_	_
+21	que	que	pron-indp	M=S	_	_
+22	mostrou	mostrar	v-fin	PS=3S=IND	_	_
+23	curiosidade	curiosidade, curioso	n	F=S	_	_
+24	em	em	prp		_	_
+25	saber	saber	v-inf		_	_
+26	as	o	art	F=P	_	_
+27	leituras	leitura	n	F=P	0	_
+28	que	que	pron-indp	F=P	_	_
+29	ele	ele	pron-pers	M=3S=NOM	_	_
+30	estava	estar	v-fin	IMPF=3S=IND	_	_
+31	ultimamente	ultimamente	adv		_	_
+32	fazendo	fazer	v-ger		_	_
+33	,		,		_	_
+34	a	a	prp		_	_
+35	ao_que		pron-indp	M=S	_	_
+36	o	o	art	M=S	_	_
+37	filósofo	filósofo	n	M=S	0	_
+38	germânico	germânico	adj	M=S	_	_
+39	contestou	contestar	v-fin	PS=3S=IND	_	_
+40	dizendo	dizer	v-ger		_	_
+41	que	que	conj-s		_	_
+42	só	só	adv		_	_
+43	lia	ler	v-fin	IMPF=3S=IND	_	_
+44	jornais	jornal	n	M=P	_	_
+45	e	e	conj-c		_	_
+46	revistas...		v-fin	PR=3S=IND	_	_
+47	por	por	prp		_	_
+48	não	não	adv		_	_
+49	ter	ter	v-inf		_	_
+50	tempo	tempo	n	M=S	_	_
+51	para	para	prp		_	_
+52	ler	ler	v-inf		_	_
+53	livros	livro	n	M=P	_	(12)
+54	.	.	.		_	_
+
+0	Nada	nada	pron-indp	M=S	_	(13)
+1	parece	parecer	v-fin	PR=3S=IND	_	_
+2	melhor	melhor	adj	M=S	_	_
+3	corresponder	corresponder	v-inf		_	_
+4	a	a	prp		_	_
+5	esta	este	pron-det	F=S	0	(13
+6	resposta	resposta	n	F=S	_	13)
+7	de	de	prp		_	_
+8	Jaspers	Jaspers	prop		_	(2)
+9	que	que	pron-indp	M=S	_	(16)
+10	tudo	tudo	pron-indp	M=S	_	_
+11	o		pron-det	M=S	_	_
+12	que	que	pron-indp	M=S	_	_
+13	foi	ir, ser	v-fin	PS=3S=IND	_	_
+14	desde	desde	prp		_	_
+15	há		prp		_	_
+16	muito	muito	adv		_	_
+17	condensado	condensar	v-pcp	M=S	_	_
+18	em	em	prp		_	_
+19	livros	livro	n	M=P	_	(12)
+20	,		,		_	_
+21	colecções		n	F=P	0	_
+22	e	e	conj-c		_	_
+23	bibliotecas	biblioteca	n	F=P	_	(16)
+24	,		,		_	_
+25	versando	versar	v-ger		_	_
+26	o		pron-det	M=S	_	_
+27	que	que	pron-indp	M=S	_	_
+28	é	ser	v-fin	PR=3S=IND	_	_
+29	e	e	conj-c		_	_
+30	quem	quem	pron-indp	M/F=S	_	_
+31	é	ser	v-fin	PR=3S=IND	_	_
+32	o	o	art	M=S	_	_
+33	ser	ser	v-inf		_	_
+34	humano	humano	adj	M=S	_	_
+35	e	e	conj-c		_	_
+36	,		,		_	_
+37	por	por	prp		_	_
+38	extensão	extensão	n	F=S	_	_
+39	,		,		_	_
+40	a	o	art	F=S	_	(21
+41	humanidade	humanidade, humano	n	F=S	_	21)
+42	.	.	.		_	_
+
+0	O	o	art	M=S	_	(22
+1	fenómeno		n	M=S	0	_
+2	cultural	cultural	adj	M=S	_	_
+3	mais	mais	adv		_	_
+4	importante	importante, importar	adj	M=S	_	_
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	_
+7	nosso	nosso	pron-det	M=S	0	_
+8	tempo	tempo	n	M=S	_	22)
+9	é	ser	v-fin	PR=3S=IND	_	_
+10	certamente	certo	adv		_	_
+11	a	o	art	F=S	_	(24
+12	revelada	revelar	v-pcp	F=S	_	_
+13	incapacidade	incapacidade, incapaz	n	F=S	0	_
+14	de	de	prp		_	_
+15	a	o	art	F=S	_	(25
+16	cultura	cultura	n	F=S	0	_
+17	ocidental	ocidental	adj	F=S	_	25)
+18	para	para	prp		_	24)
+19	compreender	compreender	v-inf		_	_
+20	o	o	art	M=S	_	(26
+21	homem	homem	n	M=S	_	26)
+22	e	e	conj-c		_	_
+23	prever	prever	v-inf		_	_
+24	o	o	art	M=S	_	_
+25	seu	seu	pron-det	M=S	0	_
+26	comportamento	comportar	n	M=S	_	_
+27	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	não	não	adv		_	_
+2	ser	ser	v-inf		_	_
+3	umas	um	art	F=P	_	_
+4	quantas	quanto	pron-det	F=P	0	_
+5	vozes	voz	n	F=P	_	_
+6	,		,		_	_
+7	assaz	assaz	n-adj	M=S	_	_
+8	reduzidas	reduzir	v-pcp	F=P	_	_
+9	,		,		_	_
+10	de	de	prp		_	_
+11	pensadores	pensar	n	M=P	0	_
+12	proféticos	profético	adj	M=P	_	_
+13	e	e	conj-c		_	_
+14	situados	situar	v-pcp	M=P	_	_
+15	a	o	art	F=S	_	_
+16	curta	curta	n	F=S	0	_
+17	distância	distância	n	F=S	_	(31)
+18	de	de	prp		_	_
+19	nós	nós	pron-pers	M=1P=NOM	_	_
+20	,		,		_	_
+21	um	um	art	M=S	_	_
+22	Burkhardt		prop	M=S	_	_
+23	,		,		_	_
+24	um	um	art	M=S	_	_
+25	Nietzsche	Nietzsche	prop		_	_
+26	,		,		_	_
+27	por_exemplo		adv		_	_
+28	,		,		_	_
+29	ninguém	ninguém	pron-indp	M=S	_	_
+30	,		,		_	_
+31	há		prp		_	_
+32	um	um	art	M=S	_	(36
+33	século	século	n	M=S	_	36)
+34	,		,		_	_
+35	parecia	parecer	v-fin	IMPF=3S=IND	_	_
+36	poder	poder	n	M=S	_	_
+37	prever	prever	v-inf		_	_
+38	o	o	art	M=S	_	_
+39	curso	curso	n	M=S	0	_
+40	desastroso	desastroso	adj	M=S	_	_
+41	que	que	pron-indp	M=S	_	_
+42	a	o	art	F=S	_	(40
+43	civilização	civilização, civilizar	n	F=S	0	_
+44	ocidental	ocidental	adj	F=S	_	40)
+45	viria	vir	v-fin	COND=3S	_	_
+46	a	a	prp		_	_
+47	trilhar	trilhar	v-inf		_	_
+48	,		,		_	_
+49	arrastando	arrastar	v-ger		_	_
+50	com	com	prp		_	_
+51	si	si	pron-pers	M=3S=DAT	_	_
+52	o	o	art	M=S	_	(42
+53	destino	destino	n	M=S	0	_
+54	de	de	prp		_	_
+55	toda	todo	pron-det	F=S	0	_
+56	a	o	art	F=S	_	_
+57	humanidade	humanidade, humano	n	F=S	_	42)
+58	e	e	conj-c		_	_
+59	ameaçando	ameaçar	v-ger		_	_
+60	com	com	prp		_	_
+61	a	o	art	F=S	_	_
+62	própria	próprio	adj	F=S	_	_
+63	extinção	extinção	n	F=S	_	_
+64	de	de	prp		_	_
+65	a	o	art	F=S	_	(45
+66	vida	vida	n	F=S	_	45)
+67	em	em	prp		_	_
+68	o	o	art	M=S	_	_
+69	planeta	planeta	n	M=S	_	_
+70	.	.	.		_	_
+
+0	Ainda	ainda	adv		_	_
+1	em	em	prp		_	_
+2	a	o	art	F=S	_	_
+3	década	década	n	F=S	_	_
+4	de	de	prp		_	_
+5	trinta	trinta	num	M=P	_	_
+6	,		,		_	_
+7	há	haver	v-fin	PR=3S=IND	_	_
+8	uns	um	pron-det	M=P	0	_
+9	escassos	escasso	adj	M=P	_	_
+10	cinquenta	cinquenta	num	M=P	_	_
+11	anos	ano	n	M=P	_	_
+12	,		,		_	_
+13	certos	certo	pron-det	M=P	0	_
+14	pensadores	pensar	n	M=P	_	_
+15	espantavam	espantar	v-fin	IMPF=3P=IND	_	_
+16	o	o	art	M=S	_	(50
+17	público	público	n	M=S	_	50)
+18	cultivado	cultivar	v-pcp	M=S	_	_
+19	com	com	prp		_	_
+20	referências	referência	n	F=P	0	_
+21	sociológicas	sociologia	adj	F=P	_	_
+22	e	e	conj-c		_	_
+23	sugestões	sugestão	n	F=P	_	(52)
+24	para	para	prp		_	_
+25					_	_
+26	historizantes		adj	F=P	_	_
+27	denominadas	denominar	v-pcp	F=P	_	_
+28	pessimistas	pessimista	n	F=P	_	_
+29	:	:	:		_	_
+
+0	Ingenieros		prop	M=P	0	_
+1	,		,		_	_
+2	Jaspers	Jaspers	prop		_	(2)
+3	,		,		_	_
+4	Gasset	Gasset	prop		_	_
+5	,		,		_	_
+6	por	por	prp		_	_
+7	um	um	art	M=S	_	_
+8	lado	lado	n	M=S	_	_
+9	,		,		_	_
+10	Aldous_Huxley		prop	M=S	0	(57
+11	e	e	conj-c		_	57)
+12	Orwell		prop	M=S	_	_
+13	,		,		_	_
+14	por	por	prp		_	_
+15	outro	outro	pron-det	M=S	_	_
+16	,		,		_	_
+17	chamavam	chamar	v-fin	IMPF=3P=IND	_	_
+18	a	o	art	F=S	_	_
+19	atenção	atenção	n	F=S	0	_
+20	para	para	prp		_	_
+21	manifestações	manifestação, manifestar	n	F=P	_	_
+22	psico-sociológicas		n	F=P	0	_
+23	inéditas	inédito	adj	F=P	_	_
+24	ou	ou	conj-c		_	_
+25	a	o	art	F=S	_	_
+26	eventualidade	eventual	n	F=S	_	_
+27	de	de	prp		_	_
+28	a	o	art	F=S	_	_
+29	construção	construção	n	F=S	_	_
+30	de	de	prp		_	_
+31	sociedades	sociedade	n	F=P	0	_
+32	inteiras	inteiro	adj	F=P	_	_
+33	que	que	pron-indp	F=P	_	_
+34	cabiam	caber	v-fin	IMPF=3P=IND	_	_
+35	em	em	prp		_	_
+36	o	o	art	M=S	_	_
+37	quadro	quadro	n	M=S	_	_
+38	de	de	prp		_	_
+39	a	o	art	F=S	_	_
+40	patologia	patologia	n	F=S	0	_
+41	colectiva		adj	F=S	_	_
+42	ou	ou	conj-c		_	_
+43	social	social	adj	M=S	_	_
+44	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	,		,		_	_
+2	em	em	prp		_	_
+3	curtos	curto	adj	M=P	_	_
+4	anos	ano	n	M=P	_	_
+5	,		,		_	_
+6	todas	todo	pron-det	F=P	0	_
+7	essas	esse	pron-det	F=P	_	_
+8	constatações	constatar	n	F=P	0	_
+9	e	e	conj-c		_	_
+10	previsões	previsão	n	F=P	_	_
+11	se	se	pron-pers	F=3P=ACC	_	_
+12	viram	virar, ver	v-fin	PR=3P=IND	_	_
+13	ultrapassadas	ultrapassar	v-pcp	F=P	_	_
+14	por	por	prp		_	_
+15	os	o	art	M=P	_	_
+16	factos	facto	n	M=P	_	_
+17	,		,		_	_
+18	tendo	ter	v-ger		_	_
+19	-se		pron-pers	M=3S=ACC	0	_
+20	tornado	tornar	v-pcp	M=S	_	_
+21	patente	patente	n	F=S	_	_
+22	que	que	pron-indp	F=S	_	_
+23	a	o	art	F=S	_	_
+24	vida	vida	n	F=S	0	_
+25	social	social	adj	F=S	_	_
+26	passara	passar	v-fin	MQP=3S=IND	_	_
+27	a	a	prp		_	_
+28	estar	estar	v-inf		_	_
+29	sujeita	sujeito	n	F=S	_	_
+30	a	a	prp		_	_
+31	um	um	art	M=S	_	_
+32	fatalismo	fatalismo	n	M=S	_	_
+33	que	que	pron-indp	M=S	_	_
+34	parecia	parecer	v-fin	IMPF=3S=IND	_	_
+35	escapar	escapar	v-inf		_	_
+36	a	a	prp		_	_
+37	a	o	art	F=S	_	_
+38	vontade	vontade	n	F=S	_	_
+39	de	de	prp		_	_
+40	os	o	art	M=P	_	_
+41	homens	homem	n	M=P	_	_
+42	e	e	conj-c		_	_
+43	dirigi	dirigir	v-fin	PS=1S=IND	_	_
+44	-los		pron-pers	M=3S=ACC	_	_
+45	para	para	prp		_	_
+46	monstruosos	monstruoso	adj	M=P	_	_
+47	padrões	padrão	n	M=P	_	_
+48	de	de	prp		_	_
+49	existência	existência	n	F=S	_	_
+50	.	.	.		_	_
+
+0	Deixaram	deixar	v-fin	MQP=3P=IND	_	_
+1	de	de	prp		_	_
+2	subsistir	subsistir	v-inf		_	_
+3	dúvidas	dúvida	n	F=P	_	_
+4	quanto_ao		prp		_	_
+5	o	o	art	M=S	_	_
+6	carácter	carácter	n	M=S	0	_
+7	patológico	patologia	adj	M=S	_	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	(88
+10	sociedade	sociedade	n	F=S	0	_
+11	ocidental	ocidental	adj	F=S	_	88)
+12	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	mais	mais	adv		_	_
+2	,		,		_	_
+3	perguntamo		v-fin	PR=3S=IND	_	_
+4	-nos		pron-pers	M=1P=ACC	_	_
+5	hoje	hoje	adv		_	_
+6	se	se	conj-s		_	_
+7	esse	esse	pron-det	M=S	0	_
+8	processo	processo	n	M=S	_	_
+9	doentio	doentio	adj	M=S	_	_
+10	não	não	adv		_	_
+11	deve	dever	v-fin	PR=3S=IND	_	_
+12	estender	estender	v-inf		_	_
+13	-se		pron-pers	M=3S=ACC	_	_
+14	a	a	prp		_	_
+15	a	o	art	F=S	_	(92
+16	natureza	natureza	n	F=S	_	92)
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	_
+19	próprio		pron-det	M=S	0	_
+20	fenómeno		n	M=S	_	_
+21	social	social	adj	M=S	_	_
+22	,		,		_	_
+23	tornado	tornar	v-pcp	M=S	_	_
+24	perceptível		adj	M=S	_	_
+25	devido		prp		_	_
+26	a	o	art	F=S	_	_
+27	o	o	art	M=S	_	_
+28	gigantismo	gigantismo, gigante	n	M=S	_	_
+29	que	que	pron-indp	M=S	_	_
+30	lhe	lhe	pron-pers	M=3S=ACC	_	_
+31	foi	ir, ser	v-fin	PS=3S=IND	_	_
+32	imprimido	imprimir	v-pcp	M=S	_	_
+33	por	por	prp		_	_
+34	a	o	art	F=S	_	_
+35	sobrepopulação		n	F=S	_	_
+36	associada	associar	v-pcp	F=S	_	_
+37	a	a	prp		_	_
+38	o	o	art	M=S	_	_
+39	progresso	progresso	n	M=S	0	_
+40	técnico	técnico	adj	M=S	_	_
+41	.	.	.		_	_
+
+0	Koestler		prop	M=S	_	(99)
+1	,		,		_	_
+2	em	em	prp		_	_
+3	1969		num	M=P	_	_
+4	,		,		_	_
+5	levanta	levantar	v-fin	PR=3S=IND	_	_
+6	a	o	art	F=S	_	_
+7	hipótese	hipótese	n	F=S	0	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	sociedade	sociedade	n	F=S	0	_
+11	humana	humano	adj	F=S	_	_
+12	,		,		_	_
+13	desde	desde	prp		_	_
+14	a	o	art	F=S	_	_
+15	sua	sua	pron-det	F=S	0	_
+16	origem	origem	n	F=S	_	_
+17	,		,		_	_
+18	ser	ser	v-inf		_	_
+19	uma	um	art	F=S	_	(103
+20	realidade	real	n	F=S	_	103)
+21	cujas	cujo	pron-det	F=P	_	(103)
+22	manifestações	manifestação, manifestar	n	F=P	_	_
+23	típicas	típico	adj	F=P	_	_
+24	são	ser	v-fin	PR=3P=IND	_	_
+25	inequivocamente	inequivocamente	adv		_	_
+26	patológicas	patologia	adj	F=P	_	_
+27	(	(	(		_	_
+28	a	a	prp		_	_
+29	a	o	art	F=S	_	_
+30	luz	luz	n	F=S	0	_
+31	de	de	prp		_	_
+32	as	o	art	F=P	_	_
+33	regras	regra	n	F=P	_	_
+34	de	de	prp		_	_
+35	a	o	art	F=S	_	(45
+36	vida	vida	n	F=S	_	45)
+37	)	)	)		_	_
+38	,		,		_	_
+39	enquanto		adv		_	_
+40	o	o	art	M=S	_	(105
+41	sociólogo	sociologia	n	M=S	0	_
+42	negro	negro	adj	M=S	_	_
+43	Diawara		prop	M=S	_	105)
+44	coloca	colocar	v-fin	PR=3S=IND	_	_
+45	em	em	prp		_	_
+46	a	o	art	F=S	_	(88
+47	sociedade	sociedade	n	F=S	0	_
+48	pós	pós	ec		_	88)
+49					_	_
+50	neolítica	neolítico	adj	F=S	_	_
+51	o	o	art	M=S	_	_
+52	começo	começo	n	M=S	0	_
+53	de	de	prp		_	_
+54	esse	esse	pron-det	M=S	0	_
+55	processo	processo	n	M=S	_	_
+56	doentio	doentio	adj	M=S	_	_
+57	.	.	.		_	_
+
+0	O	o	art	M=S	_	(108
+1	homem	homem	n	M=S	0	_
+2	social	social	adj	M=S	_	108)
+3	terá	ter	v-fin	FUT=3S=IND	_	_
+4	sido	ser	v-pcp	M=S	_	_
+5	desde	desde	prp		_	_
+6	sempre	sempre	adv		_	_
+7	(	(	(		_	_
+8	isto	isto	pron-indp	M=S	0	(108
+9	é	ser	v-fin	PR=3S=IND	_	_
+10	,		,		_	_
+11	logo	logo	adv		_	_
+12	que	que	conj-s		_	_
+13	a	o	art	F=S	_	_
+14	sociedade	sociedade	n	F=S	0	_
+15	primitiva	primitivo	adj	F=S	_	_
+16	deu	dar	v-fin	PS=3S=IND	_	_
+17	origem	origem	n	F=S	_	_
+18	a	a	prp		_	_
+19	a	o	art	F=S	_	_
+20	sociedade	sociedade	n	F=S	_	_
+21	civilizada	civilizar	v-pcp	F=S	_	108)
+22	)	)	)		_	_
+23	um	um	art	M=S	_	_
+24	ente	ente	n	M=S	0	_
+25	enfermiço	enfermiço	adj	M=S	_	_
+26	e	e	conj-c		_	_
+27	condenado	condenar	v-pcp	M=S	_	_
+28	a	a	prp		_	_
+29	a	o	art	F=S	_	_
+30	degenerescência	degenerescência	n	F=S	0	_
+31	vital	vital	adj	F=S	_	_
+32	,		,		_	_
+33	o_que		pron-indp	M=S	_	_
+34	,		,		_	_
+35	a_longo_prazo		adv		_	_
+36	,		,		_	_
+37	poderia	poder	v-fin	COND=3S	_	_
+38	significar	significar	v-inf		_	_
+39	a	o	art	F=S	_	_
+40	sua	sua	pron-det	F=S	0	_
+41	condenação	condenar	n	F=S	_	_
+42	inapelável	inapelável	adj	F=S	_	_
+43	como	como	adv		_	_
+44	forma	forma	n	F=S	0	_
+45	de	de	prp		_	_
+46	vida	vida	n	F=S	_	(45)
+47	?	?	?		_	_
+
+0	Esta	este	pron-det	F=S	0	_
+1	pergunta	pergunta	n	F=S	_	_
+2	,		,		_	_
+3	posta	posta	n	F=S	0	_
+4	explícita	explícito	adj	F=S	_	_
+5	ou	ou	conj-c		_	_
+6	implicitamente	implicitamente	adv		_	_
+7	,		,		_	_
+8	levou	levar	v-fin	PS=3S=IND	_	_
+9	a	o	art	F=S	_	_
+10	uma	um	art	F=S	_	_
+11	intensa	intenso	adj	F=S	_	_
+12	,		,		_	_
+13	diríamos	dizer	v-fin	PR=1P=IND	_	_
+14	frenética	frenético	adj	F=S	_	_
+15	,		,		_	_
+16	busca	busca	n	F=S	_	(118)
+17	de	de	prp		_	_
+18	explicações	explicação, explicar	n	F=P	_	_
+19	e	e	conj-c		_	_
+20	justificações	justificar	n	F=P	_	_
+21	.	.	.		_	_
+
+0	Saía	sair	v-fin	IMPF=3S=IND	_	_
+1	-se		pron-pers	M/F=3S=ACC	_	_
+2	assim	assim	adv		_	_
+3	de	de	prp		_	_
+4	a	o	art	F=S	_	_
+5	posição	posição	n	F=S	0	_
+6	equívoca	equívoco	adj	F=S	_	_
+7	de	de	prp		_	_
+8	que	que	conj-s		_	_
+9	o	o	art	M=S	_	(26
+10	homem	homem	n	M=S	_	26)
+11	não	não	adv		_	_
+12	devia	dever	v-fin	IMPF=3S=IND	_	_
+13	obedecer	obedecer	v-inf		_	_
+14	a	a	prp		_	_
+15	a	o	art	F=S	_	(92
+16	natureza	natureza	n	F=S	_	92)
+17	,		,		_	_
+18	mas	mas	conj-c		_	_
+19	sim	sim	adv		_	_
+20	vencê		v-fin	PR=3S=IND	_	_
+21	-la		pron-pers	F=F	_	_
+22	,		,		_	_
+23	para	para	prp		_	_
+24	outra	outro	pron-det	F=S	0	_
+25	muito	muito	adv		_	_
+26	mais	mais	adv		_	_
+27	humilde	humilde	adj	F=S	_	_
+28	e	e	conj-c		_	_
+29	conforme		adv		_	_
+30	com	com	prp		_	_
+31	as	o	art	F=P	_	_
+32	consequências	consequência	n	F=P	_	_
+33	:	:	:		_	_
+
+0	procurar	procurar	v-inf		_	_
+1	ver	ver	v-inf		_	_
+2	onde	onde	adv		_	_
+3	se	se	pron-pers	M/F=3S/P=ACC	_	_
+4	situava	situar	v-fin	IMPF=3S=IND	_	_
+5	o	o	art	M=S	_	_
+6	erro	erro	n	M=S	_	_
+7	cometido	cometer	v-pcp	M=S	_	_
+8	por	por	prp		_	_
+9	a	o	art	F=S	_	(128
+10	espécie	espécie	n	F=S	0	_
+11	humana	humano	adj	F=S	_	128)
+12	,		,		_	_
+13	que	que	pron-indp	F=S	_	_
+14	conduzira	conduzir	v-fin	MQP=1S=IND	_	_
+15	a	o	art	F=S	_	_
+16	uma	um	art	F=S	_	_
+17	existência	existência	n	F=S	0	_
+18	social	social	adj	F=S	_	_
+19	que	que	pron-indp	F=S	_	_
+20	apontava	apontar	v-fin	IMPF=3S=IND	_	_
+21	directamente		adv		_	_
+22	para	para	prp		_	_
+23	o	o	art	M=S	_	_
+24	suicídio	suicídio	n	M=S	0	_
+25	colectivo		adj	M=S	_	_
+26	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	desconfortável	desconfortar, confortável	adj	F=S	_	_
+2	sensação	sensação	n	F=S	0	_
+3	de	de	prp		_	_
+4	que	que	conj-s		_	_
+5	a	o	art	F=S	_	(21
+6	humanidade	humanidade, humano	n	F=S	_	21)
+7	vinha	vir	v-fin	IMPF=3S=IND	_	_
+8	trilhando	trilhar	v-ger		_	_
+9	uma	um	art	F=S	_	_
+10	senda	senda	n	F=S	0	_
+11	divergente	divergente	adj	F=S	_	_
+12	de	de	prp		_	_
+13	os	o	art	M=P	_	_
+14	desígnios	desígnio	n	M=P	0	_
+15	naturais	natural	adj	M=P	_	_
+16	,		,		_	_
+17	fora	fora	adv		_	_
+18	apercebida	aperceber	v-pcp	F=S	_	_
+19	por	por	prp		_	_
+20	muitos	muito	pron-det	M=P	0	_
+21	pensadores	pensar	n	M=P	_	_
+22	,		,		_	_
+23	cabendo	caber	v-ger		_	_
+24	a	a	prp		_	_
+25	Francisco_Bacon		prop	M=S	_	_
+26	o	o	art	M=S	_	(138
+27	mérito	mérito	n	M=S	0	_
+28	inestimável	inestimável	adj	M=S	_	_
+29	de	de	prp		_	138)
+30	ter	ter	v-inf		_	_
+31	dado	dar	v-pcp	M=S	_	_
+32	o	o	art	M=S	_	_
+33	grito	grito	n	M=S	0	_
+34	de	de	prp		_	_
+35	alerta	alerta	n	M=S	_	_
+36	,		,		_	_
+37	a	a	prp		_	_
+38	o	o	art	M=S	_	_
+39	ter	ter	v-inf		_	_
+40	aconselhado	aconselhar	v-pcp	M=S	_	_
+41	a	a	prp		_	_
+42	humanidade	humanidade, humano	n	F=S	_	(21)
+43	a	a	prp		_	_
+44	procurar	procurar	v-inf		_	_
+45	vencer	vencer	v-inf		_	_
+46	a	o	art	F=S	_	(92
+47	Natureza	natureza	n	F=S	_	92)
+48	obedecendo	obedecer	v-ger		_	_
+49	-lhe		pron-pers	M=3S=ACC	_	_
+50	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	o	o	art	M=S	_	_
+2	entanto	entanto	adv		_	_
+3	,		,		_	_
+4	por	por	prp		_	_
+5	um	um	art	M=S	_	(22
+6	fenómeno		n	M=S	_	22)
+7	que	que	pron-indp	M=S	_	_
+8	só	só	adv		_	_
+9	uma	um	art	F=S	_	_
+10	psicanálise	psicanálise	n	F=S	0	_
+11	histórica	histórico	adj	F=S	_	_
+12	poderia	poder	v-fin	COND=3S	_	_
+13	explicar	explicar	v-inf		_	_
+14	,		,		_	_
+15	tomou	tomar	v-fin	PS=3S=IND	_	_
+16	ascedência		n	F=S	_	_
+17	,		,		_	_
+18	durante	durante	prp		_	_
+19	séculos	século	n	M=P	_	_
+20	,		,		_	_
+21	a	o	art	F=S	_	_
+22	posição	posição	n	F=S	0	_
+23	contrária	contrário	adj	F=S	_	_
+24	,		,		_	_
+25	a	o	art	F=S	_	_
+26	de	de	prp		_	_
+27	que	que	conj-s		_	_
+28	o	o	art	M=S	_	(42
+29	destino	destino	n	M=S	0	_
+30	de	de	prp		_	_
+31	a	o	art	F=S	_	(21
+32	humanidade	humanidade, humano	n	F=S	_	21)|42)
+33	consistia	consistir	v-fin	IMPF=3S=IND	_	_
+34	em	em	prp		_	_
+35	desafiar	desafiar	v-inf		_	_
+36	e	e	conj-c		_	_
+37	vencer	vencer	v-inf		_	_
+38	a	o	art	F=S	_	(92
+39	Natureza	natureza	n	F=S	_	92)
+40	contrariando-a		v-ger		_	_
+41	.	.	.		_	_
+
+0	Esta	este	pron-det	F=S	0	_
+1	forma	forma	n	F=S	_	_
+2	de	de	prp		_	_
+3	o	o	art	M=S	_	(26
+4	homem	homem	n	M=S	_	26)
+5	mostrar	mostrar	v-inf		_	_
+6	que	que	conj-s		_	_
+7	já	já	adv		_	_
+8	não	não	adv		_	_
+9	era	ser	v-fin	IMPF=3S=IND	_	_
+10	animal	animal	adj	M=S	_	_
+11	e	e	conj-c		_	_
+12	podia	poder	v-fin	IMPF=1S=IND	_	_
+13	construir	construir	v-inf		_	_
+14	uma	um	art	F=S	_	_
+15	ordem	ordem	n	F=S	0	_
+16	própria	próprio	adj	F=S	_	_
+17	,		,		_	_
+18	paralela	paralelo	adj	F=S	_	_
+19	ou	ou	conj-c		_	_
+20	até	até	prp		_	_
+21	divergente	divergente	adj	M=S	_	_
+22	de	de	prp		_	_
+23	a	o	art	F=S	_	_
+24	ordem	ordem	n	F=S	0	_
+25	natural	natural	adj	F=S	_	_
+26	,		,		_	_
+27	alimentou	alimentar	v-fin	PS=3S=IND	_	_
+28	o	o	art	M=S	_	_
+29	frenesim	frenesim	n	M=S	0	_
+30	psíquico	psíquico	adj	M=S	_	_
+31	que	que	pron-indp	M=S	_	_
+32	se	se	pron-pers	M=3S=ACC	_	_
+33	apossou	apossar	v-fin	PS=3S=IND	_	_
+34	de	de	prp		_	_
+35	a	o	art	F=S	_	(40
+36	civilização	civilização, civilizar	n	F=S	0	_
+37	ocidental	ocidental	adj	F=S	_	40)
+38	,		,		_	_
+39	convertendo-a		v-ger		_	_
+40	em	em	prp		_	_
+41	uma	um	art	F=S	_	(128
+42	espécie	espécie	n	F=S	_	128)
+43	de	de	prp		_	_
+44	atleta	atleta	n	F=S	_	_
+45	que	que	pron-indp	F=S	_	_
+46	procura	procurar	v-fin	PR=3S=IND	_	_
+47	exceder	exceder	v-inf		_	_
+48	-se		pron-pers	M=3S=ACC	_	_
+49	cada	cada	pron-det	F=S	0	_
+50	vez	vez	n	F=S	_	_
+51	mais	mais	adv		_	_
+52	em	em	prp		_	_
+53	a	o	art	F=S	_	_
+54	execução	execução	n	F=S	_	_
+55	de	de	prp		_	_
+56	as	o	art	F=P	_	_
+57	suas	sua	pron-det	F=P	_	_
+58	cabriolas	cabriolar	v-fin	F=P	_	_
+59	,		,		_	_
+60	seduzido	seduzir	v-pcp	M=S	_	_
+61	por	por	prp		_	_
+62	os	o	art	M=P	_	_
+63	incitamentos	incitar	n	M=P	_	_
+64	de	de	prp		_	_
+65	o	o	art	M=S	_	(50
+66	público	público	n	M=S	_	50)
+67	.	.	.		_	_
+
+0	Tudo	tudo	pron-indp	M=S	_	_
+1	isto	isto	pron-indp	M=S	_	_
+2	até	até	prp		_	_
+3	a	o	art	F=S	_	_
+4	a	o	art	F=S	_	_
+5	2ª_Guerra_Mundial		prop	F=S	_	_
+6	ou	ou	conj-c		_	_
+7	,		,		_	_
+8	mais_concretamente		adv		_	_
+9	,		,		_	_
+10	até	até	prp		_	_
+11	1945		num	M=P	_	_
+12	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	esse	esse	pron-det	M=S	0	_
+2	momento	momento	n	M=S	_	_
+3	,		,		_	_
+4	não	não	adv		_	_
+5	só	só	adv		_	_
+6	alguns	algum	pron-det	M=P	0	_
+7	longínquos	longínquo	adj	M=P	_	_
+8	visionários	visionário	n	M=P	_	_
+9	,		,		_	_
+10	nem_sequer		adv		_	_
+11	um	um	art	M=S	_	_
+12	certo	certo	adj	M=S	_	_
+13	número	número	n	M=S	0	_
+14	de	de	prp		_	_
+15	pensadores	pensar	n	M=P	0	_
+16	argutos		adj	M=P	_	_
+17	ou	ou	conj-c		_	_
+18	de	de	prp		_	_
+19	sociólogos	sociologia	n	M=P	0	_
+20	advertidos	advertir	v-pcp	M=P	_	_
+21	,		,		_	_
+22	reconheceram	reconhecer	v-fin	PS=3P=IND	_	_
+23	a	o	art	F=S	_	_
+24	falência	falência	n	F=S	0	_
+25	de	de	prp		_	_
+26	as	o	art	F=P	_	_
+27	teorias	teoria	n	F=P	_	_
+28	de	de	prp		_	_
+29	o	o	art	M=S	_	(26
+30	homem	homem	n	M=S	_	26)
+31	e	e	conj-c		_	_
+32	de	de	prp		_	_
+33	a	o	art	F=S	_	(88
+34	sociedade	sociedade	n	F=S	_	88)
+35	que	que	pron-indp	M=P	_	_
+36	apelavam	apelar	v-fin	IMPF=3P=IND	_	_
+37	para	para	prp		_	_
+38	um	um	art	M=S	_	_
+39	confronto	confronto	n	M=S	_	_
+40	com	com	prp		_	_
+41	a	o	art	F=S	_	(92
+42	Natureza	natureza	n	F=S	_	92)
+43	em	em	prp		_	_
+44	a	o	art	F=S	_	(118
+45	busca	busca	n	F=S	_	118)
+46	de	de	prp		_	_
+47	um	um	art	M=S	_	_
+48	destino	destino	n	M=S	0	_
+49	original	original	adj	M=S	_	_
+50	e	e	conj-c		_	_
+51	descontínuo	descontínuo, contínuo	adj	M=S	_	_
+52	com	com	prp		_	_
+53	as	o	art	F=P	_	_
+54	outras	outro	pron-det	F=P	0	_
+55	formas	forma	n	F=P	_	_
+56	de	de	prp		_	_
+57	vida	vida	n	F=S	_	(45)
+58	;	;	;		_	_
+
+0	um	um	art	M=S	_	_
+1	sentimento	sentir	n	M=S	0	_
+2	colectivo		adj	M=S	_	_
+3	de	de	prp		_	_
+4	receio	receio	n	M=S	_	(173)
+5	e	e	conj-c		_	_
+6	de	de	prp		_	_
+7	horror	horror	n	M=S	_	_
+8	,		,		_	_
+9	uma	um	art	F=S	_	(128
+10	espécie	espécie	n	F=S	_	128)
+11	de	de	prp		_	_
+12	inconsciente	inconsciente	n	M=S	0	_
+13	colectivo		adj	M=S	_	_
+14	de	de	prp		_	_
+15	sobrevivência	sobrevivência	n	F=S	_	_
+16	,		,		_	_
+17	fez	fazer	v-fin	PS=3S=IND	_	_
+18	-se		pron-pers	M=3S=ACC	0	_
+19	sentir	sentir	v-inf		_	_
+20	,		,		_	_
+21	pedindo	pedir	v-ger		_	_
+22	novas	novo	adj	F=P	_	_
+23	explicações	explicação, explicar	n	F=P	0	_
+24	e	e	conj-c		_	_
+25	uma	um	art	F=S	_	_
+26	compreensão	compreensão	n	F=S	0	_
+27	inédita	inédito	adj	F=S	_	_
+28	de	de	prp		_	_
+29	o	o	art	M=S	_	(180
+30	problema	problema	n	M=S	0	_
+31	humano	humano	adj	M=S	_	180)
+32	.	.	.		_	_
+
+0	Foram	ir, ser	v-fin	MQP=3P=IND	_	_
+1	diversas		pron-det	F=P	0	_
+2	as	o	art	F=P	_	_
+3	vias	via	n	F=P	_	_
+4	que	que	pron-indp	F=P	_	_
+5	a	o	art	F=S	_	(25
+6	cultura	cultura	n	F=S	_	25)
+7	empreendeu	empreender	v-fin	PS=3S=IND	_	_
+8	,		,		_	_
+9	correspondendo	corresponder	v-ger		_	_
+10	-lhe		pron-pers	M=3S=ACC	0	_
+11	best-sellers		n	M=P	_	_
+12	e	e	conj-c		_	_
+13	tendo	ter	v-ger		_	_
+14	-se		pron-pers	M=3S=ACC	0	_
+15	generalizado	generalizar	v-pcp	M=S	_	_
+16	discussões	discussão	n	F=P	_	_
+17	que	que	pron-indp	M=S	_	_
+18	já	já	adv		_	_
+19	haviam	haver	v-fin	IMPF=3P=IND	_	_
+20	tido	ter	v-pcp	M=S	_	_
+21	os	o	art	M=P	_	_
+22	seus	seu	pron-det	M=P	0	_
+23	começos	começo	n	M=P	_	_
+24	em	em	prp		_	_
+25	os	o	art	M=P	_	_
+26	anos	ano	n	M=P	0	_
+27	anteriores	anterior	adj	M=P	_	_
+28	a	a	prp		_	_
+29	o	o	art	M=S	_	(189
+30	conflito	conflito	n	M=S	0	_
+31	mundial	mundial	adj	M=S	_	189)
+32	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	biólogos	biologia	n	M=P	_	_
+2	puseram	pôr	v-fin	MQP=3P=IND	_	_
+3	claramente	claro	adv		_	_
+4	os	o	art	M=P	_	_
+5	perigos	perigo	n	M=P	0	_
+6	decorrentes	decorrer	adj	M=P	_	_
+7	de	de	prp		_	_
+8	os	o	art	M=P	_	_
+9	vícios	vício	n	M=P	0	_
+10	genéticos	genético	adj	M=P	_	_
+11	de	de	prp		_	_
+12	que	que	pron-indp	M=S	_	_
+13	sofria	sofrer	v-fin	IMPF=3S=IND	_	_
+14	a	o	art	F=S	_	_
+15	humanidade	humanidade, humano	n	F=S	0	_
+16	actual		adj	F=S	_	_
+17	.	.	.		_	_
+
+0	Muller_Morgan		prop	M=S	0	_
+1	e	e	conj-c		_	_
+2	muitos	muito	pron-det	M=P	0	_
+3	outros	outro	pron-det	M=P	_	_
+4	falaram	falar	v-fin	MQP=3P=IND	_	_
+5	de	de	prp		_	_
+6	a	o	art	F=S	_	_
+7	diminuição	diminuição, diminuir	n	F=S	_	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	qualidade	qualidade	n	F=S	0	_
+11	genética	genético	adj	F=S	_	_
+12	decorrente	decorrente, decorrer	adj	F=S	_	_
+13	de	de	prp		_	_
+14	o	o	art	M=S	_	_
+15	aumento	aumento	n	M=S	0	_
+16	populacional	populacional	adj	M=S	_	_
+17	,		,		_	_
+18	de	de	prp		_	_
+19	a	o	art	F=S	_	_
+20	acção		n	F=S	_	_
+21	de	de	prp		_	_
+22	a	o	art	F=S	_	_
+23	medicina	medicina	n	F=S	0	_
+24	moderna	moderno	adj	F=S	_	_
+25	em	em	prp		_	_
+26	a	o	art	F=S	_	_
+27	selecção		n	F=S	0	_
+28	biológica	biológico	adj	F=S	_	_
+29	e	e	conj-c		_	_
+30	de	de	prp		_	_
+31	as	o	art	F=P	_	_
+32	negativas	negativo	adj	F=P	_	_
+33	consequências	consequência	n	F=P	_	_
+34	de	de	prp		_	_
+35	o	o	art	M=S	_	(203
+36	meio	meio	n	M=S	_	203)
+37	económico-social		n	M=S	_	_
+38	em	em	prp		_	_
+39	o	o	art	M=S	_	_
+40	aperfeiçoamento	aperfeiçoar	n	M=S	_	_
+41	de	de	prp		_	_
+42	a	o	art	F=S	_	_
+43	biologia	biologia	n	F=S	0	_
+44	humana	humano	adj	F=S	_	_
+45	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	etologistas		n	M=P	0	_
+2	,		,		_	_
+3	com	com	prp		_	_
+4	Lorenz		prop	M=S	_	_
+5	a	a	prp		_	_
+6	a	o	art	F=S	_	(208
+7	frente	frente	n	F=S	_	208)
+8	,		,		_	_
+9	debruçaram	debruçar	v-fin	MQP=3P=IND	_	_
+10	-se		pron-pers	M=3S=ACC	_	_
+11	sobre	sobre	prp		_	_
+12	alguns	algum	pron-det	M=P	0	_
+13	fenómenos		n	M=P	_	_
+14	socialmente	social	adv		_	_
+15	ameaçadores	ameaçador, ameaçar	adj	M=P	_	_
+16	,		,		_	_
+17	como	como	adv		_	_
+18	a	o	art	F=S	_	_
+19	agressividade	agressivo	n	F=S	0	_
+20	e	e	conj-c		_	_
+21	o	o	art	M=S	_	_
+22	parasitismo	parasitismo, parasito	n	M=S	_	_
+23	,		,		_	_
+24	tendo-os		v-ger		_	_
+25	estudado	estudar	v-pcp	M=S	_	_
+26	em	em	prp		_	_
+27	outros	outro	pron-det	M=P	0	_
+28	tipos	tipo	n	M=P	_	_
+29	de	de	prp		_	_
+30	vida	vida	n	F=S	0	_
+31	colectiva		adj	F=S	_	_
+32	,		,		_	_
+33	peixes	peixe	n	M=P	_	_
+34	,		,		_	_
+35	aves	ave	n	F=P	_	_
+36	e	e	conj-c		_	_
+37	mamíferos	mamíferos	n	M=P	_	_
+38	.	.	.		_	_
+
+0	Procurar	procurar	v-inf		_	_
+1	a	o	art	F=S	_	_
+2	destrinça	destrinça	n	F=S	0	_
+3	de	de	prp		_	_
+4	o		pron-det	M=S	_	_
+5	que	que	pron-indp	M=S	_	_
+6	é	ser	v-fin	PR=3S=IND	_	_
+7	natural	natural	adj	M=S	_	_
+8	ou	ou	conj-c		_	_
+9	não	não	adv		_	_
+10	,		,		_	_
+11	em	em	prp		_	_
+12	o	o	art	M=S	_	(108
+13	homem	homem	n	M=S	0	_
+14	social	social	adj	M=S	_	108)
+15	e	e	conj-c		_	_
+16	em	em	prp		_	_
+17	a	o	art	F=S	_	(45
+18	vida	vida	n	F=S	_	45)
+19	em	em	prp		_	_
+20	sociedade	sociedade	n	F=S	_	(88)
+21	,		,		_	_
+22	por	por	prp		_	_
+23	comparação	comparação, comparar	n	F=S	_	_
+24	e	e	conj-c		_	_
+25	analogia	analogia	n	F=S	_	_
+26	com	com	prp		_	_
+27	o_que		pron-indp	M=S	_	_
+28	se	se	pron-pers	M/F=3S/P=ACC	_	_
+29	passa	passar	v-fin	PR=3S=IND	_	_
+30	em	em	prp		_	_
+31	outras	outro	pron-det	F=P	0	_
+32	espécies	espécie	n	F=P	_	_
+33	vivas	vivo	adj	F=P	_	_
+34	,		,		_	_
+35	fez	fazer	v-fin	PS=3S=IND	_	_
+36	-nos		pron-pers	M/F=1P=ACC	_	_
+37	mergulhar	mergulhar	v-inf		_	_
+38	em	em	prp		_	_
+39	um	um	art	M=S	_	_
+40	romance	romance	n	M=S	0	_
+41	fascinante	fascinante, fascinar	adj	M=S	_	_
+42	em	em	prp		_	_
+43	que	que	pron-indp	M=S	_	_
+44	a	o	art	F=S	_	(92
+45	Natureza	natureza	n	F=S	_	92)
+46	mostrou	mostrar	v-fin	PS=3S=IND	_	_
+47	exceder	exceder	v-inf		_	_
+48	a	o	art	F=S	_	_
+49	imaginação	imaginar	n	F=S	0	_
+50	de	de	prp		_	_
+51	todos	todo	pron-det	M=P	0	_
+52	os	o	art	M=P	_	_
+53	mestres	mestre	n	M=P	_	_
+54	de	de	prp		_	_
+55	a	o	art	F=S	_	_
+56	literatura...		n	F=S	_	_
+
+0	Tiveram	ter	v-fin	PS=3P=IND	_	_
+1	o	o	art	M=S	_	_
+2	mérito	mérito	n	M=S	0	_
+3	,		,		_	_
+4	estes	este	pron-det	M=P	0	_
+5	trabalhos	trabalho	n	M=P	_	_
+6	,		,		_	_
+7	de	de	prp		_	_
+8	revelar	revelar	v-inf		_	_
+9	que	que	conj-s		_	_
+10	muitas	muito	pron-det	F=P	0	_
+11	de	de	prp		_	_
+12	as	o	art	F=P	_	_
+13	manifestações	manifestação, manifestar	n	F=P	0	_
+14	psicosociais		adj	F=P	_	_
+15	que	que	pron-indp	F=P	_	_
+16	se	se	pron-pers	F=3P=ACC	_	_
+17	consideravam	considerar	v-fin	IMPF=3P=IND	_	_
+18	exclusivas	exclusivo	adj	F=P	_	_
+19	de	de	prp		_	_
+20	o	o	art	M=S	_	_
+21	homem	homem	n	M=S	0	(26
+22	e	e	conj-c		_	26)
+23	frutos	fruto	n	M=P	_	_
+24	de	de	prp		_	_
+25	a	o	art	F=S	_	_
+26	sua	sua	pron-det	F=S	0	_
+27	emancipação	emancipar	n	F=S	_	_
+28	frente	frente	n	F=S	_	(208)
+29	a	a	prp		_	_
+30	as	o	art	F=P	_	_
+31	outras	outro	pron-det	F=P	0	_
+32	formas	forma	n	F=P	_	_
+33	de	de	prp		_	_
+34	vida	vida	n	F=S	_	(45)
+35	,		,		_	_
+36	eram	ser	v-fin	IMPF=3P=IND	_	_
+37	ainda	ainda	adv		_	_
+38	formas	forma	n	F=P	_	_
+39	sofisticadas	sofisticar	v-pcp	F=P	_	_
+40	de	de	prp		_	_
+41	comportamento	comportar	n	M=S	_	_
+42	nascidas	nascer	v-pcp	F=S	_	_
+43	de	de	prp		_	_
+44	instintos	instinto	n	M=P	_	_
+45	e	e	conj-c		_	_
+46	tendências	tendência	n	F=P	0	_
+47	remanescentes	remanescente, remanescer	adj	F=P	_	_
+48	de	de	prp		_	_
+49	sua	sua	pron-det	F=S	0	_
+50	existência	existência	n	F=S	_	_
+51	animal	animal	adj	F=S	_	_
+52	.	.	.		_	_
+
+0	Por_fim		adv		_	_
+1	,		,		_	_
+2	veio	vir	v-fin	PS=3S=IND	_	_
+3	um	um	art	M=S	_	_
+4	importante	importante, importar	adj	M=S	_	_
+5	artigo	artigo	n	M=S	0	_
+6	sobre	sobre	prp		_	_
+7	os	o	art	M=P	_	_
+8	antropóides		n	M=P	0	(245
+9	e	e	conj-c		_	245)
+10	etnólogos	etnologia	n	M=P	_	_
+11	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	estudos	estudo	n	M=P	0	_
+2	mais	mais	adv		_	_
+3	antigos	antigo	adj	M=P	_	_
+4	sobre	sobre	prp		_	_
+5	os	o	art	M=P	_	(245
+6	antropóides		n	M=P	_	245)
+7	e	e	conj-c		_	_
+8	as	o	art	F=P	_	_
+9	sociedades	sociedade	n	F=P	0	_
+10	primatas	primatas	n-adj	M=P	_	_
+11	,		,		_	_
+12	que	que	pron-indp	M=P	_	_
+13	tiveram	ter	v-fin	MQP=3P=IND	_	_
+14	precursores	precursor	n	M=P	0	_
+15	de	de	prp		_	_
+16	mérito	mérito	n	M=S	_	(138)
+17	em	em	prp		_	_
+18	Kohler		prop	M=S	_	_
+19	,		,		_	_
+20	Zukermann		prop	M=S	_	_
+21	,		,		_	_
+22	Yerkes		prop	M=S	_	_
+23	,		,		_	_
+24	encontraram	encontrar	v-fin	MQP=3P=IND	_	_
+25	em	em	prp		_	_
+26	os	o	art	M=P	_	_
+27	modernos	moderno	adj	M=P	_	_
+28	trabalhos	trabalho	n	M=P	_	_
+29	de	de	prp		_	_
+30	Terrace		n	M=S	_	_
+31	,		,		_	_
+32	Miss_Patterson		prop	M=S	_	(256)
+33	,		,		_	_
+34	Premack		prop	M=S	_	_
+35	,		,		_	_
+36	o	o	art	M=S	_	(258
+37	casal	casal	n	M=S	_	258)
+38	Cardner		prop	M=S	_	(258)
+39	,		,		_	_
+40	entre	entre	prp		_	_
+41	outros	outro	pron-det	M=P	_	_
+42	,		,		_	_
+43	a	o	art	F=S	_	_
+44	devida	devir, dever	v-pcp	F=S	_	_
+45	continuidade	continuidade	n	F=S	_	_
+46	e	e	conj-c		_	_
+47	conduziram	conduzir	v-fin	PS=3P=IND	_	_
+48	a	o	art	F=S	_	_
+49	surpreendentes	surpreendente, surpreender	adj	F=P	_	_
+50	conclusões	conclusão	n	F=P	0	_
+51	sobre	sobre	prp		_	_
+52	a	o	art	F=S	_	(262
+53	psicologia	psicologia	n	F=S	0	_
+54	individual	individual	adj	F=S	_	_
+55	e	e	conj-c		_	_
+56	colectiva		adj	F=S	_	262)
+57	de	de	prp		_	_
+58	os	o	art	M=P	_	_
+59	nossos	nosso	pron-det	M=P	0	_
+60	mais	mais	adv		_	_
+61	próximos	próximo	adj	M=P	_	_
+62	parentes	parente	n	M=P	_	_
+63	em	em	prp		_	_
+64	a	o	art	F=S	_	_
+65	escala	escala	n	M=S	0	_
+66	animal	animal	adj	M=S	_	_
+67	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	igual	igual	adj	M=S	_	_
+2	modo	modo	n	M=S	_	_
+3	,		,		_	_
+4	os	o	art	M=P	_	_
+5	livros	livro	n	M=P	0	_
+6	de	de	prp		_	_
+7	Desmond_Morris		prop	M=S	_	_
+8	,		,		_	_
+9	como	como	adv		_	_
+10	o	o	art	M=S	_	_
+11	Macaco_Nu		prop	M=S	0	_
+12	e	e	conj-c		_	_
+13	Zoo_Humano		prop	M=S	_	_
+14	,		,		_	_
+15	estabelecem	estabelecer	v-fin	PR=3P=IND	_	_
+16	uma	um	art	F=S	_	_
+17	aproximação	aproximação, aproximar	n	F=S	0	_
+18	um	um	art	M=S	_	_
+19	tanto	tanto	pron-det	M=S	0	_
+20	desmoralizadora	desmoralizar	n	F=S	_	_
+21	entre	entre	prp		_	_
+22	os	o	art	M=P	_	_
+23	animais	animal	n	M=P	0	_
+24	simpáticos	simpático	adj	M=P	_	_
+25	que	que	pron-indp	M=P	_	_
+26	visitamos	visitar	v-fin	PR=1P=IND	_	_
+27	em	em	prp		_	_
+28	as	o	art	F=P	_	_
+29	jaulas	jaula	n	F=P	_	_
+30	de	de	prp		_	_
+31	os	o	art	M=P	_	_
+32	jardins	jardim	n	M=P	0	_
+33	zoológicos	zoológico, zoologia	adj	M=P	_	_
+34	e	e	conj-c		_	_
+35	os	o	art	M=P	_	(275
+36	seres	ser	n	M=P	0	_
+37	humanos	humano	adj	M=P	_	275)
+38	vencedores	vencedor, vencer	n	M=P	_	_
+39	de	de	prp		_	_
+40	a	o	art	F=S	_	_
+41	gravidade	gravidade, grave	n	F=S	0	_
+42	e	e	conj-c		_	_
+43	protagonistas	protagonista	n	M=P	_	_
+44	de	de	prp		_	_
+45	a	o	art	F=S	_	_
+46	espantosa	espantoso	adj	F=S	_	_
+47	aventura	aventura	n	F=S	0	_
+48	espacial	espacial	adj	F=S	_	_
+49	.	.	.		_	_
+
+0	Que	que	conj-s		_	_
+1	distância	distância	n	F=S	_	(31)
+2	separa	separar	v-fin	PR=3S=IND	_	_
+3	afinal	afinal	adv		_	_
+4	o	o	art	M=S	_	_
+5	homem	homem	n	M=S	0	_
+6	médio	médio	adj	M=S	_	_
+7	de	de	prp		_	_
+8	o	o	art	M=S	_	(281
+9	chimpanzé	chimpanzé	n	M=S	_	281)
+10	Nim		prop	M=S	_	_
+11	,		,		_	_
+12	de	de	prp		_	_
+13	o	o	art	M=S	_	(281
+14	chimpanzé	chimpanzé	n	M=S	_	281)
+15	Washoe		prop	M=S	_	_
+16	ou	ou	conj-c		_	_
+17	de	de	prp		_	_
+18	a	o	art	F=S	_	_
+19	sua	sua	pron-det	F=S	0	_
+20	congénere		n	F=S	_	_
+21	Sara	sarar	v-fin	PR=3S=IND	_	_
+22	?	?	?		_	_
+
+0	Que	que	conj-s		_	_
+1	fluido	fluido	n	M=S	0	_
+2	subtil	subtil	adj	M=S	_	_
+3	distingue	distinguir	v-fin	PR=3S=IND	_	_
+4	o	o	art	M=S	_	_
+5	eleitor	eleitor	n	M=S	0	_
+6	médio	médio	adj	M=S	_	_
+7	canadiano	canadiano	adj	M=S	_	_
+8	ou	ou	conj-c		_	_
+9	luxemburguês	luxemburguês	adj	M=S	_	_
+10	de	de	prp		_	_
+11	Koko		prop	M=S	_	_
+12	,		,		_	_
+13	a	a	prp		_	_
+14	gorila	gorila	n	M=S	_	_
+15	a	a	prp		_	_
+16	quem	quem	pron-indp	M/F=S	_	_
+17	M.		n	M=S	0	_
+18	Patterson		prop	M=S	_	(256)
+19	conseguiu	conseguir	v-fin	PS=3S=IND	_	_
+20	,		,		_	_
+21	com	com	prp		_	_
+22	paciência	paciência	n	F=S	0	_
+23	evangélica	evangélico	adj	F=S	_	_
+24	,		,		_	_
+25	ensinar	ensinar	v-inf		_	_
+26	mais_de		adv		_	_
+27	400		num	M=P	_	_
+28	sinais	sinal	n	M=P	0	_
+29	e	e	conj-c		_	_
+30	símbolos	símbolo	n	M=P	_	_
+31	?	?	?		_	_
+
+0	Serge_Moscovici		prop	M=S	_	_
+1	,		,		_	_
+2	a	a	prp		_	_
+3	o	o	art	M=S	_	_
+4	pôr	pôr	v-inf		_	_
+5	frontalmente	frontal	adv		_	_
+6	a	o	art	F=S	_	(180
+7	questão	questão	n	F=S	0	_
+8	de	de	prp		_	_
+9	que	que	conj-s		_	180)
+10	o	o	art	M=S	_	_
+11	homem	homem	n	M=S	0	_
+12	civilizado	civilizar	v-pcp	M=S	_	_
+13	,		,		_	_
+14	habitante	habitante	n	M=S	_	_
+15	de	de	prp		_	_
+16	uma	um	art	F=S	_	_
+17	sociedade	sociedade	n	F=S	0	_
+18	antinatural	antinatural	adj	F=S	_	_
+19	,		,		_	_
+20	é	ser	v-fin	PR=3S=IND	_	_
+21	um	um	art	M=S	_	_
+22	animal	animal	n	M=S	0	_
+23	doméstico	doméstico	adj	M=S	_	_
+24	que	que	pron-indp	M=S	_	_
+25	perdeu	perder	v-fin	PS=3S=IND	_	_
+26	a	a	prp		_	_
+27	o	o	art	M=S	_	_
+28	longo	longo	adj	M=S	_	_
+29	de	de	prp		_	_
+30	o	o	art	M=S	_	_
+31	processo	processo	n	M=S	_	_
+32	de	de	prp		_	_
+33	domesticidade	domesticidade	n	F=S	_	_
+34	a	a	prp		_	_
+35	sua	sua	pron-det	F=S	0	_
+36	qualidade	qualidade	n	F=S	_	_
+37	de	de	prp		_	_
+38	ser	ser	v-inf		_	_
+39	livre	livre	adj	M=S	_	_
+40	,		,		_	_
+41	coloca	colocar	v-fin	PR=3S=IND	_	_
+42	um	um	art	M=S	_	_
+43	problema	problema	n	M=S	0	_
+44	pleno	pleno	adj	M=S	_	_
+45	de	de	prp		_	_
+46	sugestões	sugestão	n	F=P	_	(52)
+47	e	e	conj-c		_	_
+48	até	até	prp		_	_
+49	de	de	prp		_	_
+50	confrontações	confrontar	n	F=P	_	_
+51	de	de	prp		_	_
+52	natureza	natureza	n	F=S	0	_
+53	ética	ético	adj	F=S	_	_
+54	.	.	.		_	_
+
+0	Contudo		prop	M=S	_	_
+1	,		,		_	_
+2	ainda	ainda	adv		_	_
+3	é	ser	v-fin	PR=3S=IND	_	_
+4	em	em	prp		_	_
+5	o	o	art	M=S	_	_
+6	estudo	estudo	n	M=S	_	_
+7	de	de	prp		_	_
+8	as	o	art	F=P	_	(306
+9	sociedades	sociedade	n	F=P	0	_
+10	primitivas	primitivo	adj	F=P	_	306)
+11	e	e	conj-c		_	_
+12	em	em	prp		_	_
+13	a	o	art	F=S	_	_
+14	interpretação	interpretação, interpretar	n	F=S	_	_
+15	de	de	prp		_	_
+16	as	o	art	F=P	_	_
+17	suas	sua	pron-det	F=P	0	_
+18	regras	regra	n	F=P	_	_
+19	,		,		_	_
+20	de	de	prp		_	_
+21	a	o	art	F=S	_	(262
+22	psicologia	psicologia	n	F=S	0	_
+23	individual	individual	adj	F=S	_	_
+24	e	e	conj-c		_	_
+25	colectiva		adj	F=S	_	262)
+26	,		,		_	_
+27	em	em	prp		_	_
+28	a	o	art	F=S	_	_
+29	sua	sua	pron-det	F=S	0	_
+30	comparação	comparação, comparar	n	F=S	_	_
+31	com	com	prp		_	_
+32	as	o	art	F=P	_	_
+33	sociedades	sociedade	n	F=P	0	_
+34	históricas	histórico	adj	F=P	_	_
+35	e	e	conj-c		_	_
+36	actuais		adj	F=P	_	_
+37	,		,		_	_
+38	que	que	pron-indp	M=P	_	_
+39	podemos	poder, podar	v-fin	PR=1P=IND	_	_
+40	encontrar	encontrar	v-inf		_	_
+41	mais	mais	adv		_	_
+42	matéria	matéria	n	F=S	0	_
+43	reflexiva	reflexivo	adj	F=S	_	_
+44	.	.	.		_	_
+
+0	Os	o	art	M=P	_	(26
+1	animais	animal	n	M=P	0	_
+2	inferiores	inferior	adj	M=P	_	_
+3	,		,		_	_
+4	os	o	art	M=P	_	_
+5	primatas	primatas	n-adj	M=P	_	_
+6	e	e	conj-c		_	_
+7	o	o	art	M=S	_	_
+8	homem	homem	n	M=S	_	_
+9	primitivo	primitivo	adj	M=S	_	26)
+10	constituem	constituir	v-fin	PR=3P=IND	_	_
+11	uma	um	art	F=S	_	_
+12	linha	linha	n	F=S	0	_
+13	evolutiva	evolutivo	adj	F=S	_	_
+14	que	que	pron-indp	F=S	_	_
+15	se	se	pron-pers	F=3S=ACC	_	_
+16	revela	revelar	v-fin	PR=3S=IND	_	_
+17	sempre	sempre	adv		_	_
+18	mais	mais	adv		_	_
+19	complexa	complexo	adj	F=S	_	_
+20	,		,		_	_
+21	até	até	prp		_	_
+22	desembocar	desembocar	v-inf		_	_
+23	em	em	prp		_	_
+24	o	o	art	M=S	_	_
+25	salto	salto	n	M=S	0	_
+26	qualitativo	qualitativo	adj	M=S	_	_
+27	que	que	pron-indp	M=S	_	_
+28	é	ser	v-fin	PR=3S=IND	_	_
+29	a	o	art	F=S	_	(40
+30	civilização	civilização, civilizar	n	F=S	_	40)
+31	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	aí	aí	adv		_	_
+2	parece	parecer	v-fin	PR=3S=IND	_	_
+3	que	que	conj-s		_	_
+4	um	um	art	M=S	_	_
+5	acontecimento	acontecimento, acontecer	n	M=S	0	_
+6	inexplicável	inexplicável	adj	M=S	_	_
+7	,		,		_	_
+8	uma	um	art	F=S	_	_
+9	benção		n	F=S	_	_
+10	ou	ou	conj-c		_	_
+11	maldição	maldição	n	F=S	_	_
+12	,		,		_	_
+13	mas	mas	conj-c		_	_
+14	certamente	certo	adv		_	_
+15	uma	um	art	F=S	_	_
+16	adulteração	adulterar	n	F=S	_	_
+17	de	de	prp		_	_
+18	as	o	art	F=P	_	_
+19	regras	regra	n	F=P	0	_
+20	naturais	natural	adj	F=P	_	_
+21	,		,		_	_
+22	empurrou	empurrar	v-fin	PS=3S=IND	_	_
+23	o	o	art	M=S	_	_
+24	homem	homem	n	M=S	0	_
+25	para	para	prp		_	_
+26	uma	um	art	F=S	_	_
+27	via	via	n	F=S	0	_
+28	original	original	adj	F=S	_	_
+29	,		,		_	_
+30	com	com	prp		_	_
+31	desconhecidos	conhecer	v-pcp	M=P	_	_
+32	propósitos	propósito	n	M=P	_	_
+33	a	a	prp		_	_
+34	que	que	conj-s		_	_
+35	a	o	art	F=S	_	_
+36	tecnologia	tecnologia	n	F=S	0	_
+37	moderna	moderno	adj	F=S	_	_
+38	começou	começar	v-fin	PS=3S=IND	_	_
+39	a	a	prp		_	_
+40	dar	dar	v-inf		_	_
+41	contornos	contorno	n	M=P	0	_
+42	aterradores	aterrar	adj	M=P	_	_
+43	.	.	.		_	_
+
+0	Será	ser	v-fin	FUT=3S=IND	_	_
+1	já	já	adv		_	_
+2	o	o	art	M=S	_	_
+3	homem	homem	n	M=S	0	_
+4	primitivo	primitivo	adj	M=S	_	_
+5	um	um	art	M=S	_	_
+6	ser	ser	v-inf		_	_
+7	antinatural	antinatural	adj	M=S	_	_
+8	,		,		_	_
+9	ou	ou	conj-c		_	_
+10	seja	ser	v-fin	PR=3S=SUBJ	_	_
+11	,		,		_	_
+12	em	em	prp		_	_
+13	uma	um	art	F=S	_	_
+14	visão	visão	n	F=S	0	_
+15	puramente	puro	adv		_	_
+16	naturalista	natural	adj	F=S	_	_
+17	,		,		_	_
+18	um	um	art	M=S	_	_
+19	doente	doente	n	M=S	_	_
+20	?	?	?		_	_
+
+0	Teria	ter	v-fin	COND=3S	_	_
+1	sido	ser	v-pcp	M=S	_	_
+2	com	com	prp		_	_
+3	o	o	art	M=S	_	_
+4	missing		n	M=S	_	_
+5	link	link	n	M=S	_	_
+6	que	que	pron-indp	M=S	_	_
+7	se	se	pron-pers	M=3S=ACC	_	_
+8	iniciou	iniciar	v-fin	PS=3S=IND	_	_
+9	a	o	art	F=S	_	_
+10	marcha	marcha	n	F=S	0	_
+11	irreversível	irreversível	adj	F=S	_	_
+12	para	para	prp		_	_
+13	a	o	art	F=S	_	_
+14	patologia	patologia	n	F=S	0	_
+15	social	social	adj	F=S	_	_
+16	e	e	conj-c		_	_
+17	individual	individual	adj	F=S	_	_
+18	?	?	?		_	_
+
+0	O	o	art	M=S	_	(105
+1	sociólogo	sociologia	n	M=S	0	_
+2	Diawara		prop	M=S	_	105)
+3	argumenta	argumentar	v-fin	PR=3S=IND	_	_
+4	que	que	conj-s		_	_
+5	a	o	art	F=S	_	_
+6	longevidade	longevidade	n	F=S	0	_
+7	e	e	conj-c		_	_
+8	estabilidade	estável	n	F=S	_	_
+9	de	de	prp		_	_
+10	as	o	art	F=P	_	(306
+11	sociedades	sociedade	n	F=P	0	_
+12	primitivas	primitivo	adj	F=P	_	306)
+13	justifica	justificar	v-fin	PR=3S=IND	_	_
+14	a	o	art	F=S	_	_
+15	sua	sua	pron-det	F=S	0	_
+16	sanidade	sanidade	n	F=S	_	_
+17	,		,		_	_
+18	embora	embora	conj-s		_	_
+19	não	não	adv		_	_
+20	recuse	recusar	v-fin	PR=3S=SUBJ	_	_
+21	a	o	art	F=S	_	_
+22	sua	sua	pron-det	F=S	0	_
+23	originalidade	originalidade, original	n	F=S	_	_
+24	frente	frente	n	F=S	_	(208)
+25	a	a	prp		_	_
+26	a	o	art	F=S	_	_
+27	restante	restante, restar	adj	F=S	_	_
+28	vida	vida	n	F=S	0	_
+29	natural	natural	adj	F=S	_	_
+30	,		,		_	_
+31	antes	antes	adv		_	_
+32	por	por	prp		_	_
+33	o	o	art	M=S	_	_
+34	contrário	contrário	n	M=S	_	_
+35	.	.	.		_	_
+
+0	O	o	art	M=S	_	(26
+1	homem	homem	n	M=S	0	_
+2	primitivo	primitivo	adj	M=S	_	26)
+3	seria	seriar, ser	v-fin	COND=3S	_	_
+4	então	então	adv		_	_
+5	o	o	art	M=S	_	_
+6	primeiro	primeiro	adj	M=S	_	_
+7	,		,		_	_
+8	e	e	conj-c		_	_
+9	afinal	afinal	adv		_	_
+10	o	o	art	M=S	_	_
+11	único	único	n-adj	M=S	_	_
+12	verdadeiro	verdadeiro	adj	M=S	_	_
+13	homem	homem	n	M=S	_	_
+14	entendido	entender	v-pcp	M=S	_	_
+15	como	como	adv		_	_
+16	elemento	elemento	n	M=S	0	_
+17	criador	criador, criar	n	M=S	_	_
+18	de	de	prp		_	_
+19	uma	um	art	F=S	_	_
+20	sociedade	sociedade	n	F=S	0	_
+21	futura	futuro	adj	F=S	_	_
+22	sui		v-fin	PR=3S=IND	_	_
+23	generis		v-pcp	M=P	_	_
+24	e	e	conj-c		_	_
+25	verdadeiramente	verdadeiro	adv		_	_
+26	humanas	humano	adj	F=P	_	_
+27	.	.	.		_	_
+
+0	Entre	entre	prp		_	_
+1	os	o	art	M=P	_	_
+2	seres	ser	n	M=P	0	_
+3	humanos	humano	adj	M=P	_	_
+4	primitivos	primitivo	adj	M=P	_	_
+5	,		,		_	_
+6	fisicamente	fisicamente	adv		_	_
+7	deformados	deformar	v-pcp	M=P	_	_
+8	e	e	conj-c		_	_
+9	arrastando	arrastar	v-ger		_	_
+10	uma	um	art	F=S	_	_
+11	experiência	experiência	n	F=S	0	_
+12	semianimalesca		adj	F=S	_	_
+13	,		,		_	_
+14	que	que	pron-indp	M=P	_	_
+15	mostram	mostrar	v-fin	PR=3P=IND	_	_
+16	as	o	art	F=P	_	_
+17	revistas	revista	n	F=P	_	_
+18	e	e	conj-c		_	_
+19	os	o	art	M=P	_	_
+20	jornais	jornal	n	M=P	0	_
+21	,		,		_	_
+22	e	e	conj-c		_	_
+23	os	o	art	M=P	_	(275
+24	seres	ser	n	M=P	0	_
+25	humanos	humano	adj	M=P	_	275)
+26	civilizados	civilizar	v-pcp	M=P	_	_
+27	entregues		v-pcp	M=P	_	_
+28	a	a	prp		_	_
+29	as	o	art	F=P	_	_
+30	mãos	mão	n	F=P	_	_
+31	de	de	prp		_	_
+32	uma	um	art	F=S	_	(88
+33	sociedade	sociedade	n	F=S	_	88)
+34	de	de	prp		_	_
+35	consumo	consumo	n	M=S	_	_
+36	,		,		_	_
+37	será	ser	v-fin	FUT=3S=IND	_	_
+38	difícil	difícil	adj	M=S	_	_
+39	optar	optar	v-inf		_	_
+40	em	em	prp		_	_
+41	termos	termo	n	M=P	_	_
+42	de	de	prp		_	_
+43	qualidade	qualidade	n	F=S	0	_
+44	humana	humano	adj	F=S	_	_
+45	ou	ou	conj-c		_	_
+46	até	até	prp		_	_
+47	de	de	prp		_	_
+48	justificação	justificação, justificar	n	F=S	0	_
+49	existencial	existencial	adj	F=S	_	_
+50	.	.	.		_	_
+
+0	Por_outro_lado		adv		_	_
+1	,		,		_	_
+2	o	o	art	M=S	_	_
+3	estudo	estudo	n	M=S	0	_
+4	histórico	histórico	adj	M=S	_	_
+5	de	de	prp		_	_
+6	os	o	art	M=P	_	_
+7	impérios	império	n	M=P	0	_
+8	e	e	conj-c		_	_
+9	civilizações	civilizar	n	F=P	_	_
+10	convence	convencer	v-fin	PR=3S=IND	_	_
+11	-nos		pron-pers	M=1P=ACC	_	_
+12	de	de	prp		_	_
+13	que	que	conj-s		_	_
+14	só	só	adv		_	_
+15	em	em	prp		_	_
+16	pequenos	pequeno	adj	M=P	_	_
+17	círculos	círculo	n	M=P	_	_
+18	de	de	prp		_	_
+19	cultura	cultura	n	F=S	_	(25)
+20	o	o	art	M=S	_	(26
+21	homem	homem	n	M=S	_	26)
+22	revelou	revelar	v-fin	PS=3S=IND	_	_
+23	aquela	aquele	pron-det	F=S	0	_
+24	alma	alma	n	F=S	_	_
+25	espiritual	espiritual	adj	F=S	_	_
+26	que	que	pron-indp	F=S	_	(363)
+27	hoje	hoje	adv		_	_
+28	parece	parecer	v-fin	PR=3S=IND	_	_
+29	ser	ser	v-inf		_	_
+30	suficiente	suficiente	adj	M=S	_	_
+31	para	para	prp		_	_
+32	justificar	justificar	v-inf		_	_
+33	,		,		_	_
+34	resumir	resumir	v-inf		_	_
+35	ou	ou	conj-c		_	_
+36	absolver	absolver	v-inf		_	_
+37	(	(	(		_	_
+38	como	como	adv		_	(363
+39	ainda	ainda	adv		_	_
+40	pretendia	pretender	v-fin	IMPF=3S=IND	_	_
+41	,		,		_	_
+42	com	com	prp		_	_
+43	encantadora	encantar	n	F=S	0	_
+44	ingenuidade	ingenuidade	n	F=S	_	_
+45	,		,		_	_
+46	o	o	art	M=S	_	_
+47	ancião	ancião	n	M=S	0	_
+48	Bertrand_Russell		prop	M=S	_	363)
+49	)	)	)		_	_
+50	a	o	art	F=S	_	_
+51	nossa	nosso	pron-det	F=S	0	_
+52	velha	velha, velho	adj	F=S	_	_
+53	e	e	conj-c		_	_
+54	equívoca	equívoco	adj	F=S	_	_
+55	humanidade	humanidade, humano	n	F=S	_	_
+56	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	estudo	estudo	n	M=S	0	_
+2	de	de	prp		_	(306
+3	as	o	art	F=P	_	_
+4	sociedades	sociedade	n	F=P	0	_
+5	primitivas	primitivo	adj	F=P	_	_
+6	(	(	(		_	_
+7	de	de	prp		_	_
+8	as	o	art	F=P	_	_
+9	quais	qual	pron-det	F=P	_	_
+10	não	não	adv		_	_
+11	se	se	pron-pers	M=3P=ACC	_	_
+12	encontram	encontrar	v-fin	PR=3P=IND	_	_
+13	ausentes	ausente	adj	M=P	_	_
+14	nem	nem	conj-c		_	_
+15	a	o	art	F=S	_	_
+16	violência	violência	n	F=S	0	_
+17	,		,		_	_
+18	nem		adv		_	_
+19	a	o	art	F=S	_	_
+20	crueldade	crueldade	n	F=S	_	_
+21	,		,		_	_
+22	nem	nem	conj-c		_	_
+23	os	o	art	M=P	_	_
+24	outros	outro	pron-det	M=P	0	_
+25	pecados	pecado	n	M=P	_	_
+26	mortais	mortal	adj	M=P	_	_
+27	de	de	prp		_	_
+28	a	o	art	F=S	_	(128
+29	espécie	espécie	n	F=S	_	128)
+30	,		,		_	_
+31	que	que	pron-indp	M=S	_	_
+32	Koestler		prop	M=S	_	(99)
+33	assinalou	assinalar	v-fin	PS=3S=IND	_	306)
+34	)	)	)		_	_
+35	traz	trazer	v-fin	PR=3S=IND	_	_
+36	-nos		pron-pers	M/F=1P=ACC	_	_
+37	unicamente	unicamente	adv		_	_
+38	a	o	art	F=S	_	_
+39	revelação	revelação, revelar	n	F=S	0	_
+40	de	de	prp		_	_
+41	que	que	conj-s		_	_
+42	em	em	prp		_	_
+43	elas	ele	pron-pers	F=3P=NOM	_	_
+44	não	não	adv		_	_
+45	tinham	ter	v-fin	IMPF=3P=IND	_	_
+46	lugar	lugar	n	M=S	_	_
+47	os	o	art	M=P	_	_
+48	psiquiatras	psiquiatro	n	F=P	_	_
+49	,		,		_	_
+50	mas	mas	conj-c		_	_
+51	em	em	prp		_	_
+52	todas	todo	pron-det	F=P	_	_
+53	se	se	pron-pers	F=3P=ACC	_	_
+54	encontra	encontrar	v-fin	PR=3S=IND	_	_
+55	o	o	art	M=S	_	_
+56	feiticeiro	feiticeiro	n	M=S	0	_
+57	(	(	(		_	_
+58	o	o	art	M=S	_	_
+59	psiquiatra	psiquiatra, psiquiatro	n	M=S	_	_
+60	colectivo		adj	M=S	_	_
+61	ou	ou	conj-c		_	_
+62	o	o	art	M=S	_	_
+63	Moreno		prop	M=S	_	_
+64	de	de	prp		_	_
+65	então	então	adv		_	_
+66	)	)	)		_	_
+67	e	e	conj-c		_	_
+68	,		,		_	_
+69	pior	pior	adj	F=S	_	_
+70	que	que	conj-s		_	_
+71	isso	isso	pron-indp	M=S	_	_
+72	,		,		_	_
+73	o	o	art	M=S	_	_
+74	soma	soma	n	F=S	0	_
+75	pacificante		adj	F=S	_	_
+76	de	de	prp		_	_
+77	que	que	conj-s		_	_
+78	Aldous_Huxley		prop	M=S	_	(57)
+79	falara	falar	v-fin	MQP=3S=IND	_	_
+80	em	em	prp		_	_
+81	o	o	art	M=S	_	_
+82	seu	seu	pron-det	M=S	0	_
+83	Admirável_Mundo_Novo		prop	M=S	_	_
+84	.	.	.		_	_
+
+0	Este	este	pron-det	M=S	0	_
+1	mal	mal	n	M=S	_	_
+2	de	de	prp		_	_
+3	o	o	art	M=S	_	(36
+4	século	século	n	M=S	_	36)
+5	,		,		_	_
+6	como	como	adv		_	_
+7	lhe	lhe	pron-pers	M/F=3S/P=ACC	_	_
+8	chamou	chamar	v-fin	PS=3S=IND	_	_
+9	Hans_Selve		prop	M=S	_	_
+10	,		,		_	_
+11	o	o	art	M=S	_	(387
+12	stress	stress	n	M=S	_	387)
+13	,		,		_	_
+14	é	ser	v-fin	PR=3S=IND	_	_
+15	doença	doença	n	F=S	_	(387)
+16	que	que	pron-indp	F=S	_	_
+17	já	já	adv		_	_
+18	existia	existir	v-fin	IMPF=3S=IND	_	_
+19	em	em	prp		_	_
+20	as	o	art	F=P	_	(306
+21	sociedades	sociedade	n	F=P	0	_
+22	primitivas	primitivo	adj	F=P	_	306)
+23	,		,		_	_
+24	que	que	pron-indp	M=S	_	_
+25	existe	existir	v-fin	PR=3S=IND	_	_
+26	hoje	hoje	adv		_	_
+27	e	e	conj-c		_	_
+28	que	que	conj-s		_	_
+29	Huxley		prop	M=S	_	(57)
+30	previa	prever	v-fin	IMPF=3S=IND	_	_
+31	existir	existir	v-inf		_	_
+32	em	em	prp		_	_
+33	o	o	art	M=S	_	_
+34	seu	seu	pron-det	M=S	0	_
+35	mundo	mundo	n	M=S	_	_
+36	mecanizado	mecanizar	v-pcp	M=S	_	_
+37	e	e	conj-c		_	_
+38	artificial	artificial	adj	M=S	_	_
+39	,		,		_	_
+40	dominado	dominar	v-pcp	M=S	_	_
+41	por	por	prp		_	_
+42	uma	um	art	F=S	_	_
+43	tecnologia	tecnologia	n	F=S	0	_
+44	genética	genético	adj	F=S	_	_
+45	que	que	pron-indp	F=S	_	_
+46	afeiçoava	afeiçoar	v-fin	IMPF=3S=IND	_	_
+47	o	o	art	M=S	_	_
+48	organismo	organismo	n	M=S	0	_
+49	humano	humano	adj	M=S	_	_
+50	a	a	prp		_	_
+51	as	o	art	F=P	_	_
+52	tarefas	tarefa	n	F=P	0	_
+53	sociais	social	adj	F=P	_	_
+54	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	esse	esse	pron-det	M=S	0	_
+2	stress	stress	n	M=S	_	_
+3	que	que	pron-indp	M=S	_	_
+4	é	ser	v-fin	PR=3S=IND	_	_
+5	afinal	afinal	adv		_	_
+6	o	o	art	M=S	_	_
+7	resultado	resultado	n	M=S	0	_
+8	de	de	prp		_	_
+9	uma	um	art	F=S	_	(24
+10	incapacidade	incapacidade, incapaz	n	F=S	_	24)
+11	de	de	prp		_	_
+12	adaptação	adaptação, adaptar	n	F=S	_	_
+13	de	de	prp		_	_
+14	o	o	art	M=S	_	(26
+15	homem	homem	n	M=S	_	26)
+16	a	a	prp		_	_
+17	o	o	art	M=S	_	_
+18	meio-ambiente		n	M=S	0	_
+19	civilizacional	civilizacional	adj	M=S	_	_
+20	não	não	adv		_	_
+21	significará	significar	v-fin	FUT=3S=IND	_	_
+22	a	o	art	F=S	_	_
+23	sua	sua	pron-det	F=S	0	_
+24	condenação	condenar	n	F=S	_	_
+25	como	como	adv		_	_
+26	ser	ser	v-inf		_	_
+27	vivo	vivo	adj	M=S	_	_
+28	?	?	?		_	_
+
+0	O	o	art	M=S	_	_
+1	seu	seu	pron-det	M=S	0	_
+2	carácter	carácter	n	M=S	_	_
+3	epidémico		adj	M=S	_	_
+4	e	e	conj-c		_	_
+5	o	o	art	M=S	_	_
+6	facto	facto	n	M=S	_	_
+7	de	de	prp		_	_
+8	ter	ter	v-inf		_	_
+9	atingido	atingir	v-pcp	M=S	_	_
+10	os	o	art	M=P	_	_
+11	centros	centro	n	M=P	0	_
+12	nervosos	nervoso	adj	M=P	_	_
+13	e	e	conj-c		_	_
+14	a	o	art	F=S	_	_
+15	própria		pron-det	F=S	0	_
+16	vida	vida	n	F=S	_	_
+17	psicológica	psicológico	adj	F=S	_	_
+18	de	de	prp		_	_
+19	base	base	n	F=S	_	_
+20	,		,		_	_
+21	não	não	adv		_	_
+22	pode	poder, podar	v-fin	PR=3S=IND	_	_
+23	significar	significar	v-inf		_	_
+24	que	que	conj-s		_	_
+25	a	o	art	F=S	_	(92
+26	natureza	natureza	n	F=S	_	92)
+27	decidiu	decidir	v-fin	PS=3S=IND	_	_
+28	que	que	conj-s		_	_
+29	ele	ele	pron-pers	M=3S=NOM	_	_
+30	começa	começar, comedir	v-fin	PR=3S=IND	_	_
+31	a	a	prp		_	_
+32	não	não	adv		_	_
+33	ter	ter	v-inf		_	_
+34	condições	condição	n	F=P	0	_
+35	de	de	prp		_	_
+36	continuar	continuar	v-inf		_	_
+37	a	a	prp		_	_
+38	viver	viver	v-inf		_	_
+39	,		,		_	_
+40	tal	tal	pron-indp	M=S	0	_
+41	como	como	adv		_	_
+42	um	um	art	M=S	_	_
+43	carro	carro	n	M=S	_	_
+44	que	que	pron-indp	M=S	_	_
+45	começa	começar, comedir	v-fin	PR=3S=IND	_	_
+46	a	a	prp		_	_
+47	diminuir	diminuir	v-inf		_	_
+48	a	o	art	F=S	_	_
+49	velocidade	velocidade, veloz	n	F=S	_	_
+50	por	por	prp		_	_
+51	falta	falta	n	F=S	_	_
+52	de	de	prp		_	_
+53	combustível	combustível	n	M=S	_	_
+54	?	?	?		_	_
+
+0	As	o	art	F=P	_	_
+1	tentativas		n	F=P	0	_
+2	de	de	prp		_	_
+3	resposta	resposta	n	F=S	0	_
+4	modernas	moderno	adj	F=P	_	_
+5	em	em	prp		_	_
+6	a	o	art	F=S	_	(189
+7	luta	luta	n	F=S	_	189)
+8	contra	contra	prp		_	_
+9	o	o	art	M=S	_	(387
+10	stress	stress	n	M=S	_	387)
+11	:	:	:		_	_
+
+0	a	o	art	F=S	_	_
+1	picanálise		n	F=S	0	_
+2	,		,		_	_
+3	o	o	art	M=S	_	_
+4	yoga		prop	M=S	_	_
+5	,		,		_	_
+6	a	o	art	F=S	_	_
+7	meditação	meditação, meditar	n	F=S	0	_
+8	transcendental	transcendental	adj	F=S	_	_
+9	(	(	(		_	_
+10	ou	ou	conj-c		_	_
+11	o	o	art	M=S	_	(203
+12	recurso	recurso	n	M=S	_	203)
+13	a	a	prp		_	_
+14	a	o	art	F=S	_	_
+15	religião	religião	n	F=S	_	_
+16	,		,		_	_
+17	imprudentemente		adv		_	_
+18	desacreditada	acreditar	v-pcp	F=S	_	_
+19	por	por	prp		_	_
+20	os	o	art	M=P	_	_
+21	livres-pensadores		n	M=P	_	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	(36
+24	século	século	n	M=S	_	36)
+25	XVIII	XVIII	prop		_	(36)
+26	)	)	)		_	_
+27	parecem	parecer	v-fin	PR=3P=IND	_	_
+28	não	não	adv		_	_
+29	ser	ser	v-inf		_	_
+30	suficientes	suficiente	adj	M=P	_	_
+31	,		,		_	_
+32	nem_mesmo		adv		_	_
+33	apoiadas	apoiar	v-pcp	F=P	_	_
+34	por	por	prp		_	_
+35	a	o	art	F=S	_	_
+36	tecnologia	tecnologia	n	F=S	0	_
+37	química	química, químico	adj	F=S	_	_
+38	,		,		_	_
+39	com	com	prp		_	_
+40	os	o	art	M=P	_	_
+41	barbitúricos	barbitúrico	adj	M=P	_	_
+42	,		,		_	_
+43	relaxantes	relaxante, relaxar	adj	M=P	_	_
+44	ou	ou	conj-c		_	_
+45	inibidores	inibir	adj	M=P	_	_
+46	beta	beta	n	F=S	_	_
+47	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	vitória	vitória	n	F=S	0	_
+2	sobre	sobre	prp		_	_
+3	o	o	art	M=S	_	(387
+4	stress	stress	n	M=S	_	387)
+5	,		,		_	_
+6	o	o	art	M=S	_	(173
+7	receio	receio	n	M=S	_	173)
+8	,		,		_	_
+9	a	o	art	F=S	_	_
+10	angústia	angústia	n	F=S	_	_
+11	e	e	conj-c		_	_
+12	os	o	art	M=P	_	_
+13	tanatos		n	M=P	_	_
+14	a	a	prp		_	_
+15	a	o	art	F=S	_	_
+16	custa	custa	n	F=S	_	_
+17	de	de	prp		_	_
+18	uma	um	art	F=S	_	_
+19	sujeição	sujeição	n	F=S	_	_
+20	de	de	prp		_	_
+21	o	o	art	M=S	_	_
+22	comportamento	comportar	n	M=S	0	_
+23	pessoal	pessoal	adj	M=S	_	_
+24	e	e	conj-c		_	_
+25	social	social	adj	M=S	_	_
+26	a	a	prp		_	_
+27	o	o	art	M=S	_	_
+28	controlo	controlar	v-fin	PR=1S=IND	_	_
+29	farmacológico	farmacologia	adj	M=S	_	_
+30	levanta	levantar	v-fin	PR=3S=IND	_	_
+31	contudo		adv		_	_
+32	problemas	problema	n	M=P	0	_
+33	morais	moral	adj	M=P	_	_
+34	e	e	conj-c		_	_
+35	põe	pôr	v-fin	PR=3S=IND	_	_
+36	a	o	art	F=S	_	_
+37	questão	questão	n	F=S	0	_
+38	muito	muito	adv		_	_
+39	frontal	frontal	adj	F=S	_	_
+40	de	de	prp		_	_
+41	saber	saber	v-inf		_	_
+42	qual	qual	pron-det	F=S	0	_
+43	a	o	art	F=S	_	_
+44	diferença	diferença	n	F=S	_	_
+45	que	que	pron-indp	F=S	_	_
+46	possa	poder	v-fin	PR=3S=SUBJ	_	_
+47	haver	haver	v-inf		_	_
+48	entre	entre	prp		_	_
+49	um	um	art	M=S	_	_
+50	ser	ser	v-inf		_	_
+51	vivo	vivo	adj	M=S	_	_
+52	drogado	drogado	n	M=S	0	_
+53	e	e	conj-c		_	_
+54	um	um	art	M=S	_	_
+55	robot		n	M=S	_	_
+56	activado		v-pcp	M=S	_	_
+57	por	por	prp		_	_
+58	anfetaminas	anfetamina	n	F=P	0	_
+59	electrónicas		adj	F=P	_	_
+60	.	.	.		_	_
+
+0	Isto	isto	pron-indp	M=S	_	_
+1	leva	levar	v-fin	PR=3S=IND	_	_
+2	-nos		pron-pers	M/F=1P=ACC	_	_
+3	a	a	prp		_	_
+4	compreender	compreender	v-inf		_	_
+5	muito	muito	adv		_	_
+6	melhor	melhor	adj	F=S	_	_
+7	hoje	hoje	adv		_	_
+8	aquela	aquele	pron-det	F=S	0	_
+9	afirmação	afirmação, afirmar	n	F=S	_	_
+10	,		,		_	_
+11	aparentemente	aparente	adv		_	_
+12	controversa	controverso	adj	F=S	_	_
+13	de	de	prp		_	_
+14	o	o	art	M=S	_	(439
+15	velho	velho	n	M=S	_	439)
+16	Jung	Jung	prop		_	(439)
+17	,		,		_	_
+18	feita	fazer	v-pcp	F=S	_	_
+19	durante	durante	prp		_	_
+20	uma	um	art	F=S	_	_
+21	entrevista	entrevista	n	F=S	_	_
+22	pouco	pouco	adv		_	_
+23	antes	antes	adv		_	_
+24	de	de	prp		_	_
+25	morrer	morrer	v-inf		_	_
+26	,		,		_	_
+27	ou	ou	conj-c		_	_
+28	seja	ser	v-fin	PR=3S=SUBJ	_	_
+29	a		pron-det	F=S	_	_
+30	de	de	prp		_	_
+31	que	que	conj-s		_	_
+32	o	o	art	M=S	_	_
+33	grande	grande	adj	M=S	_	_
+34	homem	homem	n	M=S	_	_
+35	é	ser	v-fin	PR=3S=IND	_	_
+36	aquele	aquele	pron-det	M=S	_	_
+37	que	que	pron-indp	M=S	_	_
+38	tem	ter	v-fin	PR=3S=IND	_	_
+39	mais	mais	adv		_	_
+40	consciência	consciência	n	F=S	0	_
+41	de	de	prp		_	_
+42	a	o	art	F=S	_	_
+43	sua	sua	pron-det	F=S	0	_
+44	condição	condição	n	F=S	_	_
+45	de	de	prp		_	_
+46	macaco...		n	M=S	_	_
+#end document
+#begin document dn81219.txt.xml
+1	Por	por	prp		_	_
+2	decreto	decreto	n	M=S	_	_
+3	de	de	prp		_	_
+4	Manuel_da_Silva_Passos		prop	M=S	_	_
+5	,		,		_	_
+6	de	de	prp		_	_
+7	19		num	M=P	_	_
+8	de	de	prp		_	_
+9	Setembro	setembro	n	M=S	_	_
+10	de	de	prp		_	_
+11	1836		num	M=P	_	_
+12	,		,		_	_
+13	as	o	art	F=P	_	_
+14	corridas	correr	v-pcp	F=S	_	_
+15	de	de	prp		_	_
+16	touros	touro	n	M=P	_	(3)
+17	,		,		_	_
+18	em	em	prp		_	_
+19	Lisboa	Lisboa	prop	M=S	_	(4)
+20	,		,		_	_
+21	foram	ir, ser	v-fin	MQP=3P=IND	_	_
+22	proibidas	proibir	v-pcp	F=P	_	_
+23	,		,		_	_
+24	por	por	prp		_	_
+25	serem	ser	v-inf	3P	_	_
+26	divertimento	divertir	n	M=S	0	(5
+27	bárbaro	bárbaro	adj	M=S	_	_
+28	e	e	conj-c		_	_
+29	impróprio	impróprio	adj	M=S	_	_
+30	de	de	prp		_	_
+31	as	o	art	F=P	_	_
+32	nações	nação	n	F=P	0	_
+33	civilizadas	civilizar	v-pcp	F=P	_	5)
+34	,		,		_	_
+35	servindo	servir	v-ger		_	_
+36	só	só	adv		_	_
+37	para	para	prp		_	_
+38	habituar	habituar	v-inf		_	_
+39	os	o	art	M=P	_	_
+40	homens	homem	n	M=P	_	_
+41	a	a	prp		_	_
+42	o	o	art	M=S	_	_
+43	crime	crime	n	M=S	_	_
+44	e	e	conj-c		_	_
+45	a	a	prp		_	_
+46	a	o	art	F=S	_	_
+47	ferocidade	ferocidade, feroz	n	F=S	_	_
+48	.	.	.		_	_
+
+0	O	o	art	M=S	_	(10
+1	confronto	confronto	n	M=S	0	_
+2	com	com	prp		_	_
+3	esta	este	pron-det	F=S	0	_
+4	determinação	determinação, determinar	n	F=S	_	_
+5	legal	legal	adj	F=S	_	_
+6	sobre	sobre	prp		_	_
+7	as	o	art	F=P	_	_
+8	touradas	tourada	n	F=P	_	_
+9	de	de	prp		_	_
+10	Lisboa	Lisboa	prop	M=S	_	(4)|10)
+11	levou	levar	v-fin	PS=3S=IND	_	_
+12	-me		pron-pers	M=1S=ACC	_	_
+13	,		,		_	_
+14	quase	quase	adv		_	_
+15	sem	sem	prp		_	_
+16	dar	dar	v-inf		_	_
+17	por	por	prp		_	_
+18	isso	isso	pron-indp	M=S	_	_
+19	,		,		_	_
+20	a	o	art	F=S	_	_
+21	uma	um	art	F=S	_	_
+22	caminhada	caminhada	n	F=S	0	_
+23	em	em	prp		_	_
+24	o	o	art	M=S	_	(16
+25	passado	passado	n	M=S	_	16)
+26	de	de	prp		_	_
+27	o	o	art	M=S	_	_
+28	tempo	tempo	n	M=S	_	_
+29	para	para	prp		_	_
+30	conhecer	conhecer	v-inf		_	_
+31	,		,		_	_
+32	por	por	prp		_	_
+33	a	o	art	F=S	_	_
+34	Imprensa		prop	F=S	_	_
+35	,		,		_	_
+36	as	o	art	F=P	_	_
+37	razões	razão	n	F=P	0	_
+38	últimas	último	adj	F=P	_	_
+39	de	de	prp		_	_
+40	esta	este	pron-det	F=S	0	_
+41	ordem	ordem	n	F=S	_	_
+42	implacável	implacável	adj	F=S	_	_
+43	.	.	.		_	_
+
+0	Os	o	art	M=P	_	(21
+1	textos	texto	n	M=P	0	_
+2	encontrados	encontrar	v-pcp	M=P	_	21)
+3	nem	nem	conj-c		_	_
+4	sempre	sempre	adv		_	_
+5	serão	ser	v-fin	FUT=3P=IND	_	_
+6	os	o	art	M=P	_	_
+7	mais	mais	adv		_	_
+8	convincentes	convincente	adj	M=P	_	_
+9	nem	nem	conj-c		_	_
+10	as	o	art	F=P	_	_
+11	mais	mais	adv		_	_
+12	críticas	crítico	adj	F=P	_	_
+13	as	o	art	F=P	_	(21
+14	situações	situação, situar	n	F=P	_	21)
+15	que	que	pron-indp	F=P	_	_
+16	a	o	art	F=S	_	_
+17	lei	lei	n	F=S	_	_
+18	deseja	desejar	v-fin	PR=3S=IND	_	_
+19	extirpar	extirpar	v-inf		_	_
+20	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	vamos	ir	v-fin	PR=1P=IND	_	_
+2	a	a	prp		_	_
+3	o		pron-det	M=S	_	_
+4	que	que	pron-indp	M=S	_	_
+5	interessa	interessar	v-fin	PR=3S=IND	_	_
+6	.	.	.		_	_
+
+0	Encontrámos	encontrar	v-fin	PS=1P=IND	_	_
+1	a	o	art	F=S	_	_
+2	menção	menção	n	F=S	0	_
+3	de	de	prp		_	_
+4	três	três	num	F=P	_	(26
+5	touradas	tourada	n	F=P	_	26)
+6	,		,		_	_
+7	realizadas	realizar	v-pcp	F=P	_	_
+8	em	em	prp		_	_
+9	o	o	art	M=S	_	(27
+10	Terreiro_do_Paço		n	M=S	_	27)
+11	,		,		_	_
+12	em	em	prp		_	_
+13	Outubro	outubro	n	M=S	_	_
+14	de	de	prp		_	_
+15	1661		num	M=P	_	_
+16	,		,		_	_
+17	por	por	prp		_	_
+18	ocasião	ocasião	n	F=S	_	_
+19	de	de	prp		_	_
+20	o	o	art	M=S	_	_
+21	casamento	casar	n	M=S	_	_
+22	de	de	prp		_	_
+23	D._Catarina		prop	M=S	_	_
+24	de	de	prp		_	_
+25	Bragança	Bragança	prop	M=S	_	_
+26	com	com	prp		_	_
+27	Carlos	Carlos	prop	M=S	0	_
+28	I		adj	M=S	_	_
+29	de	de	prp		_	_
+30	Inglaterra	Inglaterra	prop	F=S	_	_
+31	.	.	.		_	_
+
+0	Os	o	art	M=P	_	(35
+1	populares	popular	n	M=P	0	_
+2	,		,		_	35)
+3	diz	dizer	v-fin	PR=3S=IND	_	_
+4	a	a	prp		_	_
+5	crónica		n	F=S	_	_
+6	,		,		_	_
+7	em	em	prp		_	_
+8	a	o	art	F=S	_	_
+9	ansiedade	ansiedade	n	F=S	_	_
+10	de	de	prp		_	_
+11	não	não	adv		_	_
+12	perder		v-fin	FUT=3S=SUBJ	_	_
+13	este	este	pron-det	M=S	0	_
+14	belo	belo	adj	M=S	_	_
+15	espectáculo		n	M=S	_	_
+16	,		,		_	_
+17	enchiam	encher	v-fin	IMPF=3P=IND	_	_
+18	literalmente	literal	adv		_	_
+19	os	o	art	M=P	_	_
+20	lugares	lugar	n	M=P	_	_
+21	que	que	pron-indp	M=P	_	_
+22	lhes	lhe	pron-pers	M=3P=ACC	_	_
+23	estavam	estar	v-fin	IMPF=3P=IND	_	_
+24	reservados	reservar	v-pcp	M=P	_	_
+25	.	.	.		_	_
+
+0	Mariolas		prop	F=P	_	_
+1	de	de	prp		_	_
+2	a	o	art	F=S	_	_
+3	Ribeira		prop	F=S	_	_
+4	acamaradavam		v-fin	IMPF=3P=IND	_	_
+5	com	com	prp		_	_
+6	a	o	art	F=S	_	_
+7	saloiada	saloiada	n	F=S	_	_
+8	de	de	prp		_	_
+9	as	o	art	F=P	_	_
+10	hortas	horta	n	F=P	_	_
+11	de	de	prp		_	_
+12	Loures		prop	M=S	_	_
+13	e	e	conj-c		_	_
+14	de	de	prp		_	_
+15	Belas		prop	F=P	_	_
+16	;	;	;		_	_
+
+0	almoinheiros		n	M=P	_	_
+1	,		,		_	_
+2	rascoas		n	F=P	_	_
+3	,		,		_	_
+4	vendilhões	vendilhão	n	M=P	_	_
+5	,		,		_	_
+6	lacaios	lacaio	n	M=P	_	_
+7	,		,		_	_
+8	regatões		n	M=P	0	_
+9	e	e	conj-c		_	_
+10	marinheiros	marinheiro	n	M=P	_	_
+11	,		,		_	_
+12	tudo	tudo	pron-indp	M=S	_	_
+13	se	se	pron-pers	M=3S=ACC	_	_
+14	acotovelava	acotovelar	v-fin	IMPF=3S=IND	_	_
+15	,		,		_	_
+16	se	se	pron-pers	M=3S=ACC	_	_
+17	comprimia	comprimir	v-fin	IMPF=3S=IND	_	_
+18	,		,		_	_
+19	ria	rir	v-fin	IMPF=3S=IND	_	_
+20	,		,		_	_
+21	chalaceava	chalacear	v-fin	IMPF=3S=IND	_	_
+22	,		,		_	_
+23	em	em	prp		_	_
+24	o	o	art	M=S	_	_
+25	desejo	desejo	n	M=S	_	_
+26	de	de	prp		_	_
+27	gozar	gozar	v-inf		_	_
+28	bem	bem	adv		_	_
+29	o	o	art	M=S	_	_
+30	dia	dia	n	M=S	0	_
+31	e	e	conj-c		_	_
+32	de	de	prp		_	_
+33	não	não	adv		_	_
+34	perder	perder	v-inf		_	_
+35	o	o	art	M=S	_	_
+36	mais	mais	pron-det	M=S	0	_
+37	pequeno	pequeno	adj	M=S	_	_
+38	episódio	episódio	n	M=S	_	_
+39	de	de	prp		_	_
+40	festa	festa	n	F=S	_	_
+41	tanto	tanto	adv		_	_
+42	de	de	prp		_	_
+43	o	o	art	M=S	_	_
+44	seu	seu	pron-det	M=S	0	_
+45	agrado	agrado	n	M=S	_	_
+46	.	.	.		_	_
+
+0	Esta	este	pron-det	F=S	0	_
+1	descrição	descrição	n	F=S	_	_
+2	revela	revelar	v-fin	PR=3S=IND	_	_
+3	,		,		_	_
+4	em	em	prp		_	_
+5	o	o	art	M=S	_	_
+6	seu	seu	pron-det	M=S	0	_
+7	pormenor	pormenor	n	M=S	_	_
+8	,		,		_	_
+9	os	o	art	M=P	_	_
+10	hábitos	hábito	n	M=P	0	_
+11	e	e	conj-c		_	_
+12	o	o	art	M=S	_	_
+13	apego	apego	n	M=S	_	_
+14	de	de	prp		_	_
+15	Lisboa	Lisboa	prop	M=S	_	(4)
+16	a	a	prp		_	_
+17	as	o	art	F=P	_	(26
+18	touradas	tourada	n	F=P	_	26)
+19	.	.	.		_	_
+
+0	Por	por	prp		_	_
+1	isso	isso	pron-indp	M=S	_	_
+2	,		,		_	_
+3	continuamos	continuar	v-fin	PR=1P=IND	_	_
+4	em	em	prp		_	_
+5	a	o	art	F=S	_	_
+6	citação	citação, citar	n	F=S	_	_
+7	de	de	prp		_	_
+8	o	o	art	M=S	_	_
+9	Arquivo_Alfacinha		prop	M=S	_	_
+10	,		,		_	_
+11	de	de	prp		_	_
+12	1953		num	M=P	_	_
+13	,		,		_	_
+14	que	que	pron-indp	M=P	_	_
+15	vinhamos		v-fin	PR=1P=IND	_	_
+16	fazendo	fazer	v-ger		_	_
+17	.	.	.		_	_
+
+0	Pouco	pouco	adv		_	_
+1	depois	depois	adv		_	_
+2	de	de	prp		_	_
+3	bater	bater	v-inf		_	_
+4	o	o	art	M=S	_	(70
+5	meio-dia	meio-dia	n	M=S	_	70)
+6	em	em	prp		_	_
+7	a	o	art	F=S	_	_
+8	torre	torre	n	F=S	_	_
+9	de	de	prp		_	_
+10	o	o	art	M=S	_	_
+11	relógio	relógio	n	M=S	_	_
+12	de	de	prp		_	_
+13	o	o	art	M=S	_	_
+14	Paço	paço	n	M=S	_	_
+15	e	e	conj-c		_	_
+16	em	em	prp		_	_
+17	os	o	art	M=P	_	_
+18	numerosos	numeroso	adj	M=P	_	_
+19	campanários	campanário	n	M=P	_	_
+20	de	de	prp		_	_
+21	a	o	art	F=S	_	_
+22	devota	devoto	n	F=S	_	_
+23	Lisboa	Lisboa	prop	M=S	0	_
+24	setecentista	setecentista	adj	M=S	_	_
+25	,		,		_	_
+26	correram	correr	v-fin	MQP=3P=IND	_	_
+27	-se		pron-pers	F=3P=ACC	_	_
+28	as	o	art	F=P	_	_
+29	cortinas	cortina	n	F=P	0	_
+30	de	de	prp		_	_
+31	a	o	art	F=S	_	_
+32	tribuna	tribuna, tribuno	n	F=S	0	_
+33	real	real	adj	F=S	_	_
+34	e	e	conj-c		_	_
+35	em	em	prp		_	_
+36	ela	ele	pron-pers	F=3S=NOM	_	_
+37	apareceram	aparecer	v-fin	MQP=3P=IND	_	_
+38	as	o	art	F=P	_	_
+39	pessoas	pessoa	n	F=P	0	_
+40	reais	real	adj	F=P	_	_
+41	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	multidão	multidão	n	F=S	_	_
+2	mal	mal	adv		_	_
+3	avistou	avistar	v-fin	PS=3S=IND	_	_
+4	a	o	art	F=S	_	_
+5	figura	figura	n	F=S	0	_
+6	de	de	prp		_	_
+7	o	o	art	M=S	_	(84
+8	moço	moço	n	M=S	_	84)
+9	e	e	conj-c		_	_
+10	de	de	prp		_	_
+11	sua	sua	pron-det	F=S	0	_
+12	irmã	irmão	n	F=S	_	_
+13	,		,		_	_
+14	já	já	adv		_	_
+15	considerada	considerar	v-pcp	F=S	_	_
+16	rainha	rainha	n	F=S	0	(86
+17	de	de	prp		_	_
+18	a	o	art	F=S	_	_
+19	Grã-Bretanha	GRÃ-BRETANHA	prop		_	86)
+20	,		,		_	_
+21	pôs	pôr	v-fin	PS=3S=IND	_	_
+22	-se		pron-pers	M=3S=ACC	_	_
+23	de	de	prp		_	_
+24	pé	pé	n	M=S	_	(89)
+25	e	e	conj-c		_	_
+26	começou	começar	v-fin	PS=3S=IND	_	_
+27	em	em	prp		_	_
+28	uma	um	art	F=S	_	_
+29	estrondosa	estrondoso	adj	F=S	_	_
+30	aclamação	aclamar	n	F=S	_	_
+31	de	de	prp		_	_
+32	simpatia	simpatia	n	F=S	_	_
+33	,		,		_	_
+34	reveladora	revelador, revelar	n	F=S	_	_
+35	de	de	prp		_	_
+36	o	o	art	M=S	_	_
+37	amor	amor	n	M=S	_	_
+38	que	que	pron-indp	M=S	_	_
+39	,		,		_	_
+40	então	então	adv		_	_
+41	,		,		_	_
+42	unia	unir	v-fin	IMPF=3S=IND	_	_
+43	o	o	art	M=S	_	(95
+44	povo	povo	n	M=S	0	_
+45	a	a	prp		_	_
+46	a	o	art	F=S	_	(96
+47	realeza	realeza	n	F=S	_	95)|96)
+48	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	narrativa	narrativa	n	F=S	_	_
+2	é	ser	v-fin	PR=3S=IND	_	_
+3	longa	longa, longo	adj	F=S	_	_
+4	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	não	não	adv		_	_
+2	resistimos	resistir	v-fin	PS=1P=IND	_	_
+3	,		,		_	_
+4	para	para	prp		_	_
+5	terminar	terminar	v-inf		_	_
+6	,		,		_	_
+7	de	de	prp		_	_
+8	transcrever	transcrever	v-inf		_	_
+9	uma	um	art	F=S	_	(98
+10	cena	cena	n	F=S	0	_
+11	para	para	prp		_	98)
+12	retratar	retratar	v-inf		_	_
+13	o	o	art	M=S	_	_
+14	comportamento	comportar	n	M=S	0	_
+15	de	de	prp		_	_
+16	os	o	art	M=P	_	(35
+17	populares	popular	n	M=P	_	35)
+18	em	em	prp		_	_
+19	calorosa	caloroso	adj	F=S	_	_
+20	ovação	ovação	n	F=S	_	_
+21	.	.	.		_	_
+
+0	Um	um	art	M=S	_	(84
+1	moço	moço	n	M=S	_	84)
+2	,		,		_	_
+3	vendo	ver	v-ger		_	_
+4	o	o	art	M=S	_	_
+5	fracasso	fracasso	n	M=S	0	_
+6	de	de	prp		_	_
+7	o	o	art	M=S	_	_
+8	ferro	ferro	n	M=S	_	_
+9	,		,		_	_
+10	avançou	avançar	v-fin	PS=3S=IND	_	_
+11	,		,		_	_
+12	destemido	destemido	adj	M=S	_	_
+13	,		,		_	_
+14	a	a	prp		_	_
+15	o	o	art	M=S	_	_
+16	encontro	encontro	n	M=S	_	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	(104
+19	touro	touro	n	M=S	_	104)
+20	,		,		_	_
+21	bateu	bater	v-fin	PS=3S=IND	_	_
+22	as	o	art	F=P	_	_
+23	palmas	palma	n	F=P	_	_
+24	,		,		_	_
+25	abriu	abrir	v-fin	PS=3S=IND	_	_
+26	os	o	art	M=P	_	_
+27	braços	braço	n	M=P	_	_
+28	,		,		_	_
+29	deu	dar	v-fin	PS=3S=IND	_	_
+30	-lhe		pron-pers	M=3S=ACC	_	_
+31	terra	terra	n	F=S	_	_
+32	e	e	conj-c		_	_
+33	caiu	cair	v-fin	PS=3S=IND	_	_
+34	magistralmente	magistral	adv		_	_
+35	dentro_da		prp		_	_
+36	a	o	art	F=S	_	_
+37	cornadura		n	F=S	_	_
+38	,		,		_	_
+39	a	a	prp		_	_
+40	à_qual		pron-indp	M=S	_	_
+41	se	se	pron-pers	M=3S=ACC	_	_
+42	segurou	segurar	v-fin	PS=3S=IND	_	_
+43	com	com	prp		_	_
+44	alma	alma	n	F=S	_	_
+45	,		,		_	_
+46	por	por	prp		_	_
+47	tal	tal	pron-det	F=S	0	_
+48	forma	forma	n	F=S	_	_
+49	que	que	pron-indp	F=S	_	_
+50	a	o	art	F=S	_	(115
+51	assistência	assistência	n	F=S	_	115)
+52	lhe	lhe	pron-pers	F=3S=ACC	_	_
+53	tributou	tributar	v-fin	PS=3S=IND	_	_
+54	a	o	art	F=S	_	_
+55	mais	mais	adv		_	_
+56	calorosa	caloroso	adj	F=S	_	_
+57	de	de	prp		_	_
+58	as	o	art	F=P	_	_
+59	ovações	ovação	n	F=P	0	_
+60	de	de	prp		_	_
+61	essa	esse	pron-det	F=S	0	_
+62	tarde	tarde	n	F=S	_	_
+63	distante	distante, distar	adj	F=S	_	_
+64	.	.	.		_	_
+
+0	A	o	art	F=S	_	(119
+1	noite	noite	n	F=S	_	119)
+2	aproximava	aproximar	v-fin	IMPF=3S=IND	_	_
+3	-se		pron-pers	F=3P=ACC	_	_
+4	frigidíssima		adj	F=S	_	_
+5	.	.	.		_	_
+
+0	A	o	art	F=S	_	(115
+1	assistência	assistência	n	F=S	_	115)
+2	tremia	tremer	v-fin	IMPF=3S=IND	_	_
+3	com	com	prp		_	_
+4	frio	frio	n	M=S	_	_
+5	,		,		_	_
+6	mas	mas	conj-c		_	_
+7	,		,		_	_
+8	até	até	prp		_	_
+9	a	o	art	F=S	_	_
+10	o	o	art	M=S	_	_
+11	derradeiro	derradeiro	adj	M=S	_	_
+12	touro	touro	n	M=S	_	_
+13	,		,		_	_
+14	ninguém	ninguém	pron-indp	M=S	_	_
+15	arredou	arredar	v-fin	PS=3S=IND	_	_
+16	pé	pé	n	M=S	_	(89)
+17	,		,		_	_
+18	quer	querer	v-fin	PR=3S=IND	_	_
+19	se	se	pron-pers	F=3S=ACC	_	_
+20	tratasse	tratar	v-fin	IMPF=3S=SUBJ	_	_
+21	de	de	prp		_	_
+22	fidalgo	fidalgo	n	M=S	_	_
+23	,		,		_	_
+24	de	de	prp		_	_
+25	lacaio	lacaio	n	M=S	_	_
+26	ou	ou	conj-c		_	_
+27	de	de	prp		_	_
+28	frade	frade	n	M=S	_	_
+29	.	.	.		_	_
+
+0	Este	este	pron-det	M=S	_	_
+1	gosto	gostar	v-fin	PR=1S=IND	_	_
+2	lisboeta	lisboeta	n	F=S	0	_
+3	por	por	prp		_	_
+4	as	o	art	F=P	_	(26
+5	touradas	tourada	n	F=P	_	26)
+6	andou	andar	v-fin	PS=3S=IND	_	_
+7	,		,		_	_
+8	também	também	adv		_	_
+9	,		,		_	_
+10	ligado	ligar	v-pcp	M=S	_	_
+11	a	a	prp		_	_
+12	uma	um	art	F=S	_	_
+13	grande	grande	adj	F=S	_	_
+14	predilecção		n	F=S	_	_
+15	de	de	prp		_	_
+16	a	o	art	F=S	_	(96
+17	realeza	realeza	n	F=S	_	96)
+18	.	.	.		_	_
+
+0	Assim	assim	adv		_	_
+1	,		,		_	_
+2	em	em	prp		_	_
+3	o	o	art	M=S	_	_
+4	segundo		adj	M=S	_	_
+5	quartel	quartel	n	M=S	_	_
+6	de	de	prp		_	_
+7	o	o	art	M=S	_	(132
+8	século	século	n	M=S	_	132)
+9	XVII	XVII	prop		_	(132)
+10	,		,		_	_
+11	aparece	aparecer	v-fin	PR=3S=IND	_	_
+12	-nos		pron-pers	M/F=1P=ACC	_	_
+13	o	o	art	M=S	_	(134
+14	rei	rei	n	M=S	0	_
+15	D._Pedro_II		prop	M=S	_	134)
+16	ligado	ligar	v-pcp	M=S	_	_
+17	apaixonadamente	apaixonar	adv		_	_
+18	a	o	art	F=S	_	_
+19	esta	este	pron-det	F=S	0	_
+20	aficción		n	F=S	_	_
+21	em	em	prp		_	_
+22	os	o	art	M=P	_	_
+23	pátios	pátio	n	M=P	_	_
+24	de	de	prp		_	_
+25	o	o	art	M=S	_	_
+26	palácio	palácio	n	M=S	_	_
+27	de	de	prp		_	_
+28	Alcântara	Alcântara	prop	M=S	_	(138)
+29	.	.	.		_	_
+
+0	Este	este	pron-det	M=S	0	_
+1	rei	rei	n	M=S	_	_
+2	,		,		_	_
+3	escreve	escrever	v-fin	PR=3S=IND	_	_
+4	-nos		pron-pers	M=1P=ACC	0	_
+5	Aires	Aires	prop		_	_
+6	de	de	prp		_	_
+7	Sá	Sá	prop		_	_
+8	em	em	prp		_	_
+9	Touradas		prop	M=S	_	(10)
+10	em	em	prp		_	_
+11	Portugal	Portugal	prop	M=S	_	(143)
+12	,		,		_	_
+13	costumava	costumar	v-fin	IMPF=3S=IND	_	_
+14	,		,		_	_
+15	em	em	prp		_	_
+16	o	o	art	M=S	_	_
+17	seu	seu	pron-det	M=S	0	_
+18	paço	paço	n	M=S	_	_
+19	de	de	prp		_	_
+20	Alcântara	Alcântara	prop	M=S	_	(138)
+21	,		,		_	_
+22	divertir	divertir	v-inf		_	_
+23	-se		pron-pers	M=3S=ACC	_	_
+24	,		,		_	_
+25	frequentes	frequente	adj	F=P	_	_
+26	vezes	vez	n	F=P	_	_
+27	,		,		_	_
+28	em	em	prp		_	_
+29	o	o	art	M=S	_	_
+30	seu	seu	pron-det	M=S	0	_
+31	exercício	exercício	n	M=S	_	_
+32	favorito	favorito	adj	M=S	_	_
+33	que	que	pron-indp	M=S	_	_
+34	é	ser	v-fin	PR=3S=IND	_	_
+35	correr	correr	v-inf		_	_
+36	a	a	prp		_	_
+37	cavalo	cavalo	n	M=S	_	(149)
+38	,		,		_	_
+39	com	com	prp		_	_
+40	a	o	art	F=S	_	_
+41	lança	lança	n	F=S	_	_
+42	o	o	art	M=S	_	(151
+43	toiro	toiro	n	M=S	_	151)
+44	;	;	;		_	_
+
+0	fazendo	fazer	v-ger		_	_
+1	isto	isto	pron-indp	M=S	_	_
+2	com	com	prp		_	_
+3	destreza	destreza	n	F=S	_	_
+4	e	e	conj-c		_	_
+5	acerto	acertar	v-fin	PR=1S=IND	_	_
+6	admiráveis	admirável	adj	M=P	_	_
+7	.	.	.		_	_
+
+0	Não	não	adv		_	_
+1	se	se	pron-pers	M/F=3S/P=ACC	_	_
+2	contenta	contentar	v-fin	PR=3S=IND	_	_
+3	com	com	prp		_	_
+4	expor	expor	v-inf		_	_
+5	-se		pron-pers	F=3S=ACC	_	_
+6	a	a	prp		_	_
+7	cavalo	cavalo	n	M=S	_	(149)
+8	,		,		_	_
+9	contra	contra	prp		_	_
+10	um	um	art	M=S	_	(156
+11	animal	animal	n	M=S	0	_
+12	furioso	furioso	adj	M=S	_	156)
+13	,		,		_	_
+14	ataca-o		v-fin	PR=3S=IND	_	_
+15	muitas	muito	pron-det	F=P	0	_
+16	vezes	vez	n	F=P	_	_
+17	a	a	prp		_	_
+18	pé	pé	n	M=S	_	(89)
+19	(	(	(		_	_
+20	...	...	...		_	_
+
+0	)	)	)		_	_
+1	.	.	.		_	_
+
+0	Vê	ver	v-fin	PR=3S=IND	_	_
+1	-se		pron-pers	M/F=3S/P=ACC	_	_
+2	,		,		_	_
+3	em	em	prp		_	_
+4	estes	este	pron-det	M=P	0	_
+5	recontros	recontro	n	M=P	_	_
+6	,		,		_	_
+7	a	o	art	F=S	_	_
+8	primeira		adj	F=S	_	_
+9	nobreza	nobreza	n	F=S	0	_
+10	apressada	apressar	v-pcp	F=S	_	_
+11	,		,		_	_
+12	em_volta_do		prp		_	_
+13	o	o	art	M=S	_	(104
+14	touro	touro	n	M=S	_	104)
+15	,		,		_	_
+16	agarrando-o		v-ger		_	_
+17	,		,		_	_
+18	cada_um		pron-indp	M=S	_	_
+19	por_onde		adv		_	_
+20	pode	poder, podar	v-fin	PR=3S=IND	_	_
+21	,		,		_	_
+22	por	por	prp		_	_
+23	os	o	art	M=P	_	_
+24	cornos	corno	n	M=P	_	_
+25	,		,		_	_
+26	por	por	prp		_	_
+27	o	o	art	M=S	_	_
+28	cachaço	cachaço	n	M=S	_	_
+29	,		,		_	_
+30	por	por	prp		_	_
+31	o	o	art	M=S	_	(164
+32	rabo	rabo	n	M=S	_	164)
+33	.	.	.		_	_
+
+0	Foi	ir, ser	v-fin	PS=3S=IND	_	_
+1	a	o	art	F=S	_	(86
+2	rainha	rainha	n	F=S	_	86)
+3	quem	quem	pron-indp	M/F=S	_	_
+4	o	o	art	M=S	_	_
+5	apartou	apartar	v-fin	PS=3S=IND	_	_
+6	de	de	prp		_	_
+7	estes	este	pron-det	M=P	0	_
+8	exercícios	exercício	n	M=P	_	_
+9	.	.	.		_	_
+
+0	Quando	quando	adv		_	_
+1	sabia	saber	v-fin	IMPF=1S=IND	_	_
+2	que	que	conj-s		_	_
+3	o	o	art	M=S	_	(134
+4	rei	rei	n	M=S	_	134)
+5	se	se	pron-pers	M=3S=ACC	_	_
+6	exercitava	exercitar	v-fin	IMPF=3S=IND	_	_
+7	em	em	prp		_	_
+8	uma	um	art	F=S	_	_
+9	tal	tal	pron-det	F=S	0	_
+10	coisa	coisa	n	F=S	_	_
+11	,		,		_	_
+12	metia	meter	v-fin	IMPF=3S=IND	_	_
+13	-se		pron-pers	M/F=3S/P=ACC	_	_
+14	imediatamente	imediato	adv		_	_
+15	em	em	prp		_	_
+16	o	o	art	M=S	_	_
+17	coche	cochar	v-fin	PR=3S=SUBJ	_	_
+18	e	e	conj-c		_	_
+19	corria	correr	v-fin	IMPF=3S=IND	_	_
+20	a	a	prp		_	_
+21	Alcântara	Alcântara	prop	M=S	_	(138)
+22	;	;	;		_	_
+
+0	logo	logo	adv		_	_
+1	acabava	acabar	v-fin	IMPF=3S=IND	_	_
+2	o	o	art	M=S	_	(5
+3	divertimento	divertir	n	M=S	_	5)
+4	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	o	o	art	M=S	_	_
+2	entusiasmo	entusiasmo	n	M=S	0	_
+3	de	de	prp		_	_
+4	os	o	art	M=P	_	(3
+5	touros	touro	n	M=P	_	3)
+6	bem	bem	adv		_	_
+7	depressa	depressa	adv		_	_
+8	trocou	trocar	v-fin	PS=3S=IND	_	_
+9	o	o	art	M=S	_	(27
+10	Terreiro_do_Paço		n	M=S	_	27)
+11	por	por	prp		_	_
+12	o	o	art	M=S	_	_
+13	jardim	jardim	n	M=S	_	_
+14	de	de	prp		_	_
+15	a	o	art	F=S	_	_
+16	Anunciada		prop	F=S	_	_
+17	,		,		_	_
+18	que	que	pron-indp	M=S	_	_
+19	está	estar	v-fin	PR=3S=IND	_	_
+20	entulhado	entulhar	v-pcp	M=S	_	_
+21	,		,		_	_
+22	de	de	prp		_	_
+23	sorte	sorte	n	F=S	_	_
+24	que	que	pron-indp	F=S	_	_
+25	a	o	art	F=S	_	(176
+26	praça	praça	n	F=S	_	176)
+27	fica	ficar	v-fin	PR=3S=IND	_	_
+28	quase	quase	adv		_	_
+29	em	em	prp		_	_
+30	o	o	art	M=S	_	_
+31	pavimento	pavimento	n	M=S	_	_
+32	de	de	prp		_	_
+33	as	o	art	F=P	_	_
+34	casas	casa	n	F=P	_	_
+35	de	de	prp		_	_
+36	o	o	art	M=S	_	_
+37	conde	conde	n	M=S	_	_
+38	de	de	prp		_	_
+39	Castelo_Melhor		prop	M=S	_	_
+40	,		,		_	_
+41	segundo	segundo	prp		_	_
+42	dados	dado	n	M=P	_	_
+43	de	de	prp		_	_
+44	Rodovalho_Duro		prop	M=S	_	_
+45	,		,		_	_
+46	em	em	prp		_	_
+47	História_do_Toureio		prop	M=S	_	_
+48	em	em	prp		_	_
+49	Portugal	Portugal	prop	M=S	_	(143)
+50	.	.	.		_	_
+
+0	O	o	art	M=S	_	_
+1	autor	autor	n	M=S	_	_
+2	reporta	reportar	v-fin	PR=3S=IND	_	_
+3	este	este	pron-det	M=S	0	_
+4	acontecimento	acontecimento, acontecer	n	M=S	_	_
+5	a	a	prp		_	_
+6	1771		num	M=P	_	_
+7	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	esta	este	pron-det	F=S	_	_
+2	seria	seriar, ser	v-fin	COND=3S	_	_
+3	uma	um	art	F=S	_	_
+4	pequena	pequeno	adj	F=S	_	_
+5	etapa	etapa	n	F=S	0	_
+6	em	em	prp		_	_
+7	a	o	art	F=S	_	_
+8	vida	vida	n	F=S	_	_
+9	de	de	prp		_	_
+10	o	o	art	M=S	_	_
+11	toureio	toureio	n	M=S	_	_
+12	em	em	prp		_	_
+13	Lisboa	Lisboa	prop	M=S	_	(4)
+14	,		,		_	_
+15	porque	porque	conj-s		_	_
+16	,		,		_	_
+17	entre	entre	prp		_	_
+18	1777		num	M=P	_	_
+19	a	a	prp		_	_
+20	1780		num	M=P	_	_
+21	,		,		_	_
+22	seria	seriar, ser	v-fin	COND=3S	_	_
+23	construída	construir	v-pcp	F=S	_	_
+24	a	o	art	F=S	_	_
+25	praça	praça	n	F=S	0	_
+26	de	de	prp		_	_
+27	touros	touro	n	M=P	_	(3)
+28	de	de	prp		_	_
+29	o	o	art	M=S	_	(191
+30	Salitre		prop	M=S	_	191)
+31	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	alma	alma	n	F=S	0	_
+2	de	de	prp		_	_
+3	esta	este	pron-det	F=S	0	_
+4	construção	construção	n	F=S	_	_
+5	e	e	conj-c		_	_
+6	seu	seu	pron-det	M=S	0	_
+7	primeiro	primeiro	adj	M=S	_	_
+8	empresário	empresário	n	M=S	_	_
+9	teria	ter	v-fin	COND=3S	_	_
+10	sido	ser	v-pcp	M=S	_	_
+11	o	o	art	M=S	_	_
+12	boticário	boticário	n	M=S	0	_
+13	João_Gomes_Varela		prop	M=S	_	_
+14	,		,		_	_
+15	a	a	prp		_	_
+16	darmos	dar	v-inf	1P	_	_
+17	fé	fé	n	F=S	0	_
+18	a	a	prp		_	_
+19	as	o	art	F=P	_	_
+20	notícias	notícia	n	F=P	_	_
+21	veiculadas	veicular	v-pcp	F=P	_	_
+22	por	por	prp		_	_
+23	mestre	mestre	n	M=S	_	_
+24	Matos_Sequeira		prop	M=S	_	(199)
+25	,		,		_	_
+26	que	que	pron-indp	M=S	_	_
+27	sendo	ser	v-ger		_	_
+28	bom	bom	adj	M=S	_	_
+29	manipulador	manipulador, manipular	n	M=S	0	_
+30	de	de	prp		_	_
+31	tisanas		n	F=P	_	_
+32	e	e	conj-c		_	_
+33	homem	homem	n	M=S	_	_
+34	de	de	prp		_	_
+35	teatro	teatro	n	M=S	_	_
+36	,		,		_	_
+37	e	e	conj-c		_	_
+38	sobraçava	sobraçar	v-fin	IMPF=3S=IND	_	_
+39	a	o	art	F=S	_	_
+40	capa	capa	n	F=S	0	_
+41	de	de	prp		_	_
+42	toureio	toureio	n	M=S	_	_
+43	de	de	prp		_	_
+44	pé	pé	n	M=S	_	(89)
+45	,		,		_	_
+46	viu	ver	v-fin	PS=3S=IND	_	_
+47	negócio	negócio	n	M=S	_	(98)
+48	em	em	prp		_	_
+49	uma	um	art	F=S	_	_
+50	praça	praça	n	F=S	0	_
+51	onde	onde	adv		_	_
+52	,		,		_	_
+53	com	com	prp		_	_
+54	permanência	permanência	n	F=S	_	_
+55	,		,		_	_
+56	fosse	fossar, ir, ser	v-fin	PR=3S=SUBJ	_	_
+57	explorado	explorar	v-pcp	M=S	_	_
+58	o	o	art	M=S	_	_
+59	gosto	gosto	n	M=S	0	_
+60	que	que	pron-indp	M=S	_	_
+61	o	o	art	M=S	_	_
+62	povo	povo	n	M=S	0	_
+63	de	de	prp		_	_
+64	Lisboa	Lisboa	prop	M=S	_	(4)
+65	sempre	sempre	adv		_	_
+66	manifestou	manifestar	v-fin	PS=3S=IND	_	_
+67	por	por	prp		_	_
+68	a	o	art	F=S	_	_
+69	festa	festa	n	F=S	0	_
+70	brava	bravo	adj	F=S	_	_
+71	.	.	.		_	_
+
+0	Se	se	conj-s		_	_
+1	a	o	art	F=S	_	_
+2	origem	origem	n	F=S	0	_
+3	de	de	prp		_	_
+4	esta	este	pron-det	F=S	0	_
+5	praça	praça	n	F=S	_	_
+6	é	ser	v-fin	PR=3S=IND	_	_
+7	motivo	motivo	n	M=S	0	_
+8	de	de	prp		_	_
+9	discordância	discordância	n	F=S	_	(214)
+10	com	com	prp		_	_
+11	o	o	art	M=S	_	_
+12	escritor	escritor	n	M=S	_	_
+13	Eduardo_Noronha		prop	M=S	_	(216)
+14	,		,		_	_
+15	que	que	pron-indp	M=S	_	_
+16	reivindicou	reivindicar	v-fin	PS=3S=IND	_	_
+17	a	o	art	F=S	_	_
+18	sua	sua	pron-det	F=S	0	_
+19	fundação	fundar	n	F=S	_	_
+20	a	a	prp		_	_
+21	uma	um	art	F=S	_	_
+22	espécie	espécie	n	F=S	_	_
+23	de	de	prp		_	_
+24	sindicato	sindicato	n	M=S	_	_
+25	,		,		_	_
+26	a	o	art	F=S	_	_
+27	sua	sua	pron-det	F=S	_	_
+28	arquitectura		n	F=S	_	_
+29	é	ser	v-fin	PR=3S=IND	_	_
+30	,		,		_	_
+31	também	também	adv		_	_
+32	,		,		_	_
+33	motivo	motivo	n	M=S	_	_
+34	de	de	prp		_	_
+35	discordância	discordância	n	F=S	_	(214)
+36	.	.	.		_	_
+
+0	Ainda	ainda	adv		_	_
+1	segundo	segundo	prp		_	_
+2	Eduardo_Noronha		prop	M=S	_	(216)
+3	,		,		_	_
+4	o	o	art	M=S	_	(222
+5	arquitecto		n	M=S	0	_
+6	de	de	prp		_	_
+7	a	o	art	F=S	_	_
+8	praça	praça	n	F=S	_	222)
+9	copiara-o		v-fin	PR=3S=IND	_	_
+10	,		,		_	_
+11	fielmente	fiel	adv		_	_
+12	,		,		_	_
+13	de	de	prp		_	_
+14	a	o	art	F=S	_	_
+15	velha	velha, velho	adj	F=S	_	_
+16	praça	praça	n	F=S	_	_
+17	de	de	prp		_	_
+18	Madrid	Madrid	prop	M=S	_	_
+19	,		,		_	_
+20	circular	circular	v-inf		_	_
+21	e	e	conj-c		_	_
+22	ampla	amplo	adj	F=S	_	_
+23	,		,		_	_
+24	mas	mas	conj-c		_	_
+25	,		,		_	_
+26	em	em	prp		_	_
+27	Matos_Sequeira		prop	M=S	_	(199)
+28	,		,		_	_
+29	a	o	art	F=S	_	(176
+30	praça	praça	n	F=S	0	_
+31	de	de	prp		_	_
+32	o	o	art	M=S	_	(191
+33	Salitre		prop	M=S	_	176)|191)
+34	aparece	aparecer	v-fin	PR=3S=IND	_	_
+35	sobre	sobre	prp		_	_
+36	um	um	art	M=S	_	_
+37	quadrado	quadrado	n	M=S	_	_
+38	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	um	um	art	M=S	_	(225
+2	lado	lado	n	M=S	_	225)
+3	de	de	prp		_	_
+4	o	o	art	M=S	_	_
+5	anfiteatro	anfiteatro	n	M=S	_	_
+6	tinha	ter	v-fin	IMPF=3S=IND	_	_
+7	camarotes	camarote	n	M=P	_	_
+8	,		,		_	_
+9	para	para	prp		_	_
+10	os	o	art	M=P	_	_
+11	aficionados	aficionado	n-adj	M=P	_	_
+12	de	de	prp		_	_
+13	cotação	cotar	n	F=S	0	_
+14	social	social	adj	F=S	_	_
+15	,		,		_	_
+16	destinando	destinar	v-ger		_	_
+17	-se		pron-pers	M=3S=ACC	0	_
+18	um	um	art	M=S	_	_
+19	de	de	prp		_	_
+20	eles	ele	pron-pers	M=3P=NOM	_	_
+21	a	a	prp		_	_
+22	a	o	art	F=S	_	_
+23	autoridade	autoridade	n	F=S	_	_
+24	que	que	pron-indp	F=S	_	_
+25	era	ser	v-fin	IMPF=3S=IND	_	_
+26	,		,		_	_
+27	então	então	adv		_	_
+28	,		,		_	_
+29	o	o	art	M=S	_	_
+30	corregedor	corregedor, correger	n	M=S	0	_
+31	de	de	prp		_	_
+32	o	o	art	M=S	_	_
+33	bairro	bairro	n	M=S	_	_
+34	de	de	prp		_	_
+35	Remolares		prop	M=S	_	_
+36	;	;	;		_	_
+
+0	de	de	prp		_	_
+1	o	o	art	M=S	_	_
+2	outro	outro	pron-det	M=S	0	_
+3	lado	lado	n	M=S	_	_
+4	,		,		_	_
+5	lugares	lugar	n	M=P	0	_
+6	de	de	prp		_	_
+7	sobra	sobra	n	F=S	_	_
+8	.	.	.		_	_
+
+0	Em	em	prp		_	_
+1	toda	todo	pron-det	F=S	0	_
+2	a	o	art	F=S	_	_
+3	volta	volta	n	F=S	_	_
+4	,		,		_	_
+5	bancadas	bancada	n	F=P	_	_
+6	para	para	prp		_	_
+7	o	o	art	M=S	_	(95
+8	povo	povo	n	M=S	_	95)
+9	miúdo	miúdo	n	M=S	_	_
+10	.	.	.		_	_
+
+0	As	o	art	F=P	_	_
+1	touradas	tourada	n	F=P	0	_
+2	de	de	prp		_	_
+3	a	o	art	F=S	_	(176
+4	praça	praça	n	F=S	_	176)
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	(191
+7	Salitre		prop	M=S	_	191)
+8	findaram	findar	v-fin	MQP=3P=IND	_	_
+9	-se		pron-pers	M=3P=ACC	_	_
+10	em	em	prp		_	_
+11	1830		num	M=P	_	_
+12	.	.	.		_	_
+
+0	Um	um	art	M=S	_	_
+1	circo	circo	n	M=S	_	_
+2	calhou	calhar	v-fin	PS=3S=IND	_	_
+3	-lhe		pron-pers	M=3S=ACC	_	_
+4	como	como	adv		_	_
+5	herança	herança	n	F=S	0	_
+6	de	de	prp		_	_
+7	a	o	art	F=S	_	_
+8	morte	morte	n	F=S	_	_
+9	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	em	em	prp		_	_
+2	1879		num	M=S	_	_
+3	,		,		_	_
+4	imperioso	imperioso	adj	M=S	_	_
+5	o	o	art	M=S	_	_
+6	destino	destino	n	M=S	0	_
+7	de	de	prp		_	_
+8	esta	este	pron-det	F=S	0	_
+9	cidade	cidade	n	F=S	_	_
+10	que	que	pron-indp	F=S	_	_
+11	começava	começar	v-fin	IMPF=3S=IND	_	_
+12	a	a	prp		_	_
+13	crescer	crescer	v-inf		_	_
+14	a_partir_do		prp		_	_
+15	o	o	art	M=S	_	_
+16	início	início	n	M=S	_	_
+17	de	de	prp		_	_
+18	a	o	art	F=S	_	_
+19	Avenida_da_Liberdade		prop	F=S	_	_
+20	,		,		_	_
+21	deitaram	deitar	v-fin	MQP=3P=IND	_	_
+22	abaixo	abaixo	adv		_	_
+23	a	o	art	F=S	_	_
+24	velha	velha, velho	adj	F=S	_	_
+25	praça	praça	n	F=S	0	_
+26	,		,		_	_
+27	alegre	alegre	adj	F=S	_	_
+28	passatempo	passatempo	n	M=S	_	_
+29	de	de	prp		_	_
+30	os	o	art	M=P	_	_
+31	nossos	nosso	pron-det	M=P	0	_
+32	avós	avó, avô	n	M=P	_	_
+33	.	.	.		_	_
+
+0	de	de	prp		_	_
+1	entre	entre	prp		_	_
+2	os	o	art	M=P	_	_
+3	costumes	costume	n	M=P	_	_
+4	de	de	prp		_	_
+5	Lisboa	Lisboa	prop	M=S	_	(4)
+6	de	de	prp		_	_
+7	o	o	art	M=S	_	(132
+8	século	século	n	M=S	_	132)
+9	XIX	XIX	prop		_	(257)
+10	,		,		_	_
+11	as	o	art	F=P	_	_
+12	toiradas	toirada	n	F=P	_	_
+13	ocupavam	ocupar	v-fin	IMPF=3P=IND	_	_
+14	a	o	art	F=S	_	_
+15	parte	parte	n	F=S	0	_
+16	primeira		adj	F=S	_	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	_
+19	coração	coração	n	M=S	_	_
+20	de	de	prp		_	_
+21	estes	este	pron-det	M=P	0	_
+22	citadinos	citadino	n	M=P	_	_
+23	com	com	prp		_	_
+24	os	o	art	M=P	_	_
+25	olhos	olho	n	M=P	0	_
+26	fartos	farto	adj	M=P	_	_
+27	de	de	prp		_	_
+28	Tejo	Tejo	prop		_	_
+29	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	,		,		_	_
+2	foi	ir, ser	v-fin	PS=3S=IND	_	_
+3	em	em	prp		_	_
+4	a	o	art	F=S	_	(264
+5	Praça_do_Campo_de_Santana		prop	F=S	_	264)
+6	que	que	conj-s		_	_
+7	se	se	pron-pers	M=3S=ACC	_	_
+8	viveram	viver	v-fin	MQP=3P=IND	_	_
+9	as	o	art	F=P	_	_
+10	melhores	melhor	adj	F=P	_	_
+11	tardes	tarde	n	F=P	0	_
+12	de	de	prp		_	_
+13	o	o	art	M=S	_	(267
+14	toureio	toureio	n	M=S	0	_
+15	português	português	adj	M=S	_	267)
+16	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	são	ser	v-fin	PR=3P=IND	_	_
+2	os	o	art	M=P	_	_
+3	testemunhos	testemunho	n	M=P	0	_
+4	escritos	escrever	v-pcp	M=P	_	_
+5	de	de	prp		_	_
+6	a	o	art	F=S	_	_
+7	época	época	n	F=S	_	_
+8	que	que	pron-indp	F=S	_	_
+9	nos	nos	pron-pers	M/F=1P=ACC	_	_
+10	poderão	poder	v-fin	FUT=3P=IND	_	_
+11	guiar	guiar	v-inf		_	_
+12	em	em	prp		_	_
+13	o	o	art	M=S	_	_
+14	conhecimento	conhecer	n	M=S	_	_
+15	de	de	prp		_	_
+16	esta	este	pron-det	F=S	0	_
+17	prática	prática	n	F=S	_	_
+18	taurina	taurino	adj	F=S	_	_
+19	de	de	prp		_	_
+20	a	o	art	F=S	_	_
+21	capital	capital	n	F=S	_	_
+22	,		,		_	_
+23	onde	onde	adv		_	_
+24	o	o	art	M=S	_	(274
+25	chamado		adj	M=S	_	_
+26	bando	bando	n	M=S	_	274)
+27	constituía	constituir	v-fin	IMPF=3S=IND	_	_
+28	um	um	art	M=S	_	(275
+29	elemento	elemento	n	M=S	0	_
+30	curiosíssimo	curioso	adj	M=S	_	_
+31	e	e	conj-c		_	_
+32	indispensável	indispensável	adj	M=S	_	275)
+33	para	para	prp		_	_
+34	preparar	preparar	v-inf		_	_
+35	uma	um	art	F=S	_	_
+36	praça	praça	n	F=S	0	_
+37	a	a	prp		_	_
+38	a	o	art	F=S	_	_
+39	cunha	cunha	n	F=S	_	_
+40	.	.	.		_	_
+
+0	O	o	art	M=S	_	(274
+1	bando	bando	n	M=S	_	274)
+2	era	ser	v-fin	IMPF=3S=IND	_	_
+3					_	_
+4	no		pron-pers	M/F=1P=DAT	_	_
+5	dizer	dizer	v-inf		_	_
+6	de	de	prp		_	_
+7	Eduardo_Noronha		prop	M=S	_	(216)
+8					_	_
+9	,		,		_	_
+10	uma	um	art	F=S	_	_
+11	pitoresca	pitoresco	n	F=S	0	_
+12	e	e	conj-c		_	_
+13	andrajosa		n	F=S	0	_
+14	cavalgada	cavalgar	v-pcp	F=S	_	_
+15	,		,		_	_
+16	a	o	art	F=S	_	_
+17	charanga	charanga	n	F=S	_	_
+18	constituída	constituir	v-pcp	F=S	_	_
+19	por	por	prp		_	_
+20	executantes	executante	n	M=P	_	_
+21	pouco	pouco	adv		_	_
+22	habilitados	habilitar	v-pcp	M=P	_	_
+23	,		,		_	_
+24	a	o	art	F=S	_	_
+25	tocarem	tocar	v-fin	FUT=3P=SUBJ	_	_
+26	os	o	art	M=P	_	_
+27	instrumentos	instrumento	n	M=P	0	_
+28	cheios	cheio	adj	M=P	_	_
+29	de	de	prp		_	_
+30	amolgadelas	amolgadela	n	F=P	_	_
+31	,		,		_	_
+32	músicas	músico	n	F=P	0	_
+33	desafinadas	desafinar	v-pcp	F=P	_	_
+34	,		,		_	_
+35	mas	mas	conj-c		_	_
+36	clamorosas	clamoroso	adj	F=P	_	_
+37	,		,		_	_
+38	acompanhada	acompanhar	v-pcp	F=S	_	_
+39	por	por	prp		_	_
+40	numeroso	numeroso	n-adj	M=S	_	_
+41	sibilante	sibilante, sibilar	adj	M=S	_	_
+42	e	e	conj-c		_	_
+43	barulhento	barulhento	adj	M=S	_	_
+44	rapazio	rapazio	n	M=S	_	_
+45	,		,		_	_
+46	chamava	chamar	v-fin	IMPF=3S=IND	_	_
+47	a	a	prp		_	_
+48	as	o	art	F=P	_	_
+49	janelas	janela	n	F=P	0	_
+50	e	e	conj-c		_	_
+51	portas	porta	n	F=P	0	_
+52	meia	meio	adj	F=S	_	_
+53	população	população	n	F=S	_	_
+54	,		,		_	_
+55	que	que	pron-indp	F=S	_	_
+56	se	se	pron-pers	F=3S=ACC	_	_
+57	apressava	apressar	v-fin	IMPF=3S=IND	_	_
+58	a	a	prp		_	_
+59	correr	correr	v-inf		_	_
+60	para	para	prp		_	_
+61	a	o	art	F=S	_	_
+62	corrida	corrida	n	F=S	_	_
+63	de	de	prp		_	_
+64	o	o	art	M=S	_	_
+65	dia	dia	n	M=S	0	_
+66	seguinte	seguinte	adj	M=S	_	_
+67	(	(	(		_	_
+68	...	...	...		_	_
+
+0	)	)	)		_	_
+1	Quando	quando	adv		_	_
+2	se	se	pron-pers	M/F=3S/P=ACC	_	_
+3	ouve	ouvir	v-fin	PR=3S=IND	_	_
+4	,		,		_	_
+5	fantasiam	fantasiar	v-fin	PR=3P=IND	_	_
+6	-se		pron-pers	M=3S=ACC	_	_
+7	,		,		_	_
+8	entrevêem		v-fin	PR=3S=IND	_	_
+9	-se		pron-pers	M/F=3S/P=ACC	0	_
+10	,		,		_	_
+11	as	o	art	F=P	_	_
+12	variadas	variar	v-pcp	F=P	_	_
+13	peripécias	peripécia	n	F=P	_	_
+14	de	de	prp		_	_
+15	uma	um	art	F=S	_	_
+16	boa	boa	adj	F=S	_	_
+17	tarde	tarde	n	F=S	_	_
+18	de	de	prp		_	_
+19	toiros	toiro	n	M=P	_	(297)
+20	em	em	prp		_	_
+21	a	o	art	F=S	_	(264
+22	Praça_do_Campo_de_Santana		prop	F=S	_	264)
+23	,		,		_	_
+24	com	com	prp		_	_
+25	o	o	art	M=S	_	_
+26	céu	céu	n	M=S	0	_
+27	azul	azul	adj	M=S	_	_
+28	a	a	prp		_	_
+29	desdobrar	desdobrar	v-inf		_	_
+30	-se		pron-pers	M=3S=ACC	_	_
+31	por_cima_da		prp		_	_
+32	a	o	art	F=S	_	_
+33	concorrência	concorrência	n	F=S	_	_
+34	,		,		_	_
+35	o	o	art	M=S	_	_
+36	sol	sol	n	M=S	0	_
+37	a	a	prp		_	_
+38	afoguear	afoguear	v-inf		_	_
+39	o	o	art	M=S	_	_
+40	rosto	rosto	n	M=S	0	_
+41	de	de	prp		_	_
+42	os	o	art	M=P	_	_
+43	circunstantes		n	M=P	_	_
+44	,		,		_	_
+45	a	o	art	F=S	_	_
+46	garotada	garotada	n	F=S	_	_
+47	a	a	prp		_	_
+48	berrar	berrar	v-inf		_	_
+49	,		,		_	_
+50	o	o	art	M=S	_	_
+51	vendedor	vender	n	M=S	0	_
+52	de	de	prp		_	_
+53	a	o	art	F=S	_	(308
+54	água	água	n	F=S	0	_
+55	fresca	fresco	adj	F=S	_	308)
+56	a	a	prp		_	_
+57	apregoar	apregoar	v-inf		_	_
+58	e	e	conj-c		_	_
+59	o	o	art	M=S	_	_
+60	bicho	bicho	n	M=S	_	_
+61	a	a	prp		_	_
+62	sair	sair	v-inf		_	_
+63	de	de	prp		_	_
+64	a	o	art	F=S	_	_
+65	gaiola	gaiola	n	F=S	0	_
+66	irritado	irritar	v-pcp	M=S	_	_
+67	,		,		_	_
+68	furioso	furioso	adj	M=S	_	_
+69	fumegando	fumegar	v-ger		_	_
+70	por	por	prp		_	_
+71	as	o	art	F=P	_	_
+72	ventas	venta	n	F=P	_	_
+73	,		,		_	_
+74	pulando	pular	v-ger		_	_
+75	como	como	adv		_	_
+76	uma	um	art	F=S	_	_
+77	corça	corço	n	F=S	0	_
+78	em	em	prp		_	_
+79	roda	roda	n	F=S	_	_
+80	de	de	prp		_	_
+81	a	o	art	F=S	_	_
+82	arena	arena	n	F=S	_	_
+83	em	em	prp		_	_
+84	um	um	art	M=S	_	_
+85	turbilhão	turbilhão	n	M=S	_	_
+86	de	de	prp		_	_
+87	poeira	poeira	n	F=S	_	_
+88	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	a	o	art	F=S	_	_
+3	o	o	art	M=S	_	_
+4	príncipe	príncipe	n	M=S	0	_
+5	Lichonowsky		prop	M=S	_	_
+6	,		,		_	_
+7	citado	citar	v-pcp	M=S	_	_
+8	por	por	prp		_	_
+9	Francisco_Câncio_in_Aspectos_de_Lisboa		prop	M=S	_	_
+10	de	de	prp		_	_
+11	o	o	art	M=S	_	_
+12	Século_XIX		prop	M=S	_	_
+13	,		,		_	_
+14	que	que	pron-indp	M=S	_	_
+15	vamos	ir	v-fin	PR=1P=IND	_	_
+16	aprender	aprender	v-inf		_	_
+17	algumas	algum	pron-det	F=P	0	_
+18	de	de	prp		_	_
+19	estas	este	pron-det	F=P	0	_
+20	características	característica	n	F=P	_	_
+21	de	de	prp		_	_
+22	o	o	art	M=S	_	(267
+23	toureio	toureio	n	M=S	_	267)
+24	português....		prp		_	_
+
+0	Quando	quando	adv		_	_
+1	o	o	art	M=S	_	(151
+2	toiro	toiro	n	M=S	_	151)
+3	não	não	adv		_	_
+4	é	ser	v-fin	PR=3S=IND	_	_
+5	bravo	bravo	adj	M=S	_	_
+6	ou	ou	conj-c		_	_
+7	não	não	adv		_	_
+8	se	se	pron-pers	M=3S=ACC	_	_
+9	interessa	interessar	v-fin	PR=3S=IND	_	_
+10	por	por	prp		_	_
+11	o	o	art	M=S	_	_
+12	combate	combate	n	M=S	_	_
+13	,		,		_	_
+14	ou	ou	conj-c		_	_
+15	quando	quando	adv		_	_
+16	já	já	adv		_	_
+17	tem	ter	v-fin	PR=3S=IND	_	_
+18	sido	ser	v-pcp	M=S	_	_
+19	muito	muito	adv		_	_
+20	acossado	acossar	v-pcp	M=S	_	_
+21	,		,		_	_
+22	são	ser	v-fin	PR=3P=IND	_	_
+23	lançados	lançar	v-pcp	M=P	_	_
+24	contra	contra	prp		_	_
+25	ele	ele	pron-pers	M=3S=NOM	_	_
+26	os	o	art	M=P	_	(326
+27	galegos	galego	n	M=P	0	_
+28	,		,		_	_
+29	ou	ou	conj-c		_	_
+30	os	o	art	M=P	_	_
+31	pretos	preto	adj	M=P	_	_
+32	,		,		_	326)
+33	que	que	pron-indp	M=P	_	_
+34	prestam	prestar	v-fin	PR=3P=IND	_	_
+35	,		,		_	_
+36	então	então	adv		_	_
+37	,		,		_	_
+38	um	um	art	M=S	_	_
+39	serviço	serviço	n	M=S	0	_
+40	análogo	análogo	adj	M=S	_	_
+41	a	a	prp		_	_
+42	o	o	art	M=S	_	_
+43	de	de	prp		_	_
+44	os	o	art	M=P	_	_
+45	cães	cão	n	M=P	_	_
+46	que	que	pron-indp	M=P	_	_
+47	o	o	art	M=S	_	_
+48	povo	povo	n	M=S	0	_
+49	espanhol	espanhol	adj	M=S	_	_
+50	costuma	costumar	v-fin	PR=3S=IND	_	_
+51	pedir	pedir	v-inf		_	_
+52	,		,		_	_
+53	com	com	prp		_	_
+54	instância	instância	n	F=S	_	_
+55	,		,		_	_
+56	por	por	prp		_	_
+57	meio	meio	n	M=S	_	(70)
+58	de	de	prp		_	_
+59	o	o	art	M=S	_	_
+60	grito	grito	n	M=S	0	_
+61	conhecido	conhecer	v-pcp	M=S	_	_
+62	perros		n	M=P	_	_
+63	,		,		_	_
+64	todas	todo	pron-det	F=P	0	_
+65	as	o	art	F=P	_	_
+66	vezes	vez	n	F=P	_	_
+67	,		,		_	_
+68	que	que	conj-s		_	_
+69	o	o	art	M=S	_	_
+70	toiro	toiro	n	M=S	_	_
+71	se	se	pron-pers	M=3S=ACC	_	_
+72	mostra	mostrar	v-fin	PR=3S=IND	_	_
+73	pacífico	pacífico	adj	M=S	_	_
+74	de	de	prp		_	_
+75	mais	mais	adv		_	_
+76	(	(	(		_	_
+77	...	...	...		_	_
+
+0	)	)	)		_	_
+1	A	o	art	F=S	_	_
+2	dado	dar	v-pcp	M=S	_	_
+3	sinal	sinal	n	M=S	0	_
+4	os	o	art	M=P	_	(326
+5	galegos	galego	n	M=P	_	326)
+6	,		,		_	_
+7	(	(	(		_	_
+8	e	e	conj-c		_	(326
+9	não	não	adv		_	_
+10	os	o	art	M=P	_	_
+11	capinhas		n	M=P	_	326)
+12	)	)	)		_	_
+13	lançam	lançar	v-fin	PR=3P=IND	_	_
+14	para	para	prp		_	_
+15	o	o	art	M=S	_	(225
+16	lado	lado	n	M=S	_	225)
+17	os	o	art	M=P	_	(338
+18	ancinhos	ancinho	n	M=P	_	338)
+19	,		,		_	_
+20	(	(	(		_	_
+21	devem	dever	v-fin	PR=3P=IND	_	(338
+22	ser	ser	v-inf		_	_
+23	os	o	art	M=P	_	_
+24	forcados	forcado	n	M=P	_	338)
+25	)	)	)		_	_
+26	e	e	conj-c		_	_
+27	correm	correr	v-fin	PR=3P=IND	_	_
+28	sobre	sobre	prp		_	_
+29	o	o	art	M=S	_	(151
+30	toiro	toiro	n	M=S	_	151)
+31	;	;	;		_	_
+
+0	o_que		pron-indp	M=S	_	_
+1	é	ser	v-fin	PR=3S=IND	_	_
+2	mais	mais	adv		_	_
+3	animoso	animoso	adj	M=S	_	_
+4	posta	posta	n	F=S	_	_
+5	-se		pron-pers	M=3P=ACC	_	_
+6	em	em	prp		_	_
+7	frente	frente	n	F=S	_	_
+8	de	de	prp		_	_
+9	ele	ele	pron-pers	M=3S=NOM	_	_
+10	,		,		_	_
+11	provoca-o		v-fin	PS=1S=IND	_	_
+12	e	e	conj-c		_	_
+13	aproveita	aproveitar	v-fin	PR=3S=IND	_	_
+14	o	o	art	M=S	_	_
+15	momento	momento	n	M=S	_	_
+16	em	em	prp		_	_
+17	que	que	pron-indp	M=S	_	_
+18	o	o	art	M=S	_	(156
+19	animal	animal	n	M=S	_	156)
+20	se	se	pron-pers	M=3S=ACC	_	_
+21	precipita	precipitar	v-fin	PR=3S=IND	_	_
+22	,		,		_	_
+23	de	de	prp		_	_
+24	cabeça	cabeça	n	F=S	0	_
+25	baixa	baixo	adj	F=S	_	_
+26	e	e	conj-c		_	_
+27	olhos	olho	n	M=P	0	_
+28	fechados	fechar	v-pcp	M=P	_	_
+29	,		,		_	_
+30	para	para	prp		_	_
+31	lhe	lhe	pron-pers	F=3S/P=ACC	_	_
+32	saltar	saltar	v-inf		_	_
+33	entre	entre	prp		_	_
+34	as	o	art	F=P	_	(348
+35	pontas	ponta	n	F=P	_	348)
+36	,		,		_	_
+37	a	a	prp		_	_
+38	às_quais		pron-indp	M=P	_	_
+39	se	se	pron-pers	M=3S=ACC	_	_
+40	agarra	agarrar	v-fin	PR=3S=IND	_	_
+41	,		,		_	_
+42	fortemente	forte	adv		_	_
+43	,		,		_	_
+44	deixando	deixar	v-ger		_	_
+45	-se		pron-pers	M=3S=ACC	_	_
+46	levar	levar	v-inf		_	_
+47	,		,		_	_
+48	violentamente	violento	adv		_	_
+49	,		,		_	_
+50	de	de	prp		_	_
+51	rojo		n	M=S	_	_
+52	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	outros	outro	pron-det	M=P	0	_
+2	galegos	galego	n	M=P	_	_
+3	lançam	lançar	v-fin	PR=3P=IND	_	_
+4	-se		pron-pers	M=3P=ACC	_	_
+5	,		,		_	_
+6	imediatamente	imediato	adv		_	_
+7	,		,		_	_
+8	sobre	sobre	prp		_	_
+9	o	o	art	M=S	_	(151
+10	toiro	toiro	n	M=S	_	151)
+11	segurando-o		v-ger		_	_
+12	por	por	prp		_	_
+13	as	o	art	F=P	_	_
+14	pernas	perna	n	F=P	_	_
+15	,		,		_	_
+16	pontas	ponta	n	F=P	0	(348
+17	e	e	conj-c		_	348)
+18	cauda	cauda	n	F=S	_	(164)
+19	,		,		_	_
+20	ou	ou	conj-c		_	_
+21	mesmo	mesmo	adv		_	_
+22	montam	montar	v-fin	PR=3P=IND	_	_
+23	sobre	sobre	prp		_	_
+24	ele	ele	pron-pers	M=3S=NOM	_	_
+25	,		,		_	_
+26	até	até	prp		_	_
+27	que	que	conj-s		_	_
+28	o	o	art	M=S	_	_
+29	animal	animal	n	M=S	0	_
+30	,		,		_	_
+31	que	que	pron-indp	M=S	_	_
+32	muitas_vezes		adv		_	_
+33	arrasta	arrastar	v-fin	PR=3S=IND	_	_
+34	uma	um	art	F=S	_	_
+35	dúzia	dúzia	n	F=S	0	_
+36	de	de	prp		_	_
+37	aqueles	aquele	pron-det	M=P	0	_
+38	indivíduos	indivíduo	n	M=P	_	_
+39	,		,		_	_
+40	é	ser	v-fin	PR=3S=IND	_	_
+41	obrigado	obrigar	v-pcp	M=S	_	_
+42	a	a	prp		_	_
+43	parar	parar	v-inf		_	_
+44	.	.	.		_	_
+
+0	Chama	chamar	v-fin	PR=3S=IND	_	_
+1	-se		pron-pers	M/F=3S=ACC	_	_
+2	a	o	art	F=S	_	_
+3	isto	isto	pron-indp	M=S	_	_
+4	agarrar	agarrar	v-inf		_	_
+5	o	o	art	M=S	_	_
+6	boi	boi	n	M=S	_	_
+7	a	a	prp		_	_
+8	a	o	art	F=S	_	_
+9	unha...		n	F=S	_	_
+
+0	A	o	art	F=S	_	_
+1	literatura	literatura	n	F=S	0	_
+2	de	de	prp		_	_
+3	o	o	art	M=S	_	(132
+4	século	século	n	M=S	_	132)
+5	XIX	XIX	prop		_	(257)
+6	recolheu	recolher	v-fin	PS=3S=IND	_	_
+7	o	o	art	M=S	_	_
+8	depoimento	depoimento	n	M=S	0	_
+9	de	de	prp		_	_
+10	um	um	art	M=S	_	_
+11	cocheiro	cocheiro	n	M=S	_	_
+12	de	de	prp		_	_
+13	Lisboa	Lisboa	prop	M=S	_	(4)
+14	,		,		_	_
+15	de	de	prp		_	_
+16	nome	nome	n	M=S	_	_
+17	O	o	art	M=S	_	_
+18	Abafado_Velho		prop	M=S	_	_
+19	,		,		_	_
+20	para	para	prp		_	_
+21	caracterizar	caracterizar	v-inf		_	_
+22	os	o	art	M=P	_	_
+23	dias	dia	n	M=P	0	_
+24	de	de	prp		_	_
+25	as	o	art	F=P	_	(26
+26	touradas	tourada	n	F=P	_	26)
+27	de	de	prp		_	_
+28	Lisboa	Lisboa	prop	M=S	_	(4)
+29	.	.	.		_	_
+
+0	Não	não	adv		_	_
+1	falemos	falar	v-fin	PR=1P=SUBJ	_	_
+2	de	de	prp		_	_
+3	as	o	art	F=P	_	_
+4	esperas	esperar	v-fin	F=P	_	_
+5	de	de	prp		_	_
+6	toiros	toiro	n	M=P	_	(297)
+7	que	que	pron-indp	M=P	_	_
+8	até	até	adv		_	_
+9	me	me	pron-pers	M/F=1S=ACC	_	_
+10	cresce	crescer	v-fin	PR=3S=IND	_	_
+11	água	água	n	F=S	_	(308)
+12	em	em	prp		_	_
+13	a	o	art	F=S	_	_
+14	boca	boca	n	F=S	_	_
+15	!		!		_	_
+
+0	Que	que	conj-s		_	_
+1	vida...		pron-pers		_	_
+
+0	Aí	aí	adv		_	_
+1	por	por	prp		_	_
+2	as	o	art	F=P	_	_
+3	oito	oito	num	F=P	_	_
+4	e	e	conj-c		_	_
+5	meia	meio	n	F=S	_	(275)
+6	de	de	prp		_	_
+7	a	o	art	F=S	_	(119
+8	noite	noite	n	F=S	_	119)
+9	,		,		_	_
+10	começavam	começar	v-fin	IMPF=3P=IND	_	_
+11	a	a	prp		_	_
+12	sair	sair	v-inf		_	_
+13	as	o	art	F=P	_	_
+14	tipóias		n	F=P	0	_
+15	,		,		_	_
+16	ajoujadas	ajoujar	v-pcp	F=P	_	_
+17	de	de	prp		_	_
+18	fidalgos	fidalgo	n	M=P	_	_
+19	e	e	conj-c		_	_
+20	mulherio	mulherio	n	M=S	_	_
+21	.	.	.		_	_
+
+0	Era	ser	v-fin	IMPF=3S=IND	_	_
+1	uma	um	art	F=S	_	_
+2	pândega	pândega, pândego	n	F=S	0	_
+3	rasgada	rasgar	v-pcp	F=S	_	_
+4	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	esse	esse	pron-det	M=S	0	_
+2	tempo	tempo	n	M=S	_	_
+3	,		,		_	_
+4	os	o	art	M=P	_	_
+5	carros	carro	n	M=P	_	_
+6	não	não	adv		_	_
+7	tinham	ter	v-fin	IMPF=3P=IND	_	_
+8	travões	travão	n	M=P	_	_
+9	,		,		_	_
+10	mas	mas	conj-c		_	_
+11	nós	nós	pron-pers	M=1P=NOM	_	_
+12	subíamos	subir	v-fin	IMPF=1P=IND	_	_
+13	e	e	conj-c		_	_
+14	descíamos	descer	v-fin	IMPF=1P=IND	_	_
+15	,		,		_	_
+16	quase	quase	adv		_	_
+17	a	a	prp		_	_
+18	voar	voar	v-inf		_	_
+19	,		,		_	_
+20	a	o	art	F=S	_	_
+21	Calçada_do_Moinho		prop	F=S	0	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	_
+24	Vento		prop	M=S	_	_
+25	,		,		_	_
+26	que	que	pron-indp	M=S	_	_
+27	vai	ir	v-fin	PR=3S=IND	_	_
+28	dar	dar	v-inf		_	_
+29	a	a	prp		_	_
+30	o	o	art	M=S	_	_
+31	Campo		prop	M=S	_	_
+32	de	de	prp		_	_
+33	Santana	Santana	prop		_	_
+34	,		,		_	_
+35	onde	onde	adv		_	_
+36	,		,		_	_
+37	então	então	adv		_	_
+38	,		,		_	_
+39	era	ser	v-fin	IMPF=3S=IND	_	_
+40	a	o	art	F=S	_	_
+41	praça	praça	n	F=S	0	_
+42	de	de	prp		_	_
+43	toiros	toiro	n	M=P	_	(297)
+44	em	em	prp		_	_
+45	o	o	art	M=S	_	_
+46	mesmo	mesmo	pron-det	M=S	0	_
+47	sítio	sítio	n	M=S	_	_
+48	onde	onde	adv		_	_
+49	está	estar	v-fin	PR=3S=IND	_	_
+50	a	a	prp		_	_
+51	Escola_de_Medicina		prop	M=S	_	_
+52	.	.	.		_	_
+
+0	Quando	quando	adv		_	_
+1	chegávamos	chegar	v-fin	IMPF=1P=IND	_	_
+2	a	a	prp		_	_
+3	a	o	art	F=S	_	_
+4	Calçada_da_Carriche		prop	F=S	_	_
+5	,		,		_	_
+6	quase	quase	adv		_	_
+7	sempre	sempre	adv		_	_
+8	passava	passar	v-fin	IMPF=3S=IND	_	_
+9	de	de	prp		_	_
+10	a	o	art	F=S	_	_
+11	meia-noite	meia-noite	n	F=S	_	_
+12	.	.	.		_	_
+
+0	Ali	ali	adv		_	_
+1	esperávamos	esperar	v-fin	IMPF=1P=IND	_	_
+2	os	o	art	M=P	_	(394
+3	bichos	bicho	n	M=P	_	394)
+4	comendo	comer	v-ger		_	_
+5	e	e	conj-c		_	_
+6	bebendo	beber	v-ger		_	_
+7	.	.	.		_	_
+
+0	Havia	haver	v-fin	IMPF=3S=IND	_	_
+1	descantes		n	M=P	0	_
+2	,		,		_	_
+3	gargalhadas	gargalhada	n	F=P	_	_
+4	e	e	conj-c		_	_
+5	a	o	art	F=S	_	_
+6	sua	sua	pron-det	F=S	0	_
+7	pinga	pinga	n	F=S	_	_
+8	a	a	prp		_	_
+9	mais...		conj-c		_	_
+
+0	Homens	homem	n	M=P	0	_
+1	e	e	conj-c		_	_
+2	mulheres	mulher	n	F=P	_	_
+3	cantavam	cantar	v-fin	IMPF=3P=IND	_	_
+4	,		,		_	_
+5	os	o	art	M=P	_	_
+6	campinos		n	M=P	_	_
+7	corriam	correr	v-fin	IMPF=3P=IND	_	_
+8	para	para	prp		_	_
+9	meter	meter	v-inf		_	_
+10	os	o	art	M=P	_	(394
+11	bichos	bicho	n	M=P	_	394)
+12	em	em	prp		_	_
+13	ordem	ordem	n	F=S	_	_
+14	e	e	conj-c		_	_
+15	tudo	tudo	pron-indp	M=S	_	_
+16	aquilo	aquilo	pron-indp	M=S	_	_
+17	seguia	seguir	v-fin	IMPF=3S=IND	_	_
+18	com	com	prp		_	_
+19	uma	um	art	F=S	_	_
+20	alegria	alegria	n	F=S	0	_
+21	tão	tão	adv		_	_
+22	grande	grande	adj	F=S	_	_
+23	,		,		_	_
+24	que	que	pron-indp	M=P	_	_
+25	os	o	art	M=P	_	_
+26	senhores	senhor	n	M=P	_	_
+27	não	não	adv		_	_
+28	podem	poder, podar	v-fin	PR=3P=IND	_	_
+29	fazer	fazer	v-inf		_	_
+30	ideia	ideia	n	F=S	_	_
+31	!		!		_	_
+
+0	Velha		prop	F=S	0	_
+1	e	e	conj-c		_	_
+2	em	em	prp		_	_
+3	ruínas	ruína	n	F=P	_	_
+4	,		,		_	_
+5	a	o	art	F=S	_	(264
+6	Praça_do_Campo_de_Santana		prop	F=S	_	264)
+7	não	não	adv		_	_
+8	podia	poder	v-fin	IMPF=1S=IND	_	_
+9	conhecer	conhecer	v-inf		_	_
+10	outra	outro	pron-det	F=S	0	_
+11	sorte	sorte	n	F=S	_	_
+12	que	que	pron-indp	F=S	_	_
+13	a	o	art	F=S	_	_
+14	demolição	demolir	n	F=S	_	_
+15	.	.	.		_	_
+
+0	Abriu	abrir	v-fin	PS=3S=IND	_	_
+1	-se		pron-pers	M=3S=ACC	0	_
+2	,		,		_	_
+3	de	de	prp		_	_
+4	este	este	pron-det	M=S	0	_
+5	modo	modo	n	M=S	_	_
+6	,		,		_	_
+7	um	um	art	M=S	_	_
+8	interregno	interregno	n	M=S	_	_
+9	em	em	prp		_	_
+10	esta	este	pron-det	F=S	0	_
+11	diversão	diversão	n	F=S	_	_
+12	favorita	favorito	adj	F=S	_	_
+13	de	de	prp		_	_
+14	Lisboa	Lisboa	prop	M=S	_	(4)
+15	.	.	.		_	_
+
+0	Até	até	prp		_	_
+1	que	que	pron-indp	M=S	_	_
+2	em	em	prp		_	_
+3	1891		num	M=P	_	_
+4	,		,		_	_
+5	foi	ir, ser	v-fin	PS=3S=IND	_	_
+6	a	a	prp		_	_
+7	concurso	concurso	n	M=S	0	_
+8	público	público	adj	M=S	_	_
+9	a	o	art	F=S	_	_
+10	construção	construção	n	F=S	0	_
+11	de	de	prp		_	_
+12	a	o	art	F=S	_	_
+13	actual		adj	F=S	_	_
+14	praça	praça	n	F=S	_	_
+15	em	em	prp		_	_
+16	os	o	art	M=P	_	_
+17	terrenos	terreno	n	M=P	_	_
+18	ainda	ainda	adv		_	_
+19	desertos	deserto	n	M=P	0	_
+20	de	de	prp		_	_
+21	o	o	art	M=S	_	_
+22	Campo_Pequeno		prop	M=S	_	_
+23	,		,		_	_
+24	por	por	prp		_	_
+25	iniciativa	iniciativa	n	F=S	_	_
+26	de	de	prp		_	_
+27	a	o	art	F=S	_	_
+28	Empresa_Tauromáquica_Lisbonense		prop	F=S	_	_
+29	.	.	.		_	_
+
+0	O	o	art	M=S	_	(426
+1	projecto		n	M=S	0	_
+2	aprovado	aprovar	v-pcp	M=S	_	426)
+3	foi	ir, ser	v-fin	PS=3S=IND	_	_
+4	o	o	art	M=S	_	(426
+5	de	de	prp		_	_
+6	a	o	art	F=S	_	_
+7	autoria	autoria	n	F=S	0	_
+8	de	de	prp		_	_
+9	o	o	art	M=S	_	(222
+10	arquitecto		n	M=S	_	222)
+11	António_Dias_da_Silva		prop	M=S	_	_
+12	com	com	prp		_	_
+13	a	o	art	F=S	_	_
+14	adjudicação	adjudicar	n	F=S	_	_
+15	de	de	prp		_	_
+16	a	o	art	F=S	_	_
+17	obra	obra	n	F=S	_	_
+18	a	a	prp		_	_
+19	o	o	art	M=S	_	_
+20	francês	francês	n	M=S	_	_
+21	Boussard		prop	M=S	_	426)
+22	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	trabalhos	trabalho	n	M=P	_	_
+2	iniciaram	iniciar	v-fin	MQP=3P=IND	_	_
+3	-se		pron-pers	M=3P=ACC	_	_
+4	em	em	prp		_	_
+5	Agosto	agosto	n	M=S	_	_
+6	de	de	prp		_	_
+7	1891		num	M=P	_	_
+8	,		,		_	_
+9	com	com	prp		_	_
+10	os	o	art	M=P	_	_
+11	alicerces	alicerce	n	M=P	_	_
+12	para	para	prp		_	_
+13	um	um	art	M=S	_	_
+14	redondel		n	M=S	_	_
+15	de	de	prp		_	_
+16	36		num	M=P	_	_
+17	metros	metro	n	M=P	_	_
+18	de	de	prp		_	_
+19	diâmetro	diâmetro	n	M=S	_	_
+20	e	e	conj-c		_	_
+21	lotação	lotar	n	F=S	_	_
+22	prevista	prever	v-pcp	F=S	_	_
+23	para	para	prp		_	_
+24	oito	oito	num	F=P	_	_
+25	mil		n	F=P	0	_
+26	pessoas	pessoa	n	F=P	_	_
+27	.	.	.		_	_
+
+0	Passado		prop	M=S	_	(16)
+1	um	um	art	M=S	_	_
+2	ano	ano	n	M=S	_	_
+3	,		,		_	_
+4	veio	vir	v-fin	PS=3S=IND	_	_
+5	a	o	art	F=S	_	(440
+6	inauguração	inaugurar	n	F=S	_	440)
+7	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	o	o	art	M=S	_	_
+2	revestimento	revestir	n	M=S	0	_
+3	exterior	exterior	adj	M=S	_	_
+4	,		,		_	_
+5	optou	optar	v-fin	PS=3S=IND	_	_
+6	-se		pron-pers	F=3S=ACC	_	_
+7	por	por	prp		_	_
+8	o	o	art	M=S	_	_
+9	tijolo	tijolo	n	M=S	0	_
+10	vermelho	vermelho	adj	M=S	_	_
+11	,		,		_	_
+12	em	em	prp		_	_
+13	estilo	estilo	n	M=S	0	_
+14	árabe	árabe	adj	M=S	_	_
+15	,		,		_	_
+16	embora	embora	conj-s		_	_
+17	com	com	prp		_	_
+18	quatro	quatro	num	F=P	_	_
+19	torreões		n	F=P	0	_
+20	turcos	turco	adj	M=P	_	_
+21	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	cavaleiros	cavaleiro	n	M=P	0	_
+2	para	para	prp		_	_
+3	a	o	art	F=S	_	(440
+4	inauguração	inaugurar	n	F=S	_	440)
+5	de	de	prp		_	_
+6	a	o	art	F=S	_	(176
+7	praça	praça	n	F=S	_	176)
+8	vieram	vir	v-fin	MQP=3P=IND	_	_
+9	todos	todo	pron-det	M=P	0	_
+10	de	de	prp		_	_
+11	a	o	art	F=S	_	_
+12	antiga	antigo	adj	F=S	_	_
+13	Praça_de_Campo_de_Santana		prop	F=S	_	_
+14	.	.	.		_	_
+
+0	Esta	este	pron-det	F=S	_	_
+1	seria	seriar, ser	v-fin	COND=3S	_	_
+2	a	o	art	F=S	_	_
+3	primeira		adj	F=S	_	_
+4	de	de	prp		_	_
+5	muitas	muito	pron-det	F=P	0	_
+6	corridas	correr	v-pcp	F=S	_	_
+7	célebres	célebre	adj	M=P	_	_
+8	de	de	prp		_	_
+9	gala	gala	n	F=S	_	_
+10	,		,		_	_
+11	com	com	prp		_	_
+12	especial	especial	adj	M=S	_	_
+13	destaque	destaque	n	M=S	_	_
+14	para	para	prp		_	_
+15	as	o	art	F=P	_	_
+16	realizadas	realizar	v-pcp	F=P	_	_
+17	em	em	prp		_	_
+18	as	o	art	F=P	_	_
+19	visitas	visita	n	F=P	_	_
+20	de	de	prp		_	_
+21	o	o	art	M=S	_	(134
+22	rei	rei	n	M=S	_	134)
+23	Eduardo_VII_de_Inglaterra_e_Afonso_XIII		prop	M=S	_	_
+24	,		,		_	_
+25	as	o	art	F=P	_	_
+26	de	de	prp		_	_
+27	o	o	art	M=S	_	_
+28	Clube_Tauromáquico		prop	M=S	_	_
+29	,		,		_	_
+30	Assistência_Nacional_aos_Tuberculosos		prop	F=S	_	_
+31	e	e	conj-c		_	_
+32	de	de	prp		_	_
+33	a	o	art	F=S	_	_
+34	Casa_da_Imprensa		prop	F=S	_	_
+35	.	.	.		_	_
+#end document
+#begin document mcarv1_2.txt.xml
+1	MÁRIO_DE_CARVALHO		prop	M=S	0	_
+2	,		,		_	_
+3	A	o	art	F=S	_	_
+4	INAUDITA_GUERRA_DA_AVENIDA_GAGO_COUTINHO		prop	F=S	_	_
+5	in		v-fin	PR=3S=IND	_	_
+6	A	o	art	F=S	_	(1
+7	INAUDITA_GUERRA_DA_AVENIDA_GAGO_COUTINHO		prop	F=S	0	_
+8	/		/		_	_
+9	e	e	conj-c		_	_
+10	outras	outro	pron-det	F=P	0	_
+11	histórias	história	n	F=P	_	1)
+12	O	o	art	M=S	_	_
+13	grande	grande	adj	M=S	_	_
+14	Homero	Homero	prop	M=S	0	_
+15	a	a	prp		_	_
+16	as	o	art	F=P	_	_
+17	vezes	vez	n	F=P	_	_
+18	dormitava	dormitar	v-fin	IMPF=3S=IND	_	_
+19	,		,		_	_
+20	garante	garantir	v-fin	PR=3S=IND	_	_
+21	Horácio	Horácio	prop	M=S	_	_
+22	.	.	.		_	_
+
+0	Outros	outro	pron-det	M=P	0	_
+1	poetas	poeta	n	M=P	_	_
+2	dão	dar	v-fin	PR=3P=IND	_	_
+3	-se		pron-pers	F=3P=ACC	_	_
+4	a	o	art	F=S	_	_
+5	uma	um	art	F=S	_	_
+6	sesta	sesta	n	F=S	0	_
+7	,		,		_	_
+8	de	de	prp		_	_
+9	vez	vez	n	F=S	_	_
+10	em	em	prp		_	_
+11	quando	quando	adv		_	_
+12	,		,		_	_
+13	com	com	prp		_	_
+14	prejuízo	prejuízo	n	M=S	_	_
+15	de	de	prp		_	_
+16	a	o	art	F=S	_	_
+17	toada	toada	n	F=S	_	_
+18	e	e	conj-c		_	_
+19	de	de	prp		_	_
+20	a	o	art	F=S	_	_
+21	eloquência	eloquência	n	F=S	_	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	_
+24	discurso	discurso	n	M=S	_	_
+25	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	,		,		_	_
+2	infelizmente	infeliz	adv		_	_
+3	,		,		_	_
+4	não	não	adv		_	_
+5	são	ser	v-fin	PR=3P=IND	_	_
+6	apenas	apenas	adv		_	_
+7	os	o	art	M=P	_	_
+8	poetas	poeta	n	M=P	_	_
+9	que	que	pron-indp	M=P	_	_
+10	se	se	pron-pers	M=3P=ACC	_	_
+11	deixam	deixar	v-fin	PR=3P=IND	_	_
+12	dormitar	dormitar	v-inf		_	_
+13	.	.	.		_	_
+
+0	Os	o	art	M=P	_	(17
+1	deuses	deuses	n	M=P	_	17)
+2	também	também	adv		_	_
+3	.	.	.		_	_
+
+0	Assim	assim	adv		_	_
+1	aconteceu	acontecer	v-fin	PS=3S=IND	_	_
+2	uma	um	art	F=S	_	(18
+3	vez	vez	n	F=S	0	_
+4	a	a	prp		_	_
+5	Clio		prop	M=S	_	(19)
+6	,		,		_	_
+7	musa	musa	n	F=S	_	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	História	história	n	F=S	_	_
+11	que	que	pron-indp	F=S	_	_
+12	,		,		_	18)
+13	enfadada	enfadar	v-pcp	F=S	_	_
+14	de	de	prp		_	_
+15	a	o	art	F=S	_	_
+16	imensa	imenso	adj	F=S	_	_
+17	tapeçaria	tapeçaria	n	F=S	0	_
+18	milenária	milenário	adj	F=S	_	_
+19	a	a	prp		_	_
+20	seu	seu	pron-det	M=S	0	_
+21	cargo	cargo	n	M=S	_	_
+22	,		,		_	_
+23	repleta	repleto	adj	F=S	_	_
+24	de	de	prp		_	_
+25	cores	cor	n	F=P	0	_
+26	cinzentas	cinzento	adj	F=P	_	_
+27	e	e	conj-c		_	_
+28	coberta	coberta, coberto	n	F=S	_	_
+29	de	de	prp		_	_
+30	desenhos	desenho	n	M=P	0	_
+31	redundantes	redundante, redundar	adj	M=P	_	_
+32	e	e	conj-c		_	_
+33	monótonos	monótono	adj	M=P	_	_
+34	,		,		_	_
+35	deixou	deixar	v-fin	PS=3S=IND	_	_
+36	descair	descair	v-inf		_	_
+37	a	o	art	F=S	_	(28
+38	cabeça	cabeça	n	F=S	0	_
+39	loura	louro	adj	F=S	_	28)
+40	e	e	conj-c		_	_
+41	adormeceu	adormecer	v-fin	PS=3S=IND	_	_
+42	por	por	prp		_	_
+43	instantes	instante	n	M=P	_	(29)
+44	,		,		_	_
+45	enquanto		adv		_	_
+46	os	o	art	M=P	_	_
+47	dedos	dedo	n	M=P	_	_
+48	,		,		_	_
+49	por	por	prp		_	_
+50	inércia	inércia	n	F=S	_	_
+51	,		,		_	_
+52	continuavam	continuar	v-fin	IMPF=3P=IND	_	_
+53	a	o	art	F=S	_	_
+54	trama	trama	n	F=S	_	_
+55	.	.	.		_	_
+
+0	Logo		prop	M=S	_	_
+1	se	se	pron-pers	M=3P=ACC	_	_
+2	enlearam		v-fin	PS/MQP=3P=IND	_	_
+3	dois	dois	num	M=P	_	(34
+4	fios	fio	n	M=P	0	_
+5	e	e	conj-c		_	_
+6	em	em	prp		_	_
+7	o	o	art	M=S	_	_
+8	desenho	desenho	n	M=S	_	34)
+9	se	se	pron-pers	M=3S=ACC	_	_
+10	empolou	empolar	v-fin	PS=3S=IND	_	_
+11	um	um	art	M=S	_	_
+12	nó	nó	n	M=S	_	_
+13	,		,		_	_
+14	destoante_da		prp		_	_
+15	a	o	art	F=S	_	_
+16	lisura	lisura	n	F=S	_	_
+17	de	de	prp		_	_
+18	o	o	art	M=S	_	_
+19	tecido	tecido	n	M=S	_	_
+20	.	.	.		_	_
+
+0	Amalgamaram	amalgamar	v-fin	MQP=3P=IND	_	_
+1	-se		pron-pers	M/F=3S=ACC	_	_
+2	então	então	adv		_	_
+3	as	o	art	F=P	_	_
+4	datas	data	n	F=P	0	_
+5	de	de	prp		_	_
+6	4		num	M=P	_	_
+7	de	de	prp		_	_
+8	Junho	junho	n	M=S	_	_
+9	de	de	prp		_	_
+10	1148		num	M=P	_	_
+11	e	e	conj-c		_	_
+12	de	de	prp		_	_
+13	29		num	M=P	_	_
+14	de	de	prp		_	_
+15	Setembro	setembro	n	M=S	_	(43)
+16	de	de	prp		_	_
+17	1984		num	M=P	_	_
+18	.	.	.		_	_
+
+0	Os	o	art	M=P	_	(44
+1	automobilistas	automobilista	n	M=P	0	_
+2	que	que	pron-indp	M=P	_	_
+3	em	em	prp		_	_
+4	essa	esse	pron-det	F=S	0	_
+5	manhã	manhã	n	F=S	_	_
+6	de	de	prp		_	_
+7	Setembro		prop	M=S	_	(43)|44)
+8	entravam	entravar, entrar	v-fin	IMPF=3P=IND	_	_
+9	em	em	prp		_	_
+10	Lisboa	Lisboa	prop	M=S	_	(47)
+11	por	por	prp		_	_
+12	a	o	art	F=S	_	(1
+13	Avenida_Gago_Coutinho		prop	F=S	_	1)
+14	,		,		_	_
+15	direitos	direito	n	M=P	_	_
+16	a	a	prp		_	_
+17	o	o	art	M=S	_	(49
+18	Areeiro		prop	M=S	_	49)
+19	,		,		_	_
+20	começaram	começar	v-fin	MQP=3P=IND	_	_
+21	por	por	prp		_	_
+22	apanhar	apanhar	v-inf		_	_
+23	um	um	art	M=S	_	_
+24	grande	grande	adj	M=S	_	_
+25	susto	susto	n	M=S	_	_
+26	,		,		_	_
+27	e	e	conj-c		_	_
+28	,		,		_	_
+29	por	por	prp		_	_
+30	instantes	instante	n	M=P	_	(29)
+31	,		,		_	_
+32	foi	ir, ser	v-fin	PS=3S=IND	_	_
+33	,		,		_	_
+34	em	em	prp		_	_
+35	toda	todo	pron-det	F=S	0	_
+36	aquela	aquele	pron-det	F=S	_	_
+37	área	área	n	F=S	_	_
+38	,		,		_	_
+39	um	um	art	M=S	_	_
+40	estridente	estridente	adj	M=S	_	_
+41	rumor	rumor	n	M=S	0	_
+42	de	de	prp		_	_
+43	motores	motor	n	M=P	0	_
+44	desmultiplicados	multiplicar	v-pcp	M=P	_	_
+45	,		,		_	_
+46	travões	travão	n	M=P	_	_
+47	aplicados	aplicar	v-pcp	M=P	_	_
+48	a	a	prp		_	_
+49	fundo	fundo	n	M=S	_	(55)
+50	,		,		_	_
+51	e	e	conj-c		_	_
+52	uma	um	art	F=S	_	_
+53	sarabanda		n	F=S	_	_
+54	de	de	prp		_	_
+55	businas		n	F=P	0	_
+56	ensurdecedora	ensurdecer	adj	F=S	_	_
+57	.	.	.		_	_
+
+0	Tudo	tudo	pron-indp	M=S	_	_
+1	isto	isto	pron-indp	M=S	0	_
+2	de	de	prp		_	_
+3	mistura	mistura	n	F=S	_	_
+4	com	com	prp		_	_
+5	retinir	retinir	v-inf		_	_
+6	de	de	prp		_	_
+7	metais	metal	n	M=P	_	_
+8	,		,		_	_
+9	relinchos		n	M=P	_	_
+10	de	de	prp		_	_
+11	cavalos	cavalo	n	M=P	_	(63)
+12	e	e	conj-c		_	_
+13	imprecações		n	F=P	0	_
+14	guturais		adj	F=P	_	_
+15	em	em	prp		_	_
+16	alta	alta, alto	n	F=S	_	_
+17	grita	grita	n	F=S	_	_
+18	.	.	.		_	_
+
+0	É	ser	v-fin	PR=3S=IND	_	_
+1	que	que	conj-s		_	_
+2	,		,		_	_
+3	em	em	prp		_	_
+4	essa	esse	pron-det	F=S	0	_
+5	ocasião	ocasião	n	F=S	_	_
+6	mesma	mesmo	pron-det	F=S	_	_
+7	,		,		_	_
+8	a	o	art	F=S	_	(69
+9	tropa	tropa	n	F=S	0	_
+10	de	de	prp		_	_
+11	o	o	art	M=S	_	_
+12	almóada		pron-det	F=S	0	_
+13	Ibn-el-Muftar		n	M=S	_	_
+14	,		,		_	_
+15	composta	composto	n	F=S	_	_
+16	de	de	prp		_	_
+17	berberes	berbere	n	M=P	_	(72)
+18	,		,		_	_
+19	azenegues		n	M=P	0	_
+20	e	e	conj-c		_	_
+21	árabes	árabe	n	M=P	_	_
+22	em	em	prp		_	_
+23	número	número	n	M=S	_	_
+24	para	para	prp		_	_
+25	cima	cima	n	F=S	_	_
+26	de	de	prp		_	_
+27	dez	dez	num	M=P	_	_
+28	mil		n	M=P	_	_
+29	,		,		_	69)
+30	vinha	vir	v-fin	IMPF=3S=IND	_	_
+31	sorrateira	sorrateiro	adj	F=S	_	_
+32	por	por	prp		_	_
+33	o	o	art	M=S	_	_
+34	valado	valado	n	M=S	_	_
+35	,		,		_	_
+36	quase	quase	adv		_	_
+37	a	a	prp		_	_
+38	a	o	art	F=S	_	_
+39	beira	beira	n	F=S	_	_
+40	de	de	prp		_	_
+41	o	o	art	M=S	_	_
+42	esteiro	esteiro	n	M=S	_	_
+43	de	de	prp		_	_
+44	rio	rio	n	M=S	_	(81)
+45	que	que	pron-indp	M=S	_	_
+46	ali	ali	adv		_	_
+47	então	então	adv		_	_
+48	desembocava	desembocar	v-fin	IMPF=3S=IND	_	_
+49	,		,		_	_
+50	com	com	prp		_	_
+51	o	o	art	M=S	_	_
+52	propósito	propósito	n	M=S	_	_
+53	de	de	prp		_	_
+54	pôr	pôr	v-inf		_	_
+55	cerco	cerco	n	M=S	0	(84
+56	a	a	prp		_	_
+57	as	o	art	F=P	_	(85
+58	muralhas	muralha	n	F=P	_	85)
+59	de	de	prp		_	_
+60	Lixbuna		prop	M=S	_	_
+61	,		,		_	_
+62	um	um	num	M=S	_	_
+63	ano	ano	n	M=S	0	_
+64	atrás	atrás	adv		_	_
+65	assediada	assediar	v-pcp	F=S	_	_
+66	e	e	conj-c		_	84)
+67	tomada	tomar	v-pcp	F=S	_	_
+68	por	por	prp		_	_
+69	hordas	horda	n	F=P	_	_
+70	de	de	prp		_	_
+71	nazarenos	nazareno	n	M=P	0	_
+72	odiosos	odioso	adj	M=P	_	_
+73	.	.	.		_	_
+
+0	Viu	ver	v-fin	PS=3S=IND	_	_
+1	-se		pron-pers	M/F=3P=ACC	0	_
+2	de	de	prp		_	_
+3	repente	repente	n	M=S	_	_
+4	o	o	art	M=S	_	(91
+5	exército	exército	n	M=S	_	91)
+6	envolvido	envolver	v-pcp	M=S	_	_
+7	por	por	prp		_	_
+8	milhares		n	M=P	_	_
+9	de	de	prp		_	_
+10	carros	carro	n	M=P	_	(93)
+11	de	de	prp		_	_
+12	metal	metal	n	M=S	_	_
+13	,		,		_	_
+14	de	de	prp		_	_
+15	cores	cor	n	F=P	0	_
+16	faiscantes	faiscante, faiscar	adj	F=P	_	_
+17	,		,		_	_
+18	em	em	prp		_	_
+19	o	o	art	M=S	_	(96
+20	meio	meio	n	M=S	_	96)
+21	de	de	prp		_	_
+22	um	um	art	M=S	_	_
+23	fragor	fragor	n	M=S	0	_
+24	estrondoso	estrondoso	adj	M=S	_	_
+25					_	_
+26	que	que	pron-indp	F=P	_	_
+27	veio	vir	v-fin	PS=3S=IND	_	_
+28	substituir	substituir	v-inf		_	_
+29	o	o	art	M=S	_	_
+30	suave	suave	adj	M=S	_	_
+31	pipilar		n	M=S	0	_
+32	de	de	prp		_	_
+33	os	o	art	M=P	_	_
+34	pássaros	pássaro	n	M=P	_	_
+35	e	e	conj-c		_	_
+36	o	o	art	M=S	_	_
+37	doce	doce	n	M=S	_	_
+38	zunido	zunido	n	M=S	_	_
+39	de	de	prp		_	_
+40	os	o	art	M=P	_	_
+41	moscardos		prop	M=P	_	_
+42					_	_
+43	e	e	conj-c		_	_
+44	flanqueado	flanquear	v-pcp	M=S	_	_
+45	por	por	prp		_	_
+46	paredes	parede	n	F=P	0	_
+47	descomunais	descomunal	adj	F=P	_	_
+48	que	que	pron-indp	F=P	_	_
+49	por	por	prp		_	_
+50	toda	todo	pron-det	F=S	0	_
+51	a	o	art	F=S	_	_
+52	parte	parte	n	F=S	_	_
+53	se	se	pron-pers	M=3P=ACC	_	_
+54	erguiam	erguer	v-fin	IMPF=3P=IND	_	_
+55	,		,		_	_
+56	cobertas	coberto	n	F=P	_	_
+57	de	de	prp		_	_
+58	janelas	janela	n	F=P	0	(108
+59	brilhantes	brilhante, brilhar	adj	F=P	_	108)
+60	.	.	.		_	_
+
+0	Assustaram	assustar	v-fin	MQP=3P=IND	_	_
+1	-se		pron-pers	F=3P=ACC	_	_
+2	os	o	art	M=P	_	_
+3	beduinos		n	M=P	_	_
+4	,		,		_	_
+5	volteando		v-ger		_	_
+6	assarapantados	assarapantar	v-pcp	M=P	_	_
+7	os	o	art	M=P	_	(63
+8	cavalos	cavalo	n	M=P	_	63)
+9	,		,		_	_
+10	em	em	prp		_	_
+11	o	o	art	M=S	_	_
+12	estreito	estreito	n	M=S	_	_
+13	espaço	espaço	n	M=S	_	_
+14	de	de	prp		_	_
+15	manobra	manobra	n	F=S	_	_
+16	que	que	pron-indp	F=S	_	_
+17	lhe	lhe	pron-pers	F=3S=ACC	_	_
+18	era	ser	v-fin	IMPF=3S=IND	_	_
+19	deixado	deixar	v-pcp	M=S	_	_
+20	,		,		_	_
+21	e	e	conj-c		_	_
+22	Ali-ben-Yussuf		n	M=S	_	(114)
+23	,		,		_	_
+24	lugar-tenente	lugar-tenente	n	M=S	_	_
+25	de	de	prp		_	_
+26	Muftar		prop	M=S	_	_
+27	,		,		_	_
+28	homem	homem	n	M=S	0	_
+29	piedoso	piedoso	adj	M=S	_	_
+30	e	e	conj-c		_	_
+31	temente	temer	adj	M=S	_	_
+32	a	a	prp		_	_
+33	Deus	Deus	prop	M=S	_	_
+34	,		,		_	_
+35	quis	querer	v-fin	PS=3S=IND	_	_
+36	ali	ali	adv		_	_
+37	mesmo	mesmo	adv		_	_
+38	apear	apear	v-inf		_	_
+39	-se		pron-pers	F=3S=ACC	_	_
+40	para	para	prp		_	_
+41	orar	orar	v-inf		_	_
+42	,		,		_	_
+43	depois	depois	adv		_	_
+44	de	de	prp		_	_
+45	ter	ter	v-inf		_	_
+46	alçado	alçar	v-pcp	M=S	_	_
+47	as	o	art	F=P	_	_
+48	mãos	mão	n	F=P	0	_
+49	a	a	prp		_	_
+50	o	o	art	M=S	_	_
+51	céu	céu	n	M=S	_	_
+52	e	e	conj-c		_	_
+53	bradado	bradar	v-pcp	M=S	_	_
+54	que	que	pron-indp	M=S	_	_
+55	Alá	Alá	prop	M=S	_	(124)
+56	era	ser	v-fin	IMPF=3S=IND	_	_
+57	grande	grande	adj	M=S	_	_
+58	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	que	que	pron-indp	M=S	_	(124)
+2	Alá	Alá	prop	M=S	_	(124)
+3	era	ser	v-fin	IMPF=3S=IND	_	_
+4	grande	grande	adj	M=S	_	_
+5	estava	estar	v-fin	IMPF=3S=IND	_	_
+6	o	o	art	M=S	_	_
+7	chefe	chefe	n	M=S	0	_
+8	de	de	prp		_	_
+9	a	o	art	F=S	_	_
+10	tropa	tropa	n	F=S	0	_
+11	convencido	convencer	v-pcp	M=S	_	_
+12	,		,		_	_
+13	mas	mas	conj-c		_	_
+14	não	não	adv		_	_
+15	lhe	lhe	pron-pers	M=3S=ACC	_	_
+16	pareceu	parecer	v-fin	PS=3S=IND	_	_
+17	o	o	art	M=S	_	(129
+18	momento	momento	n	M=S	0	_
+19	oportuno	oportuno	adj	M=S	_	_
+20	para	para	prp		_	_
+21	louvaminhas		n	F=P	_	_
+22	,		,		_	_
+23	que	que	pron-indp	M=S	_	129)
+24	a	o	art	F=S	_	(132
+25	situação	situação, situar	n	F=S	_	132)
+26	requeria	requerer	v-fin	IMPF=3S=IND	_	_
+27	antes	antes	adv		_	_
+28	soluções	solução	n	F=P	0	_
+29	práticas	prático	adj	F=P	_	_
+30	e	e	conj-c		_	_
+31	muito	muito	adv		_	_
+32	tacto		n	M=S	_	_
+33	.	.	.		_	_
+
+0	Travou	travar	v-fin	PS=3S=IND	_	_
+1	os	o	art	M=P	_	_
+2	desígnios	desígnio	n	M=P	0	_
+3	de	de	prp		_	_
+4	o	o	art	M=S	_	_
+5	adjunto	adjunto	n	M=S	_	_
+6	com	com	prp		_	_
+7	um	um	art	M=S	_	_
+8	gesto	gesto	n	M=S	0	_
+9	brutal	brutal	adj	M=S	_	_
+10	,		,		_	_
+11	levantou	levantar	v-fin	PS=3S=IND	_	_
+12	bem	bem	adv		_	_
+13	alto	alto	adv		_	_
+14	o	o	art	M=S	_	_
+15	pendão	pendão	n	M=S	0	_
+16	verde	verde	adj	M=S	_	_
+17	e	e	conj-c		_	_
+18	bradou	bradar	v-fin	PS=3S=IND	_	_
+19	uma	um	art	F=S	_	(139
+20	ordem	ordem	n	F=S	_	139)
+21	que	que	pron-indp	F=S	_	_
+22	foi	ir, ser	v-fin	PS=3S=IND	_	_
+23	repetida	repetir	v-pcp	F=S	_	_
+24	,		,		_	_
+25	de	de	prp		_	_
+26	esquadrão	esquadrão	n	M=S	_	(141)
+27	em	em	prp		_	_
+28	esquadrão	esquadrão	n	M=S	_	(141)
+29	,		,		_	_
+30	até	até	prp		_	_
+31	chegar	chegar	v-inf		_	_
+32	a	a	prp		_	_
+33	a	o	art	F=S	_	_
+34	derradeira	derradeiro	adj	F=S	_	_
+35	retaguarda	retaguarda	n	F=S	_	_
+36	,		,		_	_
+37	já	já	adv		_	_
+38	muito	muito	adv		_	_
+39	próxima	próximo	adj	F=S	_	_
+40	de	de	prp		_	_
+41	a	o	art	F=S	_	_
+42	Rotunda_da_Encarnação		n	F=S	_	_
+43	:	:	:		_	_
+
+0					_	_
+1	Que	que	conj-s		_	_
+2	ninguém	ninguém	pron-indp	M=S	_	_
+3	se	se	pron-pers	M=3S=ACC	_	_
+4	mexesse	mexer	v-fin	IMPF=3S=SUBJ	_	_
+5	!		!		_	_
+
+0	E	e	conj-c		_	_
+1	el		adj	F=S	_	_
+2					_	_
+3	Muftar		prop	M=S	0	_
+4	,		,		_	_
+5	confiando	confiar	v-ger		_	_
+6	a	o	art	F=S	_	_
+7	barbicha	barbicha	n	F=S	0	_
+8	afilada	afilar	v-pcp	F=S	_	_
+9	,		,		_	_
+10	e	e	conj-c		_	_
+11	dando	dar	v-ger		_	_
+12	um	um	art	M=S	_	(148
+13	jeito	jeito	n	M=S	0	_
+14	a	a	prp		_	_
+15	o	o	art	M=S	_	_
+16	turbante	turbante	n	M=S	_	148)
+17	,		,		_	_
+18	considerava	considerar	v-fin	IMPF=3S=IND	_	_
+19	,		,		_	_
+20	com	com	prp		_	_
+21	ar	ar	n	M=S	0	_
+22	perspicaz	perspicaz	adj	M=S	_	_
+23	,		,		_	_
+24	o	o	art	M=S	_	_
+25	pandemónio		n	M=S	0	_
+26	em	em	prp		_	_
+27	volta	volta	n	F=S	_	(152)
+28	:	:	:		_	_
+29					_	_
+30	Teriam	ter	v-fin	COND=3P	_	_
+31	tombado	tombar	v-pcp	M=S	_	_
+32	todos	todo	pron-det	M=P	_	_
+33	em	em	prp		_	_
+34	o	o	art	M=S	_	_
+35	inferno	inferno	n	M=S	0	_
+36	corânico		adj	M=S	_	_
+37	?	?	?		_	_
+
+0	Teriam	ter	v-fin	COND=3P	_	_
+1	feito	fazer	v-pcp	M=S	_	_
+2	algum	algum	pron-det	M=S	0	_
+3	agravo	agravo	n	M=S	_	_
+4	a	a	prp		_	_
+5	Alá	Alá	prop	M=S	_	(124)
+6	?	?	?		_	_
+
+0	Seriam	seriar, ser	v-fin	COND=3P	_	_
+1	antes	antes	adv		_	_
+2	vítimas	vítima	n	F=P	0	_
+3	de	de	prp		_	_
+4	um	um	art	M=S	_	_
+5	passe	passe	n	M=S	_	_
+6	de	de	prp		_	_
+7	a	o	art	F=S	_	_
+8	feitiçaria	feitiçaria	n	F=S	0	_
+9	cristã	cristão	adj	F=S	_	_
+10	?	?	?		_	_
+
+0	Ou	ou	conj-c		_	_
+1	tratar	tratar	v-inf		_	_
+2	-se		pron-pers	M=3S=ACC	_	_
+3					_	_
+4	ia	ir	v-fin	IMPF=3S=IND	_	_
+5	de	de	prp		_	_
+6	uma	um	art	F=S	_	(160
+7	partida	partida	n	F=S	_	160)
+8	de	de	prp		_	_
+9	jinns		n	M=P	0	_
+10	encabriolados		v-pcp	M=P	_	_
+11	?	?	?		_	_
+
+0	Enquanto		adv		_	_
+1	o	o	art	M=S	_	(162
+2	árabe	árabe	n	M=S	_	162)
+3	reflectia		v-fin	IMPF=3S=IND	_	_
+4	,		,		_	_
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	_
+7	alto	alto	n	M=S	_	_
+8	de	de	prp		_	_
+9	o	o	art	M=S	_	_
+10	seu	seu	pron-det	M=S	0	_
+11	puro-sangue	puro-sangue	n	M=S	_	_
+12	,		,		_	_
+13	o	o	art	M=S	_	(165
+14	agente	agente	n	M=S	0	_
+15	de	de	prp		_	_
+16	segunda		adj	F=S	_	(166
+17	classe	classe	n	F=S	_	166)
+18	de	de	prp		_	_
+19	a	o	art	F=S	_	(167
+20	P.		prop	F=S	_	167)
+21	S._P._Manuel_Reis_Tobias		prop	F=S	_	165)|(167)
+22	,		,		_	_
+23	em	em	prp		_	_
+24	serviço	serviço	n	M=S	_	(168)
+25	a	a	prp		_	_
+26	a	o	art	F=S	_	_
+27	entrada	entrada	n	F=S	_	_
+28	de	de	prp		_	_
+29	a	o	art	F=S	_	(1
+30	Avenida_Gago_Coutinho		prop	F=S	_	1)
+31	,		,		_	_
+32	meio	meio	adv		_	_
+33	escondido	esconder	v-pcp	M=S	_	_
+34	por	por	prp		_	_
+35	detrás	detrás	adv		_	_
+36	de	de	prp		_	_
+37	as	o	art	F=P	_	_
+38	colunas	coluna	n	F=P	_	_
+39	de	de	prp		_	_
+40	um	um	art	M=S	_	_
+41	prédio	prédio	n	M=S	_	_
+42	,		,		_	_
+43	em	em	prp		_	_
+44	o	o	art	M=S	_	_
+45	propósito	propósito	n	M=S	0	_
+46	sábio	sábio	adj	M=S	_	_
+47	e	e	conj-c		_	_
+48	louvável	louvar	adj	M=S	_	_
+49	de	de	prp		_	_
+50	surpreender	surpreender	v-inf		_	_
+51	contraventores	contraventor	n	M=P	0	_
+52	a	a	prp		_	_
+53	os	o	art	M=P	_	_
+54	semáforos	semáforo	n	M=P	_	_
+55	,		,		_	_
+56	entendeu	entender	v-fin	PS=3S=IND	_	_
+57	que	que	conj-s		_	_
+58	aquilo	aquilo	pron-indp	M=S	_	_
+59	não	não	adv		_	_
+60	estava	estar	v-fin	IMPF=3S=IND	_	_
+61	certo	certo	adj	M=S	_	_
+62	e	e	conj-c		_	_
+63	que	que	conj-s		_	_
+64	havia	haver	v-fin	IMPF=3S=IND	_	_
+65	que	que	conj-s		_	_
+66	proceder	proceder	v-inf		_	_
+67	.	.	.		_	_
+
+0	Sentindo	sentir	v-ger		_	_
+1	-se		pron-pers	M/F=3S=ACC	_	_
+2	muito	muito	adv		_	_
+3	desacompanhado	acompanhar	v-pcp	M=S	_	_
+4	para	para	prp		_	_
+5	tomar	tomar	v-inf		_	_
+6	conta	conta	n	F=S	0	_
+7	de	de	prp		_	_
+8	a	o	art	F=S	_	(177
+9	ocorrência	ocorrência	n	F=S	_	177)
+10	,		,		_	_
+11	transmitiu	transmitir	v-fin	PS=3S=IND	_	_
+12	para	para	prp		_	_
+13	o	o	art	M=S	_	_
+14	posto	posto	n	M=S	_	_
+15	de	de	prp		_	_
+16	comando	comando	n	M=S	_	(139)
+17	,		,		_	_
+18	por	por	prp		_	_
+19	o	o	art	M=S	_	_
+20	intercomunicador	intercomunicador	n	M=S	_	_
+21	de	de	prp		_	_
+22	a	o	art	F=S	_	_
+23	mota	mota	n	F=S	_	_
+24	,		,		_	_
+25	uma	um	art	F=S	_	_
+26	complicada	complicar	v-pcp	F=S	_	_
+27	mensagem	mensagem	n	F=S	0	_
+28	,		,		_	_
+29	plena	pleno	n	F=S	_	_
+30	de	de	prp		_	_
+31	números	número	n	M=P	_	(183)
+32	e	e	conj-c		_	_
+33	de	de	prp		_	_
+34	cifras	cifra	n	F=P	_	(183)
+35	,		,		_	_
+36	que	que	pron-indp	M=S	_	_
+37	podia	poder	v-fin	IMPF=3S=IND	_	_
+38	resumir	resumir	v-inf		_	_
+39	-se		pron-pers	M=3S=ACC	_	_
+40	assim	assim	adv		_	_
+41	:	:	:		_	_
+
+0	Uma	um	art	F=S	_	(187
+1	multidão	multidão	n	F=S	0	_
+2	indeterminada	indeterminar	v-pcp	F=S	_	_
+3	de	de	prp		_	_
+4	indivíduos	indivíduo	n	M=P	_	(188)
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	(189
+7	sexo	sexo	n	M=S	0	_
+8	masculino	masculino	adj	M=S	_	189)
+9	,		,		_	_
+10	a	o	art	F=S	_	_
+11	maior	maior	adj	F=S	_	_
+12	parte	parte	n	F=S	_	_
+13	de	de	prp		_	_
+14	os	o	art	M=P	_	(189
+15	quais	qual	pron-det	M=P	_	189)
+16	portadores	portador, portar	n	M=P	_	_
+17	de	de	prp		_	_
+18	armas	arma	n	F=P	0	_
+19	brancas	branco	adj	F=P	_	_
+20	e	e	conj-c		_	_
+21	outros	outro	pron-det	M=P	0	_
+22	objectos		n	M=P	_	_
+23	contundentes	contundente	adj	M=P	_	_
+24	,		,		_	_
+25	cortantes	cortante, cortar	adj	M=P	_	_
+26	e	e	conj-c		_	_
+27	perfurantes	perfurante, perfurar	adj	M=P	_	_
+28	,		,		_	_
+29	com	com	prp		_	_
+30	bandeiras	bandeira, bandeiro	n	F=P	_	_
+31	e	e	conj-c		_	_
+32	trajos	trajo	n	M=P	_	_
+33	de	de	prp		_	_
+34	carnaval	carnaval	n	M=S	_	_
+35	,		,		_	187)
+36	montados	montar	v-pcp	M=P	_	_
+37	em	em	prp		_	_
+38	solípedes		n	M=P	_	_
+39	,		,		_	_
+40	tinham	ter	v-fin	IMPF=3P=IND	_	_
+41	invadido	invadir	v-pcp	M=S	_	_
+42	a	a	prp		_	_
+43	Avenida_Gago_Coutinho		prop	M=S	_	(1)
+44	e	e	conj-c		_	_
+45	parte	parte	n	F=S	0	_
+46	de	de	prp		_	_
+47	o	o	art	M=S	_	(49
+48	Areeiro	areeiro	n	M=S	_	49)
+49	em	em	prp		_	_
+50	manifestação	manifestação, manifestar	n	F=S	_	_
+51	não	não	adv		_	_
+52	autorizada	autorizar	v-pcp	F=S	_	_
+53	.	.	.		_	_
+
+0	Dado	dado	n	M=S	_	(198)
+1	que	que	pron-indp	M=S	_	_
+2	se	se	pron-pers	M/F=3S/P=ACC	_	_
+3	lhe	lhe	pron-pers	M=3S=ACC	_	_
+4	afigurava	afigurar	v-fin	IMPF=3S=IND	_	_
+5	existir	existir	v-inf		_	_
+6	insegurança	segurança	n	F=S	_	_
+7	para	para	prp		_	_
+8	a	o	art	F=S	_	_
+9	circulação	circular	n	F=S	_	_
+10	de	de	prp		_	_
+11	pessoas	pessoa	n	F=P	_	(188)
+12	e	e	conj-c		_	_
+13	bens	bem	n	M=P	_	_
+14	em	em	prp		_	_
+15	a	o	art	F=S	_	_
+16	via	via	n	F=S	0	_
+17	pública	público	adj	F=S	_	_
+18	,		,		_	_
+19	aguardava	aguardar	v-fin	IMPF=3S=IND	_	_
+20	ordens	ordem	n	F=P	_	(206)
+21	e	e	conj-c		_	_
+22	passava	passar	v-fin	IMPF=3S=IND	_	_
+23	a	a	prp		_	_
+24	a	o	art	F=S	_	_
+25	escuta	escuta	n	F=S	_	_
+26	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	lá	lá	adv		_	_
+2	lhe	lhe	pron-pers	M/F=3S/P=ACC	_	_
+3	disseram	dizer	v-fin	MQP=3P=IND	_	_
+4	que	que	conj-s		_	_
+5	iriam	ir	v-fin	COND=3P	_	_
+6	providenciar	providenciar	v-inf		_	_
+7	e	e	conj-c		_	_
+8	que	que	conj-s		_	_
+9	se	se	pron-pers	M=3S=ACC	_	_
+10	limitasse	limitar	v-fin	IMPF=3S=SUBJ	_	_
+11	a	a	prp		_	_
+12	presenciar	presenciar	v-inf		_	_
+13	as	o	art	F=P	_	_
+14	ocorrências	ocorrência	n	F=P	_	_
+15	,		,		_	_
+16	mas	mas	conj-c		_	_
+17	sem	sem	prp		_	_
+18	intervir	intervir	v-inf		_	_
+19	por	por	prp		_	_
+20	enquanto		adv		_	_
+21	.	.	.		_	_
+
+0	Um	um	art	M=S	_	_
+1	imediato	imediato	adj	M=S	_	_
+2	telefonema	telefonema	n	M=S	0	_
+3	para	para	prp		_	_
+4	o	o	art	M=S	_	_
+5	Governador_Civil		prop	M=S	_	_
+6	e	e	conj-c		_	_
+7	de	de	prp		_	_
+8	este	este	pron-det	M=S	_	_
+9	para	para	prp		_	_
+10	o	o	art	M=S	_	_
+11	Ministro	ministro	n	M=S	_	_
+12	confirmou	confirmar	v-fin	PS=3S=IND	_	_
+13	que	que	conj-s		_	_
+14	não	não	adv		_	_
+15	se	se	pron-pers	M=3S=ACC	_	_
+16	encontravam	encontrar	v-fin	IMPF=3P=IND	_	_
+17	previstos	prever	v-pcp	M=P	_	_
+18	desfiles	desfile	n	M=P	_	_
+19	,		,		_	_
+20	de	de	prp		_	_
+21	forma	forma	n	F=S	_	_
+22	que	que	pron-indp	F=S	_	_
+23	a	o	art	F=S	_	_
+24	máquina	máquina	n	F=S	0	_
+25	policial	policial	adj	F=S	_	_
+26	se	se	pron-pers	F=3S=ACC	_	_
+27	viu	ver	v-fin	PS=3S=IND	_	_
+28	movida	mover	v-pcp	F=S	_	_
+29	a	a	prp		_	_
+30	ingerir	ingerir	v-inf		_	_
+31	-se		pron-pers	F=3S=ACC	_	_
+32	em	em	prp		_	_
+33	o	o	art	M=S	_	_
+34	caso	caso	n	M=S	_	_
+35	.	.	.		_	_
+
+0	Soaram	soar	v-fin	MQP=3P=IND	_	_
+1	as	o	art	F=P	_	_
+2	sirenes	sirene	n	F=P	_	_
+3	em	em	prp		_	_
+4	o	o	art	M=S	_	_
+5	quartel	quartel	n	M=S	_	_
+6	de	de	prp		_	_
+7	Belém	Belém	prop		_	_
+8	e	e	conj-c		_	_
+9	,		,		_	_
+10	poucos	pouco	pron-det	M=P	0	_
+11	minutos	minuto	n	M=P	_	_
+12	depois	depois	adv		_	_
+13	,		,		_	_
+14	alguns	algum	pron-det	M=P	0	_
+15	pelotões		n	M=P	_	_
+16	de	de	prp		_	_
+17	a	o	art	F=S	_	(227
+18	Polícia_de_Intervenção		prop	F=S	_	227)
+19	vinham	vir	v-fin	IMPF=3P=IND	_	_
+20	a	a	prp		_	_
+21	caminho	caminho	n	M=S	_	(228)
+22	,		,		_	_
+23	com	com	prp		_	_
+24	grande	grande	adj	M=S	_	_
+25	alarde	alarde	n	M=S	_	_
+26	de	de	prp		_	_
+27	sereias	sereia	n	F=P	_	_
+28	e	e	conj-c		_	_
+29	pisca-piscas		n	M=P	0	_
+30	multicores		adj	M=P	_	_
+31	.	.	.		_	_
+
+0	Entretanto	entretanto	adv		_	_
+1	,		,		_	_
+2	Ibn-el-Muftar		n	M=S	_	(232)
+3	via	ver	v-fin	IMPF=3S=IND	_	_
+4	por	por	prp		_	_
+5	a	o	art	F=S	_	(233
+6	frente	frente	n	F=S	_	233)
+7	uma	um	art	F=S	_	_
+8	grande	grande	adj	F=S	_	_
+9	multidão	multidão	n	F=S	0	_
+10	apeada	apear	v-pcp	F=S	_	_
+11	que	que	pron-indp	F=S	_	_
+12	apostrofava	apostrofar	v-fin	IMPF=3S=IND	_	_
+13	os	o	art	M=P	_	_
+14	seus	seu	pron-det	M=P	0	_
+15	soldados	soldado	n	M=P	_	_
+16	.	.	.		_	_
+
+0	Eram	ser	v-fin	IMPF=3P=IND	_	_
+1	os	o	art	M=P	_	(44
+2	automobilistas	automobilista	n	M=P	_	44)
+3	que	que	pron-indp	M=P	_	_
+4	haviam	haver	v-fin	IMPF=3P=IND	_	_
+5	saído	sair	v-pcp	M=S	_	_
+6	de	de	prp		_	_
+7	os	o	art	M=P	_	(93
+8	carros	carro	n	M=P	_	93)
+9	e	e	conj-c		_	_
+10	que	que	conj-s		_	_
+11	,		,		_	_
+12	entre	entre	prp		_	_
+13	irritados	irritar	v-pcp	M=P	_	_
+14	e	e	conj-c		_	_
+15	divertidos	divertir	v-pcp	M=P	_	_
+16	,		,		_	_
+17	se	se	pron-pers	M=3S=ACC	_	_
+18	empenhavam	empenhar	v-fin	IMPF=3P=IND	_	_
+19	em	em	prp		_	_
+20	uma	um	art	F=S	_	(239
+21	ruidosa	ruidoso	adj	F=S	_	_
+22	assuada		n	F=S	_	239)
+23	.	.	.		_	_
+
+0	Que	que	conj-s		_	_
+1	devia	dever	v-fin	IMPF=3S=IND	_	_
+2	ser	ser	v-inf		_	_
+3	algum	algum	pron-det	M=S	0	_
+4	reclame	reclame	n	M=S	_	_
+5	,		,		_	_
+6	diziam	dizer	v-fin	IMPF=3P=IND	_	_
+7	uns	um	pron-det	M=P	_	_
+8	;	;	;		_	_
+
+0	que	que	pron-indp	M=S	_	_
+1	era	ser	v-fin	IMPF=3S=IND	_	_
+2	mas	mas	conj-c		_	_
+3	era	ser	v-fin	IMPF=3S=IND	_	_
+4	para	para	prp		_	_
+5	um	um	art	M=S	_	_
+6	filme	filme	n	M=S	_	_
+7	,		,		_	_
+8	diziam	dizer	v-fin	IMPF=3P=IND	_	_
+9	outros	outro	pron-det	M=P	_	_
+10	.	.	.		_	_
+
+0	a	a	prp		_	_
+1	o	o	art	M=S	_	_
+2	mouro	mouro	n	M=S	_	_
+3	,		,		_	_
+4	aquela	aquele	pron-det	F=S	0	_
+5	peonagem		n	F=S	_	_
+6	toda	todo	pron-det	F=S	_	_
+7	não	não	adv		_	_
+8	se	se	pron-pers	M=3S=ACC	_	_
+9	afigurou	afigurar	v-fin	PS=3S=IND	_	_
+10	particularmente	particular	adv		_	_
+11	ameaçadora	ameaçador, ameaçar	adj	F=S	_	_
+12	,		,		_	_
+13	tanto	tanto	adv		_	_
+14	mais	mais	pron-det	M=S	_	_
+15	que		adv		_	_
+16	a	o	art	F=S	_	_
+17	turba	turba	n	F=S	0	_
+18	circundante	circundante, circundar	adj	F=S	_	_
+19	,		,		_	_
+20	de	de	prp		_	_
+21	estranhas	estranho	n	F=P	0	_
+22	vestimentas		adj	F=P	_	_
+23	vestida	vestir	v-pcp	F=S	_	_
+24	,		,		_	_
+25	não	não	adv		_	_
+26	parecia	parecer	v-fin	IMPF=3S=IND	_	_
+27	exibir	exibir	v-inf		_	_
+28	armas	arma	n	F=P	0	_
+29	de	de	prp		_	_
+30	qualquer	qualquer	pron-det	F=S	0	_
+31	natureza	natureza	n	F=S	_	_
+32	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	maneira	maneira	n	F=S	_	(148)
+2	que	que	pron-indp	F=S	_	_
+3	Ibn-Muftar		prop	M=S	_	(232)
+4	optou	optar	v-fin	PS=3S=IND	_	_
+5	por	por	prp		_	_
+6	manobrar	manobrar	v-inf		_	_
+7	cautelosamente	cauteloso	adv		_	_
+8	em	em	prp		_	_
+9	o	o	art	M=S	_	_
+10	pouco	pouco	pron-det	M=S	0	_
+11	espaço	espaço	n	M=S	_	_
+12	a	a	prp		_	_
+13	o	o	art	M=S	_	_
+14	dispor	dispor	v-inf		_	_
+15	.	.	.		_	_
+
+0	Com	com	prp		_	_
+1	alguns	algum	pron-det	M=P	0	_
+2	sinais	sinal	n	M=P	_	_
+3	de	de	prp		_	_
+4	o	o	art	M=S	_	(257
+5	alfange		n	M=S	_	257)
+6	fez	fazer	v-fin	PS=3S=IND	_	_
+7	que	que	conj-s		_	_
+8	um	um	art	M=S	_	_
+9	ou	ou	conj-c		_	_
+10	dois	dois	num	M=P	_	_
+11	esquadrões	esquadrão	n	M=P	_	_
+12	formassem	formar	v-fin	IMPF=3P=SUBJ	_	_
+13	,		,		_	_
+14	com	com	prp		_	_
+15	dificuldade	dificuldade	n	F=S	_	(259)
+16	,		,		_	_
+17	em	em	prp		_	_
+18	o	o	art	M=S	_	_
+19	parque	parque	n	M=S	_	_
+20	de	de	prp		_	_
+21	estacionamento	estacionar	n	M=S	_	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	(49
+24	Areeiro		prop	M=S	_	49)
+25	,		,		_	_
+26	e	e	conj-c		_	_
+27	uma	um	art	F=S	_	_
+28	falange	falange	n	F=S	0	_
+29	de	de	prp		_	_
+30	gente	gente	n	F=S	_	(263)
+31	de	de	prp		_	_
+32	pé	pé	n	M=S	_	_
+33	se	se	pron-pers	M=3S=ACC	_	_
+34	arrumasse	arrumar	v-fin	IMPF=3S=SUBJ	_	_
+35	em	em	prp		_	_
+36	o	o	art	M=S	_	_
+37	terreiro	terreiro	n	M=S	_	_
+38	de	de	prp		_	_
+39	a	o	art	F=S	_	_
+40	estação	estação	n	F=S	_	_
+41	de	de	prp		_	_
+42	serviço	serviço	n	M=S	_	(168)
+43	de	de	prp		_	_
+44	o	o	art	M=S	_	(268
+45	lado	lado	n	M=S	0	_
+46	contrário	contrário	adj	M=S	_	268)
+47	,		,		_	_
+48	enquanto		adv		_	_
+49	o	o	art	M=S	_	_
+50	grosso	grosso	n	M=S	0	_
+51	de	de	prp		_	_
+52	a	o	art	F=S	_	(69
+53	tropa	tropa	n	F=S	_	69)
+54	ocupava	ocupar	v-fin	IMPF=3S=IND	_	_
+55	a	o	art	F=S	_	(270
+56	placa	placa	n	F=S	0	_
+57	central	central	adj	F=S	_	_
+58	relvada	relvar	v-pcp	F=S	_	270)
+59	.	.	.		_	_
+
+0	Decidiu	decidir	v-fin	PS=3S=IND	_	_
+1	não	não	adv		_	_
+2	se	se	pron-pers	M=3S=ACC	_	_
+3	deixar		v-fin	FUT=3S=SUBJ	_	_
+4	impressionar	impressionar	v-inf		_	_
+5	com	com	prp		_	_
+6	os	o	art	M=P	_	_
+7	trejeitos	trejeito	n	M=P	0	_
+8	pouco	pouco	adv		_	_
+9	amistosos	amistoso	adj	M=P	_	_
+10	que	que	conj-s		_	_
+11	lhe	lhe	pron-pers	M=3S=ACC	_	_
+12	vinham	vir	v-fin	IMPF=3P=IND	_	_
+13	de	de	prp		_	_
+14	dentro_dos		prp		_	_
+15	os	o	art	M=P	_	_
+16	objectos		n	M=P	0	_
+17	metálicos	metálico	adj	M=P	_	_
+18	com	com	prp		_	_
+19	rodas	roda	n	F=P	_	_
+20	que	que	pron-indp	F=P	_	_
+21	havia	haver	v-fin	IMPF=3S=IND	_	_
+22	por	por	prp		_	_
+23	toda	todo	pron-det	F=S	0	_
+24	a	o	art	F=S	_	_
+25	parte	parte	n	F=S	_	_
+26	,		,		_	_
+27	nem	nem	conj-c		_	_
+28	com	com	prp		_	_
+29	as	o	art	F=P	_	_
+30	caras	cara	n	F=P	_	_
+31	que	que	pron-indp	F=P	_	_
+32	o	o	art	M=S	_	_
+33	fitavam	fitar	v-fin	IMPF=3P=IND	_	_
+34	por	por	prp		_	_
+35	detrás	detrás	adv		_	_
+36	de	de	prp		_	_
+37	um	um	art	M=S	_	_
+38	estranho	estranho	n	M=S	0	_
+39	material	material	adj	M=S	_	_
+40	transparente	transparente	adj	M=S	_	_
+41	.	.	.		_	_
+
+0	Se	se	conj-s		_	_
+1	era	ser	v-fin	IMPF=3S=IND	_	_
+2	uma	um	art	F=S	_	(114
+3	encantação	encantar	n	F=S	_	114)
+4	,		,		_	_
+5	melhor	melhor	adv		_	_
+6	era	ser	v-fin	IMPF=3S=IND	_	_
+7	deixar	deixar	v-inf		_	_
+8	que	que	conj-s		_	_
+9	passasse	passar	v-fin	IMPF=3S=SUBJ	_	_
+10					_	_
+11	segredou	segredar	v-fin	PS=3S=IND	_	_
+12	para	para	prp		_	_
+13	ben		v-inf		_	_
+14					_	_
+15	Yussuf		prop	M=S	_	(114)
+16	que	que	pron-indp	M=S	_	_
+17	lhe	lhe	pron-pers	M=3S=ACC	_	_
+18	respondeu	responder	v-fin	PS=3S=IND	_	_
+19	,		,		_	_
+20	desconfiado	confiar	v-pcp	M=S	_	_
+21	e	e	conj-c		_	_
+22	muito	muito	adv		_	_
+23	pálido	pálido	adj	M=S	_	_
+24	:	:	:		_	_
+
+0					_	_
+1	inch		prop	M=S	_	_
+2	Allah		prop	M=S	_	_
+3	!		!		_	_
+
+0	Manuel	Manuel	prop	M=S	_	(165)
+1	de	de	prp		_	_
+2	a	o	art	F=S	_	_
+3	Silva_Lopes		prop	F=S	_	_
+4	que	que	pron-indp	F=S	_	_
+5	conduzia	conduzir	v-fin	IMPF=3S=IND	_	_
+6	um	um	art	M=S	_	_
+7	de	de	prp		_	_
+8	aqueles	aquele	pron-det	M=P	0	_
+9	irritantes	irritante, irritar	adj	M=P	_	_
+10	camiões	camião	n	M=P	_	_
+11	carregados	carregar	v-pcp	M=P	_	_
+12	de	de	prp		_	_
+13	grades	grade	n	F=P	_	_
+14	de	de	prp		_	_
+15	cerveja	cerveja	n	F=S	_	_
+16	que	que	pron-indp	F=S	_	_
+17	a	o	art	F=S	_	_
+18	Providência	providência	n	F=S	_	_
+19	encarregou	encarregar	v-fin	PS=3S=IND	_	_
+20	de	de	prp		_	_
+21	ensarilhar	ensarilhar	v-inf		_	_
+22	os	o	art	M=P	_	_
+23	trânsitos		n	M=P	_	_
+24	em	em	prp		_	_
+25	Lisboa	Lisboa	prop	M=S	_	(47)
+26	,		,		_	_
+27	resolveu	resolver	v-fin	PS=3S=IND	_	_
+28	em	em	prp		_	_
+29	má	má	adj	F=S	_	(292
+30	hora	hora	n	F=S	_	292)
+31	abandonar	abandonar	v-inf		_	_
+32	o	o	art	M=S	_	_
+33	volante	volante	n	M=S	_	_
+34	,		,		_	_
+35	apear	apear	v-inf		_	_
+36	-se		pron-pers	M=3S=ACC	_	_
+37	,		,		_	_
+38	e	e	conj-c		_	_
+39	,		,		_	_
+40	decerto	decerto	adv		_	_
+41	enciumado	enciumar	v-pcp	M=S	_	_
+42	por	por	prp		_	_
+43	a	o	art	F=S	_	_
+44	concorrência	concorrência	n	F=S	_	_
+45	,		,		_	_
+46	apontar	apontar	v-inf		_	_
+47	um	um	art	M=S	_	_
+48	calhau	calhau	n	M=S	0	_
+49	miudo		adj	M=S	_	_
+50	que	que	pron-indp	M=S	_	_
+51	foi	ir, ser	v-fin	PS=3S=IND	_	_
+52	ecoar	ecoar	v-inf		_	_
+53	em	em	prp		_	_
+54	o	o	art	M=S	_	_
+55	broquel		n	M=S	_	_
+56	de	de	prp		_	_
+57	o	o	art	M=S	_	_
+58	beduíno	beduíno	n	M=S	_	_
+59	Mamud_Beshewer		prop	M=S	_	_
+60	que	que	pron-indp	M=S	_	_
+61	,		,		_	_
+62	por	por	prp		_	_
+63	ainda	ainda	adv		_	_
+64	não	não	adv		_	_
+65	ter	ter	v-inf		_	_
+66	acordado	acordar	v-pcp	M=S	_	_
+67	de	de	prp		_	_
+68	tudo	tudo	pron-indp	M=S	_	_
+69	isto	isto	pron-indp	M=S	_	_
+70	,		,		_	_
+71	era	ser	v-fin	IMPF=3S=IND	_	_
+72	um	um	num	M=S	_	_
+73	de	de	prp		_	_
+74	os	o	art	M=P	_	_
+75	mais	mais	adv		_	_
+76	quietos	quieto	adj	M=P	_	_
+77	de	de	prp		_	_
+78	a	o	art	F=S	_	_
+79	tropa	tropa	n	F=S	_	_
+80	.	.	.		_	_
+
+0	Desprezivamente		adv		_	_
+1	,		,		_	_
+2	Ibn-Muftar		prop	M=S	_	(232)
+3	deu	dar	v-fin	PS=3S=IND	_	_
+4	uma	um	art	F=S	_	_
+5	ordem	ordem	n	F=S	0	_
+6	e	e	conj-c		_	_
+7	logo	logo	adv		_	_
+8	vinte	vinte	num	M=P	_	_
+9	archeiros	archeiro	n	M=P	_	_
+10	enristaram		v-fin	PS/MQP=3P=IND	_	_
+11	os	o	art	M=P	_	_
+12	arcos	arco	n	M=P	_	_
+13	,		,		_	_
+14	apontaram	apontar	v-fin	PS=3P=IND	_	_
+15	a	a	prp		_	_
+16	os	o	art	M=P	_	_
+17	céus	céu	n	M=P	_	_
+18	,		,		_	_
+19	e	e	conj-c		_	_
+20	expediram	expedir	v-fin	MQP=3P=IND	_	_
+21	,		,		_	_
+22	com	com	prp		_	_
+23	um	um	art	M=S	_	_
+24	zunido	zunido	n	M=S	0	_
+25	tenso	tenso	adj	M=S	_	_
+26	,		,		_	_
+27	uma	um	art	F=S	_	_
+28	saraivada	saraivada	n	F=S	0	_
+29	de	de	prp		_	_
+30	setas	seta	n	F=P	_	_
+31	,		,		_	_
+32	que	que	pron-indp	F=S	_	_
+33	obrigou	obrigar	v-fin	PS=3S=IND	_	_
+34	toda	todo	pron-det	F=S	0	_
+35	a	o	art	F=S	_	_
+36	gente	gente	n	F=S	_	_
+37	a	a	prp		_	_
+38	meter	meter	v-inf		_	_
+39	-se		pron-pers	F=3S=ACC	_	_
+40	em	em	prp		_	_
+41	os	o	art	M=P	_	(317
+42	automóveis	automóvel	n	M=P	_	317)
+43	e	e	conj-c		_	_
+44	a	a	prp		_	_
+45	procurar	procurar	v-inf		_	_
+46	refúgio	refúgio	n	M=S	0	_
+47	em	em	prp		_	_
+48	as	o	art	F=P	_	_
+49	portadas	portada	n	F=P	_	_
+50	de	de	prp		_	_
+51	os	o	art	M=P	_	_
+52	prédios	prédio	n	M=P	_	_
+53	ou	ou	conj-c		_	_
+54	atrás_dos		prp		_	_
+55	os	o	art	M=P	_	(321
+56	camiões	camião	n	M=P	_	321)
+57	.	.	.		_	_
+
+0	Veio	veio	n	M=S	0	_
+1	de	de	prp		_	_
+2	o	o	art	M=S	_	(49
+3	Areeiro		prop	M=S	_	49)
+4	um	um	art	M=S	_	_
+5	grande	grande	adj	M=S	_	_
+6	apupo	apupo	n	M=S	_	_
+7	,		,		_	_
+8	de	de	prp		_	_
+9	esta	este	pron-det	F=S	0	_
+10	vez	vez	n	F=S	_	_
+11	convicto	convicto	adj	M=S	_	_
+12	,		,		_	_
+13	em	em	prp		_	_
+14	uníssono	uníssono	n	M=S	_	_
+15	.	.	.		_	_
+
+0	Ora		adv		_	_
+1	foi	ir, ser	v-fin	PS=3S=IND	_	_
+2	este	este	pron-det	M=S	0	_
+3	clamor	clamor	n	M=S	_	_
+4	que	que	pron-indp	M=S	_	_
+5	o	o	art	M=S	_	(328
+6	comissário	comissário	n	M=S	0	_
+7	Nunes	Nunes	prop	M=S	_	_
+8	,		,		_	_
+9	recém	recém	ec		_	_
+10					_	328)
+11	chegado	chegar	v-pcp	M=S	_	_
+12	a	a	prp		_	_
+13	a	o	art	F=S	_	(198
+14	Alameda_D._Afonso_Henriques		prop	F=S	_	198)
+15	,		,		_	_
+16	a	a	prp		_	_
+17	a	o	art	F=S	_	(233
+18	frente	frente	n	F=S	_	233)
+19	de	de	prp		_	_
+20	os	o	art	M=P	_	_
+21	seus	seu	pron-det	M=P	0	_
+22	pelotões		n	M=P	_	_
+23	de	de	prp		_	_
+24	choque	choque	n	M=S	_	_
+25	,		,		_	_
+26	interpretou	interpretar	v-fin	PS=3S=IND	_	_
+27	mal	mal	adv		_	_
+28	.	.	.		_	_
+
+0	Aí	aí	adv		_	_
+1	estava	estar	v-fin	IMPF=3S=IND	_	_
+2	a	a	prp		_	_
+3	assuada		n	F=S	_	(239)
+4	,		,		_	_
+5	o	o	art	M=S	_	_
+6	arruído		n	M=S	_	_
+7	,		,		_	_
+8	considerou	considerar	v-fin	PS=3S=IND	_	_
+9	o	o	art	M=S	_	(328
+10	comissário	comissário	n	M=S	_	328)
+11	.	.	.		_	_
+
+0	Era	ser	v-fin	IMPF=3S=IND	_	_
+1	,		,		_	_
+2	uma	um	art	F=S	_	_
+3	vez	vez	n	F=S	0	_
+4	mais	mais	adv		_	_
+5	,		,		_	_
+6	a	o	art	F=S	_	_
+7	canalha	canalha	n	F=S	_	_
+8	a	a	prp		_	_
+9	desafiar	desafiar	v-inf		_	_
+10	a	o	art	F=S	_	(227
+11	polícia	polícia	n	F=S	_	227)
+12	.	.	.		_	_
+
+0					_	_
+1	Toca		prop	F=S	0	_
+2	a	a	prp		_	_
+3	varrer	varrer	v-inf		_	_
+4	isto	isto	pron-indp	M=S	_	_
+5	tudo	tudo	pron-indp	M=S	_	_
+6	até	até	prp		_	_
+7	a	o	art	F=S	_	(49
+8	o	o	art	M=S	_	_
+9	Areeiro		prop	M=S	_	49)
+10					_	_
+11	disse	dizer	v-fin	PS=3S=IND	_	_
+12	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	,		,		_	_
+2	puxando	puxar	v-ger		_	_
+3	de	de	prp		_	_
+4	o	o	art	M=S	_	_
+5	apito	apito	n	M=S	_	_
+6	,		,		_	_
+7	pôs	pôr	v-fin	PS=3S=IND	_	_
+8	a	o	art	F=S	_	_
+9	equipa	equipa	n	F=S	_	_
+10	em	em	prp		_	_
+11	acção		n	F=S	_	_
+12	,		,		_	_
+13	a	a	prp		_	_
+14	a	o	art	F=S	_	_
+15	bastonada	bastonada	n	M=S	_	_
+16	,		,		_	_
+17	a_eito		adv		_	_
+18	,		,		_	_
+19	por	por	prp		_	_
+20	aqui	aqui	adv		_	_
+21	e	e	conj-c		_	_
+22	por	por	prp		_	_
+23	além	além	n	M=S	_	_
+24	.	.	.		_	_
+
+0	Aquilo		prop	M=S	_	_
+1	não	não	adv		_	_
+2	era	ser	v-fin	IMPF=3S=IND	_	_
+3	uma	um	art	F=S	_	_
+4	pouca	pouco	pron-det	F=S	0	_
+5	de	de	prp		_	_
+6	gente	gente	n	F=S	_	(263)
+7	que	que	pron-indp	F=S	_	_
+8	se	se	pron-pers	F=3S=ACC	_	_
+9	varresse	varrer	v-fin	IMPF=3S=SUBJ	_	_
+10	assim	assim	adv		_	_
+11	sem	sem	prp		_	_
+12	mais	mais	adv		_	_
+13	nem		adv		_	_
+14	ontem	ontem	adv		_	_
+15	,		,		_	_
+16	de	de	prp		_	_
+17	modo	modo	n	M=S	_	(148)
+18	que	que	pron-indp	M=S	_	_
+19	os	o	art	M=P	_	_
+20	pelotões		n	M=P	0	_
+21	de	de	prp		_	_
+22	polícia	polícia	n	F=S	_	(227)
+23	de	de	prp		_	_
+24	intervenção	intervenção	n	F=S	_	_
+25	progrediam	progredir	v-fin	IMPF=3P=IND	_	_
+26	com	com	prp		_	_
+27	dificuldade	dificuldade	n	F=S	_	(259)
+28	e	e	conj-c		_	_
+29	só	só	adv		_	_
+30	conseguiram	conseguir	v-fin	MQP=3P=IND	_	_
+31	chegar	chegar	v-inf		_	_
+32	a	a	prp		_	_
+33	o	o	art	M=S	_	(49
+34	Areeiro	areeiro	n	M=S	_	49)
+35	algum	algum	pron-det	M=S	0	_
+36	tempo	tempo	n	M=S	_	_
+37	depois	depois	adv		_	_
+38	,		,		_	_
+39	após	após	prp		_	_
+40	muita	muito	pron-det	F=S	0	_
+41	cabeça	cabeça	n	F=S	_	_
+42	partida	partida	n	F=S	0	(160
+43	e	e	conj-c		_	160)
+44	duas	dois	num	F=P	_	_
+45	baixas	baixo	n	F=P	_	_
+46	em	em	prp		_	_
+47	as	o	art	F=P	_	_
+48	suas	sua	pron-det	F=P	0	_
+49	hostes	hoste	n	F=P	_	_
+50	,		,		_	_
+51	de	de	prp		_	_
+52	agentes	agente	n	M=P	_	_
+53	que	que	pron-indp	M=P	_	_
+54	tinham	ter	v-fin	IMPF=3P=IND	_	_
+55	sido	ser	v-pcp	M=S	_	_
+56	sabiamente	sabiamente	adv		_	_
+57	atraídos	atrair	v-pcp	M=P	_	_
+58	a	a	prp		_	_
+59	vãos	vão	n	M=P	_	_
+60	de	de	prp		_	_
+61	escadas	escada	n	F=P	_	_
+62	por	por	prp		_	_
+63	populares	popular	n	M=P	0	_
+64	mais	mais	adv		_	_
+65	expeditos	expedito	adj	M=P	_	_
+66	.	.	.		_	_
+
+0	Expulsa	expulsar	v-fin	PR=3S=IND	_	_
+1	parte	parte	n	F=S	0	_
+2	de	de	prp		_	_
+3	a	o	art	F=S	_	(187
+4	multidão	multidão	n	F=S	_	187)
+5	para	para	prp		_	_
+6	o	o	art	M=S	_	(359
+7	Bairro_dos_Actores		n	M=S	_	359)
+8	,		,		_	_
+9	em	em	prp		_	_
+10	o	o	art	M=S	_	(96
+11	meio	meio	n	M=S	_	96)
+12	de	de	prp		_	_
+13	uma	um	art	F=S	_	_
+14	tremenda	tremenda	n	F=S	_	_
+15	algazarra	algazarrar	v-fin	PR=3S=IND	_	_
+16	,		,		_	_
+17	o	o	art	M=S	_	_
+18	comissário	comissário	n	M=S	0	_
+19	Nunes	Nunes	prop	M=S	_	(328)
+20	,		,		_	_
+21	ofegante	ofegante, ofegar	adj	M=S	_	_
+22	,		,		_	_
+23	reagrupou	agrupar	v-fin	PS=3S=IND	_	_
+24	os	o	art	M=P	_	_
+25	seus	seu	pron-det	M=P	0	_
+26	homens	homem	n	M=P	_	_
+27	em	em	prp		_	_
+28	a	o	art	F=S	_	(363
+29	Praça	praça	n	F=S	_	363)
+30	de	de	prp		_	_
+31	o	o	art	M=S	_	(49
+32	Areeiro		prop	M=S	_	49)
+33	,		,		_	_
+34	em_cima_da		prp		_	_
+35	a	o	art	F=S	_	(270
+36	placa	placa	n	F=S	0	_
+37	relvada	relvar	v-pcp	F=S	_	270)
+38	,		,		_	_
+39	com	com	prp		_	_
+40	grande	grande	adj	M=S	_	_
+41	prejuízo	prejuízo	n	M=S	_	_
+42	de	de	prp		_	_
+43	as	o	art	F=P	_	_
+44	dálias	dália	n	F=P	0	_
+45	e	e	conj-c		_	_
+46	hortênsias		n	F=P	0	_
+47	ali	ali	adv		_	_
+48	plantadas	plantar	v-pcp	F=P	_	_
+49	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	ibn		v-fin	PR=3S=IND	_	_
+2	-el		pron-pers		_	_
+3					_	_
+4	Muftar		prop	M=S	_	(232)
+5	mostrava	mostrar	v-fin	IMPF=3S=IND	_	_
+6	-se		pron-pers	M=3S=ACC	_	_
+7	então	então	adv		_	_
+8	sobremaneira	sobremaneira	adv		_	_
+9	irritado	irritar	v-pcp	M=S	_	_
+10	por	por	prp		_	_
+11	todos	todo	pron-det	M=P	0	_
+12	os	o	art	M=P	_	_
+13	rumores	rumor	n	M=P	0	_
+14	e	e	conj-c		_	_
+15	confusões	confusão	n	F=P	_	_
+16	em	em	prp		_	_
+17	torno	torno	n	M=S	_	_
+18	,		,		_	_
+19	e	e	conj-c		_	_
+20	em	em	prp		_	_
+21	especial	especial	adj	M=S	_	_
+22	por	por	prp		_	_
+23	a	o	art	F=S	_	_
+24	zipada		n	F=S	_	_
+25	de	de	prp		_	_
+26	água	água	n	F=S	_	(374)
+27	que	que	pron-indp	F=S	_	_
+28	alguém	alguém	pron-indp	M=S	_	_
+29	havia	haver	v-fin	IMPF=3S=IND	_	_
+30	deixado	deixar	v-pcp	M=S	_	_
+31	cair	cair	v-inf		_	_
+32	de	de	prp		_	_
+33	uma	um	art	F=S	_	_
+34	de	de	prp		_	_
+35	as	o	art	F=P	_	(108
+36	janelas	janela	n	F=P	_	108)
+37	e	e	conj-c		_	_
+38	que	que	conj-s		_	_
+39	lhe	lhe	pron-pers	M=3S=ACC	_	_
+40	impregnara	impregnar	v-fin	MQP=3S=IND	_	_
+41	o	o	art	M=S	_	_
+42	manto	manto	n	M=S	0	_
+43	e	e	conj-c		_	_
+44	a	o	art	F=S	_	_
+45	cota	cota	n	F=S	_	_
+46	de	de	prp		_	_
+47	malha	malha	n	F=S	_	_
+48	.	.	.		_	_
+
+0	Quando	quando	adv		_	_
+1	viu	ver	v-fin	PS=3S=IND	_	_
+2	aqueles	aquele	pron-det	M=P	0	_
+3	peões	peão	n	M=P	_	_
+4	de	de	prp		_	_
+5	escudo	escudo	n	M=S	_	_
+6	e	e	conj-c		_	_
+7	viseira	viseira	n	F=S	_	_
+8	,		,		_	_
+9	formados	formar	v-pcp	M=P	_	_
+10	em	em	prp		_	_
+11	frente	frente	n	F=S	_	(233)
+12	,		,		_	_
+13	pensou	pensar	v-fin	PS=3S=IND	_	_
+14	que	que	conj-s		_	_
+15	era	ser	v-fin	IMPF=3S=IND	_	_
+16	,		,		_	_
+17	enfim	enfim	adv		_	_
+18	,		,		_	_
+19	a	o	art	F=S	_	_
+20	guarda	guarda	n	F=S	0	_
+21	avançada	avançar	v-pcp	F=S	_	_
+22	de	de	prp		_	_
+23	Ibn-Arrik		prop	M=S	_	(385)
+24	,		,		_	_
+25	o	o	art	M=S	_	_
+26	cão	cão	n	M=S	0	_
+27	tomador	tomador, tomar	adj	M=S	_	_
+28	de	de	prp		_	_
+29	Lixbuna		prop	M=S	_	(84)
+30	,		,		_	_
+31	que	que	pron-indp	M=S	_	_
+32	vinha	vir	v-fin	IMPF=3S=IND	_	_
+33	aí	aí	adv		_	_
+34	travar	travar	v-inf		_	_
+35	-lhe		pron-pers	M=3S=ACC	_	_
+36	o	o	art	M=S	_	(389
+37	passo	passo	n	M=S	_	389)
+38	,		,		_	_
+39	a	a	prp		_	_
+40	coberto	coberto	n	M=S	_	_
+41	de	de	prp		_	_
+42	um	um	art	M=S	_	(391
+43	encantamento	encantar	n	M=S	0	_
+44	mágico	mágico	adj	M=S	_	391)
+45	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	um	um	art	M=S	_	_
+2	ápice	ápice	n	M=S	_	_
+3	,		,		_	_
+4	rompeu	romper	v-fin	PS=3S=IND	_	_
+5	uma	um	art	F=S	_	_
+6	carga	carga	n	F=S	0	_
+7	de	de	prp		_	_
+8	cavaleiros	cavaleiro	n	M=P	_	_
+9	berberes	berbere	n	M=P	_	(72)
+10	,		,		_	_
+11	a	a	prp		_	_
+12	os	o	art	M=P	_	_
+13	gritos	grito	n	M=P	_	_
+14	de	de	prp		_	_
+15	guerra	guerra	n	F=S	_	(1)
+16	,		,		_	_
+17	de	de	prp		_	_
+18	alfange		n	M=S	_	(257)
+19	em	em	prp		_	_
+20	riste	rir	v-fin	PS=2S=IND	_	_
+21	,		,		_	_
+22	ladeando	ladear	v-ger		_	_
+23	automóveis	automóvel	n	M=P	_	(317)
+24	,		,		_	_
+25	amolgando	amolgar	v-ger		_	_
+26	capots		n	M=P	_	_
+27	,		,		_	_
+28	e	e	conj-c		_	_
+29	aproximando	aproximar	v-ger		_	_
+30	-se		pron-pers	M/F=3S=ACC	_	_
+31	inexoravelmente	inexorável	adv		_	_
+32	de	de	prp		_	_
+33	os	o	art	M=P	_	_
+34	rapazes	rapaz	n	M=P	_	_
+35	de	de	prp		_	_
+36	o	o	art	M=S	_	(328
+37	comissário	comissário	n	M=S	_	328)
+38	Nunes	Nunes	prop	M=S	_	(328)
+39	.	.	.		_	_
+
+0	Estes	este	pron-det	M=P	_	_
+1	,		,		_	_
+2	em	em	prp		_	_
+3	consciência	consciência	n	F=S	_	_
+4	,		,		_	_
+5	não	não	adv		_	_
+6	se	se	pron-pers	M=3P=ACC	_	_
+7	sentiam	sentir	v-fin	IMPF=3P=IND	_	_
+8	preparados	preparar	v-pcp	M=P	_	_
+9	para	para	prp		_	_
+10	enfrentar	enfrentar	v-inf		_	_
+11	cargas	carga	n	F=P	0	_
+12	de	de	prp		_	_
+13	cavalaria	cavalaria	n	F=S	0	_
+14	moura	mouro	adj	F=S	_	_
+15	:	:	:		_	_
+
+0	a	o	art	F=S	_	_
+1	formatura	formatura	n	F=S	_	_
+2	oscilou	oscilar	v-fin	PS=3S=IND	_	_
+3	,		,		_	_
+4	rodopiou	rodopiar	v-fin	PS=3S=IND	_	_
+5	,		,		_	_
+6	desfez	fazer	v-fin	PS=3S=IND	_	_
+7	-se		pron-pers	M=3S=ACC	_	_
+8	e	e	conj-c		_	_
+9	,		,		_	_
+10	quando	quando	adv		_	_
+11	os	o	art	M=P	_	_
+12	primeiros		adj	M=P	_	_
+13	alfanges		n	M=P	_	_
+14	assomavam	assomar	v-fin	IMPF=3P=IND	_	_
+15	a	a	prp		_	_
+16	o	o	art	M=S	_	(268
+17	lado	lado	n	M=S	_	268)
+18	de	de	prp		_	_
+19	um	um	art	M=S	_	_
+20	autocarro	autocarro	n	M=S	_	_
+21	de	de	prp		_	_
+22	a	o	art	F=S	_	_
+23	Carris		prop	F=S	_	_
+24	,		,		_	_
+25	já	já	adv		_	(409
+26	os	o	art	M=P	_	_
+27	briosos	brioso	adj	M=P	_	_
+28	homens	homem	n	M=P	_	409)
+29	de	de	prp		_	_
+30	a	o	art	F=S	_	(227
+31	Polícia_de_Intervenção		prop	F=S	_	227)
+32	corriam	correr	v-fin	IMPF=3P=IND	_	_
+33	a	a	prp		_	_
+34	bom	bom	adj	M=S	_	_
+35	correr	correr	v-inf		_	_
+36	até	até	prp		_	_
+37	a	o	art	F=S	_	_
+38	a	o	art	F=S	_	_
+39	cervejaria	cervejaria	n	F=S	_	_
+40	Munique	Munique	prop	M=S	_	(411)
+41	,		,		_	_
+42	onde	onde	adv		_	_
+43	se	se	pron-pers	M=3P=ACC	_	_
+44	refugiavam	refugiar	v-fin	IMPF=3P=IND	_	_
+45	atrás_do		prp		_	_
+46	o	o	art	M=S	_	(413
+47	balcão	balcão	n	M=S	_	413)
+48	,		,		_	_
+49	deixando	deixar	v-ger		_	_
+50	a	o	art	F=S	_	_
+51	moirama		n	F=S	0	_
+52	senhora	senhor	n	F=S	_	_
+53	de	de	prp		_	_
+54	a	o	art	F=S	_	(270
+55	placa	placa	n	F=S	0	_
+56	central	central	adj	F=S	_	270)
+57	de	de	prp		_	_
+58	a	o	art	F=S	_	(363
+59	Praça	praça	n	F=S	_	363)
+60	de	de	prp		_	_
+61	o	o	art	M=S	_	(49
+62	Areeiro		prop	M=S	_	49)
+63	.	.	.		_	_
+
+0	Por	por	prp		_	_
+1	essa	esse	pron-det	F=S	0	_
+2	altura	altura	n	F=S	_	_
+3	,		,		_	_
+4	já	já	adv		_	_
+5	a	o	art	F=S	_	_
+6	tropa	tropa	n	F=S	_	_
+7	de	de	prp		_	_
+8	o	o	art	M=S	_	(418
+9	Ralis		prop	M=S	_	418)
+10	e	e	conj-c		_	_
+11	a	o	art	F=S	_	_
+12	de	de	prp		_	_
+13	a	o	art	F=S	_	_
+14	Escola_Prática_de_Administração_Militar		prop	F=S	_	_
+15	,		,		_	_
+16	ali	ali	adv		_	_
+17	a	a	prp		_	_
+18	o	o	art	M=S	_	_
+19	Lumiar	Lumiar	prop	M=S	_	_
+20	,		,		_	_
+21	tinham	ter	v-fin	IMPF=3P=IND	_	_
+22	recebido	receber	v-pcp	M=S	_	_
+23	ordens	ordem	n	F=P	0	(206
+24	para	para	prp		_	206)
+25	intervir	intervir	v-inf		_	_
+26	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	em	em	prp		_	_
+2	boa	boa	adj	F=S	_	_
+3	hora	hora	n	F=S	_	_
+4	,		,		_	_
+5	porque	porque	conj-s		_	_
+6	o	o	art	M=S	_	_
+7	comissário	comissário	n	M=S	0	_
+8	Nunes	Nunes	prop	M=S	_	(328)
+9	e	e	conj-c		_	_
+10	a	o	art	F=S	_	_
+11	sua	sua	pron-det	F=S	0	_
+12	gente	gente	n	F=S	_	_
+13	,		,		_	_
+14	acuados		v-pcp	M=P	_	_
+15	em	em	prp		_	_
+16	a	o	art	F=S	_	(411
+17	Munique	Munique	prop	M=S	_	411)
+18	,		,		_	_
+19	a	a	prp		_	_
+20	ver	ver	v-inf		_	_
+21	passar	passar	v-inf		_	_
+22	árabes	árabe	n	M=P	0	_
+23	a	a	prp		_	_
+24	cavalo	cavalo	n	M=S	_	(425)
+25	,		,		_	_
+26	de	de	prp		_	_
+27	ar	ar	n	M=S	0	_
+28	ameaçador	ameaçador, ameaçar	adj	M=S	_	_
+29	e	e	conj-c		_	_
+30	façanhudo	façanhudo	adj	M=S	_	_
+31	,		,		_	_
+32	sentiam	sentir	v-fin	IMPF=3P=IND	_	_
+33	-se		pron-pers	M/F=3P=ACC	_	_
+34	cada	cada	pron-det	F=S	0	_
+35	vez	vez	n	F=S	_	_
+36	menos	menos	adv		_	_
+37	seguros	seguro	adj	M=P	_	_
+38	.	.	.		_	_
+
+0	Os	o	art	M=P	_	_
+1	blindados	blindado	n	M=P	0	_
+2	de	de	prp		_	_
+3	o	o	art	M=S	_	(418
+4	Ralis		prop	M=S	_	418)
+5	não	não	adv		_	_
+6	conseguiram	conseguir	v-fin	MQP=3P=IND	_	_
+7	passar	passar	v-inf		_	_
+8	além_do		prp		_	_
+9	o	o	art	M=S	_	(359
+10	Bairro	bairro	n	M=S	_	359)
+11	de	de	prp		_	_
+12	a	o	art	F=S	_	_
+13	Encarnação	encarnação, encarnar	n	F=S	_	_
+14	.	.	.		_	_
+
+0	Ocuparam	ocupar	v-fin	PS=3P=IND	_	_
+1	a	o	art	F=S	_	_
+2	faixa	faixa	n	F=S	0	_
+3	de	de	prp		_	_
+4	esquerda	esquerda	n	F=S	_	_
+5	,		,		_	_
+6	para	para	prp		_	_
+7	chegarem	chegar	v-fin	FUT=3P=SUBJ	_	_
+8	mais_depressa		adv		_	_
+9	,		,		_	_
+10	e	e	conj-c		_	_
+11	acabaram	acabar	v-fin	MQP=3P=IND	_	_
+12	por	por	prp		_	_
+13	ver	ver	v-inf		_	_
+14	-se		pron-pers	F=3S=ACC	0	_
+15	envolvidos	envolver	v-pcp	M=P	_	_
+16	em	em	prp		_	_
+17	um	um	art	M=S	_	_
+18	medonho	medonho	n	M=S	_	_
+19	engarrafamento	engarrafar	n	M=S	_	_
+20	com	com	prp		_	_
+21	camiões	camião	n	M=P	_	(321)
+22	TIR		prop	M=S	_	(436)
+23	.	.	.		_	_
+
+0	Mais	mais	pron-det	M=P	0	_
+1	sorte	sorte	n	F=S	_	_
+2	teve	ter	v-fin	PS=3S=IND	_	_
+3	o	o	art	M=S	_	(438
+4	capitão	capitão	n	M=S	0	_
+5	Aurélio_Soares		prop	M=S	_	_
+6	,		,		_	_
+7	a	a	prp		_	_
+8	a	o	art	F=S	_	(233
+9	frente	frente	n	F=S	_	233)
+10	de	de	prp		_	_
+11	a	o	art	F=S	_	_
+12	sua	sua	pron-det	F=S	0	_
+13	companhia	companhia	n	F=S	_	_
+14	de	de	prp		_	_
+15	intendentes	intendente	n	M=P	_	438)
+16	.	.	.		_	_
+
+0	Largaram	largar	v-fin	MQP=3P=IND	_	_
+1	as	o	art	F=P	_	_
+2	viaturas	viatura	n	F=P	_	_
+3	em	em	prp		_	_
+4	frente	frente	n	F=S	_	(233)
+5	de	de	prp		_	_
+6	o	o	art	M=S	_	_
+7	Vavá		prop	M=S	_	_
+8	,		,		_	_
+9	em	em	prp		_	_
+10	a	o	art	F=S	_	(1
+11	Avenida		prop	F=S	_	1)
+12	de	de	prp		_	_
+13	os	o	art	M=P	_	(443
+14	Estados_Unidos		prop	M=P	_	443)
+15	,		,		_	_
+16	e	e	conj-c		_	_
+17	abalaram	abalar	v-fin	MQP=3P=IND	_	_
+18	em	em	prp		_	_
+19	passo	passo	n	M=S	_	(389)
+20	de	de	prp		_	_
+21	corrida	corrida	n	F=S	_	_
+22	por	por	prp		_	_
+23	ali	ali	adv		_	_
+24	a	a	prp		_	_
+25	baixo	baixo	adv		_	_
+26	,		,		_	_
+27	por	por	prp		_	_
+28	a	o	art	F=S	_	_
+29	faixa	faixa	n	F=S	0	_
+30	relvada	relvar	v-pcp	F=S	_	_
+31	,		,		_	_
+32	até	até	prp		_	_
+33	estabelecerem	estabelecer	v-fin	FUT=3P=SUBJ	_	_
+34	contacto	contacto	n	M=S	0	(446
+35	com	com	prp		_	_
+36	a	o	art	F=S	_	(69
+37	tropa	tropa	n	F=S	_	69)
+38	de	de	prp		_	446)
+39	ibn		v-inf		_	_
+40	-el		pron-pers		_	_
+41					_	_
+42	Muftar		prop	M=S	_	(232)
+43	,		,		_	_
+44	em	em	prp		_	_
+45	o	o	art	M=S	_	_
+46	cruzamento	cruzar	n	M=S	_	_
+47	com	com	prp		_	_
+48	a	o	art	F=S	_	(1
+49	Gago_Coutinho		prop	F=S	_	1)
+50	.	.	.		_	_
+
+0	O	o	art	M=S	_	(438
+1	capitão	capitão	n	M=S	0	_
+2	Aurélio	Aurélio	prop	M=S	_	438)
+3	trazia	trazer	v-fin	IMPF=3S=IND	_	_
+4	instruções	instrução	n	F=P	0	_
+5	para	para	prp		_	_
+6	proceder	proceder	v-inf		_	_
+7	a	a	prp		_	_
+8	um	um	art	M=S	_	_
+9	reconhecimento	reconhecer	n	M=S	_	_
+10	,		,		_	_
+11	avaliar	avaliar	v-inf		_	_
+12	a	o	art	F=S	_	(132
+13	situação	situação, situar	n	F=S	_	132)
+14	e	e	conj-c		_	_
+15	agir	agir	v-inf		_	_
+16	em	em	prp		_	_
+17	conformidade	conformidade, conforme	n	F=S	_	_
+18	,		,		_	_
+19	mas	mas	conj-c		_	_
+20	sempre	sempre	adv		_	_
+21	com	com	prp		_	_
+22	moderação	moderar	n	F=S	_	_
+23	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	maneira	maneira	n	F=S	_	(148)
+2	que	que	pron-indp	M=P	_	_
+3	dispôs	dispor	v-fin	PS=3S=IND	_	_
+4	a	o	art	F=S	_	_
+5	sua	sua	pron-det	F=S	0	_
+6	gente	gente	n	F=S	_	_
+7	em	em	prp		_	_
+8	atiradores	atirar	n	M=P	_	_
+9	,		,		_	_
+10	depois	depois	adv		_	_
+11	de	de	prp		_	_
+12	afastar	afastar	v-inf		_	_
+13	os	o	art	M=P	_	_
+14	civis		n	M=P	_	_
+15	com	com	prp		_	_
+16	berros	berro	n	M=P	0	_
+17	enérgicos	enérgico	adj	M=P	_	_
+18	,		,		_	_
+19	e	e	conj-c		_	_
+20	mediu	medir	v-fin	PS=3S=IND	_	_
+21	o		pron-det	M=S	_	_
+22	que	que	pron-indp	M=S	_	_
+23	tinha	ter	v-fin	IMPF=3S=IND	_	_
+24	por	por	prp		_	_
+25	a	o	art	F=S	_	(233
+26	frente	frente	n	F=S	_	233)
+27	:	:	:		_	_
+
+0	eram	ser	v-fin	IMPF=3P=IND	_	_
+1	milhares		n	M=P	0	_
+2	de	de	prp		_	_
+3	mouros	mouro	n	M=P	_	_
+4	,		,		_	_
+5	a	o	art	F=S	_	_
+6	maior	maior	adj	F=S	_	_
+7	parte	parte	n	F=S	_	_
+8	de	de	prp		_	_
+9	os	o	art	M=P	_	_
+10	quais	qual	pron-det	M=P	_	_
+11	a	a	prp		_	_
+12	cavalo	cavalo	n	M=S	_	(425)
+13	,		,		_	_
+14	que	que	pron-indp	F=S	_	_
+15	se	se	pron-pers	F=3S=ACC	_	_
+16	apertavam	apertar	v-fin	IMPF=3P=IND	_	_
+17	em	em	prp		_	_
+18	a	o	art	F=S	_	(1
+19	Gago_Coutinho		prop	F=S	_	1)
+20	,		,		_	_
+21	por	por	prp		_	_
+22	entre	entre	prp		_	_
+23	os	o	art	M=P	_	(317
+24	automóveis	automóvel	n	M=P	_	317)
+25	e	e	conj-c		_	_
+26	o	o	art	M=S	_	_
+27	tráfego	tráfego	n	M=S	_	_
+28	de	de	prp		_	_
+29	a	o	art	F=S	_	(292
+30	hora	hora	n	F=S	_	292)
+31	de	de	prp		_	_
+32	ponta	ponta	n	F=S	_	_
+33	.	.	.		_	_
+
+0					_	_
+1	Estas	este	pron-det	F=P	0	_
+2	coisas	coisa	n	F=P	_	_
+3	só	só	adv		_	_
+4	me	me	pron-pers	F=1S=ACC	_	_
+5	acontecem	acontecer	v-fin	PR=3P=IND	_	_
+6	a	a	prp		_	_
+7	mim	mim	pron-pers	M=1S=DAT	_	_
+8	!		!		_	_
+
+0					_	_
+1	lamentava	lamentar	v-fin	IMPF=3S=IND	_	_
+2	-se		pron-pers	M=3S=ACC	_	_
+3	o	o	art	M=S	_	_
+4	capitão	capitão	n	M=S	0	_
+5	para	para	prp		_	_
+6	consigo		adv		_	_
+7	,		,		_	_
+8	esquecido	esquecer	v-pcp	M=S	_	_
+9	de	de	prp		_	_
+10	os	o	art	M=P	_	_
+11	muitos	muito	pron-det	M=P	0	_
+12	milhares		n	M=P	_	_
+13	de	de	prp		_	_
+14	lisboetas	lisboeta	n	F=P	_	_
+15	que	que	pron-indp	F=P	_	_
+16	se	se	pron-pers	F=3P=ACC	_	_
+17	encontravam	encontrar	v-fin	IMPF=3P=IND	_	_
+18	em	em	prp		_	_
+19	o	o	art	M=S	_	(129
+20	momento	momento	n	M=S	_	129)
+21	confrontados	confrontar	v-pcp	M=P	_	_
+22	com	com	prp		_	_
+23	o	o	art	M=S	_	_
+24	fenómeno		n	M=S	_	_
+25	.	.	.		_	_
+
+0					_	_
+1	Bom	bom	n	M=S	_	_
+2	,		,		_	_
+3	vamos	ir	v-fin	PR=1P=IND	_	_
+4	lá	lá	adv		_	_
+5	a	a	prp		_	_
+6	ver...		n	M=S	_	_
+
+0	E	e	conj-c		_	_
+1	comandou	comandar	v-fin	PS=3S=IND	_	_
+2	alto	alto	adv		_	_
+3	,		,		_	_
+4	para	para	prp		_	_
+5	o	o	art	M=S	_	(268
+6	lado	lado	n	M=S	_	268)
+7	:	:	:		_	_
+
+0					_	_
+1	Venha		prop	F=S	0	_
+2	você	você	pron-pers	M/F=3S=NOM	_	_
+3	de	de	prp		_	_
+4	aí	aí	adv		_	_
+5	com	com	prp		_	_
+6	mim	mim	pron-pers	M/F=1S=DAT	_	_
+7	,		,		_	_
+8	ó_nosso		adv		_	_
+9	alferes	alferes	n	M=S	_	_
+10	,		,		_	_
+11	e	e	conj-c		_	_
+12	traga	tragar, trazer	v-fin	PR=3S=IND	_	_
+13	uma	um	art	F=S	_	_
+14	secção	secção	n	F=S	_	_
+15	prá		v-fin	FUT=3S=IND	_	_
+16	segurança	segurança	n	F=S	_	_
+17	!		!		_	_
+
+0	Cautelosamente	cauteloso	adv		_	_
+1	,		,		_	_
+2	os	o	art	M=P	_	_
+3	sete	sete	num	M=P	_	_
+4	homens	homem	n	M=P	0	_
+5	,		,		_	_
+6	de	de	prp		_	_
+7	dedo	dedo	n	M=S	_	_
+8	em	em	prp		_	_
+9	o	o	art	M=S	_	_
+10	gatilho	gatilho	n	M=S	_	_
+11	,		,		_	_
+12	aproximaram	aproximar	v-fin	MQP=3P=IND	_	_
+13	-se		pron-pers	M/F=3P=ACC	_	_
+14	de	de	prp		_	_
+15	a	o	art	F=S	_	_
+16	mourama		n	F=S	_	_
+17	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	essa	esse	pron-det	F=S	0	_
+2	ocasião	ocasião	n	F=S	_	_
+3	,		,		_	_
+4	ibn-el-Muftar		n	M=S	0	_
+5	e	e	conj-c		_	_
+6	o	o	art	M=S	_	_
+7	seu	seu	pron-det	M=S	0	_
+8	estado	estado	n	M=S	_	_
+9	maior	maior	adj	M=S	_	_
+10	desciam	descer	v-fin	IMPF=3P=IND	_	_
+11	a	o	art	F=S	_	(1
+12	Avenida		prop	F=S	_	1)
+13	para	para	prp		_	_
+14	observar	observar	v-inf		_	_
+15	o	o	art	M=S	_	_
+16	estado	estado	n	M=S	0	_
+17	geral	geral	adj	M=S	_	_
+18	de	de	prp		_	_
+19	o	o	art	M=S	_	(91
+20	exército	exército	n	M=S	_	91)
+21	,		,		_	_
+22	e	e	conj-c		_	_
+23	vinham	vir	v-fin	IMPF=3P=IND	_	_
+24	encarar	encarar	v-inf		_	_
+25	com	com	prp		_	_
+26	a	o	art	F=S	_	_
+27	embaixada	embaixada	n	F=S	_	_
+28	de	de	prp		_	_
+29	o	o	art	M=S	_	(438
+30	capitão	capitão	n	M=S	_	438)
+31	Soares	soar	v-fin	PS=3S=IND	_	_
+32	que	que	conj-s		_	_
+33	,		,		_	_
+34	a	a	prp		_	_
+35	a	o	art	F=S	_	_
+36	cautela	cautela	n	F=S	_	_
+37	,		,		_	_
+38	acenava	acenar	v-fin	IMPF=3S=IND	_	_
+39	com	com	prp		_	_
+40	um	um	art	M=S	_	_
+41	trapo	trapo	n	M=S	0	_
+42	branco	branco	adj	M=S	_	_
+43	,		,		_	_
+44	emprestado	emprestar	v-pcp	M=S	_	_
+45	por	por	prp		_	_
+46	os	o	art	M=P	_	_
+47	locatários	locatário	n	M=P	_	_
+48	de	de	prp		_	_
+49	um	um	art	M=S	_	_
+50	rés	rés	adj	M=S	_	_
+51					_	_
+52	do-chão		n	M=S	_	_
+53	de	de	prp		_	_
+54	a	o	art	F=S	_	_
+55	vizinhança	vizinhança	n	F=S	_	_
+56	.	.	.		_	_
+
+0	a	a	prp		_	_
+1	o	o	art	M=S	_	(162
+2	árabe	árabe	n	M=S	_	162)
+3	,		,		_	_
+4	por	por	prp		_	_
+5	instinto	instinto	n	M=S	_	_
+6	,		,		_	_
+7	afigurou	afigurar	v-fin	PS=3S=IND	_	_
+8	-se		pron-pers	M=3S=ACC	_	_
+9	-lhe		pron-pers	M/F=3S=ACC	_	_
+10	serem	ser	v-inf	3P	_	_
+11	aqueles	aquele	pron-det	M=P	0	_
+12	homens	homem	n	M=P	_	_
+13	militares	militar	adj	M=P	_	_
+14	e	e	conj-c		_	_
+15	,		,		_	_
+16	embora	embora	conj-s		_	_
+17	não	não	adv		_	_
+18	percebesse	perceber	v-fin	IMPF=3S=SUBJ	_	_
+19	bem	bem	adv		_	_
+20	o	o	art	M=S	_	_
+21	significado	significado	n	M=S	0	_
+22	de	de	prp		_	_
+23	o	o	art	M=S	_	_
+24	pendão	pendão	n	M=S	0	_
+25	branco	branco	adj	M=S	_	_
+26	que	que	conj-s		_	_
+27	o	o	art	M=S	_	(438
+28	capitão	capitão	n	M=S	_	438)
+29	brandia	brandir	v-fin	IMPF=3S=IND	_	_
+30	,		,		_	_
+31	não	não	adv		_	_
+32	lhe	lhe	pron-pers	M/F=3S/P=ACC	_	_
+33	pareceu	parecer	v-fin	PS=3S=IND	_	_
+34	que	que	conj-s		_	_
+35	as	o	art	F=P	_	_
+36	intenções	intenção	n	F=P	_	_
+37	fossem	fossar, ir, ser	v-fin	PR=3P=SUBJ	_	_
+38	suspeitas		n	F=P	_	_
+39	.	.	.		_	_
+
+0	As	o	art	F=P	_	_
+1	circunstâncias	circunstância	n	F=P	_	_
+2	,		,		_	_
+3	por_outro_lado		adv		_	_
+4	,		,		_	_
+5	com	com	prp		_	_
+6	toda	todo	pron-det	F=S	0	_
+7	aquela	aquele	pron-det	F=S	_	_
+8	estranha	estranho	n	F=S	_	_
+9	balbúrdia	balbúrdia	n	F=S	_	_
+10	em	em	prp		_	_
+11	volta	volta	n	F=S	_	(152)
+12	,		,		_	_
+13	aconselhavam	aconselhar	v-fin	IMPF=3P=IND	_	_
+14	a	o	art	F=S	_	_
+15	contemporização	contemporizar	n	F=S	_	_
+16	.	.	.		_	_
+
+0	Assim	assim	adv		_	_
+1	,		,		_	_
+2	dispôs	dispor	v-fin	PS=3S=IND	_	_
+3	-se		pron-pers	M=3S=ACC	_	_
+4	desde	desde	prp		_	_
+5	logo	logo	adv		_	_
+6	a	o	art	F=S	_	_
+7	parlamentar	parlamentar	adj	F=S	_	_
+8	.	.	.		_	_
+
+0	A	o	art	F=S	_	_
+1	trote	trote	n	M=S	0	_
+2	,		,		_	_
+3	rompeu	romper	v-fin	PS=3S=IND	_	_
+4	por	por	prp		_	_
+5	a	o	art	F=S	_	(233
+6	frente	frente	n	F=S	_	233)
+7	de	de	prp		_	_
+8	um	um	art	M=S	_	_
+9	piquete	piquete	n	M=S	_	_
+10	de	de	prp		_	_
+11	a	o	art	F=S	_	_
+12	Companhia_dos_Telefones		prop	F=S	_	_
+13	que	que	pron-indp	F=S	_	_
+14	olhava	olhar	v-fin	IMPF=3S=IND	_	_
+15	para	para	prp		_	_
+16	tudo	tudo	pron-indp	M=S	0	_
+17	aquilo	aquilo	pron-indp	M=S	_	_
+18	com	com	prp		_	_
+19	um	um	art	M=S	_	_
+20	ar	ar	n	M=S	0	_
+21	espantado	espantar	v-pcp	M=S	_	_
+22	,		,		_	_
+23	dirigiu	dirigir	v-fin	PS=3S=IND	_	_
+24	-se		pron-pers	M=3S=ACC	_	_
+25	a	a	prp		_	_
+26	o	o	art	M=S	_	(438
+27	capitão	capitão	n	M=S	_	438)
+28	,		,		_	_
+29	e	e	conj-c		_	_
+30	saudou	saudar	v-fin	PS=3S=IND	_	_
+31	,		,		_	_
+32	de	de	prp		_	_
+33	mão	mão	n	F=S	_	_
+34	em	em	prp		_	_
+35	o	o	art	M=S	_	_
+36	peito	peito	n	M=S	_	_
+37	:	:	:		_	_
+
+0					_	_
+1	Salam		v-fin	PR=3P=IND	_	_
+2	aleikum		prp		_	_
+3	.	.	.		_	_
+
+0	E	e	conj-c		_	_
+1	o	o	art	M=S	_	_
+2	capitão	capitão	n	M=S	0	_
+3	Soares	Soares	prop		_	(438)
+4	,		,		_	_
+5	que	que	pron-indp	M=S	_	_
+6	tinha	ter	v-fin	IMPF=3S=IND	_	_
+7	feito	fazer	v-pcp	M=S	_	_
+8	uma	um	art	F=S	_	_
+9	comissão	comissão	n	F=S	0	_
+10	em	em	prp		_	_
+11	a	o	art	F=S	_	_
+12	Guiné	Guiné	prop	F=S	_	_
+13	,		,		_	_
+14	em	em	prp		_	_
+15	contacto	contacto	n	M=S	_	(446)
+16	com	com	prp		_	_
+17	gente	gente	n	F=S	0	_
+18	muçulmana	muçulmano	adj	F=S	_	_
+19	,		,		_	_
+20	respondeu	responder	v-fin	PS=3S=IND	_	_
+21	automaticamente	automático	adv		_	_
+22	,		,		_	_
+23	curvando	curvar	v-ger		_	_
+24	-se		pron-pers	M=3S=ACC	_	_
+25	um	um	art	M=S	_	_
+26	pouco	pouco	pron-det	M=S	_	_
+27	:	:	:		_	_
+
+0					_	_
+1	Aleikum		prop	M=S	_	_
+2	salam		v-fin	PR=3P=IND	_	_
+3	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	este	este	pron-det	M=S	0	_
+2	momento	momento	n	M=S	_	_
+3	,		,		_	_
+4	a	o	art	F=S	_	(531
+5	deusa	deusa	n	F=S	0	_
+6	Clio		prop	M=S	_	(19)|531)
+7	acordou	acordar	v-fin	PS=3S=IND	_	_
+8	de	de	prp		_	_
+9	o	o	art	M=S	_	_
+10	seu	seu	pron-det	M=S	0	_
+11	sonho	sonho	n	M=S	_	_
+12	,		,		_	_
+13	em	em	prp		_	_
+14	um	um	art	M=S	_	_
+15	sobressalto	sobressalto	n	M=S	_	_
+16	,		,		_	_
+17	e	e	conj-c		_	_
+18	logo	logo	adv		_	_
+19	atentou	atentar	v-fin	PS=3S=IND	_	_
+20	em	em	prp		_	_
+21	o	o	art	M=S	_	_
+22	erro	erro	n	M=S	0	_
+23	cometido	cometer	v-pcp	M=S	_	_
+24	.	.	.		_	_
+
+0	em	em	prp		_	_
+1	um	um	art	M=S	_	_
+2	credo	credo	n	M=S	_	_
+3	,		,		_	_
+4	desfez	fazer	v-fin	PS=3S=IND	_	_
+5	a	o	art	F=S	_	_
+6	troca	troca	n	F=S	0	_
+7	de	de	prp		_	_
+8	fios	fio	n	M=P	_	(34)
+9	e	e	conj-c		_	_
+10	reconduziu	conduzir	v-fin	PS=3S=IND	_	_
+11	cada	cada	pron-det	F=S	0	_
+12	personagem	personagem	n	F=S	_	_
+13	a	a	prp		_	_
+14	seu	seu	pron-det	M=S	0	_
+15	tempo	tempo	n	M=S	_	_
+16	próprio	próprio	adj	M=S	_	_
+17	.	.	.		_	_
+
+0	De	de	prp		_	_
+1	maneira	maneira	n	F=S	_	(148)
+2	que	que	pron-indp	F=S	_	_
+3	,		,		_	_
+4	assim	assim	adv		_	_
+5	como	como	adv		_	_
+6	haviam	haver	v-fin	IMPF=3P=IND	_	_
+7	surgido	surgir	v-pcp	M=S	_	_
+8	,		,		_	_
+9	assim	assim	adv		_	_
+10	se	se	pron-pers	M/F=3S/P=ACC	_	_
+11	sumiram	sumir	v-fin	MQP=3P=IND	_	_
+12	os	o	art	M=P	_	_
+13	árabes	árabe	n	M=P	0	_
+14	de	de	prp		_	_
+15	a	o	art	F=S	_	(1
+16	Avenida_Gago_Coutinho		prop	F=S	_	1)
+17	,		,		_	_
+18	deixando	deixar	v-ger		_	_
+19	o	o	art	M=S	_	_
+20	Capitão_Soares		prop	M=S	0	_
+21	e	e	conj-c		_	_
+22	todos	todo	pron-det	M=P	_	_
+23	os	o	art	M=P	_	_
+24	outros	outro	pron-det	M=P	_	_
+25	a	a	prp		_	_
+26	coçar	coçar	v-inf		_	_
+27	a	o	art	F=S	_	(28
+28	cabeça	cabeça	n	F=S	0	_
+29	,		,		_	28)
+30	abismados	abismar	v-pcp	M=P	_	_
+31	.	.	.		_	_
+
+0	Ibn-el-Muftar		n	M=S	_	(232)
+1	,		,		_	_
+2	por	por	prp		_	_
+3	seu	seu	pron-det	M=S	0	_
+4	lado	lado	n	M=S	_	_
+5	,		,		_	_
+6	logo	logo	adv		_	_
+7	que	que	conj-s		_	_
+8	viu	ver	v-fin	PS=3S=IND	_	_
+9	despejarem	despejar	v-fin	FUT=3P=SUBJ	_	_
+10	-se		pron-pers	F=3P=ACC	_	_
+11	os	o	art	M=P	_	_
+12	campos	campo	n	M=P	0	_
+13	de	de	prp		_	_
+14	aquelas	aquele	pron-det	F=P	0	_
+15	gentes	gente	n	F=P	_	_
+16	,		,		_	_
+17	de	de	prp		_	_
+18	aqueles	aquele	pron-det	M=P	0	_
+19	objectos		n	M=P	_	_
+20	e	e	conj-c		_	_
+21	de	de	prp		_	_
+22	aqueles	aquele	pron-det	M=P	0	_
+23	prédios	prédio	n	M=P	_	_
+24	,		,		_	_
+25	soltou	soltar	v-fin	PS=3S=IND	_	_
+26	um	um	art	M=S	_	_
+27	suspiro	suspiro	n	M=S	0	_
+28	de	de	prp		_	_
+29	alívio	alívio	n	M=S	_	_
+30	e	e	conj-c		_	_
+31	resolveu	resolver	v-fin	PS=3S=IND	_	_
+32	arrepiar	arrepiar	v-inf		_	_
+33	caminho	caminho	n	M=S	_	(228)
+34	,		,		_	_
+35	desistindo	desistir	v-ger		_	_
+36	de	de	prp		_	_
+37	atacar	atacar	v-inf		_	_
+38	Lixbuna		n	F=S	_	(84)
+39	onde	onde	adv		_	_
+40	,		,		_	_
+41	aliás	aliás	adv		_	_
+42	,		,		_	_
+43	e	e	conj-c		_	_
+44	a	a	prp		_	_
+45	o	o	art	M=S	_	_
+46	contrário	contrário	n	M=S	_	_
+47	de	de	prp		_	_
+48	o		pron-det	M=S	_	_
+49	que	que	pron-indp	M=S	_	_
+50	pensava	pensar	v-fin	IMPF=3S=IND	_	_
+51	,		,		_	_
+52	já	já	adv		_	_
+53	ibn		v-fin	MQP=3P=IND	_	_
+54					_	_
+55	Arrik		prop	M=S	_	(385)
+56	o	o	art	M=S	_	_
+57	esperava	esperar	v-fin	IMPF=3S=IND	_	_
+58	,		,		_	_
+59	com	com	prp		_	_
+60	máquinas	máquina	n	F=P	0	_
+61	de	de	prp		_	_
+62	guerra	guerra	n	F=S	_	(1)
+63	e	e	conj-c		_	_
+64	fogos	fogo	n	M=P	0	_
+65	acesos	aceso	adj	M=P	_	_
+66	em	em	prp		_	_
+67	as	o	art	F=P	_	(85
+68	muralhas	muralha	n	F=P	_	85)
+69	.	.	.		_	_
+
+0	O	o	art	M=S	_	(162
+1	árabe	árabe	n	M=S	_	162)
+2	considerou	considerar	v-fin	PS=3S=IND	_	_
+3	todas	todo	pron-det	F=P	0	_
+4	aquelas	aquele	pron-det	F=P	_	_
+5	aparições	aparição	n	F=P	_	_
+6	de	de	prp		_	_
+7	mau	mau	adj	M=S	_	_
+8	agoiro	agoiro	n	M=S	_	_
+9	,		,		_	_
+10	pouco	pouco	adv		_	_
+11	propiciadoras	propiciar	n	F=P	0	_
+12	de	de	prp		_	_
+13	investidas		n	F=P	0	_
+14	felizes	feliz	adj	F=P	_	_
+15	contra	contra	prp		_	_
+16	Lisboa	Lisboa	prop	M=S	_	(47)
+17	,		,		_	_
+18	e	e	conj-c		_	_
+19	desistiu	desistir	v-fin	PS=3S=IND	_	_
+20	de	de	prp		_	_
+21	a	o	art	F=S	_	_
+22	cidade	cidade	n	F=S	_	_
+23	.	.	.		_	_
+
+0	A	o	art	F=S	_	(18
+1	musa	musa	n	F=S	0	_
+2	Clio		prop	M=S	_	18)|(19)
+3	não	não	adv		_	_
+4	teve	ter	v-fin	PS=3S=IND	_	_
+5	poderes	poder	n	M=P	0	_
+6	para	para	prp		_	_
+7	fazer	fazer	v-inf		_	_
+8	com	com	prp		_	_
+9	que	que	conj-s		_	_
+10	os	o	art	M=P	_	_
+11	eventos	evento	n	M=P	_	_
+12	já	já	adv		_	_
+13	verificados	verificar	v-pcp	M=P	_	_
+14	regressassem	regressar	v-fin	IMPF=3P=SUBJ	_	_
+15	a	a	prp		_	_
+16	o	o	art	M=S	_	_
+17	ponto	ponto	n	M=S	0	_
+18	zero	zero	num	M=S	_	_
+19	.	.	.		_	_
+
+0	de	de	prp		_	_
+1	isso	isso	pron-indp	M=S	_	_
+2	nem		adv		_	_
+3	o	o	art	M=S	_	_
+4	pai	pai	n	M=S	0	_
+5	de	de	prp		_	_
+6	os	o	art	M=P	_	(17
+7	deuses	deuses	n	M=P	_	17)
+8	seria	seriar, ser	v-fin	COND=3S	_	_
+9	capaz	capaz	adj	M=S	_	_
+10	.	.	.		_	_
+
+0	Mas	mas	conj-c		_	_
+1	pôde	poder	v-fin	PS=3S=IND	_	_
+2	obnubilar		v-inf		_	_
+3	a	o	art	F=S	_	_
+4	memória	memória	n	F=S	0	_
+5	de	de	prp		_	_
+6	os	o	art	M=P	_	(409
+7	homens	homem	n	M=P	_	409)
+8	com	com	prp		_	_
+9	borrifos		n	M=P	_	_
+10	de	de	prp		_	_
+11	água	água	n	F=S	_	(374)
+12	de	de	prp		_	_
+13	o	o	art	M=S	_	(81
+14	rio	rio	n	M=S	_	81)
+15	Letes		prop	M=S	_	_
+16	,		,		_	_
+17	de	de	prp		_	_
+18	maneira	maneira	n	F=S	_	(148)
+19	que	que	pron-indp	F=S	_	_
+20	,		,		_	_
+21	poucos	pouco	pron-det	M=P	0	_
+22	segundos		n	M=P	_	_
+23	após	após	prp		_	_
+24	os	o	art	M=P	_	_
+25	acontecimentos	acontecimento, acontecer	n	M=P	0	_
+26	narrados	narrar	v-pcp	M=P	_	_
+27	,		,		_	_
+28	nem		adv		_	_
+29	a	o	art	F=S	_	_
+30	tropa	tropa	n	F=S	0	_
+31	moura	mouro	adj	F=S	_	_
+32	de	de	prp		_	_
+33	ibn		v-inf		_	_
+34	-el		pron-pers		_	_
+35					_	_
+36	Muftar		prop	M=S	_	(232)
+37	se	se	pron-pers	M=3S=ACC	_	_
+38	lembrava	lembrar	v-fin	IMPF=3S=IND	_	_
+39	de	de	prp		_	_
+40	o	o	art	M=S	_	(391
+41	encantamento	encantar	n	M=S	_	391)
+42	que	que	pron-indp	M=S	_	_
+43	lhe	lhe	pron-pers	M=3S=ACC	_	_
+44	tinha	ter	v-fin	IMPF=3S=IND	_	_
+45	surgido	surgir	v-pcp	M=S	_	_
+46	a	a	prp		_	_
+47	o	o	art	M=S	_	(228
+48	caminho	caminho	n	M=S	_	228)
+49	,		,		_	_
+50	nem	nem	conj-c		_	_
+51	o	o	art	M=S	_	(328
+52	comissário	comissário	n	M=S	_	328)
+53	Nunes	Nunes	prop	M=S	_	(328)
+54	sabia	saber	v-fin	IMPF=3S=IND	_	_
+55	o		pron-det	M=S	_	_
+56	que	que	pron-indp	M=S	_	_
+57	estava	estar	v-fin	IMPF=3S=IND	_	_
+58	a	a	prp		_	_
+59	fazer	fazer	v-inf		_	_
+60	escondido	esconder	v-pcp	M=S	_	_
+61	atrás_do		prp		_	_
+62	o	o	art	M=S	_	(413
+63	balcão	balcão	n	M=S	_	413)
+64	de	de	prp		_	_
+65	a	o	art	F=S	_	(411
+66	Munique	Munique	prop	M=S	_	411)
+67	,		,		_	_
+68	nem	nem	conj-c		_	_
+69	o	o	art	M=S	_	(438
+70	capitão	capitão	n	M=S	_	438)
+71	Soares	soar	v-fin	FUT=3S=SUBJ	_	_
+72	sabia	saber	v-fin	IMPF=3S=IND	_	_
+73	porque	porque	conj-s		_	_
+74	estava	estar	v-fin	IMPF=3S=IND	_	_
+75	ali	ali	adv		_	_
+76	a	a	prp		_	_
+77	flanar		v-inf		_	_
+78	com	com	prp		_	_
+79	a	o	art	F=S	_	_
+80	tropa	tropa	n	F=S	_	_
+81	em	em	prp		_	_
+82	o	o	art	M=S	_	(55
+83	fundo	fundo	n	M=S	_	55)
+84	de	de	prp		_	_
+85	a	o	art	F=S	_	(1
+86	Avenida		prop	F=S	_	1)
+87	de	de	prp		_	_
+88	os	o	art	M=P	_	(443
+89	Estados_Unidos		prop	M=P	_	443)
+90	,		,		_	_
+91	nem	nem	conj-c		_	_
+92	o	o	art	M=S	_	_
+93	guarda	guarda	n	M=S	0	_
+94	de	de	prp		_	_
+95	segunda	segundo	n	F=S	_	_
+96	classe	classe	n	F=S	_	(166)
+97	de	de	prp		_	_
+98	a	o	art	F=S	_	_
+99	PSP	PSP	prop	F=S	_	_
+100	,		,		_	_
+101	Manuel_Tobias		prop	M=S	_	(165)
+102	,		,		_	_
+103	sabia	saber	v-fin	IMPF=3S=IND	_	_
+104	porque	porque	conj-s		_	_
+105	se	se	pron-pers	M=3S=ACC	_	_
+106	tinha	ter	v-fin	IMPF=3S=IND	_	_
+107	dado	dar	v-pcp	M=S	_	_
+108	aquele	aquele	pron-det	M=S	0	_
+109	engarrafamento	engarrafar	n	M=S	_	_
+110	,		,		_	_
+111	nem	nem	conj-c		_	_
+112	o	o	art	M=S	_	(582
+113	coronel	coronel	n	M=S	_	582)
+114	Vaz_Rolão		prop	M=S	_	(583)
+115	,		,		_	_
+116	de	de	prp		_	_
+117	o	o	art	M=S	_	(418
+118	Ralis		prop	M=S	_	418)
+119	,		,		_	_
+120	sabia	saber	v-fin	IMPF=3S=IND	_	_
+121	como	como	adv		_	_
+122	tinha	ter	v-fin	IMPF=1S=IND	_	_
+123	ido	ir	v-pcp	M=S	_	_
+124	parar	parar	v-inf		_	_
+125	a	a	prp		_	_
+126	a	o	art	F=S	_	(228
+127	estrada	estrada	n	F=S	_	228)
+128	e	e	conj-c		_	_
+129	deixado	deixar	v-pcp	M=S	_	_
+130	que	que	conj-s		_	_
+131	uma	um	art	F=S	_	_
+132	auto-metralhadora		n	F=S	_	_
+133	se	se	pron-pers	F=3S=ACC	_	_
+134	enfeixasse	enfeixar	v-fin	IMPF=3S=SUBJ	_	_
+135	em	em	prp		_	_
+136	um	um	art	M=S	_	_
+137	camião	camião	n	M=S	_	_
+138	TIR		prop	M=S	_	(436)
+139	.	.	.		_	_
+
+0	a	a	prp		_	_
+1	o	o	art	M=S	_	(232
+2	ibn-Muftar		prop	M=S	_	232)
+3	não	não	adv		_	_
+4	foi	ir, ser	v-fin	PS=3S=IND	_	_
+5	muito	muito	adv		_	_
+6	gravoso	gravoso	adj	M=S	_	_
+7	o	o	art	M=S	_	(177
+8	acontecimento	acontecimento, acontecer	n	M=S	_	177)
+9	,		,		_	_
+10	pois	pois	conj-s		_	_
+11	aproveitou	aproveitar	v-fin	PS=3S=IND	_	_
+12	o	o	art	M=S	_	_
+13	caminho	caminho	n	M=S	0	_
+14	de	de	prp		_	_
+15	regresso	regresso	n	M=S	_	_
+16	para	para	prp		_	_
+17	talar	talar	v-inf		_	_
+18	os	o	art	M=P	_	_
+19	campos	campo	n	M=P	0	_
+20	de	de	prp		_	_
+21	Chantarim		prop	M=S	_	_
+22	,		,		_	_
+23	em	em	prp		_	_
+24	as	o	art	F=P	_	_
+25	margens	margem	n	F=P	_	_
+26	de	de	prp		_	_
+27	o	o	art	M=S	_	_
+28	Tejo	Tejo	prop		_	_
+29	,		,		_	_
+30	com	com	prp		_	_
+31	grande	grande	adj	M=S	_	_
+32	vantagem	vantagem	n	F=S	_	_
+33	de	de	prp		_	_
+34	troféus	troféu	n	M=P	_	_
+35	e	e	conj-c		_	_
+36	espólios	espólio	n	M=P	_	_
+37	.	.	.		_	_
+
+0	Pior		adv		_	_
+1	foi	ir, ser	v-fin	PS=3S=IND	_	_
+2	para	para	prp		_	_
+3	o	o	art	M=S	_	(328
+4	comissário	comissário	n	M=S	_	328)
+5	Nunes	Nunes	prop	M=S	_	(328)
+6	,		,		_	_
+7	o	o	art	M=S	_	_
+8	capitão	capitão	n	M=S	0	_
+9	Soares	Soares	prop		_	(438)
+10	e	e	conj-c		_	_
+11	o	o	art	M=S	_	(582
+12	coronel	coronel	n	M=S	_	582)
+13	Rolão		prop	M=S	_	(583)
+14	explicarem	explicar	v-fin	FUT=3P=SUBJ	_	_
+15	em	em	prp		_	_
+16	processo	processo	n	M=S	0	_
+17	marcial	marcial	adj	M=S	_	_
+18	o_que		pron-indp	M=S	_	_
+19	se	se	pron-pers	M/F=3S/P=ACC	_	_
+20	encontravam	encontrar	v-fin	IMPF=3P=IND	_	_
+21	a	a	prp		_	_
+22	fazer	fazer	v-inf		_	_
+23	em	em	prp		_	_
+24	aquelas	aquele	pron-det	F=P	0	_
+25	zonas	zona	n	F=P	_	_
+26	a	a	prp		_	_
+27	a	o	art	F=S	_	(233
+28	frente	frente	n	F=S	_	233)
+29	de	de	prp		_	_
+30	destacamentos	destacar	n	M=P	0	_
+31	armados	armar	v-pcp	M=P	_	_
+32	.	.	.		_	_
+
+0	Falou	falar	v-fin	PS=3S=IND	_	_
+1	-se		pron-pers	M/F=3S=ACC	_	_
+2	muito	muito	adv		_	_
+3	em	em	prp		_	_
+4	insurreição	insurreição	n	F=S	_	_
+5	,		,		_	_
+6	em	em	prp		_	_
+7	esses	esse	pron-det	M=P	0	_
+8	dias	dia	n	M=P	_	_
+9	,		,		_	_
+10	e	e	conj-c		_	_
+11	os	o	art	M=P	_	_
+12	jornais	jornal	n	M=P	_	_
+13	acompanharam	acompanhar	v-fin	MQP=3P=IND	_	_
+14	apaixonadamente	apaixonar	adv		_	_
+15	o	o	art	M=S	_	_
+16	correr	correr	v-inf		_	_
+17	de	de	prp		_	_
+18	os	o	art	M=P	_	_
+19	processos	processo	n	M=P	_	_
+20	.	.	.		_	_
+
+0	Quanto	quanto	adv		_	_
+1	a	a	prp		_	_
+2	a	o	art	F=S	_	(531
+3	deusa	deusa	n	F=S	_	531)
+4	Clio		prop	M=S	_	(19)
+5	,		,		_	_
+6	foi	ir, ser	v-fin	PS=3S=IND	_	_
+7	privada	privado	adj	F=S	_	_
+8	de	de	prp		_	_
+9	ambrósia	ambrósia	n	F=S	_	_
+10	por	por	prp		_	_
+11	quatrocentos	quatrocentos	num	M=P	_	_
+12	anos	ano	n	M=P	_	_
+13	o	o	art	M=S	_	_
+14	que	que	conj-s		_	_
+15	,		,		_	_
+16	convenhamos	convir	v-fin	PR=1P=SUBJ	_	_
+17	,		,		_	_
+18	não	não	adv		_	_
+19	é	ser	v-fin	PR=3S=IND	_	_
+20	seguramente	seguro	adv		_	_
+21	castigo	castigo	n	M=S	0	_
+22	dissuasor	dissuasor	adj	M=S	_	_
+23	de	de	prp		_	_
+24	novas	novo	adj	F=P	_	_
+25	distracções		n	F=P	_	_
+26	.	.	.		_	_
+#end document
