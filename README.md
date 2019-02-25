@@ -1,5 +1,4 @@
-# masters_dissertation
-Experiments and tool presented in my dissertation
+This repository contains the experiments and the tool presented in my dissertation.
 
 # CORP
 
@@ -7,7 +6,7 @@ Experiments and tool presented in my dissertation
 
 ```json
 {
-	"use_semantic_base" : "true",
+    "use_semantic_base" : "true",
     "semantic_base" : "contopt",
     "use_semantic_similarity" : "false",
     "semantic_similarity_parameters" : 
