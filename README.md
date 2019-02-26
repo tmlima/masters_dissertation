@@ -22,7 +22,7 @@ This command will run CORP with the Summ-it++ semantic subset, which is already 
             ├── SemEval.txt               # File name must be `SemEval.txt`
     ├── Recursos                          # Contains resource files necesary for execution
     ├── output                            # Output files
-        ├── <execution timestamp>         # A folder with timestamp will be generated for each run
+        ├── <execution timestamp>         # A folder with timestamp YYYYMMDD_hhmmss will be generated for each run
             ├── html                      # Html output for each text
             ├── xml                       # Xml output for each text
             ├── EvaluationResults.txt     # Results for MUC, Bcube, CEAFe and CoNLL Avg
