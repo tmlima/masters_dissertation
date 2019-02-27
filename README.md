@@ -19,8 +19,8 @@ This command will run CORP with the Summ-it++ semantic subset, which is already 
     .
     ├── input                             # Contains the input texts
         ├── SemEval                       # Contains the SemEval reference file
-            ├── SemEval.txt               # File name must be `SemEval.txt`
-    ├── Recursos                          # Contains resource files necesary for execution
+            ├── SemEval.txt               # File name must be 'SemEval.txt'
+    ├── Recursos                          # Contains resource files necessary for execution
     ├── output                            # Output files
         ├── <execution timestamp>         # A folder with timestamp YYYYMMDD_hhmmss is generated for each run
             ├── html                      # Html output for each text
