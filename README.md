@@ -35,6 +35,11 @@ To change the input files, copy the texts and SemEval file into input folder. Fo
 
 # Configuration file
 
+These are the parameters which can be set before the execution.
+
+`semantic_base` possible values: `ontopt`, `contopt`, `conceptnet`
+The parameters related to semantic base, semantic similarity or hypernym window will only be considered with the respective boolean variable is set `true`.
+
 ```json
 {
     "use_semantic_base" : "true",
@@ -51,6 +56,6 @@ To change the input files, copy the texts and SemEval file into input folder. Fo
     	"cut_point_synonym" : 0.75
     },
     "use_hypernym_window" : "true",
-    "hypernym_window_size" : "3"
+    "hypernym_window_size" : "1"
 }
 ```
