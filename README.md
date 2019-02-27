@@ -41,7 +41,7 @@ These are the parameters which can be set before the execution.
 Parameter `semantic_base` possible values: `ontopt`, `contopt`, `conceptnet`
 
 
-The parameters related to semantic base, semantic similarity or hypernym window will only be considered with the respective boolean variable is set `true`.
+The parameters related to semantic base, semantic similarity or hypernym window will only be considered when the respective boolean variable is set `true`.
 
 
 To use the semantic similarity, the Web API must be running before the execution. The API implementation is available [here](https://github.com/tmlima/SemanticSimilarity). Do not forget to set the `endpoint` parameter with the machine IP or domain.
