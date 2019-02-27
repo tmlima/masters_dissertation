@@ -26,12 +26,12 @@ This command will run CORP with the Summ-it++ semantic subset, which is already 
             ├── html                      # Html output for each text
             ├── xml                       # Xml output for each text
             ├── EvaluationResults.txt     # Results for MUC, Bcube, CEAFe and CoNLL Avg
-            ├── parameters.txt            # Execution parameters: CORP version and semantic resources
+            ├── parameters.txt            # Parameters set for the execution and CORP version
             ├── log.txt                   # Execution log file
             ├── SemEvalOut.txt            # SemEval generated
     └── parameters.json                   # Parameters file
 
-To change the input files, copy the texts and SemEval file into input folder. Folder `corpora` contains the corpora used for the experiments in the same file structure CORP uses.
+To change the input files, copy the texts and SemEval file into input folder. Folder [corpora](corpora) contains the corpora used for the experiments in the same file structure as CORP input.
 
 # Configuration file
 
